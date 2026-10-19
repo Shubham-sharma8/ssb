@@ -527,9 +527,29 @@ async function main() {
       type: "jpeg",
       quality: 92,
     });
+
+    const ogWebpBase64 = await ogPage.evaluate(async (pngBase64) => {
+      const img = new Image();
+      img.src = `data:image/png;base64,${pngBase64}`;
+      await new Promise((resolve, reject) => {
+        img.onload = resolve;
+        img.onerror = reject;
+      });
+      const canvas = document.createElement("canvas");
+      canvas.width = 1200;
+      canvas.height = 630;
+      const ctx = canvas.getContext("2d");
+      ctx.drawImage(img, 0, 0, 1200, 630);
+      const dataUrl = canvas.toDataURL("image/webp", 0.92);
+      return dataUrl.split(",")[1];
+    }, ogPngBuffer.toString("base64"));
+
+    const ogWebpBuffer = Buffer.from(ogWebpBase64, "base64");
+    fs.writeFileSync(path.join(publicDir, "og-image.webp"), ogWebpBuffer);
+
     await ogPage.close();
     console.log(
-      `✓ Generated public/og-image.png (${ogPngBuffer.length} bytes), public/twitter-image.png, and public/og-image.jpg (${ogJpgBuffer.length} bytes)`
+      `✓ Generated public/og-image.png (${ogPngBuffer.length} bytes), public/twitter-image.png, public/og-image.jpg (${ogJpgBuffer.length} bytes), and public/og-image.webp (${ogWebpBuffer.length} bytes)`
     );
   } finally {
     await browser.close();

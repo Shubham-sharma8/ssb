@@ -157,6 +157,16 @@ function TatSessionRunnerContent() {
   useEffect(() => {
     let mounted = true;
     if (!sessionId) {
+      const legacySet = searchParams.get("set") ?? searchParams.get("setId");
+      if (legacySet) {
+        const modeParam = searchParams.get("mode");
+        router.replace(
+          `/tat?setId=${encodeURIComponent(legacySet)}${
+            modeParam ? `&mode=${encodeURIComponent(modeParam)}` : ""
+          }`
+        );
+        return;
+      }
       setLoadError("No sessionId provided in URL.");
       setLoading(false);
       return;
@@ -327,7 +337,7 @@ function TatSessionRunnerContent() {
         clearTimeout(saveDebounceTimerRef.current);
       }
     };
-  }, [sessionId, flushSaveDraft, updateDraftText]);
+  }, [sessionId, flushSaveDraft, updateDraftText, router, searchParams]);
 
   // High-precision timer loop + test clock subscription + visibilitychange listener
   useEffect(() => {
@@ -1028,7 +1038,10 @@ function TatSessionRunnerContent() {
                   currentStimulus.setFolderAssetPath ??
                   currentStimulus.assetPath
                 }
-                alt={`TAT Stimulus Picture ${canonicalNumber}`}
+                alt={`SSB TAT Stimulus Picture ${canonicalNumber} Projection`}
+                width={800}
+                height={600}
+                decoding="async"
                 data-testid="projected-stimulus-image"
                 onContextMenu={preventStimulusExtraction}
                 onDragStart={preventStimulusExtraction}

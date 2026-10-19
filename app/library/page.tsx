@@ -253,7 +253,11 @@ export default function LibraryPage() {
                       ) : stim.assetPath ? (
                         <img
                           src={stim.setFolderAssetPath ?? stim.assetPath}
-                          alt={`Picture ${stim.canonicalNumber}`}
+                          alt={`SSB TAT ${selectedSetId.toUpperCase()} Picture ${stim.canonicalNumber} Stimulus Slide`}
+                          width={320}
+                          height={240}
+                          decoding="async"
+                          loading="lazy"
                           className="max-h-36 w-auto object-contain"
                         />
                       ) : null}

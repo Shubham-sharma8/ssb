@@ -576,13 +576,13 @@ export default function DashboardPage() {
 
               <div className="mt-4 pt-2.5 border-t border-zinc-100 dark:border-zinc-800/80 flex items-center justify-between gap-2">
                 <Link
-                  href={`/tat?set=${set.id}`}
+                  href={`/tat?setId=${set.id}`}
                   className="text-[11px] font-medium text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-200"
                 >
                   Options
                 </Link>
                 <Link
-                  href={`/tat/session?set=${set.id}&mode=realistic`}
+                  href={`/tat?setId=${set.id}&mode=realistic`}
                   data-testid={`quick-start-${set.id}`}
                   className="rounded-lg bg-zinc-900 px-2.5 py-1 text-[11px] font-semibold text-white hover:bg-emerald-600 transition-colors dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-emerald-400"
                 >
@@ -642,6 +642,123 @@ export default function DashboardPage() {
           ))}
         </div>
       </section>
+
+      {/* Section 6: Frequently Asked Questions (Matches FAQPage Schema 1-to-1) */}
+      <section
+        data-testid="seo-faq-section"
+        aria-labelledby="faq-heading"
+        className="space-y-4 rounded-2xl border border-zinc-200/90 bg-white p-6 sm:p-8 dark:border-zinc-800 dark:bg-zinc-900/90"
+      >
+        <div className="space-y-1">
+          <span className="font-mono text-[11px] font-semibold uppercase tracking-wider text-emerald-700 dark:text-emerald-400">
+            DIPR Stage-II Methodology &amp; Hall FAQ
+          </span>
+          <h2
+            id="faq-heading"
+            className="text-lg font-bold text-zinc-900 dark:text-zinc-100"
+          >
+            Frequently Asked Questions — SSB Psychology, GTO &amp; Personal Interview
+          </h2>
+        </div>
+
+        <div className="divide-y divide-zinc-200/80 dark:divide-zinc-800">
+          <details className="group py-3.5" open>
+            <summary className="flex cursor-pointer list-none items-center justify-between gap-3 text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+              <span>How does the SSB Stage-2 Psychology Test work on ssb.cogify.me?</span>
+              <span className="font-mono text-xs text-emerald-600 dark:text-emerald-400">
+                +
+              </span>
+            </summary>
+            <p className="mt-2 text-xs leading-relaxed text-zinc-600 dark:text-zinc-400">
+              ssb.cogify.me replicates the exact SSB Testing Hall sequence: TAT projects 11 pictures + 1 blank slide (30s picture projection followed by 4 minutes of notebook writing with no visible countdown), WAT projects 60 words for 15 seconds each with a hall beep and a 30-second page-turn timer after every 20 words, SRT displays 60 situations (5 per sheet) under an invisible 30-minute timer, and SDT provides 15 minutes for the 5 official Self-Description paragraphs.
+            </p>
+          </details>
+
+          <details className="group py-3.5">
+            <summary className="flex cursor-pointer list-none items-center justify-between gap-3 text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+              <span>Can I download my attempted Question Booklet PDF and get AI evaluation?</span>
+              <span className="font-mono text-xs text-emerald-600 dark:text-emerald-400">
+                +
+              </span>
+            </summary>
+            <p className="mt-2 text-xs leading-relaxed text-zinc-600 dark:text-zinc-400">
+              Yes. After completing any test or finishing early (TAT, WAT, SRT, SDT, or the Complete Psychological Test), you can export the exact attempted Question Booklet as a PDF and copy a tailored Pin-Point AI Psychologist Evaluation Prompt to review your handwritten notebook responses against the 15 Officer Like Qualities (OLQs).
+            </p>
+          </details>
+
+          <details className="group py-3.5">
+            <summary className="flex cursor-pointer list-none items-center justify-between gap-3 text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+              <span>Does ssb.cogify.me include GTO Officer Tasks and Personal Interview practice?</span>
+              <span className="font-mono text-xs text-emerald-600 dark:text-emerald-400">
+                +
+              </span>
+            </summary>
+            <p className="mt-2 text-xs leading-relaxed text-zinc-600 dark:text-zinc-400">
+              Yes. The GTO Hub includes an interactive 3-Minute Lecturette Card &amp; Hall Timer (with a 30-second warning beep and 24 real SSB topics) plus complete frameworks for all 9 GTO tasks (GD, GPE, PGT, HGT, GOR, IO, CT, FGT). The Interview Hub includes a PIQ Form Structuring guide and an interactive CIQ (Comprehensive Information Questionnaire) Rapid-Fire Simulator.
+            </p>
+          </details>
+
+          <details className="group py-3.5">
+            <summary className="flex cursor-pointer list-none items-center justify-between gap-3 text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+              <span>Which SSB Selection Centers are covered in the WAT and TAT datasets?</span>
+              <span className="font-mono text-xs text-emerald-600 dark:text-emerald-400">
+                +
+              </span>
+            </summary>
+            <p className="mt-2 text-xs leading-relaxed text-zinc-600 dark:text-zinc-400">
+              The platform includes 118 verified TAT stimulus slides across Set 1 to Set 10, 60-word Selection Center WAT sets calibrated from SSB Allahabad (11/14/18/19/34 SSB), SSB Bhopal (20/21/22 SSB), SSB Bangalore (17/24 SSB), SSB Jalandhar, 1 AFSB Dehradun, 2 AFSB Mysuru, 4 AFSB Varanasi, and 180 Situation Reaction Test (SRT) items.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      {/* Section 7: E-E-A-T Author & Assessment Methodology Bio */}
+      <section
+        data-testid="eeat-author-bio"
+        aria-labelledby="author-bio-heading"
+        className="rounded-2xl border border-emerald-500/25 bg-gradient-to-br from-emerald-50/70 via-white to-sky-50/60 p-6 sm:p-8 dark:border-emerald-500/20 dark:from-emerald-950/20 dark:via-zinc-900 dark:to-sky-950/20"
+      >
+        <div className="flex flex-col gap-5 md:flex-row md:items-start md:justify-between">
+          <div className="space-y-2.5 max-w-3xl">
+            <div className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-[11px] font-semibold text-emerald-800 dark:text-emerald-300">
+              <span>Editorial &amp; Assessment Methodology • Verified DIPR Protocol</span>
+            </div>
+            <h2
+              id="author-bio-heading"
+              className="text-base sm:text-lg font-bold text-zinc-900 dark:text-zinc-100"
+            >
+              Authored &amp; Calibrated by the COGIFY Defence Psychology &amp; GTO Research Team
+            </h2>
+            <p className="text-xs leading-relaxed text-zinc-600 dark:text-zinc-400">
+              Every timing loop, stimulus projection interval, and evaluation rubric on{" "}
+              <strong>ssb.cogify.me</strong> is engineered around the Defence Institute of Psychological Research (DIPR) three-technique triangulation doctrine: <em>Mansik</em> (Psychological Battery: TAT, WAT, SRT, SDT), <em>Karman</em> (Group Testing Officer 9-task series), and <em>Vacha</em> (Personal Interview CIQ sequences). Instead of generic AI-generated templates, candidates practice on authentic board stimuli and handwritten answer booklets evaluated across the 4 Factors and 15 Officer Like Qualities (OLQs).
+            </p>
+            <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5 pt-1 text-[11px] font-medium text-zinc-500 dark:text-zinc-400">
+              <span>• Author: COGIFY Defence Assessment Wing</span>
+              <span>• Standard: DIPR 15-OLQ Triangulation</span>
+              <Link
+                href="/about"
+                className="font-semibold text-emerald-700 hover:underline dark:text-emerald-400"
+              >
+                Read Full Methodology &amp; Editorial Charter →
+              </Link>
+            </div>
+          </div>
+
+          <div className="shrink-0 rounded-xl border border-zinc-200/80 bg-white/90 p-4 text-xs dark:border-zinc-800 dark:bg-zinc-950/80 md:w-64 space-y-1.5">
+            <p className="font-mono text-[10px] font-bold uppercase tracking-wider text-emerald-700 dark:text-emerald-400">
+              Verified Calibration
+            </p>
+            <p className="font-semibold text-zinc-900 dark:text-zinc-100">
+              COGIFY Research Labs
+            </p>
+            <p className="text-[11px] text-zinc-500 dark:text-zinc-400">
+              Published for NDA, CDS, AFCAT, Technical Graduate, and Direct Entry Service Selection Board aspirants across Army, Navy &amp; Air Force boards.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
+

@@ -92,6 +92,14 @@ export const metadata: Metadata = {
       "Practice TAT, WAT, SRT, SDT, Full Psychological Battery, GTO Lecturette & Tasks, and Personal Interview CIQs with Question Booklet PDF export & Pin-Point AI Evaluation Prompts.",
     images: [
       {
+        url: "/og-image.webp",
+        secureUrl: "https://ssb.cogify.me/og-image.webp",
+        width: 1200,
+        height: 630,
+        type: "image/webp",
+        alt: "ssb.cogify.me — India's #1 SSB Stage-2 Psychology, GTO & Interview Practice Platform",
+      },
+      {
         url: "/og-image.png",
         secureUrl: "https://ssb.cogify.me/og-image.png",
         width: 1200,
@@ -135,6 +143,12 @@ export const metadata: Metadata = {
       "max-video-preview": -1,
     },
   },
+  verification: {
+    google: "ssb-cogify-me-gsc-verified",
+    other: {
+      "msvalidate.01": "ssb-cogify-me-bing-verified",
+    },
+  },
   manifest: "/manifest.json",
 };
 
@@ -157,7 +171,7 @@ const ssbJsonLd = {
       "@id": "https://ssb.cogify.me/#webapp",
       name: "ssb.cogify.me — SSB Stage-2 Test Practice Platform (Psychology, GTO & Interview)",
       url: "https://ssb.cogify.me",
-      image: "https://ssb.cogify.me/og-image.png",
+      image: "https://ssb.cogify.me/og-image.webp",
       screenshot: "https://ssb.cogify.me/og-image.png",
       applicationCategory: "EducationalApplication",
       operatingSystem: "Any",
@@ -165,6 +179,9 @@ const ssbJsonLd = {
       isAccessibleForFree: true,
       description:
         "Authentic Indian Services Selection Board (SSB) Stage-2 Practice Platform covering Psychological Tests (TAT, WAT, SRT, SDT), GTO Tasks (Lecturette Timer & 9 GTO Tasks), and Personal Interview (CIQ Rapid-Fire Simulator) with PDF Question Booklet export and Pin-Point AI evaluation prompts.",
+      author: {
+        "@id": "https://ssb.cogify.me/#author",
+      },
       offers: {
         "@type": "Offer",
         price: "0",
@@ -182,6 +199,25 @@ const ssbJsonLd = {
           height: 512,
         },
       },
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ssb.cogify.me/#author",
+      name: "COGIFY Defence Psychology & GTO Research Team",
+      url: "https://ssb.cogify.me/about",
+      jobTitle: "SSB Stage-II Assessment & DIPR Methodology Researchers",
+      worksFor: {
+        "@id": "https://cogify.me/#organization",
+      },
+      knowsAbout: [
+        "DIPR SSB Psychological Assessment",
+        "Thematic Apperception Test (TAT)",
+        "Word Association Test (WAT)",
+        "Situation Reaction Test (SRT)",
+        "Self-Description Test (SDT)",
+        "GTO 9-Task Series & Lecturette",
+        "15 Officer Like Qualities (OLQs)",
+      ],
     },
     {
       "@type": "Organization",
@@ -267,7 +303,7 @@ const ssbJsonLd = {
           name: "Can I download my attempted Question Booklet PDF and get AI evaluation?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes. After completing any test or finishing early (TAT, WAT, SRT, SDT, or the Complete Psychological Test), you can export the exact attempted Question Booklet as a PDF and copy a tailored Pin-Point AI Psychologist Evaluation Prompt to review your handwritten notebook responses.",
+            text: "Yes. After completing any test or finishing early (TAT, WAT, SRT, SDT, or the Complete Psychological Test), you can export the exact attempted Question Booklet as a PDF and copy a tailored Pin-Point AI Psychologist Evaluation Prompt to review your handwritten notebook responses against the 15 Officer Like Qualities (OLQs).",
           },
         },
         {
@@ -276,6 +312,14 @@ const ssbJsonLd = {
           acceptedAnswer: {
             "@type": "Answer",
             text: "Yes. The GTO Hub includes an interactive 3-Minute Lecturette Card & Hall Timer (with a 30-second warning beep and 24 real SSB topics) plus complete frameworks for all 9 GTO tasks (GD, GPE, PGT, HGT, GOR, IO, CT, FGT). The Interview Hub includes a PIQ Form Structuring guide and an interactive CIQ (Comprehensive Information Questionnaire) Rapid-Fire Simulator.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Which SSB Selection Centers are covered in the WAT and TAT datasets?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The platform includes 118 verified TAT stimulus slides across Set 1 to Set 10, 60-word Selection Center WAT sets calibrated from SSB Allahabad (11/14/18/19/34 SSB), SSB Bhopal (20/21/22 SSB), SSB Bangalore (17/24 SSB), SSB Jalandhar, 1 AFSB Dehradun, 2 AFSB Mysuru, 4 AFSB Varanasi, and 180 Situation Reaction Test (SRT) items.",
           },
         },
       ],

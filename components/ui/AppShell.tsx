@@ -38,6 +38,71 @@ const PSYCH_SUB_ITEMS = [
   { href: "/history", label: "History", testId: "nav-History" },
 ];
 
+const ROUTE_BREADCRUMBS: Record<
+  string,
+  {
+    categoryLabel: string;
+    categoryHref: string;
+    currentLabel: string;
+  }
+> = {
+  "/full-test": {
+    categoryLabel: "Psychological Battery",
+    categoryHref: "/#psych-battery",
+    currentLabel: "Complete SSB Psychological Test (TAT • WAT • SRT • SDT)",
+  },
+  "/tat": {
+    categoryLabel: "Psychological Battery",
+    categoryHref: "/#psych-battery",
+    currentLabel: "TAT Practice (SET 1 – SET 10)",
+  },
+  "/wat": {
+    categoryLabel: "Psychological Battery",
+    categoryHref: "/#psych-battery",
+    currentLabel: "WAT Practice (60 Words • 15s Audio Beep)",
+  },
+  "/srt": {
+    categoryLabel: "Psychological Battery",
+    categoryHref: "/#psych-battery",
+    currentLabel: "SRT Practice (60 Situations • 30m Timer)",
+  },
+  "/sdt": {
+    categoryLabel: "Psychological Battery",
+    categoryHref: "/#psych-battery",
+    currentLabel: "Self-Description Test (SDT • 15m Timer)",
+  },
+  "/library": {
+    categoryLabel: "Psychological Battery",
+    categoryHref: "/tat",
+    currentLabel: "Approved SSB TAT Sets Library (SET 1 – SET 10)",
+  },
+  "/history": {
+    categoryLabel: "Psychological Battery",
+    categoryHref: "/tat",
+    currentLabel: "Practice Session History & Self-Review",
+  },
+  "/gto": {
+    categoryLabel: "Stage-II Assessment",
+    categoryHref: "/",
+    currentLabel: "GTO Officer Tasks & 3-Minute Lecturette Timer",
+  },
+  "/interview": {
+    categoryLabel: "Stage-II Assessment",
+    categoryHref: "/",
+    currentLabel: "Personal Interview & CIQ Rapid-Fire Simulator",
+  },
+  "/about": {
+    categoryLabel: "Stage-II Methodology",
+    categoryHref: "/",
+    currentLabel: "About SSB Assessment & 15 OLQs",
+  },
+  "/settings": {
+    categoryLabel: "Platform Configuration",
+    categoryHref: "/",
+    currentLabel: "Simulator Settings & Local Backup",
+  },
+};
+
 export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const [prefs, setPrefs] = useState<UserPreferences | null>(null);
@@ -373,7 +438,82 @@ export function AppShell({ children }: { children: React.ReactNode }) {
         )}
       </header>
 
-      <main className="flex-1 pb-16 md:pb-0">{children}</main>
+      <main className="flex-1 pb-16 md:pb-0">
+        {pathname && ROUTE_BREADCRUMBS[pathname] && (
+          <div className="mx-auto max-w-6xl px-4 pt-3 sm:px-6">
+            <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                  "@context": "https://schema.org",
+                  "@type": "BreadcrumbList",
+                  itemListElement: [
+                    {
+                      "@type": "ListItem",
+                      position: 1,
+                      name: "SSB Practice Home",
+                      item: "https://ssb.cogify.me",
+                    },
+                    {
+                      "@type": "ListItem",
+                      position: 2,
+                      name: ROUTE_BREADCRUMBS[pathname].categoryLabel,
+                      item: `https://ssb.cogify.me${
+                        ROUTE_BREADCRUMBS[pathname].categoryHref.startsWith("/#")
+                          ? ""
+                          : ROUTE_BREADCRUMBS[pathname].categoryHref === "/"
+                            ? ""
+                            : ROUTE_BREADCRUMBS[pathname].categoryHref
+                      }`,
+                    },
+                    {
+                      "@type": "ListItem",
+                      position: 3,
+                      name: ROUTE_BREADCRUMBS[pathname].currentLabel,
+                      item: `https://ssb.cogify.me${pathname}`,
+                    },
+                  ],
+                }),
+              }}
+            />
+            <nav
+              aria-label="Breadcrumb"
+              data-testid="seo-breadcrumbs"
+              className="flex flex-wrap items-center gap-1.5 text-[11px] font-medium text-zinc-500 dark:text-zinc-400"
+            >
+              <Link
+                href="/"
+                className="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
+              >
+                SSB Practice Home
+              </Link>
+              <span aria-hidden="true" className="text-zinc-300 dark:text-zinc-700">
+                /
+              </span>
+              <Link
+                href={
+                  ROUTE_BREADCRUMBS[pathname].categoryHref.startsWith("/#")
+                    ? "/"
+                    : ROUTE_BREADCRUMBS[pathname].categoryHref
+                }
+                className="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
+              >
+                {ROUTE_BREADCRUMBS[pathname].categoryLabel}
+              </Link>
+              <span aria-hidden="true" className="text-zinc-300 dark:text-zinc-700">
+                /
+              </span>
+              <span
+                aria-current="page"
+                className="font-semibold text-emerald-700 dark:text-emerald-300"
+              >
+                {ROUTE_BREADCRUMBS[pathname].currentLabel}
+              </span>
+            </nav>
+          </div>
+        )}
+        {children}
+      </main>
 
       {/* Mobile Bottom Quick Nav */}
       <nav
@@ -439,9 +579,15 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 
             <div className="space-y-2">
               <p className="font-mono text-[11px] font-semibold uppercase tracking-wider text-zinc-700 dark:text-zinc-300">
-                SSB Assessment Pillars
+                SSB Assessment Pillars &amp; Sitemap
               </p>
               <div className="flex flex-wrap gap-x-4 gap-y-1.5 text-xs">
+                <Link
+                  href="/"
+                  className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+                >
+                  SSB Practice Hub
+                </Link>
                 <Link
                   href="/full-test"
                   className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
@@ -483,6 +629,24 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                   className="hover:text-sky-600 dark:hover:text-sky-400 transition-colors"
                 >
                   Personal Interview
+                </Link>
+                <Link
+                  href="/library"
+                  className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+                >
+                  Stimulus Library
+                </Link>
+                <Link
+                  href="/history"
+                  className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+                >
+                  Practice History
+                </Link>
+                <Link
+                  href="/settings"
+                  className="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
+                >
+                  Settings
                 </Link>
                 <Link
                   href="/about"

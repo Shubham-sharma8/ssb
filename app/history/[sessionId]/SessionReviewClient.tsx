@@ -413,7 +413,11 @@ export default function SessionReviewClient() {
                       activeStimulus.setFolderAssetPath ??
                       activeStimulus.assetPath
                     }
-                    alt={`Canonical Picture ${activeStimulus.canonicalNumber}`}
+                    alt={`SSB TAT Canonical Picture ${activeStimulus.canonicalNumber} Review`}
+                    width={640}
+                    height={480}
+                    decoding="async"
+                    loading="lazy"
                     className="max-h-[300px] sm:max-h-[360px] w-auto rounded object-contain"
                   />
                 ) : (

@@ -142,6 +142,80 @@ export default function AboutSsbPage() {
           </Link>
         </div>
       </SpotlightCard>
+
+      {/* Author Bio & Editorial Standards (E-E-A-T) */}
+      <section
+        data-testid="about-author-bio"
+        aria-labelledby="about-author-heading"
+        className="rounded-2xl border border-zinc-200/90 bg-white p-6 sm:p-8 dark:border-zinc-800 dark:bg-zinc-900/90 space-y-4"
+      >
+        <div className="space-y-1">
+          <span className="font-mono text-[11px] font-semibold uppercase tracking-wider text-emerald-700 dark:text-emerald-400">
+            AUTHOR BIO &amp; EDITORIAL STANDARDS
+          </span>
+          <h2
+            id="about-author-heading"
+            className="text-lg font-bold text-zinc-900 dark:text-zinc-100"
+          >
+            COGIFY Defence Psychology &amp; GTO Research Team
+          </h2>
+        </div>
+
+        <p className="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+          All stimulus sets, timing engines, and evaluation frameworks on{" "}
+          <strong>ssb.cogify.me</strong> are researched, curated, and maintained
+          by the <strong>COGIFY Defence Assessment Wing</strong> in accordance
+          with the testing protocols established by the{" "}
+          <strong>
+            Defence Institute of Psychological Research (DIPR, DRDO)
+          </strong>
+          . Rather than relying on generic AI-generated articles or pre-memorized
+          coaching stories, our platform enforces authentic testing conditions:
+          handwritten response booklets, zero visible countdown clocks in Hall
+          Mode, and post-session Pin-Point OLQ triangulation.
+        </p>
+
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 text-xs pt-2">
+          <div className="rounded-xl border border-zinc-200/80 bg-zinc-50/70 p-4 dark:border-zinc-800 dark:bg-zinc-950/60 space-y-1">
+            <p className="font-semibold text-zinc-900 dark:text-zinc-100">
+              Primary Research &amp; Calibration
+            </p>
+            <p className="text-zinc-600 dark:text-zinc-400">
+              Verified against candidate test batteries from SCE Allahabad, SCN
+              Kapurthala/Jalandhar, SCS Bangalore, SCC Bhopal, and AFSBs
+              (Dehradun, Mysuru, Varanasi, Gandhinagar).
+            </p>
+          </div>
+          <div className="rounded-xl border border-zinc-200/80 bg-zinc-50/70 p-4 dark:border-zinc-800 dark:bg-zinc-950/60 space-y-1">
+            <p className="font-semibold text-zinc-900 dark:text-zinc-100">
+              Human-First Assessment Ethics
+            </p>
+            <p className="text-zinc-600 dark:text-zinc-400">
+              Zero pre-cooked stories. Every evaluation prompt audits your
+              handwritten scan line-by-line for incongruence between TAT, WAT,
+              SRT, and SDT responses.
+            </p>
+          </div>
+          <div className="rounded-xl border border-zinc-200/80 bg-zinc-50/70 p-4 dark:border-zinc-800 dark:bg-zinc-950/60 space-y-1">
+            <p className="font-semibold text-zinc-900 dark:text-zinc-100">
+              Parent Organization
+            </p>
+            <p className="text-zinc-600 dark:text-zinc-400">
+              Published by{" "}
+              <a
+                href="https://cogify.me"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-emerald-700 underline dark:text-emerald-400"
+              >
+                COGIFY (cogify.me)
+              </a>{" "}
+              — Cognitive Assessment &amp; High-Precision Simulation Systems.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
+

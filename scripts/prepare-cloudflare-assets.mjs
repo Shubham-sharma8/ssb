@@ -58,6 +58,11 @@ function copyAppServerOutput(srcAppDir, destRootDir, relPath = "") {
       const destFile = path.join(destRootDir, cleanName);
       fs.mkdirSync(path.dirname(destFile), { recursive: true });
       fs.copyFileSync(fullSrc, destFile);
+
+      if (cleanName === "robots.txt" || cleanName === "sitemap.xml") {
+        const publicDest = path.join(publicDir, cleanName);
+        fs.copyFileSync(fullSrc, publicDest);
+      }
     }
   }
 }

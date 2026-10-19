@@ -1,7 +1,7 @@
 "use client";
 
-import React, { Suspense, useEffect, useMemo, useState } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import React, { useEffect, useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
 import {
   AlertCircle,
   BookOpen,
@@ -75,33 +75,19 @@ const STATUS_BADGE_STYLES: Record<
   },
 };
 
-function TatSetupContent() {
+export default function TatSetupPage() {
   const router = useRouter();
-  const searchParams = useSearchParams();
 
   const sets = useMemo(() => getPracticeSets(), []);
-  const initialSetParam = searchParams.get("setId");
-  const initialModeParam = searchParams.get("mode");
-  const initialSubsetParam = searchParams.get("subset");
-  const initialStimulusParam = searchParams.get("stimulusId");
 
-  const resolvedInitialSet = useMemo(() => {
-    if (!initialSetParam) return "set-1";
-    const found = getPracticeSetById(initialSetParam);
-    return found ? found.id : "set-1";
-  }, [initialSetParam]);
-
-  const [setId, setSetId] = useState<string>(resolvedInitialSet);
-  const [subsetMode, setSubsetMode] = useState<"full" | "selected">(
-    initialSubsetParam === "selected" || Boolean(initialStimulusParam)
-      ? "selected"
-      : "full"
-  );
-  const [selectedStimulusIds, setSelectedStimulusIds] = useState<string[]>(
-    initialStimulusParam ? [initialStimulusParam] : []
+  const [setId, setSetId] = useState<string>("set-1");
+  const [subsetMode, setSubsetMode] = useState<"full" | "selected">("full");
+  const [selectedStimulusIds, setSelectedStimulusIds] = useState<string[]>([]);
+  const [initialStimulusParam, setInitialStimulusParam] = useState<string | null>(
+    null
   );
   const [orderingMode, setOrderingMode] = useState<"sequential" | "random">(
-    initialModeParam === "random" ? "random" : "sequential"
+    "sequential"
   );
   const [includeCompleted, setIncludeCompleted] = useState<boolean>(true);
   const [practiceMode, setPracticeMode] = useState<PracticeMode>("realistic");
@@ -123,6 +109,33 @@ function TatSetupContent() {
   const [showBriefing, setShowBriefing] = useState<boolean>(false);
 
   useEffect(() => {
+    if (typeof window !== "undefined") {
+      const params = new URLSearchParams(window.location.search);
+      const querySet = params.get("setId") ?? params.get("set");
+      const queryMode = params.get("mode");
+      const querySubset = params.get("subset");
+      const queryStimulus = params.get("stimulusId");
+
+      if (querySet) {
+        const found = getPracticeSetById(querySet);
+        if (found) setSetId(found.id);
+      }
+      if (queryMode === "random") {
+        setOrderingMode("random");
+      } else if (queryMode === "realistic") {
+        setPracticeMode("realistic");
+      } else if (queryMode === "practice") {
+        setPracticeMode("practice");
+      }
+      if (querySubset === "selected" || queryStimulus) {
+        setSubsetMode("selected");
+      }
+      if (queryStimulus) {
+        setInitialStimulusParam(queryStimulus);
+        setSelectedStimulusIds([queryStimulus]);
+      }
+    }
+
     const prefs = loadUserPreferences();
     setObservationSeconds(prefs.defaultObservationSeconds);
     setWritingSeconds(prefs.defaultWritingSeconds);
@@ -632,7 +645,10 @@ function TatSetupContent() {
                           <div className="aspect-[4/3] w-full rounded bg-zinc-100 dark:bg-zinc-950 overflow-hidden mb-2 border border-zinc-200 dark:border-zinc-800">
                             <img
                               src={stim.setFolderAssetPath ?? stim.assetPath}
-                              alt={`Preview of Picture ${stim.canonicalNumber}`}
+                              alt={`SSB TAT ${setId.toUpperCase()} Picture ${stim.canonicalNumber} Stimulus Preview`}
+                              width={320}
+                              height={240}
+                              decoding="async"
                               loading="lazy"
                               className="w-full h-full object-contain"
                             />
@@ -949,19 +965,5 @@ function TatSetupContent() {
         </div>
       </form>
     </div>
-  );
-}
-
-export default function TatSetupPage() {
-  return (
-    <Suspense
-      fallback={
-        <div className="max-w-6xl mx-auto px-4 py-12 text-sm text-zinc-500">
-          Loading TAT Setup…
-        </div>
-      }
-    >
-      <TatSetupContent />
-    </Suspense>
   );
 }

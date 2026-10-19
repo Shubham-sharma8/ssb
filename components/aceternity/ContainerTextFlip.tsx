@@ -39,17 +39,29 @@ export function ContainerTextFlip({
   }, [words, interval]);
 
   const currentWord = words[currentIndex] ?? words[0] ?? "";
+  const longestWord = words.reduce(
+    (longest, candidate) =>
+      candidate.length > longest.length ? candidate : longest,
+    words[0] ?? ""
+  );
 
   return (
     <span
       data-testid="aceternity-text-flip"
-      className={`relative inline-flex items-center justify-center overflow-hidden rounded-lg border border-emerald-500/30 bg-gradient-to-b from-emerald-500/10 via-teal-500/5 to-transparent px-3 py-1 font-semibold text-emerald-700 shadow-[inset_0_1px_0_0_rgba(16,185,129,0.2)] transition-all duration-300 dark:border-emerald-400/30 dark:from-emerald-400/15 dark:via-teal-400/5 dark:text-emerald-300 ${className}`}
+      className={`relative inline-grid place-items-center overflow-hidden rounded-lg border border-emerald-500/30 bg-gradient-to-b from-emerald-500/10 via-teal-500/5 to-transparent px-3 py-1 font-semibold text-emerald-700 shadow-[inset_0_1px_0_0_rgba(16,185,129,0.2)] transition-colors duration-300 dark:border-emerald-400/30 dark:from-emerald-400/15 dark:via-teal-400/5 dark:text-emerald-300 ${className}`}
     >
+      {/* Invisible longest-word sizer prevents Cumulative Layout Shift (CLS) on word flip */}
       <span
-        className={`inline-block transition-all duration-200 ease-out ${
+        aria-hidden="true"
+        className="col-start-1 row-start-1 invisible pointer-events-none select-none whitespace-nowrap"
+      >
+        {longestWord}
+      </span>
+      <span
+        className={`col-start-1 row-start-1 inline-block whitespace-nowrap transition-transform duration-200 ease-out ${
           animating
-            ? "-translate-y-3 scale-95 opacity-0 blur-[2px]"
-            : "translate-y-0 scale-100 opacity-100 blur-0"
+            ? "-translate-y-3 scale-95 opacity-0"
+            : "translate-y-0 scale-100 opacity-100"
         }`}
       >
         {currentWord}

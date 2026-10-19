@@ -80,6 +80,34 @@ const worker = {
   async fetch(request, env) {
     const url = new URL(request.url);
 
+    // 0. Single-hop canonical URL normalization (no redirect chains)
+    const needsHttpsUpgrade =
+      url.hostname === "ssb.cogify.me" && url.protocol === "http:";
+    const hasTrailingSlash =
+      url.pathname.length > 1 && url.pathname.endsWith("/");
+    if (needsHttpsUpgrade || hasTrailingSlash) {
+      const canonicalUrl = new URL(url.toString());
+      if (needsHttpsUpgrade) canonicalUrl.protocol = "https:";
+      if (hasTrailingSlash) {
+        canonicalUrl.pathname = canonicalUrl.pathname.replace(/\/+$/, "");
+      }
+      return Response.redirect(canonicalUrl.toString(), 301);
+    }
+
+    // Redirect legacy /tat/session?set=... links without sessionId directly to /tat?setId=... in a single 301 hop
+    if (
+      url.pathname === "/tat/session" &&
+      !url.searchParams.has("sessionId") &&
+      (url.searchParams.has("set") || url.searchParams.has("setId"))
+    ) {
+      const setId = url.searchParams.get("setId") ?? url.searchParams.get("set");
+      const mode = url.searchParams.get("mode");
+      const target = new URL("/tat", url.origin);
+      if (setId) target.searchParams.set("setId", setId);
+      if (mode) target.searchParams.set("mode", mode);
+      return Response.redirect(target.toString(), 301);
+    }
+
     // 1. Bot-protected /api/booklet endpoint
     if (url.pathname === "/api/booklet") {
       const userAgent = request.headers.get("user-agent") ?? "";
@@ -148,12 +176,36 @@ const worker = {
       !url.pathname.endsWith(".html")
     ) {
       const placeholderUrl = new URL("/history/placeholder", request.url);
-      return env.ASSETS.fetch(new Request(placeholderUrl, request));
+      const res = await env.ASSETS.fetch(new Request(placeholderUrl, request));
+      const headers = new Headers(res.headers);
+      headers.set("X-Robots-Tag", "noindex, follow");
+      return new Response(res.body, {
+        status: res.status,
+        headers,
+      });
     }
 
-    // 3. Default static asset serving
-    return env.ASSETS.fetch(request);
+    // 3. Default static asset serving with explicit 404 fallback
+    const response = await env.ASSETS.fetch(request);
+    if (response.status === 404) {
+      const notFoundUrl = new URL("/404.html", request.url);
+      const notFoundRes = await env.ASSETS.fetch(
+        new Request(notFoundUrl, request)
+      );
+      const headers = new Headers(notFoundRes.headers);
+      headers.set("X-Robots-Tag", "noindex, follow");
+      if (!headers.has("Content-Type")) {
+        headers.set("Content-Type", "text/html; charset=utf-8");
+      }
+      return new Response(notFoundRes.body, {
+        status: 404,
+        headers,
+      });
+    }
+
+    return response;
   },
 };
 
 export default worker;
+

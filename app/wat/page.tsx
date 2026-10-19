@@ -74,10 +74,17 @@ export default function WatPage() {
   const soundEnabledRef = useRef<boolean>(true);
 
   useEffect(() => {
+    if (typeof window !== "undefined") {
+      const params = new URLSearchParams(window.location.search);
+      const querySet = params.get("set") ?? params.get("setId");
+      if (querySet && sets.some((s) => s.id === querySet)) {
+        setSelectedSetId(querySet);
+      }
+    }
     const prefs = loadUserPreferences();
     setSoundAlerts(prefs.soundAlerts ?? true);
     soundEnabledRef.current = prefs.soundAlerts ?? true;
-  }, []);
+  }, [sets]);
 
   const startWordAt = useCallback(
     (index: number, wordsList: WatWordItem[], wordSec: number) => {

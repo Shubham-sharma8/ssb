@@ -605,7 +605,10 @@ export default function FullPsychTestPage() {
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={activeSlide.setFolderAssetPath || activeSlide.assetPath}
-                    alt={`TAT Picture ${tatIndex + 1}`}
+                    alt={`SSB Full Battery TAT Picture ${tatIndex + 1} Stimulus`}
+                    width={800}
+                    height={600}
+                    decoding="async"
                     onContextMenu={preventStimulusExtraction}
                     onDragStart={preventStimulusExtraction}
                     className="max-h-[76dvh] w-auto object-contain rounded select-none pointer-events-none"
