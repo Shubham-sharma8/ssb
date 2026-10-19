@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-10-19T14:21:01.373Z",
+  "defaultDurationMs": 900000,
+  "prompts": [
+    {
+      "id": "sdt-1-parents",
+      "number": 1,
+      "title": "Parents' Opinion",
+      "question": "What do your parents (or guardians) think about you?",
+      "guidance": "Write what your parents genuinely observe about your responsibility, habits, reliability at home, and areas where they advise you to improve."
+    },
+    {
+      "id": "sdt-2-teachers",
+      "number": 2,
+      "title": "Teachers' / Employers' Opinion",
+      "question": "What do your teachers, professors, or employers think about you?",
+      "guidance": "Describe how your mentors or supervisors view your punctuality, sincerity, grasp of tasks, teamwork, and areas where they expect more from you."
+    },
+    {
+      "id": "sdt-3-friends",
+      "number": 3,
+      "title": "Friends' & Colleagues' Opinion",
+      "question": "What do your friends and colleagues think about you?",
+      "guidance": "Mention how your peers see your cooperation, trustworthiness, sense of humour, availability in need, and any habits they tease or correct you about."
+    },
+    {
+      "id": "sdt-4-self",
+      "number": 4,
+      "title": "Your Own Opinion About Yourself",
+      "question": "What is your own opinion about yourself?",
+      "guidance": "State your genuine strengths, values, practical approach to challenges, and honest self-awareness of your current limitations."
+    },
+    {
+      "id": "sdt-5-aim",
+      "number": 5,
+      "title": "Qualities You Would Like to Develop",
+      "question": "What kind of person do you want to become / what qualities would you like to develop?",
+      "guidance": "Outline concrete, actionable qualities and skills you are actively working to build for your personal growth and career."
+    }
+  ]
+}

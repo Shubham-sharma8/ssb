@@ -1,0 +1,3682 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-10-19T14:21:01.349Z",
+  "defaultWordDurationMs": 15000,
+  "pageTurnIntervalEvery": 20,
+  "pageTurnDurationMs": 30000,
+  "totalUniqueWords": 322,
+  "masterWordPool": [
+    "Courage",
+    "Curiosity",
+    "Family",
+    "Victory",
+    "Responsibility",
+    "Discipline",
+    "Challenge",
+    "Knowledge",
+    "Friendship",
+    "Success",
+    "Opportunity",
+    "Soldier",
+    "Character",
+    "Team",
+    "Leadership",
+    "Freedom",
+    "Justice",
+    "Peace",
+    "Confidence",
+    "Progress",
+    "Honesty",
+    "Patience",
+    "Risk",
+    "Mother",
+    "Teacher",
+    "Respect",
+    "Exercise",
+    "Plan",
+    "Ambition",
+    "Decision",
+    "Failure",
+    "Hope",
+    "Power",
+    "Brave",
+    "Danger",
+    "Education",
+    "Problem",
+    "Initiative",
+    "Duty",
+    "Cooperation",
+    "Trust",
+    "Spirit",
+    "Defeat",
+    "Strength",
+    "Future",
+    "India",
+    "Truth",
+    "Reward",
+    "Care",
+    "Health",
+    "Officer",
+    "Army",
+    "Intelligence",
+    "Competition",
+    "Guide",
+    "Determination",
+    "Patriotism",
+    "Sacrifice",
+    "Honour",
+    "Unity",
+    "Bad",
+    "Nation",
+    "Climb",
+    "Comfort",
+    "Foul",
+    "Adventure",
+    "Friend",
+    "Government",
+    "Sad",
+    "Sports",
+    "Noble",
+    "Canteen",
+    "Fear",
+    "Read",
+    "Growth",
+    "War",
+    "Co-education",
+    "Love",
+    "Idle",
+    "Table",
+    "Need",
+    "Dames",
+    "Work",
+    "Explanatory",
+    "Easy",
+    "Ahead",
+    "Happy",
+    "Discussion",
+    "Satisfaction",
+    "Encourage",
+    "System",
+    "Quick",
+    "Judge",
+    "Women",
+    "Desire",
+    "Bold",
+    "Craze",
+    "Worry",
+    "Pursue",
+    "Organization",
+    "Foreign",
+    "Specific",
+    "Law",
+    "Leader",
+    "Friends",
+    "Crook",
+    "Bravery",
+    "Mend",
+    "Inspiration",
+    "Behaviour",
+    "Ability",
+    "Country",
+    "Hijack",
+    "Lazy",
+    "Communication",
+    "Innovation",
+    "Journey",
+    "Goal",
+    "Enemy",
+    "Time",
+    "Service",
+    "Happiness",
+    "Youth",
+    "Integrity",
+    "Change",
+    "Technology",
+    "Gun",
+    "Motivation",
+    "Disaster",
+    "Aloof",
+    "Mistake",
+    "Money",
+    "Blood",
+    "Faith",
+    "Mission",
+    "Fitness",
+    "Obstacle",
+    "Skill",
+    "Energy",
+    "Weapon",
+    "Rise",
+    "Stupid",
+    "Shine",
+    "Father",
+    "Bright",
+    "Save",
+    "Funny",
+    "Recommend",
+    "Ugly",
+    "Sorry",
+    "Cheerful",
+    "Good",
+    "Help",
+    "Understanding",
+    "Utilize",
+    "Method",
+    "Systematic",
+    "Carefully",
+    "Clear",
+    "Rest",
+    "Differ",
+    "Atom",
+    "Habit",
+    "Junior",
+    "Beauty",
+    "Proof",
+    "Step",
+    "Difficult",
+    "Idea",
+    "Books",
+    "Music",
+    "Property",
+    "Error",
+    "Charity",
+    "History",
+    "Kindness",
+    "Self Control",
+    "Life",
+    "Word",
+    "Educate",
+    "Soul",
+    "Business",
+    "Medicine",
+    "Poetry",
+    "Old",
+    "Criticism",
+    "Past",
+    "Tear",
+    "World",
+    "Chance",
+    "Heart",
+    "Wealth",
+    "Philosophy",
+    "Greatness",
+    "Honor",
+    "Persuade",
+    "Religion",
+    "Policy",
+    "Compromise",
+    "Carelessness",
+    "Efficiency",
+    "Complete",
+    "Attack",
+    "Lonely",
+    "Confusion",
+    "Merit",
+    "Admire",
+    "Aggressive",
+    "Think",
+    "Watch",
+    "Strict",
+    "Blind",
+    "Cry",
+    "Precaution",
+    "Depression",
+    "Pity",
+    "Score",
+    "Hungry",
+    "Empty",
+    "Tired",
+    "Never",
+    "House",
+    "Strong",
+    "Imagination",
+    "Possible",
+    "Record",
+    "Hard Work",
+    "Face",
+    "Play ground",
+    "Snake",
+    "Luck",
+    "Trust Religion",
+    "Won",
+    "Company",
+    "Fault",
+    "Attempt",
+    "Impossible",
+    "Sister",
+    "Solve",
+    "Heritage",
+    "Follow",
+    "Projects",
+    "Honey",
+    "Tackle",
+    "Punctuality",
+    "Lies",
+    "Reaction",
+    "Unable",
+    "Offer",
+    "Drive",
+    "Meeting",
+    "Assist",
+    "Confuse",
+    "Cinema",
+    "Garden",
+    "Decent",
+    "Selfish",
+    "Fit",
+    "Light",
+    "Home",
+    "Interest",
+    "Pay",
+    "Doctor",
+    "Preach",
+    "Duties",
+    "Joy",
+    "Blunder",
+    "Rogue",
+    "Laughter",
+    "Humanity",
+    "Honest",
+    "Careless",
+    "Stamina",
+    "Continue",
+    "Play",
+    "Fire",
+    "Laughing",
+    "Overcome",
+    "Initiation",
+    "Remember",
+    "Line",
+    "Tests",
+    "Jealous",
+    "Influence",
+    "Done",
+    "Difference",
+    "Fool",
+    "Follower",
+    "Bitter",
+    "Carrier",
+    "Board",
+    "Command",
+    "Accident",
+    "Quality",
+    "Hide",
+    "Master",
+    "College",
+    "Journal",
+    "Kill",
+    "Pet",
+    "Quantity",
+    "Behavior",
+    "Learned",
+    "Over",
+    "Literary",
+    "Minister",
+    "Irritate",
+    "Inauguration",
+    "Minor",
+    "Major",
+    "Hurry",
+    "Enforce",
+    "Thief",
+    "Speed",
+    "Party",
+    "Mercy",
+    "Advertisement",
+    "Politeness",
+    "Above",
+    "Buy",
+    "Thank",
+    "Baby"
+  ],
+  "sets": [
+    {
+      "setId": "wat-allahabad",
+      "title": "SSB Allahabad",
+      "boardName": "SSB Allahabad (Selection Centre East)",
+      "category": "board",
+      "isRandom": false,
+      "originalBoardWordCount": 60,
+      "wordCount": 60,
+      "description": "Official 60 recent WAT words asked at SSB Allahabad.",
+      "words": [
+        {
+          "id": "wat-allahabad-w01",
+          "number": 1,
+          "word": "Courage",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w02",
+          "number": 2,
+          "word": "Curiosity",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w03",
+          "number": 3,
+          "word": "Family",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w04",
+          "number": 4,
+          "word": "Victory",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w05",
+          "number": 5,
+          "word": "Responsibility",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w06",
+          "number": 6,
+          "word": "Discipline",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w07",
+          "number": 7,
+          "word": "Challenge",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w08",
+          "number": 8,
+          "word": "Knowledge",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w09",
+          "number": 9,
+          "word": "Friendship",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w10",
+          "number": 10,
+          "word": "Success",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w11",
+          "number": 11,
+          "word": "Opportunity",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w12",
+          "number": 12,
+          "word": "Soldier",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w13",
+          "number": 13,
+          "word": "Character",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w14",
+          "number": 14,
+          "word": "Team",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w15",
+          "number": 15,
+          "word": "Leadership",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w16",
+          "number": 16,
+          "word": "Freedom",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w17",
+          "number": 17,
+          "word": "Justice",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w18",
+          "number": 18,
+          "word": "Peace",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w19",
+          "number": 19,
+          "word": "Confidence",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w20",
+          "number": 20,
+          "word": "Progress",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w21",
+          "number": 21,
+          "word": "Honesty",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w22",
+          "number": 22,
+          "word": "Patience",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w23",
+          "number": 23,
+          "word": "Risk",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w24",
+          "number": 24,
+          "word": "Mother",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w25",
+          "number": 25,
+          "word": "Teacher",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w26",
+          "number": 26,
+          "word": "Respect",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w27",
+          "number": 27,
+          "word": "Exercise",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w28",
+          "number": 28,
+          "word": "Plan",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w29",
+          "number": 29,
+          "word": "Ambition",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w30",
+          "number": 30,
+          "word": "Decision",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w31",
+          "number": 31,
+          "word": "Failure",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w32",
+          "number": 32,
+          "word": "Hope",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w33",
+          "number": 33,
+          "word": "Power",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w34",
+          "number": 34,
+          "word": "Brave",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w35",
+          "number": 35,
+          "word": "Danger",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w36",
+          "number": 36,
+          "word": "Education",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w37",
+          "number": 37,
+          "word": "Problem",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w38",
+          "number": 38,
+          "word": "Initiative",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w39",
+          "number": 39,
+          "word": "Duty",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w40",
+          "number": 40,
+          "word": "Cooperation",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w41",
+          "number": 41,
+          "word": "Trust",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w42",
+          "number": 42,
+          "word": "Spirit",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w43",
+          "number": 43,
+          "word": "Defeat",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w44",
+          "number": 44,
+          "word": "Strength",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w45",
+          "number": 45,
+          "word": "Future",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w46",
+          "number": 46,
+          "word": "India",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w47",
+          "number": 47,
+          "word": "Truth",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w48",
+          "number": 48,
+          "word": "Reward",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w49",
+          "number": 49,
+          "word": "Care",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w50",
+          "number": 50,
+          "word": "Health",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w51",
+          "number": 51,
+          "word": "Officer",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w52",
+          "number": 52,
+          "word": "Army",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w53",
+          "number": 53,
+          "word": "Intelligence",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w54",
+          "number": 54,
+          "word": "Competition",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w55",
+          "number": 55,
+          "word": "Guide",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w56",
+          "number": 56,
+          "word": "Determination",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w57",
+          "number": 57,
+          "word": "Patriotism",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w58",
+          "number": 58,
+          "word": "Sacrifice",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w59",
+          "number": 59,
+          "word": "Honour",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-allahabad-w60",
+          "number": 60,
+          "word": "Unity",
+          "fromBoardReport": true
+        }
+      ]
+    },
+    {
+      "setId": "wat-bangalore",
+      "title": "SSB Bangalore",
+      "boardName": "SSB Bangalore (Selection Centre South)",
+      "category": "board",
+      "isRandom": false,
+      "originalBoardWordCount": 30,
+      "wordCount": 60,
+      "description": "30 recent WAT words reported from SSB Bangalore, completed to 60 words from the master SSB WAT pool.",
+      "words": [
+        {
+          "id": "wat-bangalore-w01",
+          "number": 1,
+          "word": "Bad",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w02",
+          "number": 2,
+          "word": "Nation",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w03",
+          "number": 3,
+          "word": "Climb",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w04",
+          "number": 4,
+          "word": "Comfort",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w05",
+          "number": 5,
+          "word": "Foul",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w06",
+          "number": 6,
+          "word": "Adventure",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w07",
+          "number": 7,
+          "word": "Friend",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w08",
+          "number": 8,
+          "word": "Government",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w09",
+          "number": 9,
+          "word": "Sad",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w10",
+          "number": 10,
+          "word": "Sports",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w11",
+          "number": 11,
+          "word": "Noble",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w12",
+          "number": 12,
+          "word": "Canteen",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w13",
+          "number": 13,
+          "word": "Fear",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w14",
+          "number": 14,
+          "word": "Progress",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w15",
+          "number": 15,
+          "word": "Army",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w16",
+          "number": 16,
+          "word": "Read",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w17",
+          "number": 17,
+          "word": "Growth",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w18",
+          "number": 18,
+          "word": "War",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w19",
+          "number": 19,
+          "word": "Co-education",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w20",
+          "number": 20,
+          "word": "Love",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w21",
+          "number": 21,
+          "word": "Idle",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w22",
+          "number": 22,
+          "word": "Success",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w23",
+          "number": 23,
+          "word": "Danger",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w24",
+          "number": 24,
+          "word": "Table",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w25",
+          "number": 25,
+          "word": "Friend",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w26",
+          "number": 26,
+          "word": "Need",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w27",
+          "number": 27,
+          "word": "Dames",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w28",
+          "number": 28,
+          "word": "Work",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w29",
+          "number": 29,
+          "word": "Explanatory",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w30",
+          "number": 30,
+          "word": "Fear",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bangalore-w31",
+          "number": 31,
+          "word": "Easy",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w32",
+          "number": 32,
+          "word": "Ahead",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w33",
+          "number": 33,
+          "word": "Sacrifice",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w34",
+          "number": 34,
+          "word": "Happy",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w35",
+          "number": 35,
+          "word": "Discussion",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w36",
+          "number": 36,
+          "word": "Satisfaction",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w37",
+          "number": 37,
+          "word": "Encourage",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w38",
+          "number": 38,
+          "word": "System",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w39",
+          "number": 39,
+          "word": "Quick",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w40",
+          "number": 40,
+          "word": "Judge",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w41",
+          "number": 41,
+          "word": "Women",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w42",
+          "number": 42,
+          "word": "Desire",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w43",
+          "number": 43,
+          "word": "Bold",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w44",
+          "number": 44,
+          "word": "Brave",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w45",
+          "number": 45,
+          "word": "Defeat",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w46",
+          "number": 46,
+          "word": "Craze",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w47",
+          "number": 47,
+          "word": "Risk",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w48",
+          "number": 48,
+          "word": "Peace",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w49",
+          "number": 49,
+          "word": "Character",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w50",
+          "number": 50,
+          "word": "Unity",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w51",
+          "number": 51,
+          "word": "Cooperation",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w52",
+          "number": 52,
+          "word": "Worry",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w53",
+          "number": 53,
+          "word": "Pursue",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w54",
+          "number": 54,
+          "word": "Plan",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w55",
+          "number": 55,
+          "word": "Organization",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w56",
+          "number": 56,
+          "word": "Foreign",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w57",
+          "number": 57,
+          "word": "Specific",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w58",
+          "number": 58,
+          "word": "Law",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w59",
+          "number": 59,
+          "word": "Leader",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-bangalore-w60",
+          "number": 60,
+          "word": "Friends",
+          "fromBoardReport": false
+        }
+      ]
+    },
+    {
+      "setId": "wat-jalandhar",
+      "title": "SSB Jalandhar",
+      "boardName": "SSB Jalandhar (Selection Centre North)",
+      "category": "board",
+      "isRandom": false,
+      "originalBoardWordCount": 60,
+      "wordCount": 60,
+      "description": "Official 60 recent WAT words asked at SSB Jalandhar.",
+      "words": [
+        {
+          "id": "wat-jalandhar-w01",
+          "number": 1,
+          "word": "Crook",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w02",
+          "number": 2,
+          "word": "Bravery",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w03",
+          "number": 3,
+          "word": "Mend",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w04",
+          "number": 4,
+          "word": "Mother",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w05",
+          "number": 5,
+          "word": "Inspiration",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w06",
+          "number": 6,
+          "word": "Behaviour",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w07",
+          "number": 7,
+          "word": "Ability",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w08",
+          "number": 8,
+          "word": "Country",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w09",
+          "number": 9,
+          "word": "Fear",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w10",
+          "number": 10,
+          "word": "Hijack",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w11",
+          "number": 11,
+          "word": "Dames",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w12",
+          "number": 12,
+          "word": "Canteen",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w13",
+          "number": 13,
+          "word": "Women",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w14",
+          "number": 14,
+          "word": "Risk",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w15",
+          "number": 15,
+          "word": "Challenge",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w16",
+          "number": 16,
+          "word": "Lazy",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w17",
+          "number": 17,
+          "word": "Communication",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w18",
+          "number": 18,
+          "word": "Victory",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w19",
+          "number": 19,
+          "word": "Family",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w20",
+          "number": 20,
+          "word": "Innovation",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w21",
+          "number": 21,
+          "word": "Honour",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w22",
+          "number": 22,
+          "word": "Problem",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w23",
+          "number": 23,
+          "word": "Ambition",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w24",
+          "number": 24,
+          "word": "Journey",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w25",
+          "number": 25,
+          "word": "Goal",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w26",
+          "number": 26,
+          "word": "Enemy",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w27",
+          "number": 27,
+          "word": "Time",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w28",
+          "number": 28,
+          "word": "Character",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w29",
+          "number": 29,
+          "word": "Adventure",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w30",
+          "number": 30,
+          "word": "Failure",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w31",
+          "number": 31,
+          "word": "Service",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w32",
+          "number": 32,
+          "word": "Co-education",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w33",
+          "number": 33,
+          "word": "Happiness",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w34",
+          "number": 34,
+          "word": "Responsibility",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w35",
+          "number": 35,
+          "word": "Youth",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w36",
+          "number": 36,
+          "word": "Integrity",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w37",
+          "number": 37,
+          "word": "Fear",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w38",
+          "number": 38,
+          "word": "Team",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w39",
+          "number": 39,
+          "word": "Change",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w40",
+          "number": 40,
+          "word": "Justice",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w41",
+          "number": 41,
+          "word": "Technology",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w42",
+          "number": 42,
+          "word": "Crook",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w43",
+          "number": 43,
+          "word": "Friendship",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w44",
+          "number": 44,
+          "word": "Future",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w45",
+          "number": 45,
+          "word": "Leader",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w46",
+          "number": 46,
+          "word": "Peace",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w47",
+          "number": 47,
+          "word": "Gun",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w48",
+          "number": 48,
+          "word": "Motivation",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w49",
+          "number": 49,
+          "word": "Opportunity",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w50",
+          "number": 50,
+          "word": "War",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w51",
+          "number": 51,
+          "word": "Confidence",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w52",
+          "number": 52,
+          "word": "Disaster",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w53",
+          "number": 53,
+          "word": "Education",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w54",
+          "number": 54,
+          "word": "Aloof",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w55",
+          "number": 55,
+          "word": "Competition",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w56",
+          "number": 56,
+          "word": "Duty",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w57",
+          "number": 57,
+          "word": "Success",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w58",
+          "number": 58,
+          "word": "Patience",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w59",
+          "number": 59,
+          "word": "Failure",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-jalandhar-w60",
+          "number": 60,
+          "word": "Mistake",
+          "fromBoardReport": true
+        }
+      ]
+    },
+    {
+      "setId": "wat-bhopal",
+      "title": "SSB Bhopal",
+      "boardName": "SSB Bhopal (Selection Centre Central)",
+      "category": "board",
+      "isRandom": false,
+      "originalBoardWordCount": 60,
+      "wordCount": 60,
+      "description": "Official 60 recent WAT words asked at SSB Bhopal.",
+      "words": [
+        {
+          "id": "wat-bhopal-w01",
+          "number": 1,
+          "word": "Goal",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w02",
+          "number": 2,
+          "word": "Women",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w03",
+          "number": 3,
+          "word": "Decision",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w04",
+          "number": 4,
+          "word": "Team",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w05",
+          "number": 5,
+          "word": "Challenge",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w06",
+          "number": 6,
+          "word": "Future",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w07",
+          "number": 7,
+          "word": "Canteen",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w08",
+          "number": 8,
+          "word": "Confidence",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w09",
+          "number": 9,
+          "word": "Integrity",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w10",
+          "number": 10,
+          "word": "Family",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w11",
+          "number": 11,
+          "word": "Service",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w12",
+          "number": 12,
+          "word": "Money",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w13",
+          "number": 13,
+          "word": "Opportunity",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w14",
+          "number": 14,
+          "word": "Soldier",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w15",
+          "number": 15,
+          "word": "Technology",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w16",
+          "number": 16,
+          "word": "Blood",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w17",
+          "number": 17,
+          "word": "Fear",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w18",
+          "number": 18,
+          "word": "Character",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w19",
+          "number": 19,
+          "word": "Faith",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w20",
+          "number": 20,
+          "word": "Innovation",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w21",
+          "number": 21,
+          "word": "Peace",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w22",
+          "number": 22,
+          "word": "Mission",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w23",
+          "number": 23,
+          "word": "Friend",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w24",
+          "number": 24,
+          "word": "Fitness",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w25",
+          "number": 25,
+          "word": "Progress",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w26",
+          "number": 26,
+          "word": "Failure",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w27",
+          "number": 27,
+          "word": "Lazy",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w28",
+          "number": 28,
+          "word": "Freedom",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w29",
+          "number": 29,
+          "word": "Co-education",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w30",
+          "number": 30,
+          "word": "Ambition",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w31",
+          "number": 31,
+          "word": "Responsibility",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w32",
+          "number": 32,
+          "word": "Obstacle",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w33",
+          "number": 33,
+          "word": "Youth",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w34",
+          "number": 34,
+          "word": "Justice",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w35",
+          "number": 35,
+          "word": "Adventure",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w36",
+          "number": 36,
+          "word": "Problem",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w37",
+          "number": 37,
+          "word": "Time",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w38",
+          "number": 38,
+          "word": "Crook",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w39",
+          "number": 39,
+          "word": "Skill",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w40",
+          "number": 40,
+          "word": "Mistake",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w41",
+          "number": 41,
+          "word": "Leader",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w42",
+          "number": 42,
+          "word": "Energy",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w43",
+          "number": 43,
+          "word": "Happiness",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w44",
+          "number": 44,
+          "word": "War",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w45",
+          "number": 45,
+          "word": "Victory",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w46",
+          "number": 46,
+          "word": "Gun",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w47",
+          "number": 47,
+          "word": "Nation",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w48",
+          "number": 48,
+          "word": "Trust",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w49",
+          "number": 49,
+          "word": "Dames",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w50",
+          "number": 50,
+          "word": "Risk",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w51",
+          "number": 51,
+          "word": "Failure",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w52",
+          "number": 52,
+          "word": "Journey",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w53",
+          "number": 53,
+          "word": "Enemy",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w54",
+          "number": 54,
+          "word": "Adventure",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w55",
+          "number": 55,
+          "word": "Competition",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w56",
+          "number": 56,
+          "word": "Communication",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w57",
+          "number": 57,
+          "word": "Duty",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w58",
+          "number": 58,
+          "word": "Aloof",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w59",
+          "number": 59,
+          "word": "Change",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-bhopal-w60",
+          "number": 60,
+          "word": "Education",
+          "fromBoardReport": true
+        }
+      ]
+    },
+    {
+      "setId": "wat-dehradun",
+      "title": "1 AFSB Dehradun",
+      "boardName": "1 AFSB Dehradun (Air Force Selection Board)",
+      "category": "board",
+      "isRandom": false,
+      "originalBoardWordCount": 20,
+      "wordCount": 60,
+      "description": "20 recent WAT words reported from 1 AFSB Dehradun, completed to 60 words from the master SSB WAT pool.",
+      "words": [
+        {
+          "id": "wat-dehradun-w01",
+          "number": 1,
+          "word": "Weapon",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-dehradun-w02",
+          "number": 2,
+          "word": "Happy",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-dehradun-w03",
+          "number": 3,
+          "word": "Dames",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-dehradun-w04",
+          "number": 4,
+          "word": "Rise",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-dehradun-w05",
+          "number": 5,
+          "word": "Stupid",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-dehradun-w06",
+          "number": 6,
+          "word": "Shine",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-dehradun-w07",
+          "number": 7,
+          "word": "Co-Education",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-dehradun-w08",
+          "number": 8,
+          "word": "War",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-dehradun-w09",
+          "number": 9,
+          "word": "Father",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-dehradun-w10",
+          "number": 10,
+          "word": "Bright",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-dehradun-w11",
+          "number": 11,
+          "word": "Save",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-dehradun-w12",
+          "number": 12,
+          "word": "Funny",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-dehradun-w13",
+          "number": 13,
+          "word": "Recommend",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-dehradun-w14",
+          "number": 14,
+          "word": "Ugly",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-dehradun-w15",
+          "number": 15,
+          "word": "Team",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-dehradun-w16",
+          "number": 16,
+          "word": "Sorry",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-dehradun-w17",
+          "number": 17,
+          "word": "Cheerful",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-dehradun-w18",
+          "number": 18,
+          "word": "Decision",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-dehradun-w19",
+          "number": 19,
+          "word": "Good",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-dehradun-w20",
+          "number": 20,
+          "word": "Help",
+          "fromBoardReport": true
+        },
+        {
+          "id": "wat-dehradun-w21",
+          "number": 21,
+          "word": "Time",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w22",
+          "number": 22,
+          "word": "Understanding",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w23",
+          "number": 23,
+          "word": "Utilize",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w24",
+          "number": 24,
+          "word": "Honour",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w25",
+          "number": 25,
+          "word": "Method",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w26",
+          "number": 26,
+          "word": "Systematic",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w27",
+          "number": 27,
+          "word": "Carefully",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w28",
+          "number": 28,
+          "word": "Easy",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w29",
+          "number": 29,
+          "word": "System",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w30",
+          "number": 30,
+          "word": "Clear",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w31",
+          "number": 31,
+          "word": "Rest",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w32",
+          "number": 32,
+          "word": "Problem",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w33",
+          "number": 33,
+          "word": "Differ",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w34",
+          "number": 34,
+          "word": "Failure",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w35",
+          "number": 35,
+          "word": "Atom",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w36",
+          "number": 36,
+          "word": "Habit",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w37",
+          "number": 37,
+          "word": "Junior",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w38",
+          "number": 38,
+          "word": "Beauty",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w39",
+          "number": 39,
+          "word": "Proof",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w40",
+          "number": 40,
+          "word": "Discipline",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w41",
+          "number": 41,
+          "word": "Challenge",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w42",
+          "number": 42,
+          "word": "Love",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w43",
+          "number": 43,
+          "word": "Step",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w44",
+          "number": 44,
+          "word": "Difficult",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w45",
+          "number": 45,
+          "word": "Duty",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w46",
+          "number": 46,
+          "word": "Idea",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w47",
+          "number": 47,
+          "word": "Books",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w48",
+          "number": 48,
+          "word": "Future",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w49",
+          "number": 49,
+          "word": "Music",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w50",
+          "number": 50,
+          "word": "Property",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w51",
+          "number": 51,
+          "word": "Error",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w52",
+          "number": 52,
+          "word": "Work",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w53",
+          "number": 53,
+          "word": "Justice",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w54",
+          "number": 54,
+          "word": "Charity",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w55",
+          "number": 55,
+          "word": "History",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w56",
+          "number": 56,
+          "word": "Kindness",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w57",
+          "number": 57,
+          "word": "Self Control",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w58",
+          "number": 58,
+          "word": "Faith",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w59",
+          "number": 59,
+          "word": "Life",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-dehradun-w60",
+          "number": 60,
+          "word": "Word",
+          "fromBoardReport": false
+        }
+      ]
+    },
+    {
+      "setId": "wat-set-6",
+      "title": "WAT SET 6",
+      "boardName": "Master SSB WAT Archive — Set 6",
+      "category": "practice",
+      "isRandom": false,
+      "originalBoardWordCount": 60,
+      "wordCount": 60,
+      "description": "60 sequential SSB WAT words from the master practice bank (Set 6).",
+      "words": [
+        {
+          "id": "wat-set-6-w01",
+          "number": 1,
+          "word": "Happiness",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w02",
+          "number": 2,
+          "word": "Educate",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w03",
+          "number": 3,
+          "word": "Soul",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w04",
+          "number": 4,
+          "word": "Business",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w05",
+          "number": 5,
+          "word": "Medicine",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w06",
+          "number": 6,
+          "word": "Exercise",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w07",
+          "number": 7,
+          "word": "Poetry",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w08",
+          "number": 8,
+          "word": "Intelligence",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w09",
+          "number": 9,
+          "word": "Old",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w10",
+          "number": 10,
+          "word": "Patriotism",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w11",
+          "number": 11,
+          "word": "Criticism",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w12",
+          "number": 12,
+          "word": "Fear",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w13",
+          "number": 13,
+          "word": "Past",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w14",
+          "number": 14,
+          "word": "Tear",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w15",
+          "number": 15,
+          "word": "Friendship",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w16",
+          "number": 16,
+          "word": "World",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w17",
+          "number": 17,
+          "word": "Chance",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w18",
+          "number": 18,
+          "word": "Mother",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w19",
+          "number": 19,
+          "word": "Heart",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w20",
+          "number": 20,
+          "word": "Power",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w21",
+          "number": 21,
+          "word": "Family",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w22",
+          "number": 22,
+          "word": "Wealth",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w23",
+          "number": 23,
+          "word": "Philosophy",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w24",
+          "number": 24,
+          "word": "Greatness",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w25",
+          "number": 25,
+          "word": "Honor",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w26",
+          "number": 26,
+          "word": "Women",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w27",
+          "number": 27,
+          "word": "Law",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w28",
+          "number": 28,
+          "word": "Persuade",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w29",
+          "number": 29,
+          "word": "Religion",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w30",
+          "number": 30,
+          "word": "Policy",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w31",
+          "number": 31,
+          "word": "Truth",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w32",
+          "number": 32,
+          "word": "Compromise",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w33",
+          "number": 33,
+          "word": "Quick",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w34",
+          "number": 34,
+          "word": "Climb",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w35",
+          "number": 35,
+          "word": "Understanding",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w36",
+          "number": 36,
+          "word": "Law",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w37",
+          "number": 37,
+          "word": "Persuade",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w38",
+          "number": 38,
+          "word": "Defeat",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w39",
+          "number": 39,
+          "word": "Method",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w40",
+          "number": 40,
+          "word": "Carelessness",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w41",
+          "number": 41,
+          "word": "Hope",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w42",
+          "number": 42,
+          "word": "Efficiency",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w43",
+          "number": 43,
+          "word": "Danger",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w44",
+          "number": 44,
+          "word": "Complete",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w45",
+          "number": 45,
+          "word": "Competition",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w46",
+          "number": 46,
+          "word": "Judge",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w47",
+          "number": 47,
+          "word": "Time",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w48",
+          "number": 48,
+          "word": "Character",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w49",
+          "number": 49,
+          "word": "Worry",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w50",
+          "number": 50,
+          "word": "Unity",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w51",
+          "number": 51,
+          "word": "Spirit",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w52",
+          "number": 52,
+          "word": "Attack",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w53",
+          "number": 53,
+          "word": "Curiosity",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w54",
+          "number": 54,
+          "word": "Lonely",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w55",
+          "number": 55,
+          "word": "Guide",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w56",
+          "number": 56,
+          "word": "Confusion",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w57",
+          "number": 57,
+          "word": "Merit",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w58",
+          "number": 58,
+          "word": "Admire",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w59",
+          "number": 59,
+          "word": "Aggressive",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-6-w60",
+          "number": 60,
+          "word": "Think",
+          "fromBoardReport": false
+        }
+      ]
+    },
+    {
+      "setId": "wat-set-7",
+      "title": "WAT SET 7",
+      "boardName": "Master SSB WAT Archive — Set 7",
+      "category": "practice",
+      "isRandom": false,
+      "originalBoardWordCount": 60,
+      "wordCount": 60,
+      "description": "60 sequential SSB WAT words from the master practice bank (Set 7).",
+      "words": [
+        {
+          "id": "wat-set-7-w01",
+          "number": 1,
+          "word": "Criticism",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w02",
+          "number": 2,
+          "word": "Watch",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w03",
+          "number": 3,
+          "word": "Strict",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w04",
+          "number": 4,
+          "word": "Blind",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w05",
+          "number": 5,
+          "word": "Cry",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w06",
+          "number": 6,
+          "word": "Exercise",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w07",
+          "number": 7,
+          "word": "Precaution",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w08",
+          "number": 8,
+          "word": "Depression",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w09",
+          "number": 9,
+          "word": "Pity",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w10",
+          "number": 10,
+          "word": "Score",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w11",
+          "number": 11,
+          "word": "Hungry",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w12",
+          "number": 12,
+          "word": "Empty",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w13",
+          "number": 13,
+          "word": "Tired",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w14",
+          "number": 14,
+          "word": "Team",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w15",
+          "number": 15,
+          "word": "Never",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w16",
+          "number": 16,
+          "word": "Weapon",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w17",
+          "number": 17,
+          "word": "House",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w18",
+          "number": 18,
+          "word": "Strong",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w19",
+          "number": 19,
+          "word": "Imagination",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w20",
+          "number": 20,
+          "word": "Possible",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w21",
+          "number": 21,
+          "word": "Record",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w22",
+          "number": 22,
+          "word": "Hard Work",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w23",
+          "number": 23,
+          "word": "Success",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w24",
+          "number": 24,
+          "word": "Life",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w25",
+          "number": 25,
+          "word": "Blood",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w26",
+          "number": 26,
+          "word": "Soldier",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w27",
+          "number": 27,
+          "word": "Face",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w28",
+          "number": 28,
+          "word": "Play ground",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w29",
+          "number": 29,
+          "word": "Snake",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w30",
+          "number": 30,
+          "word": "Luck",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w31",
+          "number": 31,
+          "word": "Trust Religion",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w32",
+          "number": 32,
+          "word": "Won",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w33",
+          "number": 33,
+          "word": "Health",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w34",
+          "number": 34,
+          "word": "Worry",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w35",
+          "number": 35,
+          "word": "Company",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w36",
+          "number": 36,
+          "word": "Father",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w37",
+          "number": 37,
+          "word": "Discipline",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w38",
+          "number": 38,
+          "word": "Fault",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w39",
+          "number": 39,
+          "word": "Attempt",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w40",
+          "number": 40,
+          "word": "System",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w41",
+          "number": 41,
+          "word": "Victory",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w42",
+          "number": 42,
+          "word": "Impossible",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w43",
+          "number": 43,
+          "word": "Sister",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w44",
+          "number": 44,
+          "word": "Challenge",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w45",
+          "number": 45,
+          "word": "Knowledge",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w46",
+          "number": 46,
+          "word": "Solve",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w47",
+          "number": 47,
+          "word": "Heritage",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w48",
+          "number": 48,
+          "word": "Follow",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w49",
+          "number": 49,
+          "word": "Projects",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w50",
+          "number": 50,
+          "word": "Honey",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w51",
+          "number": 51,
+          "word": "Tackle",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w52",
+          "number": 52,
+          "word": "Punctuality",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w53",
+          "number": 53,
+          "word": "Climb",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w54",
+          "number": 54,
+          "word": "Lies",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w55",
+          "number": 55,
+          "word": "Reaction",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w56",
+          "number": 56,
+          "word": "Unable",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w57",
+          "number": 57,
+          "word": "Offer",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w58",
+          "number": 58,
+          "word": "Drive",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w59",
+          "number": 59,
+          "word": "Meeting",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-7-w60",
+          "number": 60,
+          "word": "Assist",
+          "fromBoardReport": false
+        }
+      ]
+    },
+    {
+      "setId": "wat-set-8",
+      "title": "WAT SET 8",
+      "boardName": "Master SSB WAT Archive — Set 8",
+      "category": "practice",
+      "isRandom": false,
+      "originalBoardWordCount": 60,
+      "wordCount": 60,
+      "description": "60 sequential SSB WAT words from the master practice bank (Set 8).",
+      "words": [
+        {
+          "id": "wat-set-8-w01",
+          "number": 1,
+          "word": "Think",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w02",
+          "number": 2,
+          "word": "Confuse",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w03",
+          "number": 3,
+          "word": "Peace",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w04",
+          "number": 4,
+          "word": "Cinema",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w05",
+          "number": 5,
+          "word": "Garden",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w06",
+          "number": 6,
+          "word": "Decent",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w07",
+          "number": 7,
+          "word": "Selfish",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w08",
+          "number": 8,
+          "word": "Fit",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w09",
+          "number": 9,
+          "word": "Brave",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w10",
+          "number": 10,
+          "word": "Mother",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w11",
+          "number": 11,
+          "word": "Light",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w12",
+          "number": 12,
+          "word": "Home",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w13",
+          "number": 13,
+          "word": "Teacher",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w14",
+          "number": 14,
+          "word": "Interest",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w15",
+          "number": 15,
+          "word": "Policy",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w16",
+          "number": 16,
+          "word": "Pay",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w17",
+          "number": 17,
+          "word": "Save",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w18",
+          "number": 18,
+          "word": "Doctor",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w19",
+          "number": 19,
+          "word": "Preach",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w20",
+          "number": 20,
+          "word": "Duties",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w21",
+          "number": 21,
+          "word": "India",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w22",
+          "number": 22,
+          "word": "Joy",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w23",
+          "number": 23,
+          "word": "Crook",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w24",
+          "number": 24,
+          "word": "Blunder",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w25",
+          "number": 25,
+          "word": "Rogue",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w26",
+          "number": 26,
+          "word": "Hijack",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w27",
+          "number": 27,
+          "word": "Laughter",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w28",
+          "number": 28,
+          "word": "Humanity",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w29",
+          "number": 29,
+          "word": "Education",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w30",
+          "number": 30,
+          "word": "Medicine",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w31",
+          "number": 31,
+          "word": "Honest",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w32",
+          "number": 32,
+          "word": "Careless",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w33",
+          "number": 33,
+          "word": "Attack",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w34",
+          "number": 34,
+          "word": "Stamina",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w35",
+          "number": 35,
+          "word": "Competition",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w36",
+          "number": 36,
+          "word": "Plan",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w37",
+          "number": 37,
+          "word": "Continue",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w38",
+          "number": 38,
+          "word": "Freedom",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w39",
+          "number": 39,
+          "word": "Play",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w40",
+          "number": 40,
+          "word": "Fire",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w41",
+          "number": 41,
+          "word": "Cheerful",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w42",
+          "number": 42,
+          "word": "Laughing",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w43",
+          "number": 43,
+          "word": "Save",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w44",
+          "number": 44,
+          "word": "Time",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w45",
+          "number": 45,
+          "word": "Overcome",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w46",
+          "number": 46,
+          "word": "Danger",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w47",
+          "number": 47,
+          "word": "Plan",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w48",
+          "number": 48,
+          "word": "Officer",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w49",
+          "number": 49,
+          "word": "Initiation",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w50",
+          "number": 50,
+          "word": "Progress",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w51",
+          "number": 51,
+          "word": "Remember",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w52",
+          "number": 52,
+          "word": "Line",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w53",
+          "number": 53,
+          "word": "Leadership",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w54",
+          "number": 54,
+          "word": "Tests",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w55",
+          "number": 55,
+          "word": "Read",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w56",
+          "number": 56,
+          "word": "Jealous",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w57",
+          "number": 57,
+          "word": "Influence",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w58",
+          "number": 58,
+          "word": "Done",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w59",
+          "number": 59,
+          "word": "Difference",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-8-w60",
+          "number": 60,
+          "word": "Fool",
+          "fromBoardReport": false
+        }
+      ]
+    },
+    {
+      "setId": "wat-set-9",
+      "title": "WAT SET 9",
+      "boardName": "Master SSB WAT Archive — Set 9",
+      "category": "practice",
+      "isRandom": false,
+      "originalBoardWordCount": 60,
+      "wordCount": 60,
+      "description": "60 sequential SSB WAT words from the master practice bank (Set 9).",
+      "words": [
+        {
+          "id": "wat-set-9-w01",
+          "number": 1,
+          "word": "Follower",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w02",
+          "number": 2,
+          "word": "Bitter",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w03",
+          "number": 3,
+          "word": "Carrier",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w04",
+          "number": 4,
+          "word": "Board",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w05",
+          "number": 5,
+          "word": "Command",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w06",
+          "number": 6,
+          "word": "Accident",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w07",
+          "number": 7,
+          "word": "Quality",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w08",
+          "number": 8,
+          "word": "Hide",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w09",
+          "number": 9,
+          "word": "Master",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w10",
+          "number": 10,
+          "word": "Courage",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w11",
+          "number": 11,
+          "word": "College",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w12",
+          "number": 12,
+          "word": "Enemy",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w13",
+          "number": 13,
+          "word": "Journal",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w14",
+          "number": 14,
+          "word": "Kill",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w15",
+          "number": 15,
+          "word": "Impossible",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w16",
+          "number": 16,
+          "word": "Team",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w17",
+          "number": 17,
+          "word": "Pet",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w18",
+          "number": 18,
+          "word": "Past",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w19",
+          "number": 19,
+          "word": "Quantity",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w20",
+          "number": 20,
+          "word": "Behavior",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w21",
+          "number": 21,
+          "word": "Learned",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w22",
+          "number": 22,
+          "word": "Over",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w23",
+          "number": 23,
+          "word": "Literary",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w24",
+          "number": 24,
+          "word": "Unity",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w25",
+          "number": 25,
+          "word": "Minister",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w26",
+          "number": 26,
+          "word": "Irritate",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w27",
+          "number": 27,
+          "word": "Inauguration",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w28",
+          "number": 28,
+          "word": "Minor",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w29",
+          "number": 29,
+          "word": "Major",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w30",
+          "number": 30,
+          "word": "Hurry",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w31",
+          "number": 31,
+          "word": "Enforce",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w32",
+          "number": 32,
+          "word": "Thief",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w33",
+          "number": 33,
+          "word": "Pity",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w34",
+          "number": 34,
+          "word": "Fire",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w35",
+          "number": 35,
+          "word": "Speed",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w36",
+          "number": 36,
+          "word": "Party",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w37",
+          "number": 37,
+          "word": "Mercy",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w38",
+          "number": 38,
+          "word": "Fear",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w39",
+          "number": 39,
+          "word": "Advertisement",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w40",
+          "number": 40,
+          "word": "Politeness",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w41",
+          "number": 41,
+          "word": "Above",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w42",
+          "number": 42,
+          "word": "Victory",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w43",
+          "number": 43,
+          "word": "Buy",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w44",
+          "number": 44,
+          "word": "Thank",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w45",
+          "number": 45,
+          "word": "Baby",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w46",
+          "number": 46,
+          "word": "Easy",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w47",
+          "number": 47,
+          "word": "Ahead",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w48",
+          "number": 48,
+          "word": "Sacrifice",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w49",
+          "number": 49,
+          "word": "Happy",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w50",
+          "number": 50,
+          "word": "Discussion",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w51",
+          "number": 51,
+          "word": "Satisfaction",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w52",
+          "number": 52,
+          "word": "Encourage",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w53",
+          "number": 53,
+          "word": "System",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w54",
+          "number": 54,
+          "word": "Quick",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w55",
+          "number": 55,
+          "word": "Comfort",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w56",
+          "number": 56,
+          "word": "Judge",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w57",
+          "number": 57,
+          "word": "Women",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w58",
+          "number": 58,
+          "word": "Desire",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w59",
+          "number": 59,
+          "word": "Bold",
+          "fromBoardReport": false
+        },
+        {
+          "id": "wat-set-9-w60",
+          "number": 60,
+          "word": "Brave",
+          "fromBoardReport": false
+        }
+      ]
+    }
+  ]
+}

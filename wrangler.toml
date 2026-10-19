@@ -1,0 +1,10 @@
+name = "ssb-cogify-me"
+compatibility_date = "2026-04-01"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".next"
+
+[vars]
+NEXT_PUBLIC_SITE_URL = "https://ssb.cogify.me"
+NEXT_PUBLIC_PARENT_URL = "https://cogify.me"
+# Optional: set NEXT_PUBLIC_ASSET_SERVER_URL in Cloudflare Pages dashboard to serve heavy PDFs/images from Cloudflare R2 or an external CDN.
+NEXT_PUBLIC_ASSET_SERVER_URL = ""

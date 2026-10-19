@@ -1,0 +1,25 @@
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
+  X-DNS-Prefetch-Control: on
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+
+/tat-sets/*
+  X-Robots-Tag: noindex, noimageindex, noarchive
+  Cache-Control: public, max-age=31536000, immutable
+  Cross-Origin-Resource-Policy: same-origin
+
+/tat-assets/*
+  X-Robots-Tag: noindex, noimageindex, noarchive
+  Cache-Control: public, max-age=31536000, immutable
+  Cross-Origin-Resource-Policy: same-origin
+
+/Phys-Test-Booklet.pdf
+  X-Robots-Tag: noindex, noarchive
+  Cross-Origin-Resource-Policy: same-origin
+
+/api/*
+  X-Robots-Tag: noindex, noarchive
+  Cache-Control: private, no-store, max-age=0

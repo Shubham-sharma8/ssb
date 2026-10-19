@@ -1,0 +1,21 @@
+# Dependencies & build outputs
+node_modules/
+.next/
+.next-e2e/
+out/
+.vercel/
+.wrangler/
+coverage/
+playwright-report/
+test-results/
+
+# System & TypeScript cache files
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+.env*.local
+
+# Raw unoptimized source PDFs/RTFs/TXTs (kept locally for extraction scripts; excluded from GitHub repo to keep repository lightweight)
+/*.pdf
+/*.rtf
+/*.txt

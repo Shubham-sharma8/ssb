@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 98%;
+  --foreground: 240 10% 9%;
+  --card: 0 0% 100%;
+  --card-foreground: 240 10% 9%;
+  --border: 240 6% 90%;
+  --muted: 240 5% 96%;
+  --muted-foreground: 240 4% 42%;
+  --accent: 240 6% 12%;
+  --accent-foreground: 0 0% 98%;
+}
+
+html.dark {
+  --background: 240 10% 6%;
+  --foreground: 0 0% 96%;
+  --card: 240 10% 9%;
+  --card-foreground: 0 0% 96%;
+  --border: 240 5% 18%;
+  --muted: 240 5% 13%;
+  --muted-foreground: 240 5% 64%;
+  --accent: 0 0% 96%;
+  --accent-foreground: 240 10% 9%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  letter-spacing: -0.01em;
+}
+
+html.light body {
+  background-color: #fafafa;
+  color: #18181b;
+}
+
+/* Preserve dark projection stage in exam mode even when light theme is active */
+html.light .exam-projector-stage {
+  background-color: #111113 !important;
+  color: #f4f4f5 !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html.reduce-motion *,
+html.reduce-motion ::before,
+html.reduce-motion ::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="ssbShieldGrad" x1="12" y1="8" x2="108" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="ssbApertureGrad" x1="34" y1="34" x2="86" y2="86" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#94a3b8" />
+    </linearGradient>
+  </defs>
+  <path
+    d="M60 8L104 26V58C104 86.5 85.2 106.4 60 114C34.8 106.4 16 86.5 16 58V26L60 8Z"
+    fill="url(#ssbShieldGrad)"
+    fill-opacity="0.18"
+    stroke="url(#ssbShieldGrad)"
+    stroke-width="3.5"
+  />
+  <circle cx="60" cy="58" r="24" stroke="url(#ssbApertureGrad)" stroke-width="2.5" stroke-dasharray="6 4" />
+  <circle cx="60" cy="58" r="14" fill="#38bdf8" fill-opacity="0.15" stroke="#38bdf8" stroke-width="2.2" />
+  <path d="M60 26V36M60 80V90M28 58H38M82 58H92" stroke="#94a3b8" stroke-width="2.2" stroke-linecap="round" />
+  <polygon points="60,46 64,58 60,70 56,58" fill="#f8fafc" />
+</svg>

@@ -1,0 +1,2882 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-10-19T14:21:01.371Z",
+  "secondsPerSrt": 30,
+  "questionsPerSheet": 5,
+  "defaultFullCount": 60,
+  "totalMasterQuestions": 230,
+  "masterQuestionPool": [
+    {
+      "id": "srt-q001",
+      "originalNumber": 1,
+      "situation": "Generally, people do not listen to his arguments. So he..."
+    },
+    {
+      "id": "srt-q002",
+      "originalNumber": 2,
+      "situation": "He was asked to walk a long distance by his scout-master, but he was having fever. He..."
+    },
+    {
+      "id": "srt-q003",
+      "originalNumber": 3,
+      "situation": "While travelling in the bus some people started arguing with him. He..."
+    },
+    {
+      "id": "srt-q004",
+      "originalNumber": 4,
+      "situation": "He was to carry some valuable from one place to another and there was danger of dacoits on the way. He..."
+    },
+    {
+      "id": "srt-q005",
+      "originalNumber": 5,
+      "situation": "He found his parents quarreling over his future. He..."
+    },
+    {
+      "id": "srt-q006",
+      "originalNumber": 6,
+      "situation": "He has been served with a challenge by the college bully because he had reported against him to the Principal when the latter was trying to beat up his friend. He..."
+    },
+    {
+      "id": "srt-q007",
+      "originalNumber": 7,
+      "situation": "During winter he was once returning alone from a late night show when suddenly it started raining heavily. He..."
+    },
+    {
+      "id": "srt-q008",
+      "originalNumber": 8,
+      "situation": "He was doing private tuition in order to finance his higher studies as his father was a poor man. When the exam drew near, he found he was not fully prepared. Therefore, he ..."
+    },
+    {
+      "id": "srt-q009",
+      "originalNumber": 9,
+      "situation": "A man had fallen from the ship when the sea became rough. He ..."
+    },
+    {
+      "id": "srt-q010",
+      "originalNumber": 10,
+      "situation": "He was going from his house to the exam hall and on the way, he was surrounded by two policemen. He..."
+    },
+    {
+      "id": "srt-q011",
+      "originalNumber": 11,
+      "situation": "He had recently joined an active unit and he felt that he is given too much work. He..."
+    },
+    {
+      "id": "srt-q012",
+      "originalNumber": 12,
+      "situation": "Drought conditions were prevailing in his village. He..."
+    },
+    {
+      "id": "srt-q013",
+      "originalNumber": 13,
+      "situation": "The railway coach in which he was travelling caught fire. He..."
+    },
+    {
+      "id": "srt-q014",
+      "originalNumber": 14,
+      "situation": "He was in great hurry to reach home when he found an old man fainted on the say. He ..."
+    },
+    {
+      "id": "srt-q015",
+      "originalNumber": 15,
+      "situation": "When he was going to the market, it started raining and all the streets were flooded in no time. He..."
+    },
+    {
+      "id": "srt-q016",
+      "originalNumber": 16,
+      "situation": "The discussion on a very important topic reached a tense point. He..."
+    },
+    {
+      "id": "srt-q017",
+      "originalNumber": 17,
+      "situation": "His friend was unable to return his money and he was running short of money. He..."
+    },
+    {
+      "id": "srt-q018",
+      "originalNumber": 18,
+      "situation": "His parents were forcing him to marry with an uneducated but wealthy girl. He..."
+    },
+    {
+      "id": "srt-q019",
+      "originalNumber": 19,
+      "situation": "Since he was not interested in the subject, he found it hard to concentrate on his studies. He..."
+    },
+    {
+      "id": "srt-q020",
+      "originalNumber": 20,
+      "situation": "His boat over turned when he was midstream, so he..."
+    },
+    {
+      "id": "srt-q021",
+      "originalNumber": 21,
+      "situation": "When he was on his usual evening walk he saw a man being thrown out of speeding car. He..."
+    },
+    {
+      "id": "srt-q022",
+      "originalNumber": 22,
+      "situation": "When you were on a NCC camp, your batch declared a strike because of the rude behavior of the Havildar. So you..."
+    },
+    {
+      "id": "srt-q023",
+      "originalNumber": 23,
+      "situation": "His parents could not afford to send him to degree college. So he..."
+    },
+    {
+      "id": "srt-q024",
+      "originalNumber": 24,
+      "situation": "While crossing the river in a boat it developed a leak and water started slowing into the boat. He..."
+    },
+    {
+      "id": "srt-q025",
+      "originalNumber": 25,
+      "situation": "When he was returning from his work he saw a cyclist being knocked down by a speeding taxi. He..."
+    },
+    {
+      "id": "srt-q026",
+      "originalNumber": 26,
+      "situation": "It was midnight when he heard gun-shots and cries of children and woman. On learning that the dacoities had raided his village, he..."
+    },
+    {
+      "id": "srt-q027",
+      "originalNumber": 27,
+      "situation": "Most of his friends and college mates were donating blood during the war time. He..."
+    },
+    {
+      "id": "srt-q028",
+      "originalNumber": 28,
+      "situation": "His father who was ailing since long needed special treatment, but they were already short of money. He..."
+    },
+    {
+      "id": "srt-q029",
+      "originalNumber": 29,
+      "situation": "When his BA result was declared, his parents wanted him to join some service, where as he..."
+    },
+    {
+      "id": "srt-q030",
+      "originalNumber": 30,
+      "situation": "The friendly discussion took a heated turn and he ..."
+    },
+    {
+      "id": "srt-q031",
+      "originalNumber": 31,
+      "situation": "When he had just done his B.Sc. in I st Division, he was still without job, one of his equally penniless friend needed coaching. He..."
+    },
+    {
+      "id": "srt-q032",
+      "originalNumber": 32,
+      "situation": "His poor parents had educated him up to B.A. bearing lots of hardships. He keenly felt he must quickly get a job and help his family but was not getting any suitable job. He..."
+    },
+    {
+      "id": "srt-q033",
+      "originalNumber": 33,
+      "situation": "His father slipped on a Banana Peel and hurt his shoulder badly as they were hurrying towards the Railway Station to catch the only train to their village. He..."
+    },
+    {
+      "id": "srt-q034",
+      "originalNumber": 34,
+      "situation": "His elder brother wanted to celebrate the death of their old father but he felt otherwise. He..."
+    },
+    {
+      "id": "srt-q035",
+      "originalNumber": 35,
+      "situation": "When he was on his cycle to his sister in a nearby village, his cycle broke down on the way and it started raining. He..."
+    },
+    {
+      "id": "srt-q036",
+      "originalNumber": 36,
+      "situation": "After many efforts he got a job in a private firm, but his office was very far off from his house and there was not transport. He..."
+    },
+    {
+      "id": "srt-q037",
+      "originalNumber": 37,
+      "situation": "While returning from picnic in a hilarious mood, one of his friend was knocked down by a truck. He..."
+    },
+    {
+      "id": "srt-q038",
+      "originalNumber": 38,
+      "situation": "When the preparations for his younger sister’s wedding were half-way through he found he is running short of money. He..."
+    },
+    {
+      "id": "srt-q039",
+      "originalNumber": 39,
+      "situation": "While tracking in a knee-deep snow his left foot slipped and he fell into a deep ditch. He cried for help, but none was near. He..."
+    },
+    {
+      "id": "srt-q040",
+      "originalNumber": 40,
+      "situation": "He was unable to sleep that night as he felt that he was fully prepared for the exam next day. All of a sudden, he saw two masked men trying to get through the ventilator of the neighboring house. He..."
+    },
+    {
+      "id": "srt-q041",
+      "originalNumber": 41,
+      "situation": "While wandering aimless on the road side, he found a purse containing 400 rupees. He..."
+    },
+    {
+      "id": "srt-q042",
+      "originalNumber": 42,
+      "situation": "He and his friend were to put up a variety show that evening for the visiting VIP but his friend’s father, who was already ailing because serious. He..."
+    },
+    {
+      "id": "srt-q043",
+      "originalNumber": 43,
+      "situation": "His father was returning victorious from the war and he had gone to receive him at the Railway Station. As he was waiting he heard a loud explosion. He..."
+    },
+    {
+      "id": "srt-q044",
+      "originalNumber": 44,
+      "situation": "During floods in his village he found that the people have moved away with their belongings leaving the animals behind. He..."
+    },
+    {
+      "id": "srt-q045",
+      "originalNumber": 45,
+      "situation": "He happened to be at the Railway Platform, when a stranger slipped from a slow moving train injuring himself badly. He..."
+    },
+    {
+      "id": "srt-q046",
+      "originalNumber": 46,
+      "situation": "He was threatened by the rival group in the college because he had reported against him when the latter was trying to beat his friend. He..."
+    },
+    {
+      "id": "srt-q047",
+      "originalNumber": 47,
+      "situation": "He was a candidate for School Captain, but his rival had very strong supporters. He..."
+    },
+    {
+      "id": "srt-q048",
+      "originalNumber": 48,
+      "situation": "He was to carry some money from one place to another but there was danger of rubbers on the way. He..."
+    },
+    {
+      "id": "srt-q049",
+      "originalNumber": 49,
+      "situation": "A dispute arose between his father and uncle over his intended inter cast marriage. He..."
+    },
+    {
+      "id": "srt-q050",
+      "originalNumber": 50,
+      "situation": "Drought conditions were prevailing in his area. He..."
+    },
+    {
+      "id": "srt-q051",
+      "originalNumber": 51,
+      "situation": "He was to reach a place across the river, urgently but there was a traffic jam on the bridge. He..."
+    },
+    {
+      "id": "srt-q052",
+      "originalNumber": 52,
+      "situation": "He felt that the preparatory holidays were not enough for their final exam because he had fallen ill. He..."
+    },
+    {
+      "id": "srt-q053",
+      "originalNumber": 53,
+      "situation": "He was made in charge of an All Indian Tour but he had to attend an important personal business. He..."
+    },
+    {
+      "id": "srt-q054",
+      "originalNumber": 54,
+      "situation": "He had some dispute with his uncle on family affairs. He..."
+    },
+    {
+      "id": "srt-q055",
+      "originalNumber": 55,
+      "situation": "He was hardly eighteen when his parents died, being the eldest son he..."
+    },
+    {
+      "id": "srt-q056",
+      "originalNumber": 56,
+      "situation": "When he was going to but a medicine for his mother it started raining and the street were flooded. He..."
+    },
+    {
+      "id": "srt-q057",
+      "originalNumber": 57,
+      "situation": "His mother became seriously ill and no one was at home. He..."
+    },
+    {
+      "id": "srt-q058",
+      "originalNumber": 58,
+      "situation": "He was travelling with his friend to Nainital to watch winter sports when his friend fell ill. He..."
+    },
+    {
+      "id": "srt-q059",
+      "originalNumber": 59,
+      "situation": "His friends were not willing to donate the blood, during war time as they considered it to be health hazard. He..."
+    },
+    {
+      "id": "srt-q060",
+      "originalNumber": 60,
+      "situation": "When he was going to face the SSB, he has taken a cup of tea at Railway Station. At the time of paying the money he found his pocket missing. He..."
+    },
+    {
+      "id": "srt-q061",
+      "originalNumber": 61,
+      "situation": "His captain was injured before a crucial match, he was asked to lead the team? He..."
+    },
+    {
+      "id": "srt-q062",
+      "originalNumber": 62,
+      "situation": "He was on his way to home and suddenly it started raining heavily? He..."
+    },
+    {
+      "id": "srt-q063",
+      "originalNumber": 63,
+      "situation": "You are an officer posted at the border & suddenly shelling happens from the other side, you..."
+    },
+    {
+      "id": "srt-q064",
+      "originalNumber": 64,
+      "situation": "You are at unknown city and lost your purse. You need money. As a stranger how will u manage? ..."
+    },
+    {
+      "id": "srt-q065",
+      "originalNumber": 65,
+      "situation": "Your brother wants to get admission in a medical college, but his marks falls short by 1% for admission. You..."
+    },
+    {
+      "id": "srt-q066",
+      "originalNumber": 66,
+      "situation": "You have to go to a city with cash for work, but the way is dangerous as dacoits...... how will u manage to go?"
+    },
+    {
+      "id": "srt-q067",
+      "originalNumber": 67,
+      "situation": "He was travelling by a train & suddenly a person snatches purse from lady & jumps out of train..."
+    },
+    {
+      "id": "srt-q068",
+      "originalNumber": 68,
+      "situation": "You are going to sign a contract suddenly u got news that one of your friend who had helped you once met an accident and is in ICU. you..."
+    },
+    {
+      "id": "srt-q069",
+      "originalNumber": 69,
+      "situation": "He had boarded a wrong train and came to know only when he was asked to pay money to TT. He..."
+    },
+    {
+      "id": "srt-q070",
+      "originalNumber": 70,
+      "situation": "He saw his girlfriend walking with another person on his way. He..."
+    },
+    {
+      "id": "srt-q071",
+      "originalNumber": 71,
+      "situation": "He was on his way to railway station to catch a train; suddenly a car passes by and throws a person out of the running car. He..."
+    },
+    {
+      "id": "srt-q072",
+      "originalNumber": 72,
+      "situation": "He was driving the bike without helmet and the traffic police caught him. He..."
+    },
+    {
+      "id": "srt-q073",
+      "originalNumber": 73,
+      "situation": "He was asked to organize the farewell party. He..."
+    },
+    {
+      "id": "srt-q074",
+      "originalNumber": 74,
+      "situation": "He was ironing his clothes when suddenly he received an electric shock and he noticed the wire burning."
+    },
+    {
+      "id": "srt-q075",
+      "originalNumber": 75,
+      "situation": "He was in charge of wireless board in a sailing ship which lost its communication with the coast. He..."
+    },
+    {
+      "id": "srt-q076",
+      "originalNumber": 76,
+      "situation": "In a discussion with your colleagues, you find your losing ground, you..."
+    },
+    {
+      "id": "srt-q077",
+      "originalNumber": 77,
+      "situation": "He was to appear for an exam and all of a sudden the curfew was imposed in that area, he..."
+    },
+    {
+      "id": "srt-q078",
+      "originalNumber": 78,
+      "situation": "He went for the picnic with his friends and on the way he had hot arguments with them. He..."
+    },
+    {
+      "id": "srt-q079",
+      "originalNumber": 79,
+      "situation": "There is a person who sells smuggled goods. You too, like many others, have purchased a wristwatch from him. But it doesn't work. You..."
+    },
+    {
+      "id": "srt-q080",
+      "originalNumber": 80,
+      "situation": "Just two days before the semi‐finals of the bridge tournament, his partner was called by his parents and had to go out of station for an urgent work. He..."
+    },
+    {
+      "id": "srt-q081",
+      "originalNumber": 81,
+      "situation": "He was rather young when his father was killed in the war and later mother kidnapped by the rival group. He had no other relative. He..."
+    },
+    {
+      "id": "srt-q082",
+      "originalNumber": 82,
+      "situation": "You are on the way to your home suddenly your bicycle got punctured. You..."
+    },
+    {
+      "id": "srt-q083",
+      "originalNumber": 83,
+      "situation": "He urgently needed of money. He..."
+    },
+    {
+      "id": "srt-q084",
+      "originalNumber": 84,
+      "situation": "During d exams his teacher threatened him to fail in examination. He..."
+    },
+    {
+      "id": "srt-q085",
+      "originalNumber": 85,
+      "situation": "You are getting late in reaching meeting. You would..."
+    },
+    {
+      "id": "srt-q086",
+      "originalNumber": 86,
+      "situation": "You find your hostel roommate not very friendly with you. You..."
+    },
+    {
+      "id": "srt-q087",
+      "originalNumber": 87,
+      "situation": "Your mom is seriously ill and your boss doesn’t grantyou leave. You..."
+    },
+    {
+      "id": "srt-q088",
+      "originalNumber": 88,
+      "situation": "He was wondering why most of the officers in India were corrupt and he..."
+    },
+    {
+      "id": "srt-q089",
+      "originalNumber": 89,
+      "situation": "He was trying long jump, in school sports day, and injured his ankle. He..."
+    },
+    {
+      "id": "srt-q090",
+      "originalNumber": 90,
+      "situation": "He was to marry a rich girl chosen by his father, but he did not like her. He..."
+    },
+    {
+      "id": "srt-q091",
+      "originalNumber": 91,
+      "situation": "His friend was copying from book in examination hall. He..."
+    },
+    {
+      "id": "srt-q092",
+      "originalNumber": 92,
+      "situation": "During a trekking trip, he was left alone in the jungle. He..."
+    },
+    {
+      "id": "srt-q093",
+      "originalNumber": 93,
+      "situation": "He was weak in studies, and knew that he could not do well in his education. He..."
+    },
+    {
+      "id": "srt-q094",
+      "originalNumber": 94,
+      "situation": "He was going for the SSB and on the way, he saw a person seriously injured and nobody was there to help him. He..."
+    },
+    {
+      "id": "srt-q095",
+      "originalNumber": 95,
+      "situation": "Your brother is facing charges for the murder which he really committed. You..."
+    },
+    {
+      "id": "srt-q096",
+      "originalNumber": 96,
+      "situation": "He was crossing a flooded nala in his boat and suddenly lost his control. He..."
+    },
+    {
+      "id": "srt-q097",
+      "originalNumber": 97,
+      "situation": "He was travelling to his SSB centre, and just before reaching the station, he found that his suitcase is lost. He..."
+    },
+    {
+      "id": "srt-q098",
+      "originalNumber": 98,
+      "situation": "He was all set for SSB but unfortunately there was a sad demise of his family member. He..."
+    },
+    {
+      "id": "srt-q099",
+      "originalNumber": 99,
+      "situation": "He was playing out door and his brother got seriously injured and it started to rain heavily. He..."
+    },
+    {
+      "id": "srt-q100",
+      "originalNumber": 100,
+      "situation": "He had exams the next day & the road to his school was flooded with continuous rain for last two days. While in discussion, his friend shouted at him, that he doesn’t know anything. He..."
+    },
+    {
+      "id": "srt-q101",
+      "originalNumber": 101,
+      "situation": "While passing by he found two people sneaking at a house from the window. He..."
+    },
+    {
+      "id": "srt-q102",
+      "originalNumber": 102,
+      "situation": "He was walking on a dark street with his girlfriend then suddenly 10 armed people came & started harassing his girlfriend the next police station was 10km away..."
+    },
+    {
+      "id": "srt-q103",
+      "originalNumber": 103,
+      "situation": "His friend was always quarrelling with him and the papers were near. He..."
+    },
+    {
+      "id": "srt-q104",
+      "originalNumber": 104,
+      "situation": "His boss gives a piece of work and orders him to follow his instructions to complete the work, but the work is difficult to finish within time. He..."
+    },
+    {
+      "id": "srt-q105",
+      "originalNumber": 105,
+      "situation": "He sees a snake moving near the bed where his younger brother is sleeping when he enters his room. He..."
+    },
+    {
+      "id": "srt-q106",
+      "originalNumber": 106,
+      "situation": "You received an urgent order from your commander. But you feel that order passed on to you is wrong. You..."
+    },
+    {
+      "id": "srt-q107",
+      "originalNumber": 107,
+      "situation": "While shooting a film, terrorists kidnapped the heroine. You are in charge of the 'check post ' nearby the scene. What will you do..."
+    },
+    {
+      "id": "srt-q108",
+      "originalNumber": 108,
+      "situation": "Young men are not interested in joining defense forces. What incentive would you offer to lure them?"
+    },
+    {
+      "id": "srt-q109",
+      "originalNumber": 109,
+      "situation": "You are moving along with a convoy to forward area and sitting at the back of the vehicle. You saw a flag car is speeding fast. What will u do..."
+    },
+    {
+      "id": "srt-q110",
+      "originalNumber": 110,
+      "situation": "An airplane crashed in a field nearby your battalion area. You are battalion commander. What steps would you take at such a critical juncture ..."
+    },
+    {
+      "id": "srt-q111",
+      "originalNumber": 111,
+      "situation": "He was watching a movie in the cinema hall. He sees a snake in front of his legs. He ..."
+    },
+    {
+      "id": "srt-q112",
+      "originalNumber": 112,
+      "situation": "You are handsome, smart and brave young ‘army officer'. You fall in love with the girl of another community. But your parents oppose the proposal. You ..."
+    },
+    {
+      "id": "srt-q113",
+      "originalNumber": 113,
+      "situation": "What if you and your friend fall in love with the same girl..."
+    },
+    {
+      "id": "srt-q114",
+      "originalNumber": 114,
+      "situation": "You heard rumors that enemy is likely to attack the country. As a serving soldier what u do..."
+    },
+    {
+      "id": "srt-q115",
+      "originalNumber": 115,
+      "situation": "A stocky built ruffian snatched the chain of wife of a soldier. You are passing by what you do(person is stronger than you and you are empty handed and there is no third person n u don’t have even your mobile)..."
+    },
+    {
+      "id": "srt-q116",
+      "originalNumber": 116,
+      "situation": "You are in second year of comp. engineering. But now you find it hard to complete your degree. You..."
+    },
+    {
+      "id": "srt-q117",
+      "originalNumber": 117,
+      "situation": "You are driving a car on highway at full speed suddenly brakes fail. You..."
+    },
+    {
+      "id": "srt-q118",
+      "originalNumber": 118,
+      "situation": "Light in your colony suddenly goes off due to rain in storm. You..."
+    },
+    {
+      "id": "srt-q119",
+      "originalNumber": 119,
+      "situation": "You are in train & lost your purse with money. You..."
+    },
+    {
+      "id": "srt-q120",
+      "originalNumber": 120,
+      "situation": "You are travelling by bus engine catches fire. You..."
+    },
+    {
+      "id": "srt-q121",
+      "originalNumber": 121,
+      "situation": "Mr. X doesn't agree with points put forward by you..."
+    },
+    {
+      "id": "srt-q122",
+      "originalNumber": 122,
+      "situation": "Your friend dies in a drowning tragedy. You..."
+    },
+    {
+      "id": "srt-q123",
+      "originalNumber": 123,
+      "situation": "In the Company of strangers you feel..."
+    },
+    {
+      "id": "srt-q124",
+      "originalNumber": 124,
+      "situation": "You opposed strike in college and you are beaten up by strikers (your colleagues). You..."
+    },
+    {
+      "id": "srt-q125",
+      "originalNumber": 125,
+      "situation": "You had a hot discussion with your friend on certain point. Later u found that your friend was correct..."
+    },
+    {
+      "id": "srt-q126",
+      "originalNumber": 126,
+      "situation": "Your joke was well meant but still your friend became angry. You..."
+    },
+    {
+      "id": "srt-q127",
+      "originalNumber": 127,
+      "situation": "In free period u wanted to study but your friends were continuously disturbing you. you..."
+    },
+    {
+      "id": "srt-q128",
+      "originalNumber": 128,
+      "situation": "Some passenger shook you out of sleep and asked for some money because he was pick‐pocketed and with that ticket also gone..."
+    },
+    {
+      "id": "srt-q129",
+      "originalNumber": 129,
+      "situation": "You went to Nagaland & some Naga’s confronted you."
+    },
+    {
+      "id": "srt-q130",
+      "originalNumber": 130,
+      "situation": "You are given a job you not interested in. You..."
+    },
+    {
+      "id": "srt-q131",
+      "originalNumber": 131,
+      "situation": "The scooter you were driving dashed against a truck and you are thrown in to a ditch with serious wounds."
+    },
+    {
+      "id": "srt-q132",
+      "originalNumber": 132,
+      "situation": "You did something wrong what you shouldn't have done. You..."
+    },
+    {
+      "id": "srt-q133",
+      "originalNumber": 133,
+      "situation": "You are a horse rider. Once the horse went out of control. You..."
+    },
+    {
+      "id": "srt-q134",
+      "originalNumber": 134,
+      "situation": "In a fit of anger your friend hit you. You..."
+    },
+    {
+      "id": "srt-q135",
+      "originalNumber": 135,
+      "situation": "While hunting you and your brother lost way in dark (night) in jungle and you have no light. You..."
+    },
+    {
+      "id": "srt-q136",
+      "originalNumber": 136,
+      "situation": "In your village two leading parties got in conflict during sarpanch election..."
+    },
+    {
+      "id": "srt-q137",
+      "originalNumber": 137,
+      "situation": "You are serving under two senior officers who always give conflicting orders..."
+    },
+    {
+      "id": "srt-q138",
+      "originalNumber": 138,
+      "situation": "Whenever your opinion differs from others. You..."
+    },
+    {
+      "id": "srt-q139",
+      "originalNumber": 139,
+      "situation": "You were called for interview for a job you badly needed. But same day was your final exam..."
+    },
+    {
+      "id": "srt-q140",
+      "originalNumber": 140,
+      "situation": "You had boarded a wrong train and only two minutes were left for the right train to start..."
+    },
+    {
+      "id": "srt-q141",
+      "originalNumber": 141,
+      "situation": "Generally, people don't listen to his argument. He..."
+    },
+    {
+      "id": "srt-q142",
+      "originalNumber": 142,
+      "situation": "As cricket match was on, a fight suddenly started between the sympathizers of the rival team. As the captain he..."
+    },
+    {
+      "id": "srt-q143",
+      "originalNumber": 143,
+      "situation": "You saw a small boy pushing another into water pool..."
+    },
+    {
+      "id": "srt-q144",
+      "originalNumber": 144,
+      "situation": "You fall seriously ill just before final exam. You..."
+    },
+    {
+      "id": "srt-q145",
+      "originalNumber": 145,
+      "situation": "While playing match he twisted his ankle badly..."
+    },
+    {
+      "id": "srt-q146",
+      "originalNumber": 146,
+      "situation": "You are in cinema watching movie and theatre screen caught fire..."
+    },
+    {
+      "id": "srt-q147",
+      "originalNumber": 147,
+      "situation": "You were doing tuition (weak financial condition) but as exam came nearer you found that You were poorly Prepared ..."
+    },
+    {
+      "id": "srt-q148",
+      "originalNumber": 148,
+      "situation": "While canvassing for a candidate in election you were threatened by opposition..."
+    },
+    {
+      "id": "srt-q149",
+      "originalNumber": 149,
+      "situation": "Severe drought conditions were prevailing in your district..."
+    },
+    {
+      "id": "srt-q150",
+      "originalNumber": 150,
+      "situation": "You were going to examination hall and suddenly surrounded by 2 police man..."
+    },
+    {
+      "id": "srt-q151",
+      "originalNumber": 151,
+      "situation": "You recently joined active services and felt that you are given too much work..."
+    },
+    {
+      "id": "srt-q152",
+      "originalNumber": 152,
+      "situation": "You are travelling an auto which collides with a car and car driver starts beating auto driver. what will you do..."
+    },
+    {
+      "id": "srt-q153",
+      "originalNumber": 153,
+      "situation": "You were finding it hard to convince your friends over correctness of your stand..."
+    },
+    {
+      "id": "srt-q154",
+      "originalNumber": 154,
+      "situation": "You were going for a walk and suddenly confronted by two gonads’ (You are empty handed) ..."
+    },
+    {
+      "id": "srt-q155",
+      "originalNumber": 155,
+      "situation": "Due to cyclone his family lost all their possession and needed a fresh start. As the eldest son he..."
+    },
+    {
+      "id": "srt-q156",
+      "originalNumber": 156,
+      "situation": "On your 1stvisit to a snow bound area you saw a man being buried under snow. You ..."
+    },
+    {
+      "id": "srt-q157",
+      "originalNumber": 157,
+      "situation": "You were not a good swimmer, still being persuaded by your friend you go for swimming in river. You stayed in shallow water your friend went mid-stream and suddenly got caught in whirlpool. You..."
+    },
+    {
+      "id": "srt-q158",
+      "originalNumber": 158,
+      "situation": "The sea was very rough, and it was night. Ship duty officer fell in sea while taking a round. What you do..."
+    },
+    {
+      "id": "srt-q159",
+      "originalNumber": 159,
+      "situation": "Some people tried to harass his mother. So, he..."
+    },
+    {
+      "id": "srt-q160",
+      "originalNumber": 160,
+      "situation": "During blackout exercises, you were scout on duty. But one rich man was adamant on keeping his lights on..."
+    },
+    {
+      "id": "srt-q161",
+      "originalNumber": 161,
+      "situation": "His father needed treatment and he was short of money. He..."
+    },
+    {
+      "id": "srt-q162",
+      "originalNumber": 162,
+      "situation": "You had gone hunting with your friends. They were in forest and they could not be traced. You..."
+    },
+    {
+      "id": "srt-q163",
+      "originalNumber": 163,
+      "situation": "You were on picnic where a boy (not your friend) stole mangoes and the gardener came out with stick. You..."
+    },
+    {
+      "id": "srt-q164",
+      "originalNumber": 164,
+      "situation": "Four of them decided to go on foot from Dehradun to Missouri but that day it started raining and they were told the mountains slopes would be slippery. So, he..."
+    },
+    {
+      "id": "srt-q165",
+      "originalNumber": 165,
+      "situation": "You went to library for a very urgent book and found that all its copies were already issued to others..."
+    },
+    {
+      "id": "srt-q166",
+      "originalNumber": 166,
+      "situation": "It was night and train at high speed when a huge built man with pistol entered his compartment and tried to take his suit case. He..."
+    },
+    {
+      "id": "srt-q167",
+      "originalNumber": 167,
+      "situation": "In an informal discussion you always..."
+    },
+    {
+      "id": "srt-q168",
+      "originalNumber": 168,
+      "situation": "He was not getting enough salary for his job. He..."
+    },
+    {
+      "id": "srt-q169",
+      "originalNumber": 169,
+      "situation": "To an angel grants a wish to you. What would You desire for..."
+    },
+    {
+      "id": "srt-q170",
+      "originalNumber": 170,
+      "situation": "You won a lottery of 1000000. What you do..."
+    },
+    {
+      "id": "srt-q171",
+      "originalNumber": 171,
+      "situation": "You went to cinema, but you noticed ‘house full’ what you do..."
+    },
+    {
+      "id": "srt-q172",
+      "originalNumber": 172,
+      "situation": "He is superseded for promotion, although he feels he is fit for promotion in all respects. He ..."
+    },
+    {
+      "id": "srt-q173",
+      "originalNumber": 173,
+      "situation": "You appeared in a competitive exam and you noticed that the minister’s son (who was in your examination hall) got a copy of solution from outside..."
+    },
+    {
+      "id": "srt-q174",
+      "originalNumber": 174,
+      "situation": "He feels disguised as people with whom he deals are not co - operative but self‐centered. He..."
+    },
+    {
+      "id": "srt-q175",
+      "originalNumber": 175,
+      "situation": "He wants to do something new. What will be his next step..."
+    },
+    {
+      "id": "srt-q176",
+      "originalNumber": 176,
+      "situation": "A person on his 1st day of SSB gets a call letter from a company to come for interview next day (can’t be postponed, and you want that job). He..."
+    },
+    {
+      "id": "srt-q177",
+      "originalNumber": 177,
+      "situation": "His boss reprimanded him in presence of others. What will be his reaction..."
+    },
+    {
+      "id": "srt-q178",
+      "originalNumber": 178,
+      "situation": "While traveling you found your suitcase missing from the seat. You..."
+    },
+    {
+      "id": "srt-q179",
+      "originalNumber": 179,
+      "situation": "Your friends are having heated arguments over a point. You..."
+    },
+    {
+      "id": "srt-q180",
+      "originalNumber": 180,
+      "situation": "You caught a pick‐pocket red‐handed. What you do..."
+    },
+    {
+      "id": "srt-q181",
+      "originalNumber": 181,
+      "situation": "You were driving at high speed. And suddenly some person is runned over by your car and he died. You..."
+    },
+    {
+      "id": "srt-q182",
+      "originalNumber": 182,
+      "situation": "At night at railway station you entered an empty train. You found that a person was raping a woman. You..."
+    },
+    {
+      "id": "srt-q183",
+      "originalNumber": 183,
+      "situation": "He chooses a career. What will be his choice.........?"
+    },
+    {
+      "id": "srt-q184",
+      "originalNumber": 184,
+      "situation": "You consider the best recreational activity as..."
+    },
+    {
+      "id": "srt-q185",
+      "originalNumber": 185,
+      "situation": "He is not satisfied with life. State reasons..."
+    },
+    {
+      "id": "srt-q186",
+      "originalNumber": 186,
+      "situation": "He feels unhappy when..."
+    },
+    {
+      "id": "srt-q187",
+      "originalNumber": 187,
+      "situation": "While choosing his life partner, his criteria of selection will be..."
+    },
+    {
+      "id": "srt-q188",
+      "originalNumber": 188,
+      "situation": "You feel that world can move towards peace if..."
+    },
+    {
+      "id": "srt-q189",
+      "originalNumber": 189,
+      "situation": "He thinks that he is more intelligent. Give reasons..."
+    },
+    {
+      "id": "srt-q190",
+      "originalNumber": 190,
+      "situation": "He lost election. Why..."
+    },
+    {
+      "id": "srt-q191",
+      "originalNumber": 191,
+      "situation": "In order to produce better results in his organization, what measures should he take..."
+    },
+    {
+      "id": "srt-q192",
+      "originalNumber": 192,
+      "situation": "When assigned an urgent task with limited resources in his organization, he..."
+    },
+    {
+      "id": "srt-q193",
+      "originalNumber": 193,
+      "situation": "He desires to make national plans a great success for nation what should he do..."
+    },
+    {
+      "id": "srt-q194",
+      "originalNumber": 194,
+      "situation": "In order to help poor, he has keen desire. To have good collection of money, what he should do..."
+    },
+    {
+      "id": "srt-q195",
+      "originalNumber": 195,
+      "situation": "You are college cricket team captain. The opening batsman is the brother of the college goon. He’s not been performing. You have the option of dropping him for the time being and getting a substitute. You..."
+    },
+    {
+      "id": "srt-q196",
+      "originalNumber": 196,
+      "situation": "You are walking down the road one fine afternoon and a man steals a lady's hand bag and in the process, stabs the lady. You..."
+    },
+    {
+      "id": "srt-q197",
+      "originalNumber": 197,
+      "situation": "You are going to market with your sister and some boys start doing mischief with her. You..."
+    },
+    {
+      "id": "srt-q198",
+      "originalNumber": 198,
+      "situation": "You are a team leader while on a rock climbing expedition. While you are on pick on of your mates slips his hand and falls down. You..."
+    },
+    {
+      "id": "srt-q199",
+      "originalNumber": 199,
+      "situation": "Working under two commanding officers which are passing conflicting orders then what will you do...?"
+    },
+    {
+      "id": "srt-q200",
+      "originalNumber": 200,
+      "situation": "He is sitting on chair studying, there’s a snake right behind his chair and he suddenly looks back. He..."
+    },
+    {
+      "id": "srt-q201",
+      "originalNumber": 201,
+      "situation": "He cracked a joke on one of his friends and his friend got angry so he..."
+    },
+    {
+      "id": "srt-q202",
+      "originalNumber": 202,
+      "situation": "He is studying for final year exam in night. He saw two masked persons entering the neighbors’ house. He..."
+    },
+    {
+      "id": "srt-q203",
+      "originalNumber": 203,
+      "situation": "He and his friends are standing in doorway of train. As the train starts, a friend falls off. He..."
+    },
+    {
+      "id": "srt-q204",
+      "originalNumber": 204,
+      "situation": "Some people are abusing his old mother. He..."
+    },
+    {
+      "id": "srt-q205",
+      "originalNumber": 205,
+      "situation": "He is new in Nagaland. He gets lost in a jungle and sees armed Nagas, he..."
+    },
+    {
+      "id": "srt-q206",
+      "originalNumber": 206,
+      "situation": "He lost his purse in train compartment, he..."
+    },
+    {
+      "id": "srt-q207",
+      "originalNumber": 207,
+      "situation": "Epidemic is broken in his village and people have started moving out of their houses, he..."
+    },
+    {
+      "id": "srt-q208",
+      "originalNumber": 208,
+      "situation": "He and his friends are travelling from a speedy train when his friend looks out of window and gets hit by a pole. He..."
+    },
+    {
+      "id": "srt-q209",
+      "originalNumber": 209,
+      "situation": "He is in final year BA and his father lost the job."
+    },
+    {
+      "id": "srt-q210",
+      "originalNumber": 210,
+      "situation": "While climbing an ice-covered mountain, the leader decides to take steep climb and a friend falls in a ditch."
+    },
+    {
+      "id": "srt-q211",
+      "originalNumber": 211,
+      "situation": "He is new in town & doesn’t know the local language,..."
+    },
+    {
+      "id": "srt-q212",
+      "originalNumber": 212,
+      "situation": "His money is lost, and he is new in town. He..."
+    },
+    {
+      "id": "srt-q213",
+      "originalNumber": 213,
+      "situation": "His professor asked him to arrange for a picnic."
+    },
+    {
+      "id": "srt-q214",
+      "originalNumber": 214,
+      "situation": "They are climbing a steep wall with help of ropes & some of them reach the top, when the rope gives away,..."
+    },
+    {
+      "id": "srt-q215",
+      "originalNumber": 215,
+      "situation": "His father and Uncle quarrel over his intended inter-Caste marriage, he..."
+    },
+    {
+      "id": "srt-q216",
+      "originalNumber": 216,
+      "situation": "He is forced to vote for a candidate not of his choice. He..."
+    },
+    {
+      "id": "srt-q217",
+      "originalNumber": 217,
+      "situation": "He is a student of final year and his father expires. uncle throws him out of the house. He..."
+    },
+    {
+      "id": "srt-q218",
+      "originalNumber": 218,
+      "situation": "Two of his seniors are always against each other and give him conflicting orders, he..."
+    },
+    {
+      "id": "srt-q219",
+      "originalNumber": 219,
+      "situation": "The leader of his trekking team decides to take a longer route when time is running out, he..."
+    },
+    {
+      "id": "srt-q220",
+      "originalNumber": 220,
+      "situation": "In his train compartment, two gunmen force passengers to give their belongings. He..."
+    },
+    {
+      "id": "srt-q221",
+      "originalNumber": 221,
+      "situation": "He is travelling in train and he lost his money. He..."
+    },
+    {
+      "id": "srt-q222",
+      "originalNumber": 222,
+      "situation": "They decide to give a treat to their retiring professor. He wants to give a dinner party whiles his friends want just a tea‐party. He..."
+    },
+    {
+      "id": "srt-q223",
+      "originalNumber": 223,
+      "situation": "Exams are coming near, and he falls seriously ill. He..."
+    },
+    {
+      "id": "srt-q224",
+      "originalNumber": 224,
+      "situation": "He and his father were going on a scooter when they met with an accident. Both get hurt but his father is severely injured and on calling for help no turns up, he..."
+    },
+    {
+      "id": "srt-q225",
+      "originalNumber": 225,
+      "situation": "He works too hard in his family but also wants to study further. He..."
+    },
+    {
+      "id": "srt-q226",
+      "originalNumber": 226,
+      "situation": "On a ship doing his duty, he sees fumes and smoke coming out of a cabin. He..."
+    },
+    {
+      "id": "srt-q227",
+      "originalNumber": 227,
+      "situation": "He is a prefect in his hostel. He notices two of his friends French bunking, he..."
+    },
+    {
+      "id": "srt-q228",
+      "originalNumber": 228,
+      "situation": "He was forced to join the Railways, but he was not interested. He..."
+    },
+    {
+      "id": "srt-q229",
+      "originalNumber": 229,
+      "situation": "He saw a truck hit a cyclist on highway, he..."
+    },
+    {
+      "id": "srt-q230",
+      "originalNumber": 230,
+      "situation": "All his family members are ill, and his father is out of town. There is no money in the home. He..."
+    }
+  ],
+  "sets": [
+    {
+      "setId": "srt-set-1",
+      "title": "SRT SET 1",
+      "subtitle": "Predefined SSB SRT Booklet — Set 1",
+      "isRandom": false,
+      "questionCount": 60,
+      "description": "Predefined 60-situation SSB SRT set curated from the 230-question SSB archive (displayed 5 situations per sheet with invisible timer).",
+      "questions": [
+        {
+          "id": "srt-set-1-q01",
+          "number": 1,
+          "sourceQuestionId": "srt-q203",
+          "originalNumber": 203,
+          "situation": "He and his friends are standing in doorway of train. As the train starts, a friend falls off. He..."
+        },
+        {
+          "id": "srt-set-1-q02",
+          "number": 2,
+          "sourceQuestionId": "srt-q153",
+          "originalNumber": 153,
+          "situation": "You were finding it hard to convince your friends over correctness of your stand..."
+        },
+        {
+          "id": "srt-set-1-q03",
+          "number": 3,
+          "sourceQuestionId": "srt-q204",
+          "originalNumber": 204,
+          "situation": "Some people are abusing his old mother. He..."
+        },
+        {
+          "id": "srt-set-1-q04",
+          "number": 4,
+          "sourceQuestionId": "srt-q190",
+          "originalNumber": 190,
+          "situation": "He lost election. Why..."
+        },
+        {
+          "id": "srt-set-1-q05",
+          "number": 5,
+          "sourceQuestionId": "srt-q033",
+          "originalNumber": 33,
+          "situation": "His father slipped on a Banana Peel and hurt his shoulder badly as they were hurrying towards the Railway Station to catch the only train to their village. He..."
+        },
+        {
+          "id": "srt-set-1-q06",
+          "number": 6,
+          "sourceQuestionId": "srt-q072",
+          "originalNumber": 72,
+          "situation": "He was driving the bike without helmet and the traffic police caught him. He..."
+        },
+        {
+          "id": "srt-set-1-q07",
+          "number": 7,
+          "sourceQuestionId": "srt-q164",
+          "originalNumber": 164,
+          "situation": "Four of them decided to go on foot from Dehradun to Missouri but that day it started raining and they were told the mountains slopes would be slippery. So, he..."
+        },
+        {
+          "id": "srt-set-1-q08",
+          "number": 8,
+          "sourceQuestionId": "srt-q195",
+          "originalNumber": 195,
+          "situation": "You are college cricket team captain. The opening batsman is the brother of the college goon. He’s not been performing. You have the option of dropping him for the time being and getting a substitute. You..."
+        },
+        {
+          "id": "srt-set-1-q09",
+          "number": 9,
+          "sourceQuestionId": "srt-q005",
+          "originalNumber": 5,
+          "situation": "He found his parents quarreling over his future. He..."
+        },
+        {
+          "id": "srt-set-1-q10",
+          "number": 10,
+          "sourceQuestionId": "srt-q090",
+          "originalNumber": 90,
+          "situation": "He was to marry a rich girl chosen by his father, but he did not like her. He..."
+        },
+        {
+          "id": "srt-set-1-q11",
+          "number": 11,
+          "sourceQuestionId": "srt-q056",
+          "originalNumber": 56,
+          "situation": "When he was going to but a medicine for his mother it started raining and the street were flooded. He..."
+        },
+        {
+          "id": "srt-set-1-q12",
+          "number": 12,
+          "sourceQuestionId": "srt-q191",
+          "originalNumber": 191,
+          "situation": "In order to produce better results in his organization, what measures should he take..."
+        },
+        {
+          "id": "srt-set-1-q13",
+          "number": 13,
+          "sourceQuestionId": "srt-q062",
+          "originalNumber": 62,
+          "situation": "He was on his way to home and suddenly it started raining heavily? He..."
+        },
+        {
+          "id": "srt-set-1-q14",
+          "number": 14,
+          "sourceQuestionId": "srt-q135",
+          "originalNumber": 135,
+          "situation": "While hunting you and your brother lost way in dark (night) in jungle and you have no light. You..."
+        },
+        {
+          "id": "srt-set-1-q15",
+          "number": 15,
+          "sourceQuestionId": "srt-q074",
+          "originalNumber": 74,
+          "situation": "He was ironing his clothes when suddenly he received an electric shock and he noticed the wire burning."
+        },
+        {
+          "id": "srt-set-1-q16",
+          "number": 16,
+          "sourceQuestionId": "srt-q079",
+          "originalNumber": 79,
+          "situation": "There is a person who sells smuggled goods. You too, like many others, have purchased a wristwatch from him. But it doesn't work. You..."
+        },
+        {
+          "id": "srt-set-1-q17",
+          "number": 17,
+          "sourceQuestionId": "srt-q144",
+          "originalNumber": 144,
+          "situation": "You fall seriously ill just before final exam. You..."
+        },
+        {
+          "id": "srt-set-1-q18",
+          "number": 18,
+          "sourceQuestionId": "srt-q006",
+          "originalNumber": 6,
+          "situation": "He has been served with a challenge by the college bully because he had reported against him to the Principal when the latter was trying to beat up his friend. He..."
+        },
+        {
+          "id": "srt-set-1-q19",
+          "number": 19,
+          "sourceQuestionId": "srt-q228",
+          "originalNumber": 228,
+          "situation": "He was forced to join the Railways, but he was not interested. He..."
+        },
+        {
+          "id": "srt-set-1-q20",
+          "number": 20,
+          "sourceQuestionId": "srt-q017",
+          "originalNumber": 17,
+          "situation": "His friend was unable to return his money and he was running short of money. He..."
+        },
+        {
+          "id": "srt-set-1-q21",
+          "number": 21,
+          "sourceQuestionId": "srt-q140",
+          "originalNumber": 140,
+          "situation": "You had boarded a wrong train and only two minutes were left for the right train to start..."
+        },
+        {
+          "id": "srt-set-1-q22",
+          "number": 22,
+          "sourceQuestionId": "srt-q170",
+          "originalNumber": 170,
+          "situation": "You won a lottery of 1000000. What you do..."
+        },
+        {
+          "id": "srt-set-1-q23",
+          "number": 23,
+          "sourceQuestionId": "srt-q044",
+          "originalNumber": 44,
+          "situation": "During floods in his village he found that the people have moved away with their belongings leaving the animals behind. He..."
+        },
+        {
+          "id": "srt-set-1-q24",
+          "number": 24,
+          "sourceQuestionId": "srt-q122",
+          "originalNumber": 122,
+          "situation": "Your friend dies in a drowning tragedy. You..."
+        },
+        {
+          "id": "srt-set-1-q25",
+          "number": 25,
+          "sourceQuestionId": "srt-q186",
+          "originalNumber": 186,
+          "situation": "He feels unhappy when..."
+        },
+        {
+          "id": "srt-set-1-q26",
+          "number": 26,
+          "sourceQuestionId": "srt-q207",
+          "originalNumber": 207,
+          "situation": "Epidemic is broken in his village and people have started moving out of their houses, he..."
+        },
+        {
+          "id": "srt-set-1-q27",
+          "number": 27,
+          "sourceQuestionId": "srt-q097",
+          "originalNumber": 97,
+          "situation": "He was travelling to his SSB centre, and just before reaching the station, he found that his suitcase is lost. He..."
+        },
+        {
+          "id": "srt-set-1-q28",
+          "number": 28,
+          "sourceQuestionId": "srt-q109",
+          "originalNumber": 109,
+          "situation": "You are moving along with a convoy to forward area and sitting at the back of the vehicle. You saw a flag car is speeding fast. What will u do..."
+        },
+        {
+          "id": "srt-set-1-q29",
+          "number": 29,
+          "sourceQuestionId": "srt-q007",
+          "originalNumber": 7,
+          "situation": "During winter he was once returning alone from a late night show when suddenly it started raining heavily. He..."
+        },
+        {
+          "id": "srt-set-1-q30",
+          "number": 30,
+          "sourceQuestionId": "srt-q064",
+          "originalNumber": 64,
+          "situation": "You are at unknown city and lost your purse. You need money. As a stranger how will u manage? ..."
+        },
+        {
+          "id": "srt-set-1-q31",
+          "number": 31,
+          "sourceQuestionId": "srt-q210",
+          "originalNumber": 210,
+          "situation": "While climbing an ice-covered mountain, the leader decides to take steep climb and a friend falls in a ditch."
+        },
+        {
+          "id": "srt-set-1-q32",
+          "number": 32,
+          "sourceQuestionId": "srt-q010",
+          "originalNumber": 10,
+          "situation": "He was going from his house to the exam hall and on the way, he was surrounded by two policemen. He..."
+        },
+        {
+          "id": "srt-set-1-q33",
+          "number": 33,
+          "sourceQuestionId": "srt-q008",
+          "originalNumber": 8,
+          "situation": "He was doing private tuition in order to finance his higher studies as his father was a poor man. When the exam drew near, he found he was not fully prepared. Therefore, he ..."
+        },
+        {
+          "id": "srt-set-1-q34",
+          "number": 34,
+          "sourceQuestionId": "srt-q111",
+          "originalNumber": 111,
+          "situation": "He was watching a movie in the cinema hall. He sees a snake in front of his legs. He ..."
+        },
+        {
+          "id": "srt-set-1-q35",
+          "number": 35,
+          "sourceQuestionId": "srt-q146",
+          "originalNumber": 146,
+          "situation": "You are in cinema watching movie and theatre screen caught fire..."
+        },
+        {
+          "id": "srt-set-1-q36",
+          "number": 36,
+          "sourceQuestionId": "srt-q127",
+          "originalNumber": 127,
+          "situation": "In free period u wanted to study but your friends were continuously disturbing you. you..."
+        },
+        {
+          "id": "srt-set-1-q37",
+          "number": 37,
+          "sourceQuestionId": "srt-q020",
+          "originalNumber": 20,
+          "situation": "His boat over turned when he was midstream, so he..."
+        },
+        {
+          "id": "srt-set-1-q38",
+          "number": 38,
+          "sourceQuestionId": "srt-q132",
+          "originalNumber": 132,
+          "situation": "You did something wrong what you shouldn't have done. You..."
+        },
+        {
+          "id": "srt-set-1-q39",
+          "number": 39,
+          "sourceQuestionId": "srt-q069",
+          "originalNumber": 69,
+          "situation": "He had boarded a wrong train and came to know only when he was asked to pay money to TT. He..."
+        },
+        {
+          "id": "srt-set-1-q40",
+          "number": 40,
+          "sourceQuestionId": "srt-q049",
+          "originalNumber": 49,
+          "situation": "A dispute arose between his father and uncle over his intended inter cast marriage. He..."
+        },
+        {
+          "id": "srt-set-1-q41",
+          "number": 41,
+          "sourceQuestionId": "srt-q029",
+          "originalNumber": 29,
+          "situation": "When his BA result was declared, his parents wanted him to join some service, where as he..."
+        },
+        {
+          "id": "srt-set-1-q42",
+          "number": 42,
+          "sourceQuestionId": "srt-q184",
+          "originalNumber": 184,
+          "situation": "You consider the best recreational activity as..."
+        },
+        {
+          "id": "srt-set-1-q43",
+          "number": 43,
+          "sourceQuestionId": "srt-q201",
+          "originalNumber": 201,
+          "situation": "He cracked a joke on one of his friends and his friend got angry so he..."
+        },
+        {
+          "id": "srt-set-1-q44",
+          "number": 44,
+          "sourceQuestionId": "srt-q101",
+          "originalNumber": 101,
+          "situation": "While passing by he found two people sneaking at a house from the window. He..."
+        },
+        {
+          "id": "srt-set-1-q45",
+          "number": 45,
+          "sourceQuestionId": "srt-q087",
+          "originalNumber": 87,
+          "situation": "Your mom is seriously ill and your boss doesn’t grantyou leave. You..."
+        },
+        {
+          "id": "srt-set-1-q46",
+          "number": 46,
+          "sourceQuestionId": "srt-q148",
+          "originalNumber": 148,
+          "situation": "While canvassing for a candidate in election you were threatened by opposition..."
+        },
+        {
+          "id": "srt-set-1-q47",
+          "number": 47,
+          "sourceQuestionId": "srt-q225",
+          "originalNumber": 225,
+          "situation": "He works too hard in his family but also wants to study further. He..."
+        },
+        {
+          "id": "srt-set-1-q48",
+          "number": 48,
+          "sourceQuestionId": "srt-q222",
+          "originalNumber": 222,
+          "situation": "They decide to give a treat to their retiring professor. He wants to give a dinner party whiles his friends want just a tea‐party. He..."
+        },
+        {
+          "id": "srt-set-1-q49",
+          "number": 49,
+          "sourceQuestionId": "srt-q092",
+          "originalNumber": 92,
+          "situation": "During a trekking trip, he was left alone in the jungle. He..."
+        },
+        {
+          "id": "srt-set-1-q50",
+          "number": 50,
+          "sourceQuestionId": "srt-q141",
+          "originalNumber": 141,
+          "situation": "Generally, people don't listen to his argument. He..."
+        },
+        {
+          "id": "srt-set-1-q51",
+          "number": 51,
+          "sourceQuestionId": "srt-q174",
+          "originalNumber": 174,
+          "situation": "He feels disguised as people with whom he deals are not co - operative but self‐centered. He..."
+        },
+        {
+          "id": "srt-set-1-q52",
+          "number": 52,
+          "sourceQuestionId": "srt-q117",
+          "originalNumber": 117,
+          "situation": "You are driving a car on highway at full speed suddenly brakes fail. You..."
+        },
+        {
+          "id": "srt-set-1-q53",
+          "number": 53,
+          "sourceQuestionId": "srt-q018",
+          "originalNumber": 18,
+          "situation": "His parents were forcing him to marry with an uneducated but wealthy girl. He..."
+        },
+        {
+          "id": "srt-set-1-q54",
+          "number": 54,
+          "sourceQuestionId": "srt-q113",
+          "originalNumber": 113,
+          "situation": "What if you and your friend fall in love with the same girl..."
+        },
+        {
+          "id": "srt-set-1-q55",
+          "number": 55,
+          "sourceQuestionId": "srt-q023",
+          "originalNumber": 23,
+          "situation": "His parents could not afford to send him to degree college. So he..."
+        },
+        {
+          "id": "srt-set-1-q56",
+          "number": 56,
+          "sourceQuestionId": "srt-q179",
+          "originalNumber": 179,
+          "situation": "Your friends are having heated arguments over a point. You..."
+        },
+        {
+          "id": "srt-set-1-q57",
+          "number": 57,
+          "sourceQuestionId": "srt-q137",
+          "originalNumber": 137,
+          "situation": "You are serving under two senior officers who always give conflicting orders..."
+        },
+        {
+          "id": "srt-set-1-q58",
+          "number": 58,
+          "sourceQuestionId": "srt-q178",
+          "originalNumber": 178,
+          "situation": "While traveling you found your suitcase missing from the seat. You..."
+        },
+        {
+          "id": "srt-set-1-q59",
+          "number": 59,
+          "sourceQuestionId": "srt-q145",
+          "originalNumber": 145,
+          "situation": "While playing match he twisted his ankle badly..."
+        },
+        {
+          "id": "srt-set-1-q60",
+          "number": 60,
+          "sourceQuestionId": "srt-q188",
+          "originalNumber": 188,
+          "situation": "You feel that world can move towards peace if..."
+        }
+      ]
+    },
+    {
+      "setId": "srt-set-2",
+      "title": "SRT SET 2",
+      "subtitle": "Predefined SSB SRT Booklet — Set 2",
+      "isRandom": false,
+      "questionCount": 60,
+      "description": "Predefined 60-situation SSB SRT set curated from the 230-question SSB archive (displayed 5 situations per sheet with invisible timer).",
+      "questions": [
+        {
+          "id": "srt-set-2-q01",
+          "number": 1,
+          "sourceQuestionId": "srt-q179",
+          "originalNumber": 179,
+          "situation": "Your friends are having heated arguments over a point. You..."
+        },
+        {
+          "id": "srt-set-2-q02",
+          "number": 2,
+          "sourceQuestionId": "srt-q137",
+          "originalNumber": 137,
+          "situation": "You are serving under two senior officers who always give conflicting orders..."
+        },
+        {
+          "id": "srt-set-2-q03",
+          "number": 3,
+          "sourceQuestionId": "srt-q178",
+          "originalNumber": 178,
+          "situation": "While traveling you found your suitcase missing from the seat. You..."
+        },
+        {
+          "id": "srt-set-2-q04",
+          "number": 4,
+          "sourceQuestionId": "srt-q145",
+          "originalNumber": 145,
+          "situation": "While playing match he twisted his ankle badly..."
+        },
+        {
+          "id": "srt-set-2-q05",
+          "number": 5,
+          "sourceQuestionId": "srt-q188",
+          "originalNumber": 188,
+          "situation": "You feel that world can move towards peace if..."
+        },
+        {
+          "id": "srt-set-2-q06",
+          "number": 6,
+          "sourceQuestionId": "srt-q057",
+          "originalNumber": 57,
+          "situation": "His mother became seriously ill and no one was at home. He..."
+        },
+        {
+          "id": "srt-set-2-q07",
+          "number": 7,
+          "sourceQuestionId": "srt-q039",
+          "originalNumber": 39,
+          "situation": "While tracking in a knee-deep snow his left foot slipped and he fell into a deep ditch. He cried for help, but none was near. He..."
+        },
+        {
+          "id": "srt-set-2-q08",
+          "number": 8,
+          "sourceQuestionId": "srt-q071",
+          "originalNumber": 71,
+          "situation": "He was on his way to railway station to catch a train; suddenly a car passes by and throws a person out of the running car. He..."
+        },
+        {
+          "id": "srt-set-2-q09",
+          "number": 9,
+          "sourceQuestionId": "srt-q125",
+          "originalNumber": 125,
+          "situation": "You had a hot discussion with your friend on certain point. Later u found that your friend was correct..."
+        },
+        {
+          "id": "srt-set-2-q10",
+          "number": 10,
+          "sourceQuestionId": "srt-q063",
+          "originalNumber": 63,
+          "situation": "You are an officer posted at the border & suddenly shelling happens from the other side, you..."
+        },
+        {
+          "id": "srt-set-2-q11",
+          "number": 11,
+          "sourceQuestionId": "srt-q045",
+          "originalNumber": 45,
+          "situation": "He happened to be at the Railway Platform, when a stranger slipped from a slow moving train injuring himself badly. He..."
+        },
+        {
+          "id": "srt-set-2-q12",
+          "number": 12,
+          "sourceQuestionId": "srt-q177",
+          "originalNumber": 177,
+          "situation": "His boss reprimanded him in presence of others. What will be his reaction..."
+        },
+        {
+          "id": "srt-set-2-q13",
+          "number": 13,
+          "sourceQuestionId": "srt-q168",
+          "originalNumber": 168,
+          "situation": "He was not getting enough salary for his job. He..."
+        },
+        {
+          "id": "srt-set-2-q14",
+          "number": 14,
+          "sourceQuestionId": "srt-q075",
+          "originalNumber": 75,
+          "situation": "He was in charge of wireless board in a sailing ship which lost its communication with the coast. He..."
+        },
+        {
+          "id": "srt-set-2-q15",
+          "number": 15,
+          "sourceQuestionId": "srt-q032",
+          "originalNumber": 32,
+          "situation": "His poor parents had educated him up to B.A. bearing lots of hardships. He keenly felt he must quickly get a job and help his family but was not getting any suitable job. He..."
+        },
+        {
+          "id": "srt-set-2-q16",
+          "number": 16,
+          "sourceQuestionId": "srt-q166",
+          "originalNumber": 166,
+          "situation": "It was night and train at high speed when a huge built man with pistol entered his compartment and tried to take his suit case. He..."
+        },
+        {
+          "id": "srt-set-2-q17",
+          "number": 17,
+          "sourceQuestionId": "srt-q194",
+          "originalNumber": 194,
+          "situation": "In order to help poor, he has keen desire. To have good collection of money, what he should do..."
+        },
+        {
+          "id": "srt-set-2-q18",
+          "number": 18,
+          "sourceQuestionId": "srt-q163",
+          "originalNumber": 163,
+          "situation": "You were on picnic where a boy (not your friend) stole mangoes and the gardener came out with stick. You..."
+        },
+        {
+          "id": "srt-set-2-q19",
+          "number": 19,
+          "sourceQuestionId": "srt-q176",
+          "originalNumber": 176,
+          "situation": "A person on his 1st day of SSB gets a call letter from a company to come for interview next day (can’t be postponed, and you want that job). He..."
+        },
+        {
+          "id": "srt-set-2-q20",
+          "number": 20,
+          "sourceQuestionId": "srt-q077",
+          "originalNumber": 77,
+          "situation": "He was to appear for an exam and all of a sudden the curfew was imposed in that area, he..."
+        },
+        {
+          "id": "srt-set-2-q21",
+          "number": 21,
+          "sourceQuestionId": "srt-q175",
+          "originalNumber": 175,
+          "situation": "He wants to do something new. What will be his next step..."
+        },
+        {
+          "id": "srt-set-2-q22",
+          "number": 22,
+          "sourceQuestionId": "srt-q089",
+          "originalNumber": 89,
+          "situation": "He was trying long jump, in school sports day, and injured his ankle. He..."
+        },
+        {
+          "id": "srt-set-2-q23",
+          "number": 23,
+          "sourceQuestionId": "srt-q035",
+          "originalNumber": 35,
+          "situation": "When he was on his cycle to his sister in a nearby village, his cycle broke down on the way and it started raining. He..."
+        },
+        {
+          "id": "srt-set-2-q24",
+          "number": 24,
+          "sourceQuestionId": "srt-q037",
+          "originalNumber": 37,
+          "situation": "While returning from picnic in a hilarious mood, one of his friend was knocked down by a truck. He..."
+        },
+        {
+          "id": "srt-set-2-q25",
+          "number": 25,
+          "sourceQuestionId": "srt-q133",
+          "originalNumber": 133,
+          "situation": "You are a horse rider. Once the horse went out of control. You..."
+        },
+        {
+          "id": "srt-set-2-q26",
+          "number": 26,
+          "sourceQuestionId": "srt-q157",
+          "originalNumber": 157,
+          "situation": "You were not a good swimmer, still being persuaded by your friend you go for swimming in river. You stayed in shallow water your friend went mid-stream and suddenly got caught in whirlpool. You..."
+        },
+        {
+          "id": "srt-set-2-q27",
+          "number": 27,
+          "sourceQuestionId": "srt-q053",
+          "originalNumber": 53,
+          "situation": "He was made in charge of an All Indian Tour but he had to attend an important personal business. He..."
+        },
+        {
+          "id": "srt-set-2-q28",
+          "number": 28,
+          "sourceQuestionId": "srt-q202",
+          "originalNumber": 202,
+          "situation": "He is studying for final year exam in night. He saw two masked persons entering the neighbors’ house. He..."
+        },
+        {
+          "id": "srt-set-2-q29",
+          "number": 29,
+          "sourceQuestionId": "srt-q120",
+          "originalNumber": 120,
+          "situation": "You are travelling by bus engine catches fire. You..."
+        },
+        {
+          "id": "srt-set-2-q30",
+          "number": 30,
+          "sourceQuestionId": "srt-q143",
+          "originalNumber": 143,
+          "situation": "You saw a small boy pushing another into water pool..."
+        },
+        {
+          "id": "srt-set-2-q31",
+          "number": 31,
+          "sourceQuestionId": "srt-q060",
+          "originalNumber": 60,
+          "situation": "When he was going to face the SSB, he has taken a cup of tea at Railway Station. At the time of paying the money he found his pocket missing. He..."
+        },
+        {
+          "id": "srt-set-2-q32",
+          "number": 32,
+          "sourceQuestionId": "srt-q030",
+          "originalNumber": 30,
+          "situation": "The friendly discussion took a heated turn and he ..."
+        },
+        {
+          "id": "srt-set-2-q33",
+          "number": 33,
+          "sourceQuestionId": "srt-q158",
+          "originalNumber": 158,
+          "situation": "The sea was very rough, and it was night. Ship duty officer fell in sea while taking a round. What you do..."
+        },
+        {
+          "id": "srt-set-2-q34",
+          "number": 34,
+          "sourceQuestionId": "srt-q123",
+          "originalNumber": 123,
+          "situation": "In the Company of strangers you feel..."
+        },
+        {
+          "id": "srt-set-2-q35",
+          "number": 35,
+          "sourceQuestionId": "srt-q136",
+          "originalNumber": 136,
+          "situation": "In your village two leading parties got in conflict during sarpanch election..."
+        },
+        {
+          "id": "srt-set-2-q36",
+          "number": 36,
+          "sourceQuestionId": "srt-q083",
+          "originalNumber": 83,
+          "situation": "He urgently needed of money. He..."
+        },
+        {
+          "id": "srt-set-2-q37",
+          "number": 37,
+          "sourceQuestionId": "srt-q121",
+          "originalNumber": 121,
+          "situation": "Mr. X doesn't agree with points put forward by you..."
+        },
+        {
+          "id": "srt-set-2-q38",
+          "number": 38,
+          "sourceQuestionId": "srt-q078",
+          "originalNumber": 78,
+          "situation": "He went for the picnic with his friends and on the way he had hot arguments with them. He..."
+        },
+        {
+          "id": "srt-set-2-q39",
+          "number": 39,
+          "sourceQuestionId": "srt-q043",
+          "originalNumber": 43,
+          "situation": "His father was returning victorious from the war and he had gone to receive him at the Railway Station. As he was waiting he heard a loud explosion. He..."
+        },
+        {
+          "id": "srt-set-2-q40",
+          "number": 40,
+          "sourceQuestionId": "srt-q038",
+          "originalNumber": 38,
+          "situation": "When the preparations for his younger sister’s wedding were half-way through he found he is running short of money. He..."
+        },
+        {
+          "id": "srt-set-2-q41",
+          "number": 41,
+          "sourceQuestionId": "srt-q002",
+          "originalNumber": 2,
+          "situation": "He was asked to walk a long distance by his scout-master, but he was having fever. He..."
+        },
+        {
+          "id": "srt-set-2-q42",
+          "number": 42,
+          "sourceQuestionId": "srt-q219",
+          "originalNumber": 219,
+          "situation": "The leader of his trekking team decides to take a longer route when time is running out, he..."
+        },
+        {
+          "id": "srt-set-2-q43",
+          "number": 43,
+          "sourceQuestionId": "srt-q085",
+          "originalNumber": 85,
+          "situation": "You are getting late in reaching meeting. You would..."
+        },
+        {
+          "id": "srt-set-2-q44",
+          "number": 44,
+          "sourceQuestionId": "srt-q026",
+          "originalNumber": 26,
+          "situation": "It was midnight when he heard gun-shots and cries of children and woman. On learning that the dacoities had raided his village, he..."
+        },
+        {
+          "id": "srt-set-2-q45",
+          "number": 45,
+          "sourceQuestionId": "srt-q095",
+          "originalNumber": 95,
+          "situation": "Your brother is facing charges for the murder which he really committed. You..."
+        },
+        {
+          "id": "srt-set-2-q46",
+          "number": 46,
+          "sourceQuestionId": "srt-q003",
+          "originalNumber": 3,
+          "situation": "While travelling in the bus some people started arguing with him. He..."
+        },
+        {
+          "id": "srt-set-2-q47",
+          "number": 47,
+          "sourceQuestionId": "srt-q103",
+          "originalNumber": 103,
+          "situation": "His friend was always quarrelling with him and the papers were near. He..."
+        },
+        {
+          "id": "srt-set-2-q48",
+          "number": 48,
+          "sourceQuestionId": "srt-q209",
+          "originalNumber": 209,
+          "situation": "He is in final year BA and his father lost the job."
+        },
+        {
+          "id": "srt-set-2-q49",
+          "number": 49,
+          "sourceQuestionId": "srt-q055",
+          "originalNumber": 55,
+          "situation": "He was hardly eighteen when his parents died, being the eldest son he..."
+        },
+        {
+          "id": "srt-set-2-q50",
+          "number": 50,
+          "sourceQuestionId": "srt-q151",
+          "originalNumber": 151,
+          "situation": "You recently joined active services and felt that you are given too much work..."
+        },
+        {
+          "id": "srt-set-2-q51",
+          "number": 51,
+          "sourceQuestionId": "srt-q096",
+          "originalNumber": 96,
+          "situation": "He was crossing a flooded nala in his boat and suddenly lost his control. He..."
+        },
+        {
+          "id": "srt-set-2-q52",
+          "number": 52,
+          "sourceQuestionId": "srt-q048",
+          "originalNumber": 48,
+          "situation": "He was to carry some money from one place to another but there was danger of rubbers on the way. He..."
+        },
+        {
+          "id": "srt-set-2-q53",
+          "number": 53,
+          "sourceQuestionId": "srt-q068",
+          "originalNumber": 68,
+          "situation": "You are going to sign a contract suddenly u got news that one of your friend who had helped you once met an accident and is in ICU. you..."
+        },
+        {
+          "id": "srt-set-2-q54",
+          "number": 54,
+          "sourceQuestionId": "srt-q180",
+          "originalNumber": 180,
+          "situation": "You caught a pick‐pocket red‐handed. What you do..."
+        },
+        {
+          "id": "srt-set-2-q55",
+          "number": 55,
+          "sourceQuestionId": "srt-q119",
+          "originalNumber": 119,
+          "situation": "You are in train & lost your purse with money. You..."
+        },
+        {
+          "id": "srt-set-2-q56",
+          "number": 56,
+          "sourceQuestionId": "srt-q036",
+          "originalNumber": 36,
+          "situation": "After many efforts he got a job in a private firm, but his office was very far off from his house and there was not transport. He..."
+        },
+        {
+          "id": "srt-set-2-q57",
+          "number": 57,
+          "sourceQuestionId": "srt-q065",
+          "originalNumber": 65,
+          "situation": "Your brother wants to get admission in a medical college, but his marks falls short by 1% for admission. You..."
+        },
+        {
+          "id": "srt-set-2-q58",
+          "number": 58,
+          "sourceQuestionId": "srt-q106",
+          "originalNumber": 106,
+          "situation": "You received an urgent order from your commander. But you feel that order passed on to you is wrong. You..."
+        },
+        {
+          "id": "srt-set-2-q59",
+          "number": 59,
+          "sourceQuestionId": "srt-q098",
+          "originalNumber": 98,
+          "situation": "He was all set for SSB but unfortunately there was a sad demise of his family member. He..."
+        },
+        {
+          "id": "srt-set-2-q60",
+          "number": 60,
+          "sourceQuestionId": "srt-q116",
+          "originalNumber": 116,
+          "situation": "You are in second year of comp. engineering. But now you find it hard to complete your degree. You..."
+        }
+      ]
+    },
+    {
+      "setId": "srt-set-3",
+      "title": "SRT SET 3",
+      "subtitle": "Predefined SSB SRT Booklet — Set 3",
+      "isRandom": false,
+      "questionCount": 60,
+      "description": "Predefined 60-situation SSB SRT set curated from the 230-question SSB archive (displayed 5 situations per sheet with invisible timer).",
+      "questions": [
+        {
+          "id": "srt-set-3-q01",
+          "number": 1,
+          "sourceQuestionId": "srt-q036",
+          "originalNumber": 36,
+          "situation": "After many efforts he got a job in a private firm, but his office was very far off from his house and there was not transport. He..."
+        },
+        {
+          "id": "srt-set-3-q02",
+          "number": 2,
+          "sourceQuestionId": "srt-q065",
+          "originalNumber": 65,
+          "situation": "Your brother wants to get admission in a medical college, but his marks falls short by 1% for admission. You..."
+        },
+        {
+          "id": "srt-set-3-q03",
+          "number": 3,
+          "sourceQuestionId": "srt-q106",
+          "originalNumber": 106,
+          "situation": "You received an urgent order from your commander. But you feel that order passed on to you is wrong. You..."
+        },
+        {
+          "id": "srt-set-3-q04",
+          "number": 4,
+          "sourceQuestionId": "srt-q098",
+          "originalNumber": 98,
+          "situation": "He was all set for SSB but unfortunately there was a sad demise of his family member. He..."
+        },
+        {
+          "id": "srt-set-3-q05",
+          "number": 5,
+          "sourceQuestionId": "srt-q116",
+          "originalNumber": 116,
+          "situation": "You are in second year of comp. engineering. But now you find it hard to complete your degree. You..."
+        },
+        {
+          "id": "srt-set-3-q06",
+          "number": 6,
+          "sourceQuestionId": "srt-q094",
+          "originalNumber": 94,
+          "situation": "He was going for the SSB and on the way, he saw a person seriously injured and nobody was there to help him. He..."
+        },
+        {
+          "id": "srt-set-3-q07",
+          "number": 7,
+          "sourceQuestionId": "srt-q218",
+          "originalNumber": 218,
+          "situation": "Two of his seniors are always against each other and give him conflicting orders, he..."
+        },
+        {
+          "id": "srt-set-3-q08",
+          "number": 8,
+          "sourceQuestionId": "srt-q187",
+          "originalNumber": 187,
+          "situation": "While choosing his life partner, his criteria of selection will be..."
+        },
+        {
+          "id": "srt-set-3-q09",
+          "number": 9,
+          "sourceQuestionId": "srt-q050",
+          "originalNumber": 50,
+          "situation": "Drought conditions were prevailing in his area. He..."
+        },
+        {
+          "id": "srt-set-3-q10",
+          "number": 10,
+          "sourceQuestionId": "srt-q024",
+          "originalNumber": 24,
+          "situation": "While crossing the river in a boat it developed a leak and water started slowing into the boat. He..."
+        },
+        {
+          "id": "srt-set-3-q11",
+          "number": 11,
+          "sourceQuestionId": "srt-q227",
+          "originalNumber": 227,
+          "situation": "He is a prefect in his hostel. He notices two of his friends French bunking, he..."
+        },
+        {
+          "id": "srt-set-3-q12",
+          "number": 12,
+          "sourceQuestionId": "srt-q115",
+          "originalNumber": 115,
+          "situation": "A stocky built ruffian snatched the chain of wife of a soldier. You are passing by what you do(person is stronger than you and you are empty handed and there is no third person n u don’t have even your mobile)..."
+        },
+        {
+          "id": "srt-set-3-q13",
+          "number": 13,
+          "sourceQuestionId": "srt-q073",
+          "originalNumber": 73,
+          "situation": "He was asked to organize the farewell party. He..."
+        },
+        {
+          "id": "srt-set-3-q14",
+          "number": 14,
+          "sourceQuestionId": "srt-q173",
+          "originalNumber": 173,
+          "situation": "You appeared in a competitive exam and you noticed that the minister’s son (who was in your examination hall) got a copy of solution from outside..."
+        },
+        {
+          "id": "srt-set-3-q15",
+          "number": 15,
+          "sourceQuestionId": "srt-q052",
+          "originalNumber": 52,
+          "situation": "He felt that the preparatory holidays were not enough for their final exam because he had fallen ill. He..."
+        },
+        {
+          "id": "srt-set-3-q16",
+          "number": 16,
+          "sourceQuestionId": "srt-q031",
+          "originalNumber": 31,
+          "situation": "When he had just done his B.Sc. in I st Division, he was still without job, one of his equally penniless friend needed coaching. He..."
+        },
+        {
+          "id": "srt-set-3-q17",
+          "number": 17,
+          "sourceQuestionId": "srt-q126",
+          "originalNumber": 126,
+          "situation": "Your joke was well meant but still your friend became angry. You..."
+        },
+        {
+          "id": "srt-set-3-q18",
+          "number": 18,
+          "sourceQuestionId": "srt-q229",
+          "originalNumber": 229,
+          "situation": "He saw a truck hit a cyclist on highway, he..."
+        },
+        {
+          "id": "srt-set-3-q19",
+          "number": 19,
+          "sourceQuestionId": "srt-q223",
+          "originalNumber": 223,
+          "situation": "Exams are coming near, and he falls seriously ill. He..."
+        },
+        {
+          "id": "srt-set-3-q20",
+          "number": 20,
+          "sourceQuestionId": "srt-q102",
+          "originalNumber": 102,
+          "situation": "He was walking on a dark street with his girlfriend then suddenly 10 armed people came & started harassing his girlfriend the next police station was 10km away..."
+        },
+        {
+          "id": "srt-set-3-q21",
+          "number": 21,
+          "sourceQuestionId": "srt-q211",
+          "originalNumber": 211,
+          "situation": "He is new in town & doesn’t know the local language,..."
+        },
+        {
+          "id": "srt-set-3-q22",
+          "number": 22,
+          "sourceQuestionId": "srt-q155",
+          "originalNumber": 155,
+          "situation": "Due to cyclone his family lost all their possession and needed a fresh start. As the eldest son he..."
+        },
+        {
+          "id": "srt-set-3-q23",
+          "number": 23,
+          "sourceQuestionId": "srt-q004",
+          "originalNumber": 4,
+          "situation": "He was to carry some valuable from one place to another and there was danger of dacoits on the way. He..."
+        },
+        {
+          "id": "srt-set-3-q24",
+          "number": 24,
+          "sourceQuestionId": "srt-q189",
+          "originalNumber": 189,
+          "situation": "He thinks that he is more intelligent. Give reasons..."
+        },
+        {
+          "id": "srt-set-3-q25",
+          "number": 25,
+          "sourceQuestionId": "srt-q156",
+          "originalNumber": 156,
+          "situation": "On your 1stvisit to a snow bound area you saw a man being buried under snow. You ..."
+        },
+        {
+          "id": "srt-set-3-q26",
+          "number": 26,
+          "sourceQuestionId": "srt-q070",
+          "originalNumber": 70,
+          "situation": "He saw his girlfriend walking with another person on his way. He..."
+        },
+        {
+          "id": "srt-set-3-q27",
+          "number": 27,
+          "sourceQuestionId": "srt-q041",
+          "originalNumber": 41,
+          "situation": "While wandering aimless on the road side, he found a purse containing 400 rupees. He..."
+        },
+        {
+          "id": "srt-set-3-q28",
+          "number": 28,
+          "sourceQuestionId": "srt-q192",
+          "originalNumber": 192,
+          "situation": "When assigned an urgent task with limited resources in his organization, he..."
+        },
+        {
+          "id": "srt-set-3-q29",
+          "number": 29,
+          "sourceQuestionId": "srt-q011",
+          "originalNumber": 11,
+          "situation": "He had recently joined an active unit and he felt that he is given too much work. He..."
+        },
+        {
+          "id": "srt-set-3-q30",
+          "number": 30,
+          "sourceQuestionId": "srt-q193",
+          "originalNumber": 193,
+          "situation": "He desires to make national plans a great success for nation what should he do..."
+        },
+        {
+          "id": "srt-set-3-q31",
+          "number": 31,
+          "sourceQuestionId": "srt-q054",
+          "originalNumber": 54,
+          "situation": "He had some dispute with his uncle on family affairs. He..."
+        },
+        {
+          "id": "srt-set-3-q32",
+          "number": 32,
+          "sourceQuestionId": "srt-q086",
+          "originalNumber": 86,
+          "situation": "You find your hostel roommate not very friendly with you. You..."
+        },
+        {
+          "id": "srt-set-3-q33",
+          "number": 33,
+          "sourceQuestionId": "srt-q104",
+          "originalNumber": 104,
+          "situation": "His boss gives a piece of work and orders him to follow his instructions to complete the work, but the work is difficult to finish within time. He..."
+        },
+        {
+          "id": "srt-set-3-q34",
+          "number": 34,
+          "sourceQuestionId": "srt-q172",
+          "originalNumber": 172,
+          "situation": "He is superseded for promotion, although he feels he is fit for promotion in all respects. He ..."
+        },
+        {
+          "id": "srt-set-3-q35",
+          "number": 35,
+          "sourceQuestionId": "srt-q124",
+          "originalNumber": 124,
+          "situation": "You opposed strike in college and you are beaten up by strikers (your colleagues). You..."
+        },
+        {
+          "id": "srt-set-3-q36",
+          "number": 36,
+          "sourceQuestionId": "srt-q114",
+          "originalNumber": 114,
+          "situation": "You heard rumors that enemy is likely to attack the country. As a serving soldier what u do..."
+        },
+        {
+          "id": "srt-set-3-q37",
+          "number": 37,
+          "sourceQuestionId": "srt-q076",
+          "originalNumber": 76,
+          "situation": "In a discussion with your colleagues, you find your losing ground, you..."
+        },
+        {
+          "id": "srt-set-3-q38",
+          "number": 38,
+          "sourceQuestionId": "srt-q059",
+          "originalNumber": 59,
+          "situation": "His friends were not willing to donate the blood, during war time as they considered it to be health hazard. He..."
+        },
+        {
+          "id": "srt-set-3-q39",
+          "number": 39,
+          "sourceQuestionId": "srt-q042",
+          "originalNumber": 42,
+          "situation": "He and his friend were to put up a variety show that evening for the visiting VIP but his friend’s father, who was already ailing because serious. He..."
+        },
+        {
+          "id": "srt-set-3-q40",
+          "number": 40,
+          "sourceQuestionId": "srt-q015",
+          "originalNumber": 15,
+          "situation": "When he was going to the market, it started raining and all the streets were flooded in no time. He..."
+        },
+        {
+          "id": "srt-set-3-q41",
+          "number": 41,
+          "sourceQuestionId": "srt-q110",
+          "originalNumber": 110,
+          "situation": "An airplane crashed in a field nearby your battalion area. You are battalion commander. What steps would you take at such a critical juncture ..."
+        },
+        {
+          "id": "srt-set-3-q42",
+          "number": 42,
+          "sourceQuestionId": "srt-q019",
+          "originalNumber": 19,
+          "situation": "Since he was not interested in the subject, he found it hard to concentrate on his studies. He..."
+        },
+        {
+          "id": "srt-set-3-q43",
+          "number": 43,
+          "sourceQuestionId": "srt-q014",
+          "originalNumber": 14,
+          "situation": "He was in great hurry to reach home when he found an old man fainted on the say. He ..."
+        },
+        {
+          "id": "srt-set-3-q44",
+          "number": 44,
+          "sourceQuestionId": "srt-q183",
+          "originalNumber": 183,
+          "situation": "He chooses a career. What will be his choice.........?"
+        },
+        {
+          "id": "srt-set-3-q45",
+          "number": 45,
+          "sourceQuestionId": "srt-q013",
+          "originalNumber": 13,
+          "situation": "The railway coach in which he was travelling caught fire. He..."
+        },
+        {
+          "id": "srt-set-3-q46",
+          "number": 46,
+          "sourceQuestionId": "srt-q100",
+          "originalNumber": 100,
+          "situation": "He had exams the next day & the road to his school was flooded with continuous rain for last two days. While in discussion, his friend shouted at him, that he doesn’t know anything. He..."
+        },
+        {
+          "id": "srt-set-3-q47",
+          "number": 47,
+          "sourceQuestionId": "srt-q040",
+          "originalNumber": 40,
+          "situation": "He was unable to sleep that night as he felt that he was fully prepared for the exam next day. All of a sudden, he saw two masked men trying to get through the ventilator of the neighboring house. He..."
+        },
+        {
+          "id": "srt-set-3-q48",
+          "number": 48,
+          "sourceQuestionId": "srt-q088",
+          "originalNumber": 88,
+          "situation": "He was wondering why most of the officers in India were corrupt and he..."
+        },
+        {
+          "id": "srt-set-3-q49",
+          "number": 49,
+          "sourceQuestionId": "srt-q022",
+          "originalNumber": 22,
+          "situation": "When you were on a NCC camp, your batch declared a strike because of the rude behavior of the Havildar. So you..."
+        },
+        {
+          "id": "srt-set-3-q50",
+          "number": 50,
+          "sourceQuestionId": "srt-q134",
+          "originalNumber": 134,
+          "situation": "In a fit of anger your friend hit you. You..."
+        },
+        {
+          "id": "srt-set-3-q51",
+          "number": 51,
+          "sourceQuestionId": "srt-q161",
+          "originalNumber": 161,
+          "situation": "His father needed treatment and he was short of money. He..."
+        },
+        {
+          "id": "srt-set-3-q52",
+          "number": 52,
+          "sourceQuestionId": "srt-q160",
+          "originalNumber": 160,
+          "situation": "During blackout exercises, you were scout on duty. But one rich man was adamant on keeping his lights on..."
+        },
+        {
+          "id": "srt-set-3-q53",
+          "number": 53,
+          "sourceQuestionId": "srt-q138",
+          "originalNumber": 138,
+          "situation": "Whenever your opinion differs from others. You..."
+        },
+        {
+          "id": "srt-set-3-q54",
+          "number": 54,
+          "sourceQuestionId": "srt-q196",
+          "originalNumber": 196,
+          "situation": "You are walking down the road one fine afternoon and a man steals a lady's hand bag and in the process, stabs the lady. You..."
+        },
+        {
+          "id": "srt-set-3-q55",
+          "number": 55,
+          "sourceQuestionId": "srt-q217",
+          "originalNumber": 217,
+          "situation": "He is a student of final year and his father expires. uncle throws him out of the house. He..."
+        },
+        {
+          "id": "srt-set-3-q56",
+          "number": 56,
+          "sourceQuestionId": "srt-q091",
+          "originalNumber": 91,
+          "situation": "His friend was copying from book in examination hall. He..."
+        },
+        {
+          "id": "srt-set-3-q57",
+          "number": 57,
+          "sourceQuestionId": "srt-q181",
+          "originalNumber": 181,
+          "situation": "You were driving at high speed. And suddenly some person is runned over by your car and he died. You..."
+        },
+        {
+          "id": "srt-set-3-q58",
+          "number": 58,
+          "sourceQuestionId": "srt-q152",
+          "originalNumber": 152,
+          "situation": "You are travelling an auto which collides with a car and car driver starts beating auto driver. what will you do..."
+        },
+        {
+          "id": "srt-set-3-q59",
+          "number": 59,
+          "sourceQuestionId": "srt-q025",
+          "originalNumber": 25,
+          "situation": "When he was returning from his work he saw a cyclist being knocked down by a speeding taxi. He..."
+        },
+        {
+          "id": "srt-set-3-q60",
+          "number": 60,
+          "sourceQuestionId": "srt-q197",
+          "originalNumber": 197,
+          "situation": "You are going to market with your sister and some boys start doing mischief with her. You..."
+        }
+      ]
+    },
+    {
+      "setId": "srt-set-4",
+      "title": "SRT SET 4",
+      "subtitle": "Predefined SSB SRT Booklet — Set 4",
+      "isRandom": false,
+      "questionCount": 60,
+      "description": "Predefined 60-situation SSB SRT set curated from the 230-question SSB archive (displayed 5 situations per sheet with invisible timer).",
+      "questions": [
+        {
+          "id": "srt-set-4-q01",
+          "number": 1,
+          "sourceQuestionId": "srt-q091",
+          "originalNumber": 91,
+          "situation": "His friend was copying from book in examination hall. He..."
+        },
+        {
+          "id": "srt-set-4-q02",
+          "number": 2,
+          "sourceQuestionId": "srt-q181",
+          "originalNumber": 181,
+          "situation": "You were driving at high speed. And suddenly some person is runned over by your car and he died. You..."
+        },
+        {
+          "id": "srt-set-4-q03",
+          "number": 3,
+          "sourceQuestionId": "srt-q152",
+          "originalNumber": 152,
+          "situation": "You are travelling an auto which collides with a car and car driver starts beating auto driver. what will you do..."
+        },
+        {
+          "id": "srt-set-4-q04",
+          "number": 4,
+          "sourceQuestionId": "srt-q025",
+          "originalNumber": 25,
+          "situation": "When he was returning from his work he saw a cyclist being knocked down by a speeding taxi. He..."
+        },
+        {
+          "id": "srt-set-4-q05",
+          "number": 5,
+          "sourceQuestionId": "srt-q197",
+          "originalNumber": 197,
+          "situation": "You are going to market with your sister and some boys start doing mischief with her. You..."
+        },
+        {
+          "id": "srt-set-4-q06",
+          "number": 6,
+          "sourceQuestionId": "srt-q150",
+          "originalNumber": 150,
+          "situation": "You were going to examination hall and suddenly surrounded by 2 police man..."
+        },
+        {
+          "id": "srt-set-4-q07",
+          "number": 7,
+          "sourceQuestionId": "srt-q212",
+          "originalNumber": 212,
+          "situation": "His money is lost, and he is new in town. He..."
+        },
+        {
+          "id": "srt-set-4-q08",
+          "number": 8,
+          "sourceQuestionId": "srt-q206",
+          "originalNumber": 206,
+          "situation": "He lost his purse in train compartment, he..."
+        },
+        {
+          "id": "srt-set-4-q09",
+          "number": 9,
+          "sourceQuestionId": "srt-q066",
+          "originalNumber": 66,
+          "situation": "You have to go to a city with cash for work, but the way is dangerous as dacoits...... how will u manage to go?"
+        },
+        {
+          "id": "srt-set-4-q10",
+          "number": 10,
+          "sourceQuestionId": "srt-q205",
+          "originalNumber": 205,
+          "situation": "He is new in Nagaland. He gets lost in a jungle and sees armed Nagas, he..."
+        },
+        {
+          "id": "srt-set-4-q11",
+          "number": 11,
+          "sourceQuestionId": "srt-q169",
+          "originalNumber": 169,
+          "situation": "To an angel grants a wish to you. What would You desire for..."
+        },
+        {
+          "id": "srt-set-4-q12",
+          "number": 12,
+          "sourceQuestionId": "srt-q016",
+          "originalNumber": 16,
+          "situation": "The discussion on a very important topic reached a tense point. He..."
+        },
+        {
+          "id": "srt-set-4-q13",
+          "number": 13,
+          "sourceQuestionId": "srt-q154",
+          "originalNumber": 154,
+          "situation": "You were going for a walk and suddenly confronted by two gonads’ (You are empty handed) ..."
+        },
+        {
+          "id": "srt-set-4-q14",
+          "number": 14,
+          "sourceQuestionId": "srt-q118",
+          "originalNumber": 118,
+          "situation": "Light in your colony suddenly goes off due to rain in storm. You..."
+        },
+        {
+          "id": "srt-set-4-q15",
+          "number": 15,
+          "sourceQuestionId": "srt-q034",
+          "originalNumber": 34,
+          "situation": "His elder brother wanted to celebrate the death of their old father but he felt otherwise. He..."
+        },
+        {
+          "id": "srt-set-4-q16",
+          "number": 16,
+          "sourceQuestionId": "srt-q198",
+          "originalNumber": 198,
+          "situation": "You are a team leader while on a rock climbing expedition. While you are on pick on of your mates slips his hand and falls down. You..."
+        },
+        {
+          "id": "srt-set-4-q17",
+          "number": 17,
+          "sourceQuestionId": "srt-q099",
+          "originalNumber": 99,
+          "situation": "He was playing out door and his brother got seriously injured and it started to rain heavily. He..."
+        },
+        {
+          "id": "srt-set-4-q18",
+          "number": 18,
+          "sourceQuestionId": "srt-q012",
+          "originalNumber": 12,
+          "situation": "Drought conditions were prevailing in his village. He..."
+        },
+        {
+          "id": "srt-set-4-q19",
+          "number": 19,
+          "sourceQuestionId": "srt-q162",
+          "originalNumber": 162,
+          "situation": "You had gone hunting with your friends. They were in forest and they could not be traced. You..."
+        },
+        {
+          "id": "srt-set-4-q20",
+          "number": 20,
+          "sourceQuestionId": "srt-q028",
+          "originalNumber": 28,
+          "situation": "His father who was ailing since long needed special treatment, but they were already short of money. He..."
+        },
+        {
+          "id": "srt-set-4-q21",
+          "number": 21,
+          "sourceQuestionId": "srt-q131",
+          "originalNumber": 131,
+          "situation": "The scooter you were driving dashed against a truck and you are thrown in to a ditch with serious wounds."
+        },
+        {
+          "id": "srt-set-4-q22",
+          "number": 22,
+          "sourceQuestionId": "srt-q215",
+          "originalNumber": 215,
+          "situation": "His father and Uncle quarrel over his intended inter-Caste marriage, he..."
+        },
+        {
+          "id": "srt-set-4-q23",
+          "number": 23,
+          "sourceQuestionId": "srt-q226",
+          "originalNumber": 226,
+          "situation": "On a ship doing his duty, he sees fumes and smoke coming out of a cabin. He..."
+        },
+        {
+          "id": "srt-set-4-q24",
+          "number": 24,
+          "sourceQuestionId": "srt-q105",
+          "originalNumber": 105,
+          "situation": "He sees a snake moving near the bed where his younger brother is sleeping when he enters his room. He..."
+        },
+        {
+          "id": "srt-set-4-q25",
+          "number": 25,
+          "sourceQuestionId": "srt-q129",
+          "originalNumber": 129,
+          "situation": "You went to Nagaland & some Naga’s confronted you."
+        },
+        {
+          "id": "srt-set-4-q26",
+          "number": 26,
+          "sourceQuestionId": "srt-q216",
+          "originalNumber": 216,
+          "situation": "He is forced to vote for a candidate not of his choice. He..."
+        },
+        {
+          "id": "srt-set-4-q27",
+          "number": 27,
+          "sourceQuestionId": "srt-q093",
+          "originalNumber": 93,
+          "situation": "He was weak in studies, and knew that he could not do well in his education. He..."
+        },
+        {
+          "id": "srt-set-4-q28",
+          "number": 28,
+          "sourceQuestionId": "srt-q230",
+          "originalNumber": 230,
+          "situation": "All his family members are ill, and his father is out of town. There is no money in the home. He..."
+        },
+        {
+          "id": "srt-set-4-q29",
+          "number": 29,
+          "sourceQuestionId": "srt-q046",
+          "originalNumber": 46,
+          "situation": "He was threatened by the rival group in the college because he had reported against him when the latter was trying to beat his friend. He..."
+        },
+        {
+          "id": "srt-set-4-q30",
+          "number": 30,
+          "sourceQuestionId": "srt-q200",
+          "originalNumber": 200,
+          "situation": "He is sitting on chair studying, there’s a snake right behind his chair and he suddenly looks back. He..."
+        },
+        {
+          "id": "srt-set-4-q31",
+          "number": 31,
+          "sourceQuestionId": "srt-q058",
+          "originalNumber": 58,
+          "situation": "He was travelling with his friend to Nainital to watch winter sports when his friend fell ill. He..."
+        },
+        {
+          "id": "srt-set-4-q32",
+          "number": 32,
+          "sourceQuestionId": "srt-q159",
+          "originalNumber": 159,
+          "situation": "Some people tried to harass his mother. So, he..."
+        },
+        {
+          "id": "srt-set-4-q33",
+          "number": 33,
+          "sourceQuestionId": "srt-q171",
+          "originalNumber": 171,
+          "situation": "You went to cinema, but you noticed ‘house full’ what you do..."
+        },
+        {
+          "id": "srt-set-4-q34",
+          "number": 34,
+          "sourceQuestionId": "srt-q107",
+          "originalNumber": 107,
+          "situation": "While shooting a film, terrorists kidnapped the heroine. You are in charge of the 'check post ' nearby the scene. What will you do..."
+        },
+        {
+          "id": "srt-set-4-q35",
+          "number": 35,
+          "sourceQuestionId": "srt-q112",
+          "originalNumber": 112,
+          "situation": "You are handsome, smart and brave young ‘army officer'. You fall in love with the girl of another community. But your parents oppose the proposal. You ..."
+        },
+        {
+          "id": "srt-set-4-q36",
+          "number": 36,
+          "sourceQuestionId": "srt-q214",
+          "originalNumber": 214,
+          "situation": "They are climbing a steep wall with help of ropes & some of them reach the top, when the rope gives away,..."
+        },
+        {
+          "id": "srt-set-4-q37",
+          "number": 37,
+          "sourceQuestionId": "srt-q108",
+          "originalNumber": 108,
+          "situation": "Young men are not interested in joining defense forces. What incentive would you offer to lure them?"
+        },
+        {
+          "id": "srt-set-4-q38",
+          "number": 38,
+          "sourceQuestionId": "srt-q021",
+          "originalNumber": 21,
+          "situation": "When he was on his usual evening walk he saw a man being thrown out of speeding car. He..."
+        },
+        {
+          "id": "srt-set-4-q39",
+          "number": 39,
+          "sourceQuestionId": "srt-q081",
+          "originalNumber": 81,
+          "situation": "He was rather young when his father was killed in the war and later mother kidnapped by the rival group. He had no other relative. He..."
+        },
+        {
+          "id": "srt-set-4-q40",
+          "number": 40,
+          "sourceQuestionId": "srt-q220",
+          "originalNumber": 220,
+          "situation": "In his train compartment, two gunmen force passengers to give their belongings. He..."
+        },
+        {
+          "id": "srt-set-4-q41",
+          "number": 41,
+          "sourceQuestionId": "srt-q009",
+          "originalNumber": 9,
+          "situation": "A man had fallen from the ship when the sea became rough. He ..."
+        },
+        {
+          "id": "srt-set-4-q42",
+          "number": 42,
+          "sourceQuestionId": "srt-q001",
+          "originalNumber": 1,
+          "situation": "Generally, people do not listen to his arguments. So he..."
+        },
+        {
+          "id": "srt-set-4-q43",
+          "number": 43,
+          "sourceQuestionId": "srt-q147",
+          "originalNumber": 147,
+          "situation": "You were doing tuition (weak financial condition) but as exam came nearer you found that You were poorly Prepared ..."
+        },
+        {
+          "id": "srt-set-4-q44",
+          "number": 44,
+          "sourceQuestionId": "srt-q182",
+          "originalNumber": 182,
+          "situation": "At night at railway station you entered an empty train. You found that a person was raping a woman. You..."
+        },
+        {
+          "id": "srt-set-4-q45",
+          "number": 45,
+          "sourceQuestionId": "srt-q149",
+          "originalNumber": 149,
+          "situation": "Severe drought conditions were prevailing in your district..."
+        },
+        {
+          "id": "srt-set-4-q46",
+          "number": 46,
+          "sourceQuestionId": "srt-q051",
+          "originalNumber": 51,
+          "situation": "He was to reach a place across the river, urgently but there was a traffic jam on the bridge. He..."
+        },
+        {
+          "id": "srt-set-4-q47",
+          "number": 47,
+          "sourceQuestionId": "srt-q047",
+          "originalNumber": 47,
+          "situation": "He was a candidate for School Captain, but his rival had very strong supporters. He..."
+        },
+        {
+          "id": "srt-set-4-q48",
+          "number": 48,
+          "sourceQuestionId": "srt-q165",
+          "originalNumber": 165,
+          "situation": "You went to library for a very urgent book and found that all its copies were already issued to others..."
+        },
+        {
+          "id": "srt-set-4-q49",
+          "number": 49,
+          "sourceQuestionId": "srt-q167",
+          "originalNumber": 167,
+          "situation": "In an informal discussion you always..."
+        },
+        {
+          "id": "srt-set-4-q50",
+          "number": 50,
+          "sourceQuestionId": "srt-q084",
+          "originalNumber": 84,
+          "situation": "During d exams his teacher threatened him to fail in examination. He..."
+        },
+        {
+          "id": "srt-set-4-q51",
+          "number": 51,
+          "sourceQuestionId": "srt-q082",
+          "originalNumber": 82,
+          "situation": "You are on the way to your home suddenly your bicycle got punctured. You..."
+        },
+        {
+          "id": "srt-set-4-q52",
+          "number": 52,
+          "sourceQuestionId": "srt-q142",
+          "originalNumber": 142,
+          "situation": "As cricket match was on, a fight suddenly started between the sympathizers of the rival team. As the captain he..."
+        },
+        {
+          "id": "srt-set-4-q53",
+          "number": 53,
+          "sourceQuestionId": "srt-q080",
+          "originalNumber": 80,
+          "situation": "Just two days before the semi‐finals of the bridge tournament, his partner was called by his parents and had to go out of station for an urgent work. He..."
+        },
+        {
+          "id": "srt-set-4-q54",
+          "number": 54,
+          "sourceQuestionId": "srt-q199",
+          "originalNumber": 199,
+          "situation": "Working under two commanding officers which are passing conflicting orders then what will you do...?"
+        },
+        {
+          "id": "srt-set-4-q55",
+          "number": 55,
+          "sourceQuestionId": "srt-q027",
+          "originalNumber": 27,
+          "situation": "Most of his friends and college mates were donating blood during the war time. He..."
+        },
+        {
+          "id": "srt-set-4-q56",
+          "number": 56,
+          "sourceQuestionId": "srt-q208",
+          "originalNumber": 208,
+          "situation": "He and his friends are travelling from a speedy train when his friend looks out of window and gets hit by a pole. He..."
+        },
+        {
+          "id": "srt-set-4-q57",
+          "number": 57,
+          "sourceQuestionId": "srt-q061",
+          "originalNumber": 61,
+          "situation": "His captain was injured before a crucial match, he was asked to lead the team? He..."
+        },
+        {
+          "id": "srt-set-4-q58",
+          "number": 58,
+          "sourceQuestionId": "srt-q213",
+          "originalNumber": 213,
+          "situation": "His professor asked him to arrange for a picnic."
+        },
+        {
+          "id": "srt-set-4-q59",
+          "number": 59,
+          "sourceQuestionId": "srt-q067",
+          "originalNumber": 67,
+          "situation": "He was travelling by a train & suddenly a person snatches purse from lady & jumps out of train..."
+        },
+        {
+          "id": "srt-set-4-q60",
+          "number": 60,
+          "sourceQuestionId": "srt-q130",
+          "originalNumber": 130,
+          "situation": "You are given a job you not interested in. You..."
+        }
+      ]
+    }
+  ]
+}

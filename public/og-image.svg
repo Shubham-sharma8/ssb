@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#09090b" />
+      <stop offset="50%" stop-color="#18181b" />
+      <stop offset="100%" stop-color="#09090b" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect x="44" y="44" width="1112" height="542" rx="24" fill="none" stroke="#27272a" stroke-width="2" />
+  <rect x="88" y="88" width="340" height="38" rx="8" fill="#18181b" stroke="#3f3f46" stroke-width="1.5" />
+  <text x="108" y="113" fill="#a1a1aa" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700" letter-spacing="2">
+    SSB.COGIFY.ME · BY COGIFY.ME
+  </text>
+  <text x="88" y="210" fill="#fafafa" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="56" font-weight="800">
+    SSB Stage-2 Psychology
+  </text>
+  <text x="88" y="280" fill="#e4e4e7" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="48" font-weight="700">
+    Real Examination Hall Simulator
+  </text>
+  <text x="88" y="346" fill="#a1a1aa" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="400">
+    Authentic TAT (12 Sets) · WAT (60 Words + 15s Beep) · SRT (60 Situations) · SDT
+  </text>
+  <g transform="translate(88, 410)">
+    <rect x="0" y="0" width="230" height="96" rx="12" fill="#18181b" stroke="#27272a" stroke-width="1.5" />
+    <text x="24" y="38" fill="#71717a" font-family="ui-monospace, monospace" font-size="14" font-weight="700">01 · TAT HALL</text>
+    <text x="24" y="70" fill="#fafafa" font-family="system-ui, sans-serif" font-size="22" font-weight="700">30s Pic + 4m Story</text>
+
+    <rect x="254" y="0" width="230" height="96" rx="12" fill="#18181b" stroke="#27272a" stroke-width="1.5" />
+    <text x="278" y="38" fill="#71717a" font-family="ui-monospace, monospace" font-size="14" font-weight="700">02 · WAT HALL</text>
+    <text x="278" y="70" fill="#fafafa" font-family="system-ui, sans-serif" font-size="22" font-weight="700">60 Words · 15s Beep</text>
+
+    <rect x="508" y="0" width="230" height="96" rx="12" fill="#18181b" stroke="#27272a" stroke-width="1.5" />
+    <text x="532" y="38" fill="#71717a" font-family="ui-monospace, monospace" font-size="14" font-weight="700">03 · SRT HALL</text>
+    <text x="532" y="70" fill="#fafafa" font-family="system-ui, sans-serif" font-size="22" font-weight="700">5 SRTs / Sheet · 30m</text>
+
+    <rect x="762" y="0" width="262" height="96" rx="12" fill="#fafafa" />
+    <text x="786" y="38" fill="#52525b" font-family="ui-monospace, monospace" font-size="14" font-weight="700">04 · POST-TEST</text>
+    <text x="786" y="70" fill="#09090b" font-family="system-ui, sans-serif" font-size="22" font-weight="800">PDF + AI Evaluation</text>
+  </g>
+</svg>
