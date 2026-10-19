@@ -365,10 +365,28 @@ test.describe("SSB Practice — Realistic TAT Psychology Test Platform E2E", () 
     expect(sitemapText).toContain("https://ssb.cogify.me/tat");
     expect(sitemapText).toContain("https://ssb.cogify.me/gto");
     expect(sitemapText).toContain("https://ssb.cogify.me/interview");
+    expect(sitemapText).toContain("https://ssb.cogify.me/library");
 
     const robotsRes = await request.get("/robots.txt");
     expect(robotsRes.status()).toBe(200);
-    expect(await robotsRes.text()).toContain("Disallow: /api/");
+    const robotsText = await robotsRes.text();
+    expect(robotsText).toContain("Disallow: /api/");
+    expect(robotsText).toContain("Allow: /og-image.png");
+
+    for (const assetPath of [
+      "/favicon.ico",
+      "/favicon-32x32.png",
+      "/apple-touch-icon.png",
+      "/icon-192.png",
+      "/icon-512.png",
+      "/og-image.png",
+      "/og-image.jpg",
+      "/twitter-image.png",
+      "/manifest.json",
+    ]) {
+      const res = await request.get(assetPath);
+      expect(res.status(), `Expected ${assetPath} to return 200`).toBe(200);
+    }
 
     // 1. Switch to Light Mode and verify primary button contrast + ssb.cogify.me & cogify.me footer
     await page.goto("/settings");
@@ -385,7 +403,18 @@ test.describe("SSB Practice — Realistic TAT Psychology Test Platform E2E", () 
     expect(styles.color).toBe("rgb(255, 255, 255)");
     expect(styles.backgroundColor).toBe("rgb(24, 24, 27)");
 
-    // Verify ssb.cogify.me branding and parent company cogify.me footer section + JSON-LD structured data
+    // Verify ssb.cogify.me branding, OpenGraph/Twitter image meta tags, canonical link, and JSON-LD structured data
+    await expect(
+      page.locator('meta[property="og:image"]').first()
+    ).toHaveAttribute("content", /og-image\.png$/);
+    await expect(
+      page.locator('meta[name="twitter:image"]').first()
+    ).toHaveAttribute("content", /twitter-image\.png$/);
+    await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
+      "href",
+      "https://ssb.cogify.me"
+    );
+
     await expect(page.getByTestId("cogify-parent-banner")).toBeVisible();
     await expect(page.getByTestId("cogify-parent-link")).toHaveAttribute(
       "href",
@@ -403,6 +432,10 @@ test.describe("SSB Practice — Realistic TAT Psychology Test Platform E2E", () 
 
     // 2. WAT Module (/wat): SSB Jalandhar set, NO running word number, 15s word transitions with beep, 30s page-turn after 20 words, Finish Test early -> exports only attempted words + AI Prompt copy toast & 3-step Aceternity guide
     await page.goto("/wat");
+    await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
+      "href",
+      "https://ssb.cogify.me/wat"
+    );
     await expect(page.getByTestId("wat-set-card-wat-allahabad")).toBeVisible();
     await expect(page.getByTestId("wat-set-card-wat-jalandhar")).toBeVisible();
     await expect(page.getByTestId("wat-set-card-wat-bhopal")).toBeVisible();

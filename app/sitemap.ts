@@ -2,14 +2,20 @@ import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://ssb.cogify.me";
-  const lastModified = new Date("2026-04-19T00:00:00.000Z");
+  const lastModified = new Date("2026-10-19T00:00:00.000Z");
 
   return [
     {
       url: `${baseUrl}/`,
       lastModified,
-      changeFrequency: "weekly",
+      changeFrequency: "daily",
       priority: 1.0,
+    },
+    {
+      url: `${baseUrl}/full-test`,
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 0.95,
     },
     {
       url: `${baseUrl}/tat`,
@@ -32,38 +38,44 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: `${baseUrl}/sdt`,
       lastModified,
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/full-test`,
-      lastModified,
       changeFrequency: "weekly",
-      priority: 0.95,
+      priority: 0.9,
     },
     {
       url: `${baseUrl}/gto`,
       lastModified,
       changeFrequency: "weekly",
-      priority: 0.9,
+      priority: 0.95,
     },
     {
       url: `${baseUrl}/interview`,
       lastModified,
       changeFrequency: "weekly",
-      priority: 0.9,
+      priority: 0.95,
+    },
+    {
+      url: `${baseUrl}/library`,
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 0.85,
     },
     {
       url: `${baseUrl}/about`,
       lastModified,
       changeFrequency: "monthly",
-      priority: 0.8,
+      priority: 0.85,
     },
     {
       url: `${baseUrl}/history`,
       lastModified,
       changeFrequency: "monthly",
       priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/settings`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.6,
     },
   ];
 }

@@ -1,18 +1,108 @@
 {
-  "name": "SSB Practice — Psychology & GTO Preparation",
+  "id": "/",
+  "name": "ssb.cogify.me — #1 SSB Stage-2 Test Practice Platform (Psychology · GTO · Interview)",
   "short_name": "SSB Practice",
-  "description": "Authentic Indian Services Selection Board (SSB) TAT Psychology Test Simulator with SET 1–10 (11 pictures + 1 blank slide), printable SSB Psychology Booklet PDF, and offline support.",
+  "description": "India's #1 Services Selection Board (SSB) Stage-2 Test Practice Platform by COGIFY (cogify.me). Practice Psychological Tests (TAT, WAT, SRT, SDT & Full Hall Simulator), GTO Tasks & 3-Minute Lecturette Timer, and Personal Interview CIQ Rapid-Fire with Question Booklet PDF export and Pin-Point AI Evaluation.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
-  "background_color": "#fafafa",
-  "theme_color": "#18181b",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
   "orientation": "any",
+  "lang": "en-IN",
+  "dir": "ltr",
+  "categories": ["education", "productivity", "utilities"],
   "icons": [
     {
-      "src": "/brand-mark.svg",
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/og-image.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "ssb.cogify.me — SSB Stage-2 Psychology, GTO & Interview Practice Platform"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Complete Psychological Test",
+      "short_name": "Full Psych Test",
+      "description": "Run complete SSB Stage-2 Psychology Battery (TAT → WAT → SRT → SDT)",
+      "url": "/full-test",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "TAT Hall Simulator",
+      "short_name": "TAT Practice",
+      "description": "11 Pictures + 1 Blank Slide (30s projection + 4m story writing)",
+      "url": "/tat",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "WAT 60-Word Simulator",
+      "short_name": "WAT Practice",
+      "description": "60 Words · 15s Audio Beep · 30s Page Turn after 20 Words",
+      "url": "/wat",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "SRT 60-Situation Simulator",
+      "short_name": "SRT Practice",
+      "description": "60 Situations · 5 SRTs per Sheet · 30-Minute Invisible Timer",
+      "url": "/srt",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "GTO Tasks & Lecturette Timer",
+      "short_name": "GTO Practice",
+      "description": "9 GTO Tasks & 3-Minute Lecturette Timer with 30s Warning Beep",
+      "url": "/gto",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Personal Interview & CIQ",
+      "short_name": "Interview Prep",
+      "description": "PIQ Form Structuring & CIQ Rapid-Fire Simulator",
+      "url": "/interview",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" }]
     }
   ]
 }

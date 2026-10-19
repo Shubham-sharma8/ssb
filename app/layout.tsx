@@ -15,6 +15,8 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ssb.cogify.me"),
+  applicationName: "ssb.cogify.me — SSB Practice",
+  category: "education",
   title: {
     default:
       "ssb.cogify.me — #1 SSB Test Practice Platform: Psychology (TAT, WAT, SRT, SDT), GTO & Interview",
@@ -42,6 +44,8 @@ export const metadata: Metadata = {
     "SSB Allahabad WAT words",
     "SSB Bhopal WAT practice",
     "SSB Jalandhar WAT sets",
+    "SSB Kapurthala WAT sets",
+    "SSB Bangalore WAT practice",
     "NDA CDS AFCAT SSB preparation",
     "ssb.cogify.me",
     "cogify.me",
@@ -49,8 +53,33 @@ export const metadata: Metadata = {
   authors: [{ name: "COGIFY", url: "https://cogify.me" }],
   creator: "COGIFY (cogify.me)",
   publisher: "COGIFY (cogify.me)",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   alternates: {
     canonical: "https://ssb.cogify.me",
+  },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-48x48.png", sizes: "48x48", type: "image/png" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: ["/favicon.ico"],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+  },
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "SSB Practice",
   },
   openGraph: {
     type: "website",
@@ -63,9 +92,19 @@ export const metadata: Metadata = {
       "Practice TAT, WAT, SRT, SDT, Full Psychological Battery, GTO Lecturette & Tasks, and Personal Interview CIQs with Question Booklet PDF export & Pin-Point AI Evaluation Prompts.",
     images: [
       {
-        url: "/og-image.svg",
+        url: "/og-image.png",
+        secureUrl: "https://ssb.cogify.me/og-image.png",
         width: 1200,
         height: 630,
+        type: "image/png",
+        alt: "ssb.cogify.me — India's #1 SSB Stage-2 Psychology, GTO & Interview Practice Platform",
+      },
+      {
+        url: "/og-image.jpg",
+        secureUrl: "https://ssb.cogify.me/og-image.jpg",
+        width: 1200,
+        height: 630,
+        type: "image/jpeg",
         alt: "ssb.cogify.me — SSB Stage-2 Psychology, GTO & Interview Practice Platform",
       },
     ],
@@ -76,7 +115,14 @@ export const metadata: Metadata = {
       "ssb.cogify.me — #1 SSB Test Practice (Psychology, GTO & Interview)",
     description:
       "Real SSB Stage-2 Practice Platform with 10 TAT sets, 60-word WAT with 15s beep, 60-SRT sheets, SDT, GTO Lecturette Timer, Interview CIQ Simulator & AI Evaluation Prompts.",
-    images: ["/og-image.svg"],
+    images: [
+      {
+        url: "/twitter-image.png",
+        width: 1200,
+        height: 630,
+        alt: "ssb.cogify.me — India's #1 SSB Stage-2 Test Practice Platform",
+      },
+    ],
   },
   robots: {
     index: true,
@@ -86,6 +132,7 @@ export const metadata: Metadata = {
       follow: true,
       "max-image-preview": "large",
       "max-snippet": -1,
+      "max-video-preview": -1,
     },
   },
   manifest: "/manifest.json",
@@ -95,10 +142,23 @@ const ssbJsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "WebSite",
+      "@id": "https://ssb.cogify.me/#website",
+      url: "https://ssb.cogify.me",
+      name: "ssb.cogify.me — SSB Stage-2 Test Practice Platform",
+      alternateName: ["SSB Practice by COGIFY", "ssb.cogify.me"],
+      inLanguage: "en-IN",
+      publisher: {
+        "@id": "https://cogify.me/#organization",
+      },
+    },
+    {
       "@type": "WebApplication",
       "@id": "https://ssb.cogify.me/#webapp",
       name: "ssb.cogify.me — SSB Stage-2 Test Practice Platform (Psychology, GTO & Interview)",
       url: "https://ssb.cogify.me",
+      image: "https://ssb.cogify.me/og-image.png",
+      screenshot: "https://ssb.cogify.me/og-image.png",
       applicationCategory: "EducationalApplication",
       operatingSystem: "Any",
       inLanguage: "en-IN",
@@ -115,6 +175,12 @@ const ssbJsonLd = {
         "@id": "https://cogify.me/#organization",
         name: "COGIFY",
         url: "https://cogify.me",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://ssb.cogify.me/icon-512.png",
+          width: 512,
+          height: 512,
+        },
       },
     },
     {
@@ -122,6 +188,12 @@ const ssbJsonLd = {
       "@id": "https://cogify.me/#organization",
       name: "COGIFY",
       url: "https://cogify.me",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://ssb.cogify.me/icon-512.png",
+        width: 512,
+        height: 512,
+      },
       sameAs: ["https://cogify.me", "https://ssb.cogify.me"],
     },
     {
@@ -137,32 +209,32 @@ const ssbJsonLd = {
         {
           "@type": "ListItem",
           position: 2,
+          name: "Complete SSB Psychological Test",
+          item: "https://ssb.cogify.me/full-test",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
           name: "TAT Practice (11 Pictures + 1 Blank)",
           item: "https://ssb.cogify.me/tat",
         },
         {
           "@type": "ListItem",
-          position: 3,
+          position: 4,
           name: "WAT Practice (60 Words · 15s Beep)",
           item: "https://ssb.cogify.me/wat",
         },
         {
           "@type": "ListItem",
-          position: 4,
+          position: 5,
           name: "SRT Practice (60 Situations · 30m)",
           item: "https://ssb.cogify.me/srt",
         },
         {
           "@type": "ListItem",
-          position: 5,
+          position: 6,
           name: "SDT Practice (5 Paragraphs · 15m)",
           item: "https://ssb.cogify.me/sdt",
-        },
-        {
-          "@type": "ListItem",
-          position: 6,
-          name: "Complete SSB Psychological Test",
-          item: "https://ssb.cogify.me/full-test",
         },
         {
           "@type": "ListItem",
@@ -195,7 +267,15 @@ const ssbJsonLd = {
           name: "Can I download my attempted Question Booklet PDF and get AI evaluation?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes. After completing any test (TAT, WAT, SRT, SDT, or the Complete Psychological Test), you can export the exact attempted Question Booklet as a PDF and copy a tailored Pin-Point AI Psychologist Evaluation Prompt to review your handwritten notebook responses.",
+            text: "Yes. After completing any test or finishing early (TAT, WAT, SRT, SDT, or the Complete Psychological Test), you can export the exact attempted Question Booklet as a PDF and copy a tailored Pin-Point AI Psychologist Evaluation Prompt to review your handwritten notebook responses.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Does ssb.cogify.me include GTO Officer Tasks and Personal Interview practice?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. The GTO Hub includes an interactive 3-Minute Lecturette Card & Hall Timer (with a 30-second warning beep and 24 real SSB topics) plus complete frameworks for all 9 GTO tasks (GD, GPE, PGT, HGT, GOR, IO, CT, FGT). The Interview Hub includes a PIQ Form Structuring guide and an interactive CIQ (Comprehensive Information Questionnaire) Rapid-Fire Simulator.",
           },
         },
       ],
