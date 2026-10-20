@@ -118,15 +118,16 @@ export default function GtoPracticePage() {
   const secs = secondsLeft % 60;
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 space-y-10">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
       {/* Header */}
-      <section className="rounded-2xl border border-amber-500/25 bg-gradient-to-br from-amber-500/10 via-orange-500/5 to-transparent p-6 sm:p-8 dark:border-amber-400/25">
-        <div className="flex flex-wrap items-center justify-between gap-4">
+      <section className="relative overflow-hidden rounded-3xl border border-zinc-200/90 bg-white dark:border-white/[0.08] dark:bg-[#0b0f17] p-6 sm:p-10 shadow-sm">
+        <div className="absolute inset-0 bg-grid-pattern opacity-60 pointer-events-none" />
+        <div className="relative z-10 flex flex-wrap items-center justify-between gap-4">
           <div className="space-y-2 max-w-3xl">
             <span className="inline-flex items-center gap-2 rounded-full border border-amber-500/30 bg-amber-500/10 px-3 py-1 font-mono text-[11px] font-semibold uppercase tracking-wider text-amber-800 dark:text-amber-300">
               STAGE-II • DAY 3 &amp; DAY 4 GROUND SERIES
             </span>
-            <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100">
+            <h1 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-zinc-900 dark:text-white">
               GTO Officer Tasks &amp; Lecturette Simulator
             </h1>
             <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">

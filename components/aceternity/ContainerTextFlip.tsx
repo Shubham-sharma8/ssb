@@ -9,8 +9,8 @@ export interface ContainerTextFlipProps {
 }
 
 /**
- * Aceternity UI — Container Text Flip (Minimal Edition)
- * Smoothly flips between key SSB assessment stages inside an adaptive pill container.
+ * Unified cogify.me Container Text Flip
+ * Smoothly flips between key SSB assessment stages inside an adaptive indigo/cyan pill container.
  */
 export function ContainerTextFlip({
   words = [
@@ -48,7 +48,7 @@ export function ContainerTextFlip({
   return (
     <span
       data-testid="aceternity-text-flip"
-      className={`relative inline-grid place-items-center overflow-hidden rounded-lg border border-emerald-500/30 bg-gradient-to-b from-emerald-500/10 via-teal-500/5 to-transparent px-3 py-1 font-semibold text-emerald-700 shadow-[inset_0_1px_0_0_rgba(16,185,129,0.2)] transition-colors duration-300 dark:border-emerald-400/30 dark:from-emerald-400/15 dark:via-teal-400/5 dark:text-emerald-300 ${className}`}
+      className={`relative inline-grid place-items-center overflow-hidden rounded-xl border border-indigo-500/25 bg-gradient-to-r from-indigo-500/10 via-indigo-500/5 to-cyan-500/10 px-3.5 py-1 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-indigo-500 to-cyan-600 dark:from-indigo-300 dark:via-indigo-200 dark:to-cyan-300 shadow-[inset_0_1px_0_0_rgba(99,102,241,0.2)] transition-colors duration-300 dark:border-indigo-400/25 ${className}`}
     >
       {/* Invisible longest-word sizer prevents Cumulative Layout Shift (CLS) on word flip */}
       <span
@@ -58,7 +58,7 @@ export function ContainerTextFlip({
         {longestWord}
       </span>
       <span
-        className={`col-start-1 row-start-1 inline-block whitespace-nowrap transition-transform duration-200 ease-out ${
+        className={`col-start-1 row-start-1 inline-block whitespace-nowrap text-indigo-600 dark:text-indigo-300 transition-transform duration-200 ease-out ${
           animating
             ? "-translate-y-3 scale-95 opacity-0"
             : "translate-y-0 scale-100 opacity-100"

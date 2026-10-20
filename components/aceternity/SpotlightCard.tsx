@@ -2,7 +2,14 @@
 
 import React, { useRef, useState } from "react";
 
-export type SpotlightAccent = "emerald" | "amber" | "sky" | "violet" | "rose" | "neutral";
+export type SpotlightAccent =
+  | "indigo"
+  | "emerald"
+  | "amber"
+  | "sky"
+  | "violet"
+  | "rose"
+  | "neutral";
 
 export interface SpotlightCardProps {
   children: React.ReactNode;
@@ -15,6 +22,11 @@ const ACCENT_MAP: Record<
   SpotlightAccent,
   { glow: string; border: string; topBar: string }
 > = {
+  indigo: {
+    glow: "rgba(99, 102, 241, 0.14)",
+    border: "hover:border-indigo-500/40 dark:hover:border-indigo-400/40",
+    topBar: "from-indigo-500/80 via-cyan-500/40 to-transparent",
+  },
   emerald: {
     glow: "rgba(16, 185, 129, 0.13)",
     border: "hover:border-emerald-500/40 dark:hover:border-emerald-400/40",
@@ -48,12 +60,12 @@ const ACCENT_MAP: Record<
 };
 
 /**
- * Aceternity UI — Interactive Spotlight & Accent Card
- * Provides subtle cursor-tracking illumination and refined color-coded top border accents.
+ * Unified cogify.me Bento / Spotlight Card
+ * Matches cogify.me's rounded-2xl dark:bg-[#0b0f17] dark:border-white/[0.08] card surface.
  */
 export function SpotlightCard({
   children,
-  accent = "emerald",
+  accent = "indigo",
   className = "",
   dataTestId,
 }: SpotlightCardProps) {
@@ -67,7 +79,7 @@ export function SpotlightCard({
     setPosition({ x: e.clientX - rect.left, y: e.clientY - rect.top });
   };
 
-  const styleConfig = ACCENT_MAP[accent] ?? ACCENT_MAP.emerald;
+  const styleConfig = ACCENT_MAP[accent] ?? ACCENT_MAP.indigo;
 
   return (
     <div
@@ -76,13 +88,13 @@ export function SpotlightCard({
       onMouseMove={handleMouseMove}
       onMouseEnter={() => setOpacity(1)}
       onMouseLeave={() => setOpacity(0)}
-      className={`group relative overflow-hidden rounded-xl border border-zinc-200/90 bg-white/95 transition-all duration-300 dark:border-zinc-800/90 dark:bg-zinc-900/80 ${styleConfig.border} ${className}`}
+      className={`group relative overflow-hidden rounded-2xl border border-zinc-200/90 bg-white shadow-sm hover:shadow-xl hover:shadow-indigo-500/5 dark:shadow-none transition-all duration-300 dark:border-white/[0.08] dark:bg-[#0b0f17] ${styleConfig.border} ${className}`}
     >
       {/* Top subtle color accent line */}
       <div
         className={`pointer-events-none absolute inset-x-0 top-0 h-[2px] bg-gradient-to-r ${styleConfig.topBar}`}
       />
-      {/* Aceternity radial spotlight */}
+      {/* Radial spotlight */}
       <div
         className="pointer-events-none absolute -inset-px opacity-0 transition-opacity duration-300"
         style={{

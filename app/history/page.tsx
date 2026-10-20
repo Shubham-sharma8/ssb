@@ -104,13 +104,13 @@ export default function HistoryPage() {
   });
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-6 sm:py-8 sm:px-6">
-      <div className="mb-6 flex flex-col justify-between gap-4 border-b border-zinc-200 pb-5 dark:border-zinc-800 lg:flex-row lg:items-end">
+    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
+      <div className="mb-6 flex flex-col justify-between gap-4 rounded-2xl border border-zinc-200/90 dark:border-white/[0.08] bg-white dark:bg-[#0b0f17] p-5 sm:p-6 shadow-sm lg:flex-row lg:items-end">
         <div>
-          <p className="text-xs font-medium uppercase tracking-wider text-zinc-500">
+          <p className="font-mono text-xs font-semibold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">
             Post-Test Review & Practice Log
           </p>
-          <h1 className="mt-1 text-xl sm:text-2xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">
+          <h1 className="mt-1 text-xl sm:text-2xl font-bold tracking-tight text-zinc-900 dark:text-white">
             Session History
           </h1>
           <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
@@ -120,7 +120,7 @@ export default function HistoryPage() {
         </div>
 
         <div className="flex items-center gap-2 max-w-full overflow-x-auto no-scrollbar">
-          <div className="inline-flex rounded-md border border-zinc-200 bg-zinc-100 p-1 text-xs shrink-0 dark:border-zinc-800 dark:bg-zinc-900">
+          <div className="inline-flex rounded-xl border border-zinc-200/90 bg-zinc-100/80 p-1 text-xs shrink-0 dark:border-white/[0.08] dark:bg-white/[0.04]">
             {[
               { id: "all", label: "All Sessions" },
               { id: "completed", label: "Completed" },
@@ -131,9 +131,9 @@ export default function HistoryPage() {
                 key={tab.id}
                 type="button"
                 onClick={() => setStatusFilter(tab.id)}
-                className={`rounded px-2.5 sm:px-3 py-1.5 font-medium transition whitespace-nowrap ${
+                className={`rounded-lg px-2.5 sm:px-3 py-1.5 font-medium transition whitespace-nowrap ${
                   statusFilter === tab.id
-                    ? "bg-white text-zinc-900 shadow-sm dark:bg-zinc-800 dark:text-zinc-100"
+                    ? "bg-white text-zinc-900 shadow-sm dark:bg-indigo-600 dark:text-white"
                     : "text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
                 }`}
               >
@@ -145,13 +145,13 @@ export default function HistoryPage() {
       </div>
 
       {loading ? (
-        <div className="rounded-lg border border-zinc-200 bg-white p-12 text-center text-sm text-zinc-500 dark:border-zinc-800 dark:bg-zinc-900">
+        <div className="rounded-2xl border border-zinc-200/90 bg-white p-12 text-center text-sm text-zinc-500 dark:border-white/[0.08] dark:bg-[#0b0f17]">
           Loading session history...
         </div>
       ) : filteredSessions.length === 0 ? (
         <div
           data-testid="empty-history-state"
-          className="rounded-lg border border-dashed border-zinc-300 bg-white p-10 text-center dark:border-zinc-800 dark:bg-zinc-900"
+          className="rounded-2xl border border-dashed border-zinc-300 bg-white p-10 text-center dark:border-white/[0.12] dark:bg-[#0b0f17] shadow-sm"
         >
           <History className="mx-auto mb-3 h-8 w-8 text-zinc-400" />
           <h2 className="text-base font-semibold text-zinc-900 dark:text-zinc-100">

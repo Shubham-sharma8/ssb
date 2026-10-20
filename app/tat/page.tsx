@@ -356,12 +356,15 @@ export default function TatSetupPage() {
   }
 
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-8 pb-24 lg:pb-10">
-      <div className="mb-6">
-        <h1 className="text-xl sm:text-2xl font-semibold text-zinc-900 dark:text-zinc-100 tracking-tight">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 pb-24 lg:pb-10">
+      <div className="mb-6 rounded-2xl border border-zinc-200/90 dark:border-white/[0.08] bg-white dark:bg-[#0b0f17] p-5 sm:p-6 shadow-sm">
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-50 dark:bg-indigo-500/10 border border-indigo-200/70 dark:border-indigo-500/25 text-indigo-700 dark:text-indigo-300 text-[11px] font-semibold tracking-wide mb-2.5">
+          <span>STAGE-II PSYCHOLOGY — THEMATIC APPERCEPTION TEST (TAT)</span>
+        </div>
+        <h1 className="text-xl sm:text-2xl font-bold text-zinc-900 dark:text-white tracking-tight">
           TAT Practice Setup
         </h1>
-        <p className="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 mt-1">
+        <p className="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 mt-1 leading-relaxed">
           Each TAT set contains 11 sequential pictures + 1 Blank Slide (12
           slides total). In Real SSB Mode, no timer is shown: each picture
           appears for 30s, then vanishes for 4m while you write in your
@@ -376,17 +379,17 @@ export default function TatSetupPage() {
         {/* Left 2 Columns: Configuration Controls */}
         <div className="lg:col-span-2 space-y-5">
           {/* 1. Select Set (SET 1 – SET 10) */}
-          <section className="rounded-lg border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-4 sm:p-5 space-y-4">
+          <section className="rounded-2xl border border-zinc-200/90 dark:border-white/[0.08] bg-white dark:bg-[#0b0f17] p-4 sm:p-6 space-y-4 shadow-sm">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
               <div>
-                <h2 className="text-sm sm:text-base font-semibold text-zinc-900 dark:text-zinc-100">
+                <h2 className="text-sm sm:text-base font-bold text-zinc-900 dark:text-white">
                   1. Select TAT Set (SET 1 – SET 10)
                 </h2>
                 <p className="text-xs text-zinc-500 dark:text-zinc-400">
                   Divided in strict PDF image sequence — 11 Approved Pictures + 1 Blank Slide per set.
                 </p>
               </div>
-              <span className="rounded-md bg-emerald-500/10 px-2.5 py-1 font-mono text-[11px] font-semibold text-emerald-700 dark:text-emerald-300">
+              <span className="rounded-full bg-indigo-50 dark:bg-indigo-500/10 border border-indigo-200/70 dark:border-indigo-500/25 px-3 py-1 font-mono text-[11px] font-semibold text-indigo-700 dark:text-indigo-300">
                 All 10 Sets Approved
               </span>
             </div>
@@ -400,10 +403,10 @@ export default function TatSetupPage() {
                     type="button"
                     data-testid={`select-set-${set.id}`}
                     onClick={() => setSetId(set.id)}
-                    className={`text-left rounded-md border p-3.5 transition flex flex-col justify-between ${
+                    className={`text-left rounded-xl border p-3.5 transition flex flex-col justify-between ${
                       isSelected
-                        ? "border-emerald-600 dark:border-emerald-400 bg-emerald-500/10 dark:bg-emerald-500/15"
-                        : "border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 hover:border-zinc-400"
+                        ? "border-indigo-500 dark:border-indigo-400 bg-indigo-50/70 dark:bg-indigo-500/15"
+                        : "border-zinc-200/90 dark:border-white/[0.08] bg-zinc-50/40 dark:bg-white/[0.02] hover:border-indigo-300 dark:hover:border-indigo-500/40"
                     }`}
                   >
                     <div>

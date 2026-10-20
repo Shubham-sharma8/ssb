@@ -102,13 +102,13 @@ export default function LibraryPage() {
   );
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-6 sm:py-8 sm:px-6">
-      <div className="mb-6 flex flex-col justify-between gap-4 border-b border-zinc-200 pb-5 dark:border-zinc-800 lg:flex-row lg:items-end">
+    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
+      <div className="mb-6 flex flex-col justify-between gap-4 rounded-2xl border border-zinc-200/90 dark:border-white/[0.08] bg-white dark:bg-[#0b0f17] p-5 sm:p-6 shadow-sm lg:flex-row lg:items-end">
         <div>
-          <p className="font-mono text-xs font-semibold uppercase tracking-wider text-emerald-700 dark:text-emerald-400">
+          <p className="font-mono text-xs font-semibold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">
             APPROVED SSB TAT PICTURE SETS
           </p>
-          <h1 className="mt-1 text-xl sm:text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100">
+          <h1 className="mt-1 text-xl sm:text-2xl font-bold tracking-tight text-zinc-900 dark:text-white">
             TAT Sets Library (SET 1 – SET 10)
           </h1>
           <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
@@ -116,7 +116,7 @@ export default function LibraryPage() {
           </p>
         </div>
 
-        <div className="inline-flex items-center gap-2 rounded-xl border border-emerald-500/30 bg-emerald-500/10 px-3.5 py-2 text-xs font-semibold text-emerald-800 dark:text-emerald-300">
+        <div className="inline-flex items-center gap-2 rounded-xl border border-indigo-200/70 dark:border-indigo-500/30 bg-indigo-50 dark:bg-indigo-500/10 px-3.5 py-2 text-xs font-semibold text-indigo-700 dark:text-indigo-300">
           <FolderOpen className="h-3.5 w-3.5 shrink-0" />
           <span>10 Sets • 110 Set Pictures + 10 Blank Slides</span>
         </div>
@@ -125,7 +125,7 @@ export default function LibraryPage() {
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-12">
         {/* Left: Set Selector & Filters */}
         <div className="space-y-4 lg:col-span-4">
-          <div className="rounded-xl border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-zinc-900">
+          <div className="rounded-2xl border border-zinc-200/90 bg-white p-4 sm:p-5 dark:border-white/[0.08] dark:bg-[#0b0f17] shadow-sm">
             <h2 className="mb-3 text-xs font-semibold uppercase tracking-wider text-zinc-500">
               Select TAT Set (11 Pics + 1 Blank)
             </h2>

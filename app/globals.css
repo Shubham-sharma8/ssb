@@ -3,45 +3,157 @@
 @tailwind utilities;
 
 :root {
-  --background: 0 0% 98%;
-  --foreground: 240 10% 9%;
+  --background: 220 50% 99%;
+  --foreground: 222 42% 6%;
   --card: 0 0% 100%;
-  --card-foreground: 240 10% 9%;
-  --border: 240 6% 90%;
-  --muted: 240 5% 96%;
-  --muted-foreground: 240 4% 42%;
-  --accent: 240 6% 12%;
+  --card-foreground: 222 42% 6%;
+  --border: 220 13% 91%;
+  --muted: 220 14% 96%;
+  --muted-foreground: 220 9% 46%;
+  --accent: 239 84% 67%;
   --accent-foreground: 0 0% 98%;
+  --bg-hex: #fbfcfe;
+  --fg-hex: #090d16;
+  --card-bg: rgba(255, 255, 255, 0.9);
+  --card-border: rgba(0, 0, 0, 0.08);
 }
 
-html.dark {
-  --background: 240 10% 6%;
-  --foreground: 0 0% 96%;
-  --card: 240 10% 9%;
-  --card-foreground: 0 0% 96%;
-  --border: 240 5% 18%;
-  --muted: 240 5% 13%;
-  --muted-foreground: 240 5% 64%;
-  --accent: 0 0% 96%;
-  --accent-foreground: 240 10% 9%;
+html.dark,
+.dark {
+  --background: 223 37% 4%;
+  --foreground: 220 14% 96%;
+  --card: 223 35% 8%;
+  --card-foreground: 220 14% 96%;
+  --border: 220 15% 16%;
+  --muted: 223 30% 11%;
+  --muted-foreground: 220 9% 64%;
+  --accent: 239 84% 67%;
+  --accent-foreground: 222 42% 6%;
+  --bg-hex: #06080d;
+  --fg-hex: #f3f4f6;
+  --card-bg: rgba(13, 17, 27, 0.75);
+  --card-border: rgba(255, 255, 255, 0.08);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto,
-    Helvetica, Arial, sans-serif;
+  background-color: var(--bg-hex);
+  color: var(--fg-hex);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-feature-settings: "cv02", "cv03", "cv04", "cv11";
-  letter-spacing: -0.01em;
+  letter-spacing: -0.011em;
+  overflow-x: hidden;
+  transition: background-color 0.25s ease, color 0.25s ease;
 }
 
 html.light body {
-  background-color: #fafafa;
-  color: #18181b;
+  background-color: #fbfcfe;
+  color: #090d16;
+}
+
+html.dark body {
+  background-color: #06080d;
+  color: #f3f4f6;
 }
 
 /* Preserve dark projection stage in exam mode even when light theme is active */
 html.light .exam-projector-stage {
   background-color: #111113 !important;
   color: #f4f4f5 !important;
+}
+
+/* Custom Scrollbar matching cogify.me */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(120, 130, 150, 0.35);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(120, 130, 150, 0.55);
+}
+
+/* Subtle Grid & Dot Patterns matching cogify.me */
+.bg-grid-pattern {
+  background-size: 40px 40px;
+  background-image: linear-gradient(
+      to right,
+      rgba(120, 130, 160, 0.08) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgba(120, 130, 160, 0.08) 1px, transparent 1px);
+}
+
+.dark .bg-grid-pattern {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.03) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
+
+.bg-dot-pattern {
+  background-image: radial-gradient(
+    rgba(120, 130, 160, 0.16) 1px,
+    transparent 1px
+  );
+  background-size: 24px 24px;
+}
+
+.dark .bg-dot-pattern {
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.08) 1px,
+    transparent 1px
+  );
+}
+
+/* Glassmorphism helpers matching cogify.me */
+.glass-panel {
+  background: var(--card-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--card-border);
+}
+
+.glass-panel-subtle {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.dark .glass-panel-subtle {
+  background: rgba(10, 14, 23, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Spotlight animation matching cogify.me */
+@keyframes spotlight {
+  0% {
+    opacity: 0;
+    transform: translate(-72%, -62%) scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -40%) scale(1);
+  }
+}
+
+.animate-spotlight {
+  animation: spotlight 2s ease 0.25s 1 forwards;
 }
 
 @media (prefers-reduced-motion: reduce) {

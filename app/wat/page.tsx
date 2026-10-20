@@ -583,7 +583,7 @@ export default function WatPage() {
 
   if (phase === "BRIEFING") {
     return (
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
         <ExamBriefingSlides
           examType="wat"
           setLabel={`${selectedSet?.label ?? "WAT Set"} (60 Words · 15s + Beep)`}
@@ -598,9 +598,9 @@ export default function WatPage() {
   }
 
   return (
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 py-6 sm:py-8 space-y-6">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 space-y-6">
       {/* Header */}
-      <div className="rounded-lg border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-4 sm:p-6">
+      <div className="rounded-2xl border border-zinc-200/90 dark:border-white/[0.08] bg-white dark:bg-[#0b0f17] p-5 sm:p-6 shadow-sm">
         <div className="space-y-1.5">
           <div className="flex items-center gap-2">
             <Link
@@ -611,11 +611,11 @@ export default function WatPage() {
               <span>Dashboard</span>
             </Link>
             <span className="text-zinc-400">·</span>
-            <span className="text-xs font-mono uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+            <span className="text-xs font-mono uppercase tracking-wider text-indigo-600 dark:text-indigo-400 font-semibold">
               STAGE 2 PSYCHOLOGY — WAT (60 WORDS)
             </span>
           </div>
-          <h1 className="text-xl sm:text-2xl font-semibold text-zinc-900 dark:text-zinc-100">
+          <h1 className="text-xl sm:text-2xl font-bold text-zinc-900 dark:text-white tracking-tight">
             Word Association Test (WAT) Simulator
           </h1>
           <p className="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
@@ -629,9 +629,9 @@ export default function WatPage() {
       </div>
 
       {/* SSB Selection Board & Set Picker */}
-      <div className="rounded-lg border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-4 sm:p-6 space-y-4">
+      <div className="rounded-2xl border border-zinc-200/90 dark:border-white/[0.08] bg-white dark:bg-[#0b0f17] p-5 sm:p-6 space-y-4 shadow-sm">
         <div>
-          <h2 className="text-base font-semibold text-zinc-900 dark:text-zinc-100">
+          <h2 className="text-base font-bold text-zinc-900 dark:text-white">
             1. Select SSB Selection Board or Practice Set
           </h2>
           <p className="text-xs text-zinc-500 dark:text-zinc-400 mt-0.5">

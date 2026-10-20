@@ -851,8 +851,8 @@ export default function FullPsychTestPage() {
 
   // SETUP SCREEN FOR COMPLETE PSYCHOLOGICAL TEST
   return (
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 py-6 sm:py-10 space-y-6">
-      <div className="rounded-lg border border-zinc-200 dark:border-zinc-800/80 bg-white dark:bg-zinc-900/60 p-4 sm:p-5 space-y-1">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 space-y-6">
+      <div className="rounded-2xl border border-zinc-200/90 dark:border-white/[0.08] bg-white dark:bg-[#0b0f17] p-5 sm:p-6 space-y-1 shadow-sm">
         <div className="flex items-center gap-2">
           <Link
             href="/"
@@ -862,14 +862,14 @@ export default function FullPsychTestPage() {
             <span>All Tests</span>
           </Link>
           <span className="text-zinc-400 dark:text-zinc-600">·</span>
-          <span className="text-xs font-mono uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+          <span className="text-xs font-mono uppercase tracking-wider text-indigo-600 dark:text-indigo-400 font-semibold">
             FULL STAGE-2 PSYCHOLOGICAL BATTERY (~2 HOURS 05 MINS)
           </span>
         </div>
-        <h1 className="text-lg sm:text-xl font-bold text-zinc-900 dark:text-zinc-100">
+        <h1 className="text-xl sm:text-2xl font-bold text-zinc-900 dark:text-white tracking-tight">
           Complete SSB Psychological Test Battery (TAT + WAT + SRT + SDT)
         </h1>
-        <p className="text-xs text-zinc-600 dark:text-zinc-300 leading-relaxed">
+        <p className="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
           Print and keep the official SSB Psychological Test Booklet ready on
           your desk before starting the full continuous battery.
         </p>
@@ -878,18 +878,18 @@ export default function FullPsychTestPage() {
       {/* Select Sets for Each Section */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {/* 1. TAT Set */}
-        <div className="rounded-lg border border-zinc-200 dark:border-zinc-800/80 bg-white dark:bg-zinc-900/40 p-4 sm:p-5 space-y-3">
-          <span className="text-xs font-mono uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+        <div className="rounded-2xl border border-zinc-200/90 dark:border-white/[0.08] bg-white dark:bg-[#0b0f17] p-5 sm:p-6 space-y-3 shadow-sm">
+          <span className="text-xs font-mono uppercase tracking-wider text-indigo-600 dark:text-indigo-400 font-semibold">
             PART 1 · TAT (54 MIN)
           </span>
-          <h2 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+          <h2 className="text-sm font-bold text-zinc-900 dark:text-white">
             Select TAT Set (11 Pics + 1 Blank)
           </h2>
           <select
             aria-label="Select TAT Set"
             value={selectedTatSetId}
             onChange={(e) => setSelectedTatSetId(e.target.value)}
-            className="w-full px-3 py-2 rounded-md border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-950 text-xs sm:text-sm text-zinc-900 dark:text-zinc-100 font-medium"
+            className="w-full px-3 py-2 rounded-xl border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-950 text-xs sm:text-sm text-zinc-900 dark:text-zinc-100 font-medium"
           >
             {tatSets.map((s) => (
               <option key={s.id} value={s.id}>
@@ -904,18 +904,18 @@ export default function FullPsychTestPage() {
         </div>
 
         {/* 2. WAT Set */}
-        <div className="rounded-lg border border-zinc-200 dark:border-zinc-800/80 bg-white dark:bg-zinc-900/40 p-4 sm:p-5 space-y-3">
-          <span className="text-xs font-mono uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+        <div className="rounded-2xl border border-zinc-200/90 dark:border-white/[0.08] bg-white dark:bg-[#0b0f17] p-5 sm:p-6 space-y-3 shadow-sm">
+          <span className="text-xs font-mono uppercase tracking-wider text-cyan-700 dark:text-cyan-400 font-semibold">
             PART 2 · WAT (16 MIN)
           </span>
-          <h2 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+          <h2 className="text-sm font-bold text-zinc-900 dark:text-white">
             Select SSB Board / WAT Set (60 Words)
           </h2>
           <select
             aria-label="Select WAT Set"
             value={selectedWatSetId}
             onChange={(e) => setSelectedWatSetId(e.target.value)}
-            className="w-full px-3 py-2 rounded-md border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-950 text-xs sm:text-sm text-zinc-900 dark:text-zinc-100 font-medium"
+            className="w-full px-3 py-2 rounded-xl border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-950 text-xs sm:text-sm text-zinc-900 dark:text-zinc-100 font-medium"
           >
             {watSets.map((s) => (
               <option key={s.id} value={s.id}>
@@ -930,18 +930,18 @@ export default function FullPsychTestPage() {
         </div>
 
         {/* 3. SRT Set */}
-        <div className="rounded-lg border border-zinc-200 dark:border-zinc-800/80 bg-white dark:bg-zinc-900/40 p-4 sm:p-5 space-y-3">
-          <span className="text-xs font-mono uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+        <div className="rounded-2xl border border-zinc-200/90 dark:border-white/[0.08] bg-white dark:bg-[#0b0f17] p-5 sm:p-6 space-y-3 shadow-sm">
+          <span className="text-xs font-mono uppercase tracking-wider text-amber-700 dark:text-amber-400 font-semibold">
             PART 3 & 4 · SRT (30M) + SDT (15M)
           </span>
-          <h2 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+          <h2 className="text-sm font-bold text-zinc-900 dark:text-white">
             Select SRT Set (60 Situations)
           </h2>
           <select
             aria-label="Select SRT Set"
             value={selectedSrtSetId}
             onChange={(e) => setSelectedSrtSetId(e.target.value)}
-            className="w-full px-3 py-2 rounded-md border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-950 text-xs sm:text-sm text-zinc-900 dark:text-zinc-100 font-medium"
+            className="w-full px-3 py-2 rounded-xl border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-950 text-xs sm:text-sm text-zinc-900 dark:text-zinc-100 font-medium"
           >
             {srtSets.map((s) => (
               <option key={s.id} value={s.id}>
@@ -956,9 +956,9 @@ export default function FullPsychTestPage() {
         </div>
       </div>
 
-      <div className="rounded-lg border border-zinc-200 dark:border-zinc-800/80 bg-white dark:bg-zinc-900/60 p-4 sm:p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+      <div className="rounded-2xl border border-zinc-200/90 dark:border-white/[0.08] bg-white dark:bg-[#0b0f17] p-5 sm:p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4 shadow-sm">
         <div className="space-y-1">
-          <h3 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+          <h3 className="text-sm font-bold text-zinc-900 dark:text-white">
             Ready for Complete SSB Psychology Hall Simulation?
           </h3>
           <p className="text-xs text-zinc-500 dark:text-zinc-400">
@@ -972,7 +972,7 @@ export default function FullPsychTestPage() {
           type="button"
           data-testid="start-full-psych-test-btn"
           onClick={handleOpenFullBriefing}
-          className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-md bg-zinc-900 hover:bg-zinc-800 text-white border border-zinc-700 font-semibold text-xs sm:text-sm shrink-0 transition-colors"
+          className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-zinc-900 hover:bg-zinc-800 dark:bg-indigo-600 dark:hover:bg-indigo-500 text-white font-semibold text-xs sm:text-sm shrink-0 transition-colors shadow-sm"
         >
           <Layers className="w-4 h-4" />
           <span>Start Complete Psychological Test</span>

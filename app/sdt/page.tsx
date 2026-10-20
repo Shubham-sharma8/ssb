@@ -288,8 +288,8 @@ export default function SdtPage() {
   }
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-10 space-y-6">
-      <div className="rounded-lg border border-zinc-200 dark:border-zinc-800/80 bg-white dark:bg-zinc-900/60 p-4 sm:p-5 space-y-1">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 space-y-6">
+      <div className="rounded-2xl border border-zinc-200/90 dark:border-white/[0.08] bg-white dark:bg-[#0b0f17] p-5 sm:p-6 space-y-1 shadow-sm">
         <div className="flex items-center gap-2">
           <Link
             href="/"
@@ -299,30 +299,30 @@ export default function SdtPage() {
             <span>All Tests</span>
           </Link>
           <span className="text-zinc-400 dark:text-zinc-600">·</span>
-          <span className="text-xs font-mono uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+          <span className="text-xs font-mono uppercase tracking-wider text-indigo-600 dark:text-indigo-400 font-semibold">
             STAGE 2 PSYCHOLOGY — SDT (15 MINUTES)
           </span>
         </div>
-        <h1 className="text-lg sm:text-xl font-bold text-zinc-900 dark:text-zinc-100">
+        <h1 className="text-xl sm:text-2xl font-bold text-zinc-900 dark:text-white tracking-tight">
           Self-Description Test (SDT)
         </h1>
-        <p className="text-xs text-zinc-600 dark:text-zinc-300 leading-relaxed">
+        <p className="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
           Write your 5 Self-Description paragraphs in the final pages of your
           physical Psychological Test Booklet.
         </p>
       </div>
 
-      <div className="rounded-lg border border-zinc-200 dark:border-zinc-800/80 bg-white dark:bg-zinc-900/40 p-4 sm:p-6 space-y-4">
-        <h2 className="text-base font-semibold text-zinc-900 dark:text-zinc-100">
+      <div className="rounded-2xl border border-zinc-200/90 dark:border-white/[0.08] bg-white dark:bg-[#0b0f17] p-5 sm:p-6 space-y-4 shadow-sm">
+        <h2 className="text-base font-bold text-zinc-900 dark:text-white">
           Official 5 Self-Description Questions
         </h2>
         <div className="space-y-2.5">
           {prompts.map((p) => (
             <div
               key={p.id}
-              className="p-3.5 rounded-lg border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-950/70 space-y-1"
+              className="p-4 rounded-xl border border-zinc-200/90 dark:border-white/[0.08] bg-zinc-50/70 dark:bg-white/[0.02] space-y-1"
             >
-              <span className="text-xs font-mono font-semibold text-zinc-900 dark:text-zinc-200">
+              <span className="text-xs font-mono font-bold text-zinc-900 dark:text-white">
                 {p.number}. {p.title}
               </span>
               <p className="text-xs text-zinc-600 dark:text-zinc-400">{p.prompt}</p>
@@ -330,7 +330,7 @@ export default function SdtPage() {
           ))}
         </div>
 
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pt-4 border-t border-zinc-200 dark:border-zinc-800/80">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pt-4 border-t border-zinc-200/80 dark:border-white/[0.08]">
           <div className="flex items-center gap-3">
             <label className="text-xs text-zinc-600 dark:text-zinc-400">
               Hall Timer Duration (Minutes):
@@ -343,7 +343,7 @@ export default function SdtPage() {
               onChange={(e) =>
                 setDurationMinutes(Math.max(1, Number(e.target.value) || 15))
               }
-              className="w-20 px-2.5 py-1.5 rounded border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-950 text-xs font-mono text-zinc-900 dark:text-zinc-100"
+              className="w-20 px-2.5 py-1.5 rounded-lg border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-950 text-xs font-mono text-zinc-900 dark:text-zinc-100"
             />
           </div>
 
@@ -351,7 +351,7 @@ export default function SdtPage() {
             type="button"
             data-testid="start-sdt-btn"
             onClick={handleOpenSdtBriefing}
-            className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-md bg-zinc-900 hover:bg-zinc-800 text-white border border-zinc-700 font-semibold text-xs sm:text-sm transition-colors"
+            className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-zinc-900 hover:bg-zinc-800 dark:bg-indigo-600 dark:hover:bg-indigo-500 text-white font-semibold text-xs sm:text-sm transition-colors shadow-sm"
           >
             <UserCheck className="w-4 h-4" />
             <span>Start SDT ({durationMinutes}m Invisible Timer)</span>

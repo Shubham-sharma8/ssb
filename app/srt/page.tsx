@@ -488,7 +488,7 @@ export default function SrtPage() {
 
   if (phase === "BRIEFING") {
     return (
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 py-6 sm:py-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10">
         <ExamBriefingSlides
           examType="srt"
           setLabel={`${selectedSet?.label ?? "SRT Set"} (${questionCount} Situations · ${formatClockMs(equivalentTimeMs)})`}
@@ -503,9 +503,9 @@ export default function SrtPage() {
   }
 
   return (
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 py-6 sm:py-10 space-y-6">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 space-y-6">
       {/* Top Breadcrumb */}
-      <div className="rounded-lg border border-zinc-200 dark:border-zinc-800/80 bg-white dark:bg-zinc-900/60 p-4 sm:p-5">
+      <div className="rounded-2xl border border-zinc-200/90 dark:border-white/[0.08] bg-white dark:bg-[#0b0f17] p-5 sm:p-6 shadow-sm">
         <div className="space-y-1">
           <div className="flex items-center gap-2">
             <Link
@@ -516,14 +516,14 @@ export default function SrtPage() {
               <span>All Tests</span>
             </Link>
             <span className="text-zinc-400 dark:text-zinc-600">·</span>
-            <span className="text-xs font-mono uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+            <span className="text-xs font-mono uppercase tracking-wider text-indigo-600 dark:text-indigo-400 font-semibold">
               STAGE 2 PSYCHOLOGY — SRT ({totalPoolCount} SITUATIONS POOL)
             </span>
           </div>
-          <h1 className="text-lg sm:text-xl font-bold text-zinc-900 dark:text-zinc-100">
+          <h1 className="text-xl sm:text-2xl font-bold text-zinc-900 dark:text-white tracking-tight">
             Situation Reaction Test (SRT)
           </h1>
-          <p className="text-xs text-zinc-600 dark:text-zinc-300 leading-relaxed">
+          <p className="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
             Each page of the SSB Psychological Test Booklet contains 5 SRT
             response boxes. Write your reactions directly in your notebook.
           </p>
@@ -531,9 +531,9 @@ export default function SrtPage() {
       </div>
 
       {/* 1. Select Set (Real-time Random Set + Predefined Sets) */}
-      <div className="rounded-lg border border-zinc-200 dark:border-zinc-800/80 bg-white dark:bg-zinc-900/40 p-4 sm:p-6 space-y-4">
+      <div className="rounded-2xl border border-zinc-200/90 dark:border-white/[0.08] bg-white dark:bg-[#0b0f17] p-5 sm:p-6 space-y-4 shadow-sm">
         <div>
-          <h2 className="text-base font-semibold text-zinc-900 dark:text-zinc-100">
+          <h2 className="text-base font-bold text-zinc-900 dark:text-white">
             1. Choose SRT Set (Live Random or Predefined Set)
           </h2>
           <p className="text-xs text-zinc-500 dark:text-zinc-400 mt-0.5">

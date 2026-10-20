@@ -136,16 +136,16 @@ export default function SettingsPage() {
   };
 
   return (
-    <div className="mx-auto max-w-5xl px-4 py-6 sm:py-8 sm:px-6">
-      <div className="mb-6 border-b border-zinc-200 pb-5 dark:border-zinc-800">
-        <p className="text-xs font-medium uppercase tracking-wider text-zinc-500">
+    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
+      <div className="mb-6 rounded-2xl border border-zinc-200/90 dark:border-white/[0.08] bg-white dark:bg-[#0b0f17] p-5 sm:p-6 shadow-sm">
+        <p className="font-mono text-xs font-semibold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">
           Preferences, Offline Cache & Data Backup
         </p>
-        <h1 className="mt-1 text-xl sm:text-2xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">
+        <h1 className="mt-1 text-xl sm:text-2xl font-bold tracking-tight text-zinc-900 dark:text-white">
           Settings & Data Management
         </h1>
         <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
-          Configure default SSB test timings, minimal light/dark appearance,
+          Configure default SSB test timings, unified COGIFY light/dark appearance,
           sound cues, and export or import your local practice archive.
         </p>
       </div>
@@ -154,16 +154,16 @@ export default function SettingsPage() {
         {/* Section 1: Preferences Form */}
         <form
           onSubmit={handleSavePreferences}
-          className="rounded-lg border border-zinc-200 bg-white p-4 sm:p-6 dark:border-zinc-800 dark:bg-zinc-900"
+          className="rounded-2xl border border-zinc-200/90 bg-white p-5 sm:p-6 dark:border-white/[0.08] dark:bg-[#0b0f17] shadow-sm"
         >
-          <div className="mb-4 flex flex-wrap items-center justify-between gap-2 border-b border-zinc-200 pb-3 dark:border-zinc-800">
-            <h2 className="text-sm sm:text-base font-semibold text-zinc-900 dark:text-zinc-100">
+          <div className="mb-4 flex flex-wrap items-center justify-between gap-2 border-b border-zinc-200/80 pb-3 dark:border-white/[0.08]">
+            <h2 className="text-sm sm:text-base font-bold text-zinc-900 dark:text-white">
               Appearance & Examination Defaults
             </h2>
             <button
               type="button"
               onClick={handleResetPreferences}
-              className="inline-flex items-center gap-1.5 rounded border border-zinc-300 bg-white px-3 py-1.5 text-xs font-medium text-zinc-700 hover:bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-200"
+              className="inline-flex items-center gap-1.5 rounded-xl border border-zinc-300 bg-white px-3 py-1.5 text-xs font-medium text-zinc-700 hover:bg-zinc-50 dark:border-white/[0.12] dark:bg-white/[0.04] dark:text-zinc-200"
             >
               <RotateCcw className="h-3.5 w-3.5" />
               <span>Restore Defaults</span>
