@@ -358,6 +358,54 @@ export default function SdtPage() {
           </button>
         </div>
       </div>
+
+      {/* Static SSR SEO Guide: SSB SDT Structuring & Triangulation */}
+      <section
+        aria-labelledby="sdt-seo-guide-heading"
+        className="rounded-2xl border border-zinc-200/90 dark:border-white/[0.08] bg-white dark:bg-[#0b0f17] p-5 sm:p-8 space-y-6 shadow-sm"
+      >
+        <div className="space-y-2">
+          <span className="text-[11px] font-mono uppercase tracking-wider text-indigo-600 dark:text-indigo-400 font-semibold">
+            DIPR STAGE-2 PSYCHOLOGY GUIDE
+          </span>
+          <h2
+            id="sdt-seo-guide-heading"
+            className="text-lg sm:text-xl font-bold text-zinc-900 dark:text-white"
+          >
+            How the SSB Self-Description Test (SDT) Works &amp; How to Structure Your 5 Paragraphs
+          </h2>
+          <p className="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            The Self-Description Test (SDT) is the fourth and final test of the SSB Stage-2 Psychological Battery, allotted <strong>15 minutes</strong> to write 5 structured paragraphs: (1) Parents&apos; opinion, (2) Teachers&apos; or Employers&apos; opinion, (3) Friends&apos; and Colleagues&apos; opinion, (4) Your own self-assessment, and (5) Qualities you want to develop. Unlike TAT, WAT, and SRT (which are projective), SDT measures conscious self-awareness and alignment with your PIQ form and Personal Interview.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="rounded-xl border border-zinc-200/80 dark:border-white/[0.08] bg-zinc-50/70 dark:bg-white/[0.02] p-4 space-y-1.5">
+            <h3 className="text-xs sm:text-sm font-bold text-zinc-900 dark:text-white">
+              1. Back Traits With Real Examples
+            </h3>
+            <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              Instead of listing generic adjectives, anchor each paragraph in authentic daily behavior (e.g., managing household responsibilities, meeting academic/project deadlines, or supporting friends during emergencies).
+            </p>
+          </div>
+          <div className="rounded-xl border border-zinc-200/80 dark:border-white/[0.08] bg-zinc-50/70 dark:bg-white/[0.02] p-4 space-y-1.5">
+            <h3 className="text-xs sm:text-sm font-bold text-zinc-900 dark:text-white">
+              2. Include Constructive Areas of Growth
+            </h3>
+            <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              Mentioning 1–2 genuine, improvable habits (such as taking on too many tasks simultaneously or working on public speaking) demonstrates honesty and maturity rather than claiming perfection.
+            </p>
+          </div>
+          <div className="rounded-xl border border-zinc-200/80 dark:border-white/[0.08] bg-zinc-50/70 dark:bg-white/[0.02] p-4 space-y-1.5">
+            <h3 className="text-xs sm:text-sm font-bold text-zinc-900 dark:text-white">
+              3. Interviewing Officer Cross-Check
+            </h3>
+            <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              During the Personal Interview CIQ rapid-fire, the Interviewing Officer asks what your parents, teachers, and friends think of you — ensure your SDT paragraphs match your spoken answers naturally.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

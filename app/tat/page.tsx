@@ -967,6 +967,78 @@ export default function TatSetupPage() {
           </div>
         </div>
       </form>
+
+      {/* Static SSR SEO Guide: SSB TAT Procedure, OLQ Evaluation & FAQs */}
+      <section
+        aria-labelledby="tat-seo-guide-heading"
+        className="rounded-2xl border border-zinc-200/90 dark:border-white/[0.08] bg-white dark:bg-[#0b0f17] p-5 sm:p-8 space-y-6 shadow-sm"
+      >
+        <div className="space-y-2">
+          <span className="text-[11px] font-mono uppercase tracking-wider text-indigo-600 dark:text-indigo-400 font-semibold">
+            DIPR STAGE-2 PSYCHOLOGY GUIDE
+          </span>
+          <h2
+            id="tat-seo-guide-heading"
+            className="text-lg sm:text-xl font-bold text-zinc-900 dark:text-white"
+          >
+            How the SSB Thematic Apperception Test (TAT) Works &amp; How Psychologists Evaluate Stories
+          </h2>
+          <p className="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            The Thematic Apperception Test (TAT) is the first and most decisive test in the Stage-2 SSB Psychological Battery. Candidates are projected 11 hazy black-and-white pictures followed by 1 Blank Slide (12th picture). Each slide is projected for <strong>30 seconds</strong> for observation, after which the screen goes blank for <strong>4 minutes</strong> while candidates write a 100–120 word story in their physical Psychological Test Booklet.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="rounded-xl border border-zinc-200/80 dark:border-white/[0.08] bg-zinc-50/70 dark:bg-white/[0.02] p-4 space-y-1.5">
+            <h3 className="text-xs sm:text-sm font-bold text-zinc-900 dark:text-white">
+              1. Four-Part TAT Story Structure
+            </h3>
+            <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              Every SSB TAT response should clearly establish: (1) What led to the situation (2 lines), (2) What is currently happening and the central character&apos;s role, (3) Concrete actions taken using practical resources (5–6 lines), and (4) A realistic, constructive outcome (1–2 lines).
+            </p>
+          </div>
+          <div className="rounded-xl border border-zinc-200/80 dark:border-white/[0.08] bg-zinc-50/70 dark:bg-white/[0.02] p-4 space-y-1.5">
+            <h3 className="text-xs sm:text-sm font-bold text-zinc-900 dark:text-white">
+              2. OLQ Factor Mapping in TAT
+            </h3>
+            <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              DIPR assessors evaluate your protagonist&apos;s subconscious problem-solving across Factor I (Effective Intelligence, Organizing Ability), Factor II (Sense of Responsibility, Cooperation), Factor III (Initiative, Speed of Decision), and Factor IV (Determination, Courage).
+            </p>
+          </div>
+          <div className="rounded-xl border border-zinc-200/80 dark:border-white/[0.08] bg-zinc-50/70 dark:bg-white/[0.02] p-4 space-y-1.5">
+            <h3 className="text-xs sm:text-sm font-bold text-zinc-900 dark:text-white">
+              3. The 12th Blank Slide Strategy
+            </h3>
+            <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              Slide 12 is completely blank so you can project a situation aligned with your Personal Information Questionnaire (PIQ) — such as organizing an inter-college tournament, resolving a technical project bottleneck, or leading a community initiative.
+            </p>
+          </div>
+        </div>
+
+        <div className="space-y-2.5 pt-2 border-t border-zinc-200/80 dark:border-white/[0.08]">
+          <h3 className="text-sm font-bold text-zinc-900 dark:text-white">
+            Frequently Asked Questions — SSB TAT Practice
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs text-zinc-600 dark:text-zinc-400">
+            <div className="rounded-lg border border-zinc-200/70 dark:border-white/[0.06] p-3 space-y-1">
+              <p className="font-semibold text-zinc-900 dark:text-zinc-100">
+                Why is there no visible countdown timer in Real SSB Hall Mode?
+              </p>
+              <p className="leading-relaxed">
+                In actual SSB Selection Centers (Allahabad, Bhopal, Bangalore, Kapurthala, AFSBs), candidates have no wall clock or stopwatch during TAT. Training without a visible timer builds natural 4-minute story pacing.
+              </p>
+            </div>
+            <div className="rounded-lg border border-zinc-200/70 dark:border-white/[0.06] p-3 space-y-1">
+              <p className="font-semibold text-zinc-900 dark:text-zinc-100">
+                Should I write TAT stories on paper or type on screen?
+              </p>
+              <p className="leading-relaxed">
+                Always prioritize writing with a blue/black ballpoint pen in the printable 16-page SSB Booklet PDF so your handwriting speed matches the 4-minute hall window (~100–120 words per story).
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

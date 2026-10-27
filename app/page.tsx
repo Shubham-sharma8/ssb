@@ -11,6 +11,109 @@ import { ContainerTextFlip } from "@/components/aceternity/ContainerTextFlip";
 import { SpotlightCard } from "@/components/aceternity/SpotlightCard";
 import { Spotlight } from "@/components/ui/Spotlight";
 
+const homepageJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://ssb.cogify.me/#webapp",
+      name: "ssb.cogify.me — SSB Stage-2 Test Practice Platform (Psychology, GTO & Interview)",
+      url: "https://ssb.cogify.me",
+      image: "https://ssb.cogify.me/og-image.webp",
+      screenshot: "https://ssb.cogify.me/og-image.png",
+      applicationCategory: "EducationalApplication",
+      operatingSystem: "Any",
+      inLanguage: "en-IN",
+      isAccessibleForFree: true,
+      description:
+        "Authentic Indian Services Selection Board (SSB) Stage-2 Practice Platform covering Psychological Tests (TAT, WAT, SRT, SDT), GTO Tasks (Lecturette Timer & 9 GTO Tasks), and Personal Interview (CIQ Rapid-Fire Simulator) with PDF Question Booklet export and Pin-Point AI evaluation prompts.",
+      author: {
+        "@id": "https://cogify.me/#founder",
+      },
+      offers: {
+        "@type": "Offer",
+        price: "0",
+        priceCurrency: "INR",
+      },
+      publisher: {
+        "@id": "https://cogify.me/#organization",
+      },
+    },
+    {
+      "@type": "Course",
+      "@id": "https://ssb.cogify.me/#course",
+      name: "Complete SSB Stage-2 Psychology, GTO & Personal Interview Practice Suite",
+      description:
+        "Self-paced Indian Armed Forces SSB interview preparation suite featuring 10 TAT picture sets, 60-word WAT board sets, 230 SRT situations, 5 SDT prompts, 9 GTO tasks with Lecturette timer, and Personal Interview CIQ simulator.",
+      url: "https://ssb.cogify.me",
+      inLanguage: "en-IN",
+      isAccessibleForFree: true,
+      provider: {
+        "@id": "https://cogify.me/#organization",
+      },
+      hasCourseInstance: {
+        "@type": "CourseInstance",
+        courseMode: "online",
+        courseWorkload: "PT20H",
+      },
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://ssb.cogify.me/#faq",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "How does the SSB Stage-2 Psychology Test work on ssb.cogify.me?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "ssb.cogify.me replicates the exact SSB Testing Hall sequence: TAT projects 11 pictures + 1 blank slide (30s picture projection followed by 4 minutes of notebook writing with no visible countdown), WAT projects 60 words for 15 seconds each with a hall beep and a 30-second page-turn timer after every 20 words, SRT displays 60 situations (5 per sheet) under an invisible 30-minute timer, and SDT provides 15 minutes for the 5 official Self-Description paragraphs.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Can I download my attempted Question Booklet PDF and get AI evaluation?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. After completing any test or finishing early (TAT, WAT, SRT, SDT, or the Complete Psychological Test), you can export the exact attempted Question Booklet as a PDF and copy a tailored Pin-Point AI Psychologist Evaluation Prompt to review your handwritten notebook responses against the 15 Officer Like Qualities (OLQs).",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Does ssb.cogify.me include GTO Officer Tasks and Personal Interview practice?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. The GTO Hub includes an interactive Lecturette Card & Hall Timer (3-minute prep + 3-minute speech with a 30-second warning beep and 16 real SSB topics) plus complete frameworks for all 9 GTO tasks (GD, GPE, PGT, HGT, GOR, IO, CT, FGT). The Interview Hub includes a PIQ Form Structuring guide and an interactive CIQ (Comprehensive Information Questionnaire) Rapid-Fire Simulator.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Which SSB Selection Centers are covered in the WAT and TAT datasets?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The platform includes 118 verified TAT stimulus slides across Set 1 to Set 10, 60-word Selection Center WAT sets calibrated from SSB Allahabad (11/14/18/19/34 SSB), SSB Bhopal (20/21/22 SSB), SSB Bangalore (17/24 SSB), SSB Jalandhar, 1 AFSB Dehradun, 2 AFSB Mysuru, 4 AFSB Varanasi, and 230 Situation Reaction Test (SRT) situations.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Is ssb.cogify.me completely free and private for defence aspirants?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. All SSB Psychology, GTO, and Personal Interview simulators on ssb.cogify.me are 100% free with no login wall. Your practice sessions, TAT story drafts, and self-review notes are stored locally in your browser via IndexedDB with zero cloud telemetry.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What are the 15 Officer Like Qualities (OLQs) evaluated in SSB?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The 15 Officer Like Qualities (OLQs) are grouped into 4 Factors: Factor I Planning and Organizing (Effective Intelligence, Reasoning Ability, Organizing Ability, Power of Expression), Factor II Social Adjustment (Social Adaptability, Cooperation, Sense of Responsibility), Factor III Social Effectiveness (Initiative, Self-Confidence, Speed of Decision, Ability to Influence the Group, Liveliness), and Factor IV Dynamic (Determination, Courage, Stamina).",
+          },
+        },
+      ],
+    },
+  ],
+};
+
 export default function DashboardPage() {
   const tatSets = getPracticeSets();
   const watSets = getWatSets();
@@ -20,6 +123,10 @@ export default function DashboardPage() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 space-y-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homepageJsonLd) }}
+      />
       {/* Unified cogify.me Hero Section with Spotlight & Grid Pattern */}
       <section className="relative overflow-hidden rounded-3xl border border-zinc-200/90 bg-white dark:border-white/[0.08] dark:bg-[#0b0f17] p-6 sm:p-10 lg:p-12 shadow-sm">
         {/* Background Spotlight & Grid matching cogify.me */}
@@ -754,12 +861,13 @@ export default function DashboardPage() {
               </span>
             </summary>
             <p className="mt-3 text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed border-t border-zinc-100 dark:border-white/5 pt-3">
-              Yes. The GTO Hub includes an interactive 3-Minute Lecturette Card
-              &amp; Hall Timer (with a 30-second warning beep and 24 real SSB
-              topics) plus complete frameworks for all 9 GTO tasks (GD, GPE,
-              PGT, HGT, GOR, IO, CT, FGT). The Interview Hub includes a PIQ Form
-              Structuring guide and an interactive CIQ (Comprehensive
-              Information Questionnaire) Rapid-Fire Simulator.
+              Yes. The GTO Hub includes an interactive Lecturette Card &amp;
+              Hall Timer (3-minute prep + 3-minute speech with a 30-second
+              warning beep and 16 real SSB topics) plus complete frameworks for
+              all 9 GTO tasks (GD, GPE, PGT, HGT, GOR, IO, CT, FGT). The
+              Interview Hub includes a PIQ Form Structuring guide and an
+              interactive CIQ (Comprehensive Information Questionnaire)
+              Rapid-Fire Simulator.
             </p>
           </details>
 
@@ -778,8 +886,47 @@ export default function DashboardPage() {
               1 to Set 10, 60-word Selection Center WAT sets calibrated from SSB
               Allahabad (11/14/18/19/34 SSB), SSB Bhopal (20/21/22 SSB), SSB
               Bangalore (17/24 SSB), SSB Jalandhar, 1 AFSB Dehradun, 2 AFSB
-              Mysuru, 4 AFSB Varanasi, and 180 Situation Reaction Test (SRT)
-              items.
+              Mysuru, 4 AFSB Varanasi, and 230 Situation Reaction Test (SRT)
+              situations.
+            </p>
+          </details>
+
+          <details className="group rounded-2xl bg-white dark:bg-[#0b0f17] border border-zinc-200/90 dark:border-white/[0.08] p-5 sm:p-6 shadow-xs transition-all open:border-indigo-500/30">
+            <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold text-zinc-900 dark:text-white text-sm sm:text-base">
+              <span>
+                Is ssb.cogify.me completely free and private for defence
+                aspirants?
+              </span>
+              <span className="shrink-0 rounded-full bg-zinc-100 dark:bg-white/5 px-2.5 py-1 text-xs font-mono text-indigo-600 dark:text-indigo-400">
+                +
+              </span>
+            </summary>
+            <p className="mt-3 text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed border-t border-zinc-100 dark:border-white/5 pt-3">
+              Yes. All SSB Psychology, GTO, and Personal Interview simulators on
+              ssb.cogify.me are 100% free with no login wall. Your practice
+              sessions, TAT story drafts, and self-review notes are stored
+              locally in your browser via IndexedDB with zero cloud telemetry.
+            </p>
+          </details>
+
+          <details className="group rounded-2xl bg-white dark:bg-[#0b0f17] border border-zinc-200/90 dark:border-white/[0.08] p-5 sm:p-6 shadow-xs transition-all open:border-indigo-500/30">
+            <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold text-zinc-900 dark:text-white text-sm sm:text-base">
+              <span>
+                What are the 15 Officer Like Qualities (OLQs) evaluated in SSB?
+              </span>
+              <span className="shrink-0 rounded-full bg-zinc-100 dark:bg-white/5 px-2.5 py-1 text-xs font-mono text-indigo-600 dark:text-indigo-400">
+                +
+              </span>
+            </summary>
+            <p className="mt-3 text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed border-t border-zinc-100 dark:border-white/5 pt-3">
+              The 15 Officer Like Qualities (OLQs) are grouped into 4 Factors:
+              Factor I Planning and Organizing (Effective Intelligence,
+              Reasoning Ability, Organizing Ability, Power of Expression),
+              Factor II Social Adjustment (Social Adaptability, Cooperation,
+              Sense of Responsibility), Factor III Social Effectiveness
+              (Initiative, Self-Confidence, Speed of Decision, Ability to
+              Influence the Group, Liveliness), and Factor IV Dynamic
+              (Determination, Courage, Stamina).
             </p>
           </details>
         </div>

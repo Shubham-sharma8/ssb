@@ -11,6 +11,21 @@
 
 const CIPHER_SALT = "ssb.cogify.me::stage2-psych-shield::2026";
 
+const ALLOWED_SEARCH_BOT_PATTERNS = [
+  /gptbot/i,
+  /oai-searchbot/i,
+  /chatgpt-user/i,
+  /claudebot/i,
+  /anthropic-ai/i,
+  /perplexitybot/i,
+  /google-extended/i,
+  /applebot/i,
+  /amazonbot/i,
+  /duckassistbot/i,
+  /googlebot/i,
+  /bingbot/i,
+];
+
 const BLOCKED_BOT_PATTERNS = [
   /curl\//i,
   /wget\//i,
@@ -34,10 +49,6 @@ const BLOCKED_BOT_PATTERNS = [
   /zgrab/i,
   /bytespider/i,
   /ccbot/i,
-  /gptbot/i,
-  /chatgpt-user/i,
-  /claudebot/i,
-  /anthropic-ai/i,
   /petalbot/i,
   /mj12bot/i,
   /dotbot/i,
@@ -47,9 +58,17 @@ const BLOCKED_BOT_PATTERNS = [
   /dataforseobot/i,
 ];
 
+function isAllowedSearchBotUserAgent(userAgent) {
+  if (!userAgent) return false;
+  return ALLOWED_SEARCH_BOT_PATTERNS.some((pattern) => pattern.test(userAgent));
+}
+
 function isBlockedScraperUserAgent(userAgent) {
   if (!userAgent || userAgent.trim().length < 6) {
     return true;
+  }
+  if (isAllowedSearchBotUserAgent(userAgent)) {
+    return false;
   }
   return BLOCKED_BOT_PATTERNS.some((pattern) => pattern.test(userAgent));
 }
@@ -80,18 +99,33 @@ const worker = {
   async fetch(request, env) {
     const url = new URL(request.url);
 
-    // 0. Single-hop canonical URL normalization (no redirect chains)
+    // 0. Single-hop canonical URL normalization (HTTP -> HTTPS, www -> apex, strip trailing slash)
+    const forwardedProto = request.headers.get("x-forwarded-proto");
+    const isLocalhost =
+      url.hostname === "localhost" || url.hostname === "127.0.0.1";
     const needsHttpsUpgrade =
-      url.hostname === "ssb.cogify.me" && url.protocol === "http:";
+      !isLocalhost && (url.protocol === "http:" || forwardedProto === "http");
+    const isWwwHost = url.hostname === "www.ssb.cogify.me";
     const hasTrailingSlash =
       url.pathname.length > 1 && url.pathname.endsWith("/");
-    if (needsHttpsUpgrade || hasTrailingSlash) {
-      const canonicalUrl = new URL(url.toString());
-      if (needsHttpsUpgrade) canonicalUrl.protocol = "https:";
-      if (hasTrailingSlash) {
-        canonicalUrl.pathname = canonicalUrl.pathname.replace(/\/+$/, "");
-      }
-      return Response.redirect(canonicalUrl.toString(), 301);
+
+    if (needsHttpsUpgrade || isWwwHost || hasTrailingSlash) {
+      const canonicalPathname = hasTrailingSlash
+        ? url.pathname.replace(/\/+$/, "")
+        : url.pathname;
+      const canonicalHost = isLocalhost ? url.host : "ssb.cogify.me";
+      const canonicalProtocol = isLocalhost ? url.protocol : "https:";
+      const redirectLocation = `${canonicalProtocol}//${canonicalHost}${canonicalPathname}${url.search}`;
+      return new Response(null, {
+        status: 301,
+        headers: {
+          Location: redirectLocation,
+          "Strict-Transport-Security":
+            "max-age=63072000; includeSubDomains; preload",
+          "X-Content-Type-Options": "nosniff",
+          "Cache-Control": "public, max-age=31536000",
+        },
+      });
     }
 
     // Redirect legacy /tat/session?set=... links without sessionId directly to /tat?setId=... in a single 301 hop

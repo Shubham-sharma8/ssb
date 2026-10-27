@@ -375,41 +375,45 @@ export function AppShell({ children }: { children: React.ReactNode }) {
               </div>
             </div>
 
-            {/* Sub-Toolbar for Psychological Tests (when inside Psychology section) */}
-            {isPsychSection && (
-              <div className="hidden md:flex items-center justify-between gap-2 border-t border-zinc-200/70 dark:border-white/[0.07] bg-zinc-50/70 dark:bg-white/[0.02] px-4 sm:px-5 py-1.5 text-[11px] rounded-b-2xl">
-                <div className="flex items-center gap-1 overflow-x-auto">
-                  <span className="mr-1.5 font-mono text-[10px] font-semibold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">
-                    Psych Suite:
-                  </span>
-                  {PSYCH_SUB_ITEMS.map((sub) => {
-                    const active =
-                      sub.href === "/"
-                        ? pathname === "/"
-                        : pathname === sub.href ||
-                          pathname?.startsWith(`${sub.href}/`);
-                    return (
-                      <Link
-                        key={sub.href}
-                        href={sub.href}
-                        data-testid={sub.testId}
-                        className={`rounded-lg px-2.5 py-1 font-medium transition-colors whitespace-nowrap ${
-                          active
-                            ? "bg-indigo-600 text-white dark:bg-indigo-500 dark:text-white shadow-xs"
-                            : "text-zinc-600 hover:bg-zinc-200/70 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-white/10 dark:hover:text-zinc-100"
-                        }`}
-                      >
-                        {sub.label}
-                      </Link>
-                    );
-                  })}
-                </div>
-                <span className="hidden lg:inline-flex items-center gap-1.5 font-mono text-[10px] text-zinc-500 dark:text-zinc-400">
-                  <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
-                  DIPR Hall Projector • Handwritten Notebook Mode
+            {/* Sub-Toolbar for Psychological Tests (always rendered in SSR DOM for crawlers) */}
+            <div
+              className={
+                isPsychSection
+                  ? "hidden md:flex items-center justify-between gap-2 border-t border-zinc-200/70 dark:border-white/[0.07] bg-zinc-50/70 dark:bg-white/[0.02] px-4 sm:px-5 py-1.5 text-[11px] rounded-b-2xl"
+                  : "sr-only"
+              }
+            >
+              <div className="flex items-center gap-1 overflow-x-auto">
+                <span className="mr-1.5 font-mono text-[10px] font-semibold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">
+                  Psych Suite:
                 </span>
+                {PSYCH_SUB_ITEMS.map((sub) => {
+                  const active =
+                    sub.href === "/"
+                      ? pathname === "/"
+                      : pathname === sub.href ||
+                        pathname?.startsWith(`${sub.href}/`);
+                  return (
+                    <Link
+                      key={sub.href}
+                      href={sub.href}
+                      data-testid={sub.testId}
+                      className={`rounded-lg px-2.5 py-1 font-medium transition-colors whitespace-nowrap ${
+                        active
+                          ? "bg-indigo-600 text-white dark:bg-indigo-500 dark:text-white shadow-xs"
+                          : "text-zinc-600 hover:bg-zinc-200/70 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-white/10 dark:hover:text-zinc-100"
+                      }`}
+                    >
+                      {sub.label}
+                    </Link>
+                  );
+                })}
               </div>
-            )}
+              <span className="hidden lg:inline-flex items-center gap-1.5 font-mono text-[10px] text-zinc-500 dark:text-zinc-400">
+                <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
+                DIPR Hall Projector • Handwritten Notebook Mode
+              </span>
+            </div>
           </div>
         </div>
 
@@ -816,6 +820,14 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                   className="inline-flex items-center justify-center gap-1 rounded-xl border border-zinc-200 dark:border-white/10 bg-white dark:bg-white/5 px-3 py-1.5 text-[11px] font-semibold text-zinc-800 hover:border-indigo-500/40 hover:text-indigo-600 dark:text-zinc-200 dark:hover:text-white transition-all"
                 >
                   Visit cogify.me ↗
+                </a>
+                <a
+                  href="https://biodata.cogify.me"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-1 rounded-xl border border-zinc-200 dark:border-white/10 bg-white dark:bg-white/5 px-3 py-1.5 text-[11px] font-semibold text-zinc-800 hover:border-indigo-500/40 hover:text-indigo-600 dark:text-zinc-200 dark:hover:text-white transition-all"
+                >
+                  Marriage Biodata Maker ↗
                 </a>
                 <a
                   href="/Phys-Test-Booklet.pdf"

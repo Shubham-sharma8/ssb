@@ -675,6 +675,54 @@ export default function SrtPage() {
           </button>
         </div>
       </div>
+
+      {/* Static SSR SEO Guide: SSB SRT Procedure, OLQ Evaluation & FAQs */}
+      <section
+        aria-labelledby="srt-seo-guide-heading"
+        className="rounded-2xl border border-zinc-200/90 dark:border-white/[0.08] bg-white dark:bg-[#0b0f17] p-5 sm:p-8 space-y-6 shadow-sm"
+      >
+        <div className="space-y-2">
+          <span className="text-[11px] font-mono uppercase tracking-wider text-indigo-600 dark:text-indigo-400 font-semibold">
+            DIPR STAGE-2 PSYCHOLOGY GUIDE
+          </span>
+          <h2
+            id="srt-seo-guide-heading"
+            className="text-lg sm:text-xl font-bold text-zinc-900 dark:text-white"
+          >
+            How the SSB Situation Reaction Test (SRT) Works &amp; How to Write Crisp Action Responses
+          </h2>
+          <p className="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            The Situation Reaction Test (SRT) presents <strong>60 real-life and crisis situations</strong> to be answered in <strong>30 minutes</strong> (~30 seconds per situation). In the SSB Psychological Test Booklet, candidate responses are written across 12 pages with 5 SRT response boxes per sheet. Psychologists cross-examine your SRT reactions with your TAT stories and WAT sentences to verify your Speed of Decision, Effective Intelligence, Social Adaptability, and Courage under time pressure.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="rounded-xl border border-zinc-200/80 dark:border-white/[0.08] bg-zinc-50/70 dark:bg-white/[0.02] p-4 space-y-1.5">
+            <h3 className="text-xs sm:text-sm font-bold text-zinc-900 dark:text-white">
+              1. Telegraphic Action Format
+            </h3>
+            <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              Write concise, comma-separated concrete actions (e.g., &ldquo;Administered first aid, shifted the injured cyclist to the hospital, informed family, and resumed journey&rdquo;) rather than long narrative paragraphs.
+            </p>
+          </div>
+          <div className="rounded-xl border border-zinc-200/80 dark:border-white/[0.08] bg-zinc-50/70 dark:bg-white/[0.02] p-4 space-y-1.5">
+            <h3 className="text-xs sm:text-sm font-bold text-zinc-900 dark:text-white">
+              2. Complete the Primary Goal
+            </h3>
+            <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              Many SRT prompts place an emergency on your way to an exam, interview, or train. Handle the immediate human/safety priority first and still fulfill your original duty using practical time management.
+            </p>
+          </div>
+          <div className="rounded-xl border border-zinc-200/80 dark:border-white/[0.08] bg-zinc-50/70 dark:bg-white/[0.02] p-4 space-y-1.5">
+            <h3 className="text-xs sm:text-sm font-bold text-zinc-900 dark:text-white">
+              3. Quality &amp; Continuity Over Skipping
+            </h3>
+            <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              Avoid skipping situations in between, as gaps in the booklet indicate evasion of difficult decisions. Aim for 45–60 complete, logical reactions in chronological sequence.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

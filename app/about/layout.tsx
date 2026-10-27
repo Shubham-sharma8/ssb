@@ -1,18 +1,26 @@
 import type { Metadata } from "next";
 
+const title = "About SSB Selection Process and 15 OLQs";
+const description =
+  "Complete guide to the 5-day Indian Armed Forces SSB selection process, Stage-1 OIR and PPDT, Stage-2 Psychology, GTO, Interview, and the 15 Official OLQs.";
+
 export const metadata: Metadata = {
-  title: "About SSB Stage-1 & Stage-2 Procedure, 15 OLQs & DIPR Methodology",
-  description:
-    "Learn how the Indian Services Selection Board (SSB) 5-Day Assessment works across Mansik (Psychology: TAT, WAT, SRT, SDT), Karman (GTO Tasks), and Vachik (Personal Interview), mapped to the 15 Officer Like Qualities (OLQs).",
+  title,
+  description,
   alternates: {
     canonical: "https://ssb.cogify.me/about",
   },
   openGraph: {
-    title: "About SSB Stage-2 Procedure, 15 OLQs & DIPR Methodology | ssb.cogify.me",
-    description:
-      "Complete guide to the 5-Day SSB Selection Procedure, Mansik-Karman-Vachik triangulation, and the 15 Officer Like Qualities (OLQs).",
+    title,
+    description,
     url: "https://ssb.cogify.me/about",
-    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+    images: ["/og-image.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: ["/og-image.png"],
   },
 };
 

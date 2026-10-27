@@ -1,18 +1,34 @@
 import type { Metadata } from "next";
 
+const title = "SSB Practice Hall Timer, App Settings";
+const description =
+  "Configure your SSB Practice hall timer preferences, sound alerts, display theme, and local IndexedDB session backup export or import options.";
+
 export const metadata: Metadata = {
-  title: "Simulator Settings, Theme Preferences & Local JSON Backup",
-  description:
-    "Configure SSB hall simulator timings, audio beep cues, light/dark theme preferences, and export or import local practice session backups on ssb.cogify.me.",
+  title,
+  description,
   alternates: {
     canonical: "https://ssb.cogify.me/settings",
   },
   openGraph: {
-    title: "Simulator Settings & Local Data Backup | ssb.cogify.me",
-    description:
-      "Customize SSB simulator timings, audio cues, theme mode, and local session data backups.",
+    title,
+    description,
     url: "https://ssb.cogify.me/settings",
-    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+    images: ["/og-image.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: ["/og-image.png"],
+  },
+  robots: {
+    index: false,
+    follow: true,
+    googleBot: {
+      index: false,
+      follow: true,
+    },
   },
 };
 

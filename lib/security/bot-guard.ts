@@ -14,6 +14,21 @@
 const STORAGE_PREFIX = "cgf_v2_";
 const CIPHER_SALT = "ssb.cogify.me::stage2-psych-shield::2026";
 
+const ALLOWED_SEARCH_BOT_PATTERNS = [
+  /gptbot/i,
+  /oai-searchbot/i,
+  /chatgpt-user/i,
+  /claudebot/i,
+  /anthropic-ai/i,
+  /perplexitybot/i,
+  /google-extended/i,
+  /applebot/i,
+  /amazonbot/i,
+  /duckassistbot/i,
+  /googlebot/i,
+  /bingbot/i,
+];
+
 const BLOCKED_BOT_PATTERNS = [
   /curl\//i,
   /wget\//i,
@@ -37,10 +52,6 @@ const BLOCKED_BOT_PATTERNS = [
   /zgrab/i,
   /bytespider/i,
   /ccbot/i,
-  /gptbot/i,
-  /chatgpt-user/i,
-  /claudebot/i,
-  /anthropic-ai/i,
   /petalbot/i,
   /mj12bot/i,
   /dotbot/i,
@@ -51,12 +62,24 @@ const BLOCKED_BOT_PATTERNS = [
 ];
 
 /**
- * Checks whether a request User-Agent belongs to a known scraper, bulk downloader,
- * or unauthorized AI crawler.
+ * Checks whether a request User-Agent belongs to an explicitly allowed search
+ * or AI answer-engine crawler.
+ */
+export function isAllowedSearchBotUserAgent(userAgent: string | null | undefined): boolean {
+  if (!userAgent) return false;
+  return ALLOWED_SEARCH_BOT_PATTERNS.some((pattern) => pattern.test(userAgent));
+}
+
+/**
+ * Checks whether a request User-Agent belongs to a known scraper or bulk downloader.
+ * Explicitly allows legitimate search and AI answer-engine bots.
  */
 export function isBlockedScraperUserAgent(userAgent: string | null | undefined): boolean {
   if (!userAgent || userAgent.trim().length < 6) {
     return true;
+  }
+  if (isAllowedSearchBotUserAgent(userAgent)) {
+    return false;
   }
   return BLOCKED_BOT_PATTERNS.some((pattern) => pattern.test(userAgent));
 }

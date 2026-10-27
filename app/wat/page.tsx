@@ -815,6 +815,54 @@ export default function WatPage() {
           </button>
         </div>
       </div>
+
+      {/* Static SSR SEO Guide: SSB WAT Rules, OLQ Sentence Framing & FAQs */}
+      <section
+        aria-labelledby="wat-seo-guide-heading"
+        className="rounded-2xl border border-zinc-200/90 dark:border-white/[0.08] bg-white dark:bg-[#0b0f17] p-5 sm:p-8 space-y-6 shadow-sm"
+      >
+        <div className="space-y-2">
+          <span className="text-[11px] font-mono uppercase tracking-wider text-indigo-600 dark:text-indigo-400 font-semibold">
+            DIPR STAGE-2 PSYCHOLOGY GUIDE
+          </span>
+          <h2
+            id="wat-seo-guide-heading"
+            className="text-lg sm:text-xl font-bold text-zinc-900 dark:text-white"
+          >
+            How the SSB Word Association Test (WAT) Works &amp; How to Frame OLQ Sentences
+          </h2>
+          <p className="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            Immediately after TAT, the SSB Word Association Test (WAT) projects <strong>60 words</strong> sequentially for <strong>15 seconds per word</strong> with an audio hall cue. Each page of the official SSB booklet holds 20 numbered lines, with a brief page-turn interval after words 20 and 40. Because 15 seconds leaves no room for artificial fabrication, WAT reveals your natural attitude, emotional stability, and sense of responsibility.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="rounded-xl border border-zinc-200/80 dark:border-white/[0.08] bg-zinc-50/70 dark:bg-white/[0.02] p-4 space-y-1.5">
+            <h3 className="text-xs sm:text-sm font-bold text-zinc-900 dark:text-white">
+              1. Action Over Preaching
+            </h3>
+            <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              Avoid moralizing slogans (&ldquo;One should...&rdquo;, &ldquo;We must...&rdquo;) or dictionary definitions. Write observational or action-oriented sentences showing cause and constructive effect (8–12 words).
+            </p>
+          </div>
+          <div className="rounded-xl border border-zinc-200/80 dark:border-white/[0.08] bg-zinc-50/70 dark:bg-white/[0.02] p-4 space-y-1.5">
+            <h3 className="text-xs sm:text-sm font-bold text-zinc-900 dark:text-white">
+              2. Handling Negative Trigger Words
+            </h3>
+            <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              Words like <em>Fear</em>, <em>Defeat</em>, <em>Failure</em>, or <em>Blood</em> test Factor IV (Courage, Determination) and emotional maturity. Acknowledge the challenge and show how preparation or calm analysis overcomes it.
+            </p>
+          </div>
+          <div className="rounded-xl border border-zinc-200/80 dark:border-white/[0.08] bg-zinc-50/70 dark:bg-white/[0.02] p-4 space-y-1.5">
+            <h3 className="text-xs sm:text-sm font-bold text-zinc-900 dark:text-white">
+              3. Recovery From Missed Words
+            </h3>
+            <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              If a word switches before you finish, immediately move to the next line number in your booklet. Never carry over a previous word&apos;s thought or mismatch your booklet numbering.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

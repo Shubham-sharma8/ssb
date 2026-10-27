@@ -1,25 +1,26 @@
 import type { Metadata } from "next";
 
+const title = "SSB Personal Interview, PIQ Simulator";
+const description =
+  "Prepare for the SSB Personal Interview with interactive Rapid-Fire CIQ simulators, PIQ-based questions, 15 OLQ mapping, and AI Interviewing Officer review.";
+
 export const metadata: Metadata = {
-  title: "SSB Personal Interview Practice: CIQ Rapid-Fire Simulator & PIQ Form Guide",
-  description:
-    "Prepare for the SSB Personal Interview with an interactive CIQ (Comprehensive Information Questionnaire) Rapid-Fire Simulator (Academics, Family, Hobbies, Defence & Current Affairs) and a complete PIQ Form Structuring guide.",
+  title,
+  description,
   alternates: {
     canonical: "https://ssb.cogify.me/interview",
   },
   openGraph: {
-    title: "SSB Personal Interview Practice: CIQ Rapid-Fire & PIQ Guide | ssb.cogify.me",
-    description:
-      "Interactive SSB Interviewing Officer (IO) CIQ Rapid-Fire Simulator and PIQ Form Structuring Blueprint mapped to all 15 OLQs.",
+    title,
+    description,
     url: "https://ssb.cogify.me/interview",
-    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+    images: ["/og-image.png"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "SSB Personal Interview & CIQ Rapid-Fire Simulator | ssb.cogify.me",
-    description:
-      "Practice timed SSB Interview CIQ sequences and structure your PIQ form for the Interviewing Officer.",
-    images: ["/twitter-image.png"],
+    title,
+    description,
+    images: ["/og-image.png"],
   },
 };
 

@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "404 — Page Not Found | ssb.cogify.me SSB Practice Platform",
+  title: "Page Not Found (404) - SSB Practice Hub",
   description:
-    "The requested SSB practice route could not be found. Return to the SSB Stage-2 Psychological Battery (TAT, WAT, SRT, SDT), GTO Tasks, or Personal Interview Hub.",
+    "The requested page could not be found on ssb.cogify.me. Return to the SSB Practice Hub to access TAT, WAT, SRT, SDT, GTO, and Interview simulators.",
+  alternates: {},
   robots: {
     index: false,
     follow: true,

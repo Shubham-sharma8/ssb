@@ -13,17 +13,34 @@ export const viewport: Viewport = {
   ],
 };
 
+const googleVerification =
+  process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION?.trim();
+const bingVerification = process.env.NEXT_PUBLIC_BING_VERIFICATION?.trim();
+
+const verificationMetadata: Metadata["verification"] | undefined =
+  googleVerification || bingVerification
+    ? {
+        ...(googleVerification ? { google: googleVerification } : {}),
+        ...(bingVerification
+          ? {
+              other: {
+                "msvalidate.01": [bingVerification],
+              },
+            }
+          : {}),
+      }
+    : undefined;
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://ssb.cogify.me"),
   applicationName: "ssb.cogify.me — SSB Practice",
   category: "education",
   title: {
-    default:
-      "ssb.cogify.me — #1 SSB Test Practice Platform: Psychology (TAT, WAT, SRT, SDT), GTO & Interview",
-    template: "%s | ssb.cogify.me — SSB Practice by COGIFY",
+    default: "Free SSB Practice Online: TAT, WAT, SRT, SDT, GTO | COGIFY",
+    template: "%s | ssb.cogify.me",
   },
   description:
-    "ssb.cogify.me by COGIFY (cogify.me) — India's #1 Services Selection Board (SSB) Stage-2 Test Practice Platform covering Psychological Battery (TAT, WAT, SRT, SDT & Full Hall Simulator), GTO Tasks (GD, GPE, PGT, Lecturette Timer), and Personal Interview (CIQ Rapid-Fire & PIQ). Includes Question Booklet PDF export and Pin-Point AI Evaluation Prompts.",
+    "Practice SSB Psychology (TAT, WAT, SRT, SDT), GTO tasks, and Personal Interview online with real Indian Defence timers, PDF booklets, and AI OLQ review.",
   keywords: [
     "SSB practice",
     "SSB test practice",
@@ -86,10 +103,9 @@ export const metadata: Metadata = {
     locale: "en_IN",
     url: "https://ssb.cogify.me",
     siteName: "ssb.cogify.me — SSB Test Practice Platform",
-    title:
-      "ssb.cogify.me — #1 SSB Practice Platform (Psychology · GTO · Interview)",
+    title: "Free SSB Practice Online: TAT, WAT, SRT, SDT, GTO | COGIFY",
     description:
-      "Practice TAT, WAT, SRT, SDT, Full Psychological Battery, GTO Lecturette & Tasks, and Personal Interview CIQs with Question Booklet PDF export & Pin-Point AI Evaluation Prompts.",
+      "Practice SSB Psychology (TAT, WAT, SRT, SDT), GTO tasks, and Personal Interview online with real Indian Defence timers, PDF booklets, and AI OLQ review.",
     images: [
       {
         url: "/og-image.webp",
@@ -119,10 +135,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title:
-      "ssb.cogify.me — #1 SSB Test Practice (Psychology, GTO & Interview)",
+    title: "Free SSB Practice Online: TAT, WAT, SRT, SDT, GTO | COGIFY",
     description:
-      "Real SSB Stage-2 Practice Platform with 10 TAT sets, 60-word WAT with 15s beep, 60-SRT sheets, SDT, GTO Lecturette Timer, Interview CIQ Simulator & AI Evaluation Prompts.",
+      "Practice SSB Psychology (TAT, WAT, SRT, SDT), GTO tasks, and Personal Interview online with real Indian Defence timers, PDF booklets, and AI OLQ review.",
     images: [
       {
         url: "/twitter-image.png",
@@ -143,12 +158,7 @@ export const metadata: Metadata = {
       "max-video-preview": -1,
     },
   },
-  verification: {
-    google: "ssb-cogify-me-gsc-verified",
-    other: {
-      "msvalidate.01": "ssb-cogify-me-bing-verified",
-    },
-  },
+  ...(verificationMetadata ? { verification: verificationMetadata } : {}),
   manifest: "/manifest.json",
 };
 
@@ -167,59 +177,6 @@ const ssbJsonLd = {
       },
     },
     {
-      "@type": "WebApplication",
-      "@id": "https://ssb.cogify.me/#webapp",
-      name: "ssb.cogify.me — SSB Stage-2 Test Practice Platform (Psychology, GTO & Interview)",
-      url: "https://ssb.cogify.me",
-      image: "https://ssb.cogify.me/og-image.webp",
-      screenshot: "https://ssb.cogify.me/og-image.png",
-      applicationCategory: "EducationalApplication",
-      operatingSystem: "Any",
-      inLanguage: "en-IN",
-      isAccessibleForFree: true,
-      description:
-        "Authentic Indian Services Selection Board (SSB) Stage-2 Practice Platform covering Psychological Tests (TAT, WAT, SRT, SDT), GTO Tasks (Lecturette Timer & 9 GTO Tasks), and Personal Interview (CIQ Rapid-Fire Simulator) with PDF Question Booklet export and Pin-Point AI evaluation prompts.",
-      author: {
-        "@id": "https://ssb.cogify.me/#author",
-      },
-      offers: {
-        "@type": "Offer",
-        price: "0",
-        priceCurrency: "INR",
-      },
-      publisher: {
-        "@type": "Organization",
-        "@id": "https://cogify.me/#organization",
-        name: "COGIFY",
-        url: "https://cogify.me",
-        logo: {
-          "@type": "ImageObject",
-          url: "https://ssb.cogify.me/icon-512.png",
-          width: 512,
-          height: 512,
-        },
-      },
-    },
-    {
-      "@type": "Person",
-      "@id": "https://ssb.cogify.me/#author",
-      name: "COGIFY Defence Psychology & GTO Research Team",
-      url: "https://ssb.cogify.me/about",
-      jobTitle: "SSB Stage-II Assessment & DIPR Methodology Researchers",
-      worksFor: {
-        "@id": "https://cogify.me/#organization",
-      },
-      knowsAbout: [
-        "DIPR SSB Psychological Assessment",
-        "Thematic Apperception Test (TAT)",
-        "Word Association Test (WAT)",
-        "Situation Reaction Test (SRT)",
-        "Self-Description Test (SDT)",
-        "GTO 9-Task Series & Lecturette",
-        "15 Officer Like Qualities (OLQs)",
-      ],
-    },
-    {
       "@type": "Organization",
       "@id": "https://cogify.me/#organization",
       name: "COGIFY",
@@ -230,98 +187,34 @@ const ssbJsonLd = {
         width: 512,
         height: 512,
       },
-      sameAs: ["https://cogify.me", "https://ssb.cogify.me"],
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://ssb.cogify.me/#breadcrumbs",
-      itemListElement: [
-        {
-          "@type": "ListItem",
-          position: 1,
-          name: "SSB Practice Home",
-          item: "https://ssb.cogify.me/",
-        },
-        {
-          "@type": "ListItem",
-          position: 2,
-          name: "Complete SSB Psychological Test",
-          item: "https://ssb.cogify.me/full-test",
-        },
-        {
-          "@type": "ListItem",
-          position: 3,
-          name: "TAT Practice (11 Pictures + 1 Blank)",
-          item: "https://ssb.cogify.me/tat",
-        },
-        {
-          "@type": "ListItem",
-          position: 4,
-          name: "WAT Practice (60 Words · 15s Beep)",
-          item: "https://ssb.cogify.me/wat",
-        },
-        {
-          "@type": "ListItem",
-          position: 5,
-          name: "SRT Practice (60 Situations · 30m)",
-          item: "https://ssb.cogify.me/srt",
-        },
-        {
-          "@type": "ListItem",
-          position: 6,
-          name: "SDT Practice (5 Paragraphs · 15m)",
-          item: "https://ssb.cogify.me/sdt",
-        },
-        {
-          "@type": "ListItem",
-          position: 7,
-          name: "GTO Tasks & Lecturette Timer",
-          item: "https://ssb.cogify.me/gto",
-        },
-        {
-          "@type": "ListItem",
-          position: 8,
-          name: "Personal Interview & CIQ Rapid-Fire",
-          item: "https://ssb.cogify.me/interview",
-        },
+      sameAs: [
+        "https://cogify.me",
+        "https://biodata.cogify.me",
+        "https://ssb.cogify.me",
       ],
     },
     {
-      "@type": "FAQPage",
-      "@id": "https://ssb.cogify.me/#faq",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "How does the SSB Stage-2 Psychology Test work on ssb.cogify.me?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "ssb.cogify.me replicates the exact SSB Testing Hall sequence: TAT projects 11 pictures + 1 blank slide (30s picture projection followed by 4 minutes of notebook writing with no visible countdown), WAT projects 60 words for 15 seconds each with a hall beep and a 30-second page-turn timer after every 20 words, SRT displays 60 situations (5 per sheet) under an invisible 30-minute timer, and SDT provides 15 minutes for the 5 official Self-Description paragraphs.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Can I download my attempted Question Booklet PDF and get AI evaluation?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes. After completing any test or finishing early (TAT, WAT, SRT, SDT, or the Complete Psychological Test), you can export the exact attempted Question Booklet as a PDF and copy a tailored Pin-Point AI Psychologist Evaluation Prompt to review your handwritten notebook responses against the 15 Officer Like Qualities (OLQs).",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Does ssb.cogify.me include GTO Officer Tasks and Personal Interview practice?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes. The GTO Hub includes an interactive 3-Minute Lecturette Card & Hall Timer (with a 30-second warning beep and 24 real SSB topics) plus complete frameworks for all 9 GTO tasks (GD, GPE, PGT, HGT, GOR, IO, CT, FGT). The Interview Hub includes a PIQ Form Structuring guide and an interactive CIQ (Comprehensive Information Questionnaire) Rapid-Fire Simulator.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Which SSB Selection Centers are covered in the WAT and TAT datasets?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "The platform includes 118 verified TAT stimulus slides across Set 1 to Set 10, 60-word Selection Center WAT sets calibrated from SSB Allahabad (11/14/18/19/34 SSB), SSB Bhopal (20/21/22 SSB), SSB Bangalore (17/24 SSB), SSB Jalandhar, 1 AFSB Dehradun, 2 AFSB Mysuru, 4 AFSB Varanasi, and 180 Situation Reaction Test (SRT) items.",
-          },
-        },
+      "@type": "Person",
+      "@id": "https://cogify.me/#founder",
+      name: "COGIFY Defence Psychology & GTO Research Team",
+      url: "https://ssb.cogify.me/about",
+      jobTitle: "SSB Stage-II Assessment & DIPR Methodology Researchers",
+      worksFor: {
+        "@id": "https://cogify.me/#organization",
+      },
+      sameAs: [
+        "https://cogify.me",
+        "https://biodata.cogify.me",
+        "https://ssb.cogify.me",
+      ],
+      knowsAbout: [
+        "DIPR SSB Psychological Assessment",
+        "Thematic Apperception Test (TAT)",
+        "Word Association Test (WAT)",
+        "Situation Reaction Test (SRT)",
+        "Self-Description Test (SDT)",
+        "GTO 9-Task Series & Lecturette",
+        "15 Officer Like Qualities (OLQs)",
       ],
     },
   ],

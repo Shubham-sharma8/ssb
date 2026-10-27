@@ -1,18 +1,26 @@
 import type { Metadata } from "next";
 
+const title = "SSB TAT Picture Library: 10 Sets (120)";
+const description =
+  "Browse all 10 official-format SSB TAT picture sets (110 stimulus pictures plus 10 blank slides) to preview prompts and practice OLQ story construction.";
+
 export const metadata: Metadata = {
-  title: "SSB TAT Stimulus Library (SET 1 to SET 10 Picture Sets & Self-Review)",
-  description:
-    "Browse all 10 approved SSB Thematic Apperception Test (TAT) sets (11 pictures + 1 blank slide per set) on ssb.cogify.me, inspect story history, and track self-reviewed stimuli.",
+  title,
+  description,
   alternates: {
     canonical: "https://ssb.cogify.me/library",
   },
   openGraph: {
-    title: "SSB TAT Stimulus Library (SET 1–10) | ssb.cogify.me",
-    description:
-      "Browse all 10 SSB TAT picture sets (11 pictures + 1 blank slide per set) and review your practice history.",
+    title,
+    description,
     url: "https://ssb.cogify.me/library",
-    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+    images: ["/og-image.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: ["/og-image.png"],
   },
 };
 

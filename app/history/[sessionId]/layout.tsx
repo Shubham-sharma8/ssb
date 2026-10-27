@@ -1,11 +1,26 @@
 import type { Metadata } from "next";
 
+const title = "SSB TAT Session Story Review, OLQ Log | ssb.cogify.me";
+const description =
+  "Inspect your completed SSB TAT session stories, per-slide observation and writing durations, and structured Officer Like Qualities (OLQ) review.";
+
 export const metadata: Metadata = {
-  title: "SSB Session Review & AI Evaluation — ssb.cogify.me",
-  description:
-    "Review your completed SSB Thematic Apperception Test (TAT) session, export your Question Booklet PDF, and copy your Pin-Point AI evaluation prompt.",
+  title,
+  description,
   alternates: {
     canonical: "https://ssb.cogify.me/history",
+  },
+  openGraph: {
+    title,
+    description,
+    url: "https://ssb.cogify.me/history",
+    images: ["/og-image.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: ["/og-image.png"],
   },
   robots: {
     index: false,

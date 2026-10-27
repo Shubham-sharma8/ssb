@@ -1,18 +1,34 @@
 import type { Metadata } from "next";
 
+const title = "Saved SSB Practice Sessions and History";
+const description =
+  "Review your saved SSB TAT practice sessions, story drafts, timing logs, and 15 OLQ self-evaluation checklists stored locally in your browser.";
+
 export const metadata: Metadata = {
-  title: "SSB Practice Session History & Self-Review Workspace",
-  description:
-    "Review your completed and in-progress SSB TAT practice sessions, inspect story drafts, and run structured self-review checklists.",
+  title,
+  description,
   alternates: {
     canonical: "https://ssb.cogify.me/history",
   },
   openGraph: {
-    title: "SSB Practice Session History & Review | ssb.cogify.me",
-    description:
-      "Review your SSB practice sessions, handwritten story notes, and self-review checklists on ssb.cogify.me.",
+    title,
+    description,
     url: "https://ssb.cogify.me/history",
-    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+    images: ["/og-image.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: ["/og-image.png"],
+  },
+  robots: {
+    index: false,
+    follow: true,
+    googleBot: {
+      index: false,
+      follow: true,
+    },
   },
 };
 

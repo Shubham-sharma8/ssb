@@ -4,17 +4,28 @@ import {
   encodeProtectedStorage,
   generateClientAccessToken,
   getProtectedBookletUrl,
+  isAllowedSearchBotUserAgent,
   isBlockedScraperUserAgent,
   resolveProtectedAssetUrl,
   verifyClientAccessToken,
 } from "@/lib/security/bot-guard";
 
 describe("Security & Bot-Guard Utilities", () => {
-  it("blocks known scraper and automated bot User-Agents while allowing normal browsers", () => {
+  it("blocks known scraper User-Agents while allowing normal browsers and search/AI answer bots", () => {
     expect(isBlockedScraperUserAgent("curl/8.4.0")).toBe(true);
     expect(isBlockedScraperUserAgent("python-requests/2.31.0")).toBe(true);
     expect(isBlockedScraperUserAgent("Scrapy/2.11.0")).toBe(true);
+    expect(isBlockedScraperUserAgent("Bytespider")).toBe(true);
     expect(isBlockedScraperUserAgent("Mozilla/5.0 (compatible; GPTBot/1.0)")).toBe(
+      false
+    );
+    expect(isAllowedSearchBotUserAgent("Mozilla/5.0 (compatible; GPTBot/1.0)")).toBe(
+      true
+    );
+    expect(isAllowedSearchBotUserAgent("Mozilla/5.0 (compatible; ClaudeBot/1.0)")).toBe(
+      true
+    );
+    expect(isAllowedSearchBotUserAgent("Mozilla/5.0 (compatible; PerplexityBot/1.0)")).toBe(
       true
     );
     expect(

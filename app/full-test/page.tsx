@@ -978,6 +978,54 @@ export default function FullPsychTestPage() {
           <span>Start Complete Psychological Test</span>
         </button>
       </div>
+
+      {/* Static SSR SEO Guide: Complete 2-Hour SSB Stage-2 Psychological Battery */}
+      <section
+        aria-labelledby="full-test-seo-guide-heading"
+        className="rounded-2xl border border-zinc-200/90 dark:border-white/[0.08] bg-white dark:bg-[#0b0f17] p-5 sm:p-8 space-y-6 shadow-sm"
+      >
+        <div className="space-y-2">
+          <span className="text-[11px] font-mono uppercase tracking-wider text-indigo-600 dark:text-indigo-400 font-semibold">
+            COMPLETE STAGE-2 HALL SIMULATION GUIDE
+          </span>
+          <h2
+            id="full-test-seo-guide-heading"
+            className="text-lg sm:text-xl font-bold text-zinc-900 dark:text-white"
+          >
+            Why Practice the Full 2-Hour SSB Psychological Test Battery Back-to-Back?
+          </h2>
+          <p className="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            On Day 2 of Stage-2 SSB testing, all four psychological tests — <strong>TAT (54 mins)</strong>, <strong>WAT (15 mins)</strong>, <strong>SRT (30 mins)</strong>, and <strong>SDT (15 mins)</strong> — are conducted in a single continuous 2-hour session with no breaks between modules. This intentional cognitive fatigue prevents rehearsed responses and exposes a candidate&apos;s core personality consistency across all 15 Officer Like Qualities (OLQs).
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="rounded-xl border border-zinc-200/80 dark:border-white/[0.08] bg-zinc-50/70 dark:bg-white/[0.02] p-4 space-y-1.5">
+            <h3 className="text-xs sm:text-sm font-bold text-zinc-900 dark:text-white">
+              1. Cross-Test OLQ Consistency
+            </h3>
+            <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              DIPR psychologists do not score TAT, WAT, SRT, or SDT in isolation. A trend introduced in TAT must be confirmed by spontaneous WAT associations, practical SRT decisions, and honest SDT self-reflection.
+            </p>
+          </div>
+          <div className="rounded-xl border border-zinc-200/80 dark:border-white/[0.08] bg-zinc-50/70 dark:bg-white/[0.02] p-4 space-y-1.5">
+            <h3 className="text-xs sm:text-sm font-bold text-zinc-900 dark:text-white">
+              2. Handwriting Stamina &amp; Pacing
+            </h3>
+            <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              Writing 12 stories, 60 sentences, 60 reactions, and 5 paragraphs in 115 minutes requires ~2,500 handwritten words. Practicing the full battery with the 16-page PDF booklet builds physical writing endurance.
+            </p>
+          </div>
+          <div className="rounded-xl border border-zinc-200/80 dark:border-white/[0.08] bg-zinc-50/70 dark:bg-white/[0.02] p-4 space-y-1.5">
+            <h3 className="text-xs sm:text-sm font-bold text-zinc-900 dark:text-white">
+              3. Unified PDF &amp; AI Dossier Review
+            </h3>
+            <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              Upon completing the full battery, export your entire attempted Question Booklet PDF (TAT + WAT + SRT + SDT) and use the Pin-Point AI Psychologist Prompt for a unified 4-test cross-evaluation.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
