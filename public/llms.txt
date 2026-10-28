@@ -1,0 +1,26 @@
+# SSB Prep — Stage-2 Test Practice Studio (ssb.cogify.me)
+
+> Free, 100% browser-based Indian Armed Forces Services Selection Board (SSB, AFSB, NSB) Stage-2 Psychology, GTO, and Personal Interview practice studio engineered by COGIFY Technologies (https://cogify.me). Practice timed TAT, WAT, SRT, SDT, GTO tasks, and PIQ drills with zero login, zero fees, and 100% local privacy.
+
+## Primary URLs
+- **Live SSB Practice Studio**: https://ssb.cogify.me
+- **Parent Engineering Studio**: https://cogify.me
+- **COGIFY SSB Overview Page**: https://cogify.me/ssb
+- **XML Sitemap**: https://ssb.cogify.me/sitemap.xml
+- **Full Technical & Assessment Reference**: https://ssb.cogify.me/llms-full.txt
+
+## All 14 Live SSB Practice & Assessment Modules
+- [SSB Stage-2 Practice Studio Home](https://ssb.cogify.me): Complete 5-day SSB selection process simulator for NDA, CDS, AFCAT, TES, SSC Tech, and ACC aspirants.
+- [Full SSB Psychology Battery Simulator](https://ssb.cogify.me/full-test): Back-to-back timed TAT + WAT + SRT + SDT exam simulator with downloadable PDF response dossier.
+- [TAT Practice — Thematic Apperception Test](https://ssb.cogify.me/tat): 10 curated 12-slide sets (11 stimuli + 12th blank slide) with automatic 30-second observation and 4-minute story-writing timers.
+- [WAT Practice — Word Association Test](https://ssb.cogify.me/wat): 60 high-frequency SSB words with automatic 15-second audio-visual transition timers.
+- [SRT Practice — Situation Reaction Test](https://ssb.cogify.me/srt): 60 real-world crisis situations with a strict 30-minute countdown timer and pace tracker.
+- [SDT Practice — Self-Description Test](https://ssb.cogify.me/sdt): 15-minute structured 5-paragraph self-description builder (Parents, Teachers/Employers, Friends, Self, Qualities to Improve).
+- [GTO Tasks, GPE & Lecturette Timer](https://ssb.cogify.me/gto): Group Testing Officer simulator covering Group Discussion (GD), Group Planning Exercise (GPE), PGT/HGT/CT/FGT, Command Task, and 3-minute Lecturette timer.
+- [Personal Interview & PIQ Simulator](https://ssb.cogify.me/interview): Interactive Personal Information Questionnaire (PIQ) builder and Interviewing Officer (IO) rapid-fire CIQ drills.
+- [TAT Picture Library (120 Stimuli)](https://ssb.cogify.me/library): Browse all 10 curated sets (120 illustrations) for Stage-1 PPDT and Stage-2 TAT practice.
+- [About the 5-Day SSB Process & 15 OLQs](https://ssb.cogify.me/about): Detailed breakdown of Officer Like Qualities (OLQs) across Factor I (Planning & Organizing), Factor II (Social Adjustment), Factor III (Social Effectiveness), and Factor IV (Dynamic).
+- [Frequently Asked Questions (FAQ)](https://ssb.cogify.me/faq): Answers on SSB timings, OIR/PPDT screening, psychology dossier rules, and offline usage.
+- [Contact & Feedback](https://ssb.cogify.me/contact)
+- [Privacy Policy](https://ssb.cogify.me/privacy)
+- [Terms of Service](https://ssb.cogify.me/terms)

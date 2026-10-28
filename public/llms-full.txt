@@ -1,0 +1,27 @@
+# SSB Prep — Complete Indian Armed Forces SSB Assessment Reference (llms-full.txt)
+
+> Canonical domain: https://ssb.cogify.me
+> Parent studio: https://cogify.me
+> Developer: Shubham Sharma (COGIFY Technologies)
+
+## Overview
+SSB Prep (`https://ssb.cogify.me`) is a free, zero-telemetry web studio replicating the exact Dipr (Defence Institute of Psychological Research) timings used at Indian Army (Allahabad/Prayagraj, Bhopal, Bangalore, Kapurthala), Indian Navy (Visakhapatnam, Coimbatore, Kolkata, Bhopal), and Indian Air Force (Dehradun, Mysuru, Gandhinagar, Varanasi, Guwahati) Selection Boards.
+
+## Standardized Exam Timings Implemented
+1. **Thematic Apperception Test (TAT)** — https://ssb.cogify.me/tat
+   - 12 slides per set (11 black-and-white ambiguity illustrations + 1 blank slide).
+   - 30 seconds picture observation per slide (screen locks input during observation).
+   - 4 minutes (240 seconds) writing window per story before automatic slide advancement.
+2. **Word Association Test (WAT)** — https://ssb.cogify.me/wat
+   - 60 sequential trigger words per set.
+   - 15 seconds per word with automatic audio chime and transition.
+3. **Situation Reaction Test (SRT)** — https://ssb.cogify.me/srt
+   - 60 practical life/leadership situations.
+   - 30 minutes (1,800 seconds) total countdown timer (~30s/situation pace indicator).
+4. **Self-Description Test (SDT)** — https://ssb.cogify.me/sdt
+   - 5 structured opinions (Parents/Guardians, Teachers/Superiors, Friends/Colleagues, Own Opinion, Aims & Qualities to Improve).
+   - 15 minutes total duration.
+5. **Group Testing Officer (GTO) Suite** — https://ssb.cogify.me/gto
+   - Group Discussion (GD), Group Planning Exercise (GPE), Progressive Group Task (PGT), Half Group Task (HGT), Individual Obstacles (10 obstacles / 3 minutes), Command Task (CT), Final Group Task (FGT), and 3-minute Lecturette timer (2.5m warning chime + 3.0m final chime).
+6. **Personal Interview (PI) & PIQ Form** — https://ssb.cogify.me/interview
+   - Interactive two-page Personal Information Questionnaire (PIQ) form + Comprehensive Interview Question (CIQ) sequences on academics, family, hobbies, sports, defence awareness, and current affairs.
