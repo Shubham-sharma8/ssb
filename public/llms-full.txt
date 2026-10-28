@@ -25,3 +25,19 @@ SSB Prep (`https://ssb.cogify.me`) is a free, zero-telemetry web studio replicat
    - Group Discussion (GD), Group Planning Exercise (GPE), Progressive Group Task (PGT), Half Group Task (HGT), Individual Obstacles (10 obstacles / 3 minutes), Command Task (CT), Final Group Task (FGT), and 3-minute Lecturette timer (2.5m warning chime + 3.0m final chime).
 6. **Personal Interview (PI) & PIQ Form** — https://ssb.cogify.me/interview
    - Interactive two-page Personal Information Questionnaire (PIQ) form + Comprehensive Interview Question (CIQ) sequences on academics, family, hobbies, sports, defence awareness, and current affairs.
+7. **Full Stage-2 Psychological Battery (1-Hour Exam Mode)** — https://ssb.cogify.me/full-test
+   - Back-to-back DIPR psychological battery (TAT → WAT → SRT → SDT) with printable A4 answer-booklet template (`/Phys-Test-Booklet.pdf`).
+8. **Stage-1 Screening (OIR + PPDT)** — https://ssb.cogify.me/screening
+   - Officer Intelligence Rating (OIR) verbal/non-verbal reasoning sets and Picture Perception & Description Test (PPDT) 30-second perception + 4-minute story simulator.
+9. **Interactive PIQ Builder & 15 OLQ Reference** — https://ssb.cogify.me/piq & https://ssb.cogify.me/olq
+   - Printable two-page SSB Personal Information Questionnaire builder and complete 15 Officer Like Qualities (OLQ) factor breakdown.
+10. **All-India SSB/AFSB/NSB Selection Centres Directory** — https://ssb.cogify.me/centres
+   - Complete directory of Army (Prayagraj, Bhopal, Bangalore, Kapurthala), Navy (Visakhapatnam, Coimbatore, Kolkata, Bhopal), and Air Force (Dehradun, Mysuru, Gandhinagar, Varanasi, Guwahati) boards.
+
+## Ecosystem & Parent Studio Links
+- Parent Engineering Hub: https://cogify.me
+- SSB Product Architecture & Specs: https://cogify.me/ssb
+- Complete COGIFY Software Catalog (14 Free Apps & Studios): https://cogify.me/products
+- macOS Native Utility Benchmarks & Comparison Hub: https://cogify.me/compare
+- Marriage Biodata Maker Studio: https://biodata.cogify.me (https://cogify.me/biodata)
+- Founder & Architect (Shubham Sharma): https://cogify.me/about
