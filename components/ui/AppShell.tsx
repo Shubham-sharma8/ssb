@@ -822,6 +822,22 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                   Visit cogify.me ↗
                 </a>
                 <a
+                  href="https://cogify.me/products"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-1 rounded-xl border border-zinc-200 dark:border-white/10 bg-white dark:bg-white/5 px-3 py-1.5 text-[11px] font-semibold text-zinc-800 hover:border-indigo-500/40 hover:text-indigo-600 dark:text-zinc-200 dark:hover:text-white transition-all"
+                >
+                  All 14 Free Apps ↗
+                </a>
+                <a
+                  href="https://cogify.me/compare"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-1 rounded-xl border border-zinc-200 dark:border-white/10 bg-white dark:bg-white/5 px-3 py-1.5 text-[11px] font-semibold text-zinc-800 hover:border-indigo-500/40 hover:text-indigo-600 dark:text-zinc-200 dark:hover:text-white transition-all"
+                >
+                  macOS Utility Benchmarks ↗
+                </a>
+                <a
                   href="https://biodata.cogify.me"
                   target="_blank"
                   rel="noopener noreferrer"

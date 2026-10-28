@@ -9,7 +9,7 @@
 - **XML Sitemap**: https://ssb.cogify.me/sitemap.xml
 - **Full Technical & Assessment Reference**: https://ssb.cogify.me/llms-full.txt
 
-## All 14 Live SSB Practice & Assessment Modules
+## All 10 Live SSB Practice & Assessment Modules + Resources
 - [SSB Stage-2 Practice Studio Home](https://ssb.cogify.me): Complete 5-day SSB selection process simulator for NDA, CDS, AFCAT, TES, SSC Tech, and ACC aspirants.
 - [Full SSB Psychology Battery Simulator](https://ssb.cogify.me/full-test): Back-to-back timed TAT + WAT + SRT + SDT exam simulator with downloadable PDF response dossier.
 - [TAT Practice — Thematic Apperception Test](https://ssb.cogify.me/tat): 10 curated 12-slide sets (11 stimuli + 12th blank slide) with automatic 30-second observation and 4-minute story-writing timers.
@@ -20,7 +20,7 @@
 - [Personal Interview & PIQ Simulator](https://ssb.cogify.me/interview): Interactive Personal Information Questionnaire (PIQ) builder and Interviewing Officer (IO) rapid-fire CIQ drills.
 - [TAT Picture Library (120 Stimuli)](https://ssb.cogify.me/library): Browse all 10 curated sets (120 illustrations) for Stage-1 PPDT and Stage-2 TAT practice.
 - [About the 5-Day SSB Process & 15 OLQs](https://ssb.cogify.me/about): Detailed breakdown of Officer Like Qualities (OLQs) across Factor I (Planning & Organizing), Factor II (Social Adjustment), Factor III (Social Effectiveness), and Factor IV (Dynamic).
-- [Frequently Asked Questions (FAQ)](https://ssb.cogify.me/faq): Answers on SSB timings, OIR/PPDT screening, psychology dossier rules, and offline usage.
-- [Contact & Feedback](https://ssb.cogify.me/contact)
-- [Privacy Policy](https://ssb.cogify.me/privacy)
-- [Terms of Service](https://ssb.cogify.me/terms)
+- [16-Page Printable SSB Psychology Answer Booklet PDF](https://ssb.cogify.me/Phys-Test-Booklet.pdf): Authentic A4 printable SSB psychology answer dossier for offline handwriting speed practice.
+- [Parent Studio Contact & Feedback](https://cogify.me/contact)
+- [Parent Studio Privacy Policy](https://cogify.me/privacy)
+- [Parent Studio Terms of Service](https://cogify.me/terms)
