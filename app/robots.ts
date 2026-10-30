@@ -37,6 +37,10 @@ export default function robots(): MetadataRoute.Robots {
       },
       {
         userAgent: [
+          "Googlebot",
+          "Googlebot-Image",
+          "GoogleOther",
+          "Bingbot",
           "GPTBot",
           "OAI-SearchBot",
           "ChatGPT-User",
@@ -106,6 +110,6 @@ export default function robots(): MetadataRoute.Robots {
       },
     ],
     sitemap: "https://ssb.cogify.me/sitemap.xml",
-    host: "https://ssb.cogify.me",
   };
 }
+

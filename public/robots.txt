@@ -25,6 +25,10 @@ Disallow: /tat-sets/
 Disallow: /tat-assets/
 Disallow: /Phys-Test-Booklet.pdf
 
+User-Agent: Googlebot
+User-Agent: Googlebot-Image
+User-Agent: GoogleOther
+User-Agent: Bingbot
 User-Agent: GPTBot
 User-Agent: OAI-SearchBot
 User-Agent: ChatGPT-User
@@ -79,5 +83,4 @@ User-Agent: DotBot
 User-Agent: BLEXBot
 Disallow: /
 
-Host: https://ssb.cogify.me
 Sitemap: https://ssb.cogify.me/sitemap.xml

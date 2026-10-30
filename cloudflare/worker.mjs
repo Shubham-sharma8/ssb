@@ -237,6 +237,38 @@ const worker = {
       });
     }
 
+    const contentType = response.headers.get("content-type") ?? "";
+    if (contentType.includes("text/html")) {
+      const headers = new Headers(response.headers);
+      const isNoIndexRoute =
+        url.pathname === "/history" ||
+        url.pathname.startsWith("/history/") ||
+        url.pathname === "/settings" ||
+        url.pathname.startsWith("/settings/") ||
+        url.pathname === "/tat/session" ||
+        url.pathname.startsWith("/dev");
+
+      if (isNoIndexRoute) {
+        headers.set("X-Robots-Tag", "noindex, follow");
+      } else {
+        headers.set(
+          "X-Robots-Tag",
+          "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+        );
+        const canonicalPath = url.pathname === "/" ? "" : url.pathname;
+        headers.set(
+          "Link",
+          `<https://ssb.cogify.me${canonicalPath}>; rel="canonical"`
+        );
+      }
+
+      return new Response(response.body, {
+        status: response.status,
+        statusText: response.statusText,
+        headers,
+      });
+    }
+
     return response;
   },
 };

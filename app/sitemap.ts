@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://ssb.cogify.me";
-  const lastModified = new Date("2026-10-28T00:00:00.000Z");
+  const lastModified = new Date("2026-10-30T00:00:00.000Z");
 
   return [
     {
