@@ -15,18 +15,22 @@ export function BrandLogo({ className = "", size = 32 }: BrandLogoProps) {
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src="/brand/logo.png"
-        alt="COGIFY Logo"
+        alt="COGIFY — SSB Stage-2 Psychology, GTO & Interview Practice Studio Logo"
+        title="ssb.cogify.me — SSB Practice Studio by COGIFY"
         width={size}
         height={size}
+        decoding="async"
         className="block dark:hidden w-full h-full object-contain select-none"
       />
       {/* Dark mode: white logo */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src="/brand/logo_white.png"
-        alt="COGIFY Logo"
+        alt="COGIFY — SSB Stage-2 Psychology, GTO & Interview Practice Studio Logo"
+        title="ssb.cogify.me — SSB Practice Studio by COGIFY"
         width={size}
         height={size}
+        decoding="async"
         className="hidden dark:block w-full h-full object-contain select-none"
       />
     </span>

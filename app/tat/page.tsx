@@ -30,6 +30,10 @@ import {
   getPracticeSetById,
   getPracticeSets,
   getStimuliForSet,
+  getStimulusCleanDescription,
+  getStimulusImageSrc,
+  getStimulusSeoAlt,
+  getStimulusSeoTitle,
   type ResolvedStimulus,
 } from "@/lib/tat/catalog";
 import { formatDurationSeconds, generateId } from "@/lib/utils";
@@ -645,17 +649,22 @@ export default function TatSetupPage() {
                               <Square className="w-4 h-4 text-zinc-400" />
                             )}
                           </div>
-                          <div className="aspect-[4/3] w-full rounded bg-zinc-100 dark:bg-zinc-950 overflow-hidden mb-2 border border-zinc-200 dark:border-zinc-800">
+                          <div className="aspect-[4/3] w-full rounded bg-zinc-100 dark:bg-zinc-950 overflow-hidden mb-1.5 border border-zinc-200 dark:border-zinc-800">
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
                             <img
-                              src={stim.setFolderAssetPath ?? stim.assetPath}
-                              alt={`SSB TAT ${setId.toUpperCase()} Picture ${stim.canonicalNumber} Stimulus Preview`}
-                              width={320}
-                              height={240}
+                              src={getStimulusImageSrc(stim)}
+                              alt={getStimulusSeoAlt(stim)}
+                              title={getStimulusSeoTitle(stim)}
+                              width={stim.width || 320}
+                              height={stim.height || 240}
                               decoding="async"
                               loading="lazy"
                               className="w-full h-full object-contain"
                             />
                           </div>
+                          <p className="mb-1.5 line-clamp-2 text-[10px] leading-tight text-zinc-500 dark:text-zinc-400">
+                            {getStimulusCleanDescription(stim)}
+                          </p>
                         </div>
                         <span
                           className={`text-[10px] px-1.5 py-0.5 rounded border text-center truncate ${badge.className}`}

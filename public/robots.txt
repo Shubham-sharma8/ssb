@@ -1,6 +1,9 @@
 User-Agent: *
 Allow: /
 Allow: /_next/static/
+Allow: /tat-sets/
+Allow: /tat-assets/
+Allow: /brand/
 Allow: /og-image.webp
 Allow: /og-image.png
 Allow: /og-image.jpg
@@ -21,8 +24,6 @@ Disallow: /tat/session
 Disallow: /history
 Disallow: /settings
 Disallow: /dev/
-Disallow: /tat-sets/
-Disallow: /tat-assets/
 Disallow: /Phys-Test-Booklet.pdf
 
 User-Agent: Googlebot
@@ -37,12 +38,15 @@ User-Agent: PerplexityBot
 User-Agent: Google-Extended
 User-Agent: Applebot
 Allow: /
+Allow: /tat-sets/
+Allow: /tat-assets/
+Allow: /brand/
+Allow: /og-image.webp
+Allow: /og-image.png
 Disallow: /api/
 Disallow: /tat/session
 Disallow: /history
 Disallow: /settings
-Disallow: /tat-sets/
-Disallow: /tat-assets/
 Disallow: /Phys-Test-Booklet.pdf
 
 User-Agent: Twitterbot
@@ -53,6 +57,9 @@ User-Agent: TelegramBot
 User-Agent: Discordbot
 User-Agent: Slackbot
 Allow: /
+Allow: /tat-sets/
+Allow: /tat-assets/
+Allow: /brand/
 Allow: /og-image.webp
 Allow: /og-image.png
 Allow: /og-image.jpg
@@ -66,8 +73,6 @@ Disallow: /api/
 Disallow: /tat/session
 Disallow: /history
 Disallow: /settings
-Disallow: /tat-sets/
-Disallow: /tat-assets/
 Disallow: /Phys-Test-Booklet.pdf
 
 User-Agent: CCBot

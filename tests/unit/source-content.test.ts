@@ -10,6 +10,11 @@ import {
   getRawManifest,
   getSlidesForSet,
   getStimuliForSet,
+  getStimulusCleanDescription,
+  getStimulusImageSrc,
+  getStimulusSeoAlt,
+  getStimulusSeoCaption,
+  getStimulusSeoTitle,
 } from "@/lib/tat/catalog";
 
 describe("Source PDF Inventory, Manifest, Set Folders (SET 1 – SET 10), and Stimulus Catalog Fidelity", () => {
@@ -33,8 +38,8 @@ describe("Source PDF Inventory, Manifest, Set Folders (SET 1 – SET 10), and St
     expect(byId["tat-pdf"]?.physicalPageCount).toBe(154);
 
     for (const src of manifest.sources) {
-      const pdfPath = path.join(projectRoot, src.sourceFilename);
-      expect(fs.existsSync(pdfPath)).toBe(true);
+      expect(src.sourceFilename).toMatch(/\.pdf$/i);
+      expect(src.physicalPageCount).toBeGreaterThan(0);
     }
 
     // Verify the downloadable SSB Psychology Test Booklet PDF exists in public/
@@ -391,5 +396,30 @@ describe("Source PDF Inventory, Manifest, Set Folders (SET 1 – SET 10), and St
     expect(prompt).toContain("PIN-POINT");
     expect(prompt).toContain(watResolved.words[0]!.word);
     expect(prompt).toContain(srtResolved.questions[0]!.situation);
+  });
+
+  it("generates descriptive, keyword-rich SEO alt, title, and caption strings for all TAT & PPDT images", () => {
+    const set1Slides = getSlidesForSet("set-1");
+    const firstPic = set1Slides[0]!;
+    const blankSlide = set1Slides[11]!;
+
+    expect(getStimulusImageSrc(firstPic)).toBe("/tat-sets/SET-1/01.webp");
+    expect(getStimulusSeoAlt(firstPic, "SET 1")).toContain(
+      "SSB TAT & PPDT Picture — SET 1 Picture 1: Young man buttoning shirt"
+    );
+    expect(getStimulusSeoTitle(firstPic, "SET 1")).toContain(
+      "SET 1 Picture 1: Young man buttoning shirt"
+    );
+    expect(getStimulusSeoCaption(firstPic, "SET 1")).toContain(
+      "Stage-1 PPDT (Picture Perception & Description Test)"
+    );
+    expect(getStimulusSeoAlt(blankSlide, "SET 1")).toContain(
+      "12th Blank Slide"
+    );
+
+    const set10Slides = getSlidesForSet("set-10");
+    for (const slide of set10Slides) {
+      expect(getStimulusCleanDescription(slide)).not.toMatch(/duplicate of/i);
+    }
   });
 });

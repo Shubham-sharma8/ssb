@@ -1,63 +1,1438 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://ssb.cogify.me</loc>
-<lastmod>2026-10-30T00:00:00.000Z</lastmod>
-<changefreq>daily</changefreq>
-<priority>1</priority>
-</url>
-<url>
-<loc>https://ssb.cogify.me/full-test</loc>
-<lastmod>2026-10-30T00:00:00.000Z</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.95</priority>
-</url>
-<url>
-<loc>https://ssb.cogify.me/tat</loc>
-<lastmod>2026-10-30T00:00:00.000Z</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.95</priority>
-</url>
-<url>
-<loc>https://ssb.cogify.me/wat</loc>
-<lastmod>2026-10-30T00:00:00.000Z</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.95</priority>
-</url>
-<url>
-<loc>https://ssb.cogify.me/srt</loc>
-<lastmod>2026-10-30T00:00:00.000Z</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.95</priority>
-</url>
-<url>
-<loc>https://ssb.cogify.me/sdt</loc>
-<lastmod>2026-10-30T00:00:00.000Z</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.9</priority>
-</url>
-<url>
-<loc>https://ssb.cogify.me/gto</loc>
-<lastmod>2026-10-30T00:00:00.000Z</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.95</priority>
-</url>
-<url>
-<loc>https://ssb.cogify.me/interview</loc>
-<lastmod>2026-10-30T00:00:00.000Z</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.95</priority>
-</url>
-<url>
-<loc>https://ssb.cogify.me/library</loc>
-<lastmod>2026-10-30T00:00:00.000Z</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.85</priority>
-</url>
-<url>
-<loc>https://ssb.cogify.me/about</loc>
-<lastmod>2026-10-30T00:00:00.000Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.85</priority>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://ssb.cogify.me</loc>
+    <lastmod>2026-11-06T00:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/og-image.webp</image:loc>
+      <image:title>SSB Stage-2 Psychology, GTO &amp; Interview Practice Studio — ssb.cogify.me</image:title>
+      <image:caption>Free Indian Armed Forces Services Selection Board (SSB/AFSB/NSB) Stage-1 PPDT &amp; Stage-2 TAT, WAT, SRT, SDT, GTO and Personal Interview Simulator by COGIFY.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/og-image.png</image:loc>
+      <image:title>SSB TAT &amp; PPDT Picture Library (10 Sets • 120 Slides) — ssb.cogify.me</image:title>
+      <image:caption>Complete 10-set SSB Thematic Apperception Test (TAT) and Picture Perception &amp; Description Test (PPDT) image library with 30s observation and 4m story timers.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/brand/logo.png</image:loc>
+      <image:title>COGIFY — SSB Stage-2 Test Practice Platform Logo</image:title>
+      <image:caption>Official logo of ssb.cogify.me by COGIFY Technologies.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-1/01.webp</image:loc>
+      <image:title>SET 1 Picture 1: Young man buttoning shirt with another man in right foreground — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 1 Picture 1: Young man buttoning shirt with another man in right foreground (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p001).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-2/01.webp</image:loc>
+      <image:title>SET 2 Picture 1: Man gesturing while addressing group seated beneath large tree — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 2 Picture 1: Man gesturing while addressing group seated beneath large tree (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p012).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-3/01.webp</image:loc>
+      <image:title>SET 3 Picture 1: Doctor with stethoscope examining patient on bed assisted by young man — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 3 Picture 1: Doctor with stethoscope examining patient on bed assisted by young man (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p001).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-4/01.webp</image:loc>
+      <image:title>SET 4 Picture 1: Man in dark foreground pointing toward small child and distant house across field — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 4 Picture 1: Man in dark foreground pointing toward small child and distant house across field (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p012).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-5/01.webp</image:loc>
+      <image:title>SET 5 Picture 1: Boy in foreground looking down street lined with houses toward walking figure — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 5 Picture 1: Boy in foreground looking down street lined with houses toward walking figure (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p002).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-6/01.webp</image:loc>
+      <image:title>SET 6 Picture 1: Woman standing beside wooden gate and tall pillar in mist — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 6 Picture 1: Woman standing beside wooden gate and tall pillar in mist (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p028).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-7/01.webp</image:loc>
+      <image:title>SET 7 Picture 1: Doctor with stethoscope examining patient on bed assisted by young man — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 7 Picture 1: Doctor with stethoscope examining patient on bed assisted by young man (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p054).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-8/01.webp</image:loc>
+      <image:title>SET 8 Picture 1: Three figures in indoor conversation — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 8 Picture 1: Three figures in indoor conversation (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p080).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-9/01.webp</image:loc>
+      <image:title>SET 9 Picture 1: Rope suspension bridge spanning steep mountain gorge — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 9 Picture 1: Rope suspension bridge spanning steep mountain gorge (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p105).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-10/01.webp</image:loc>
+      <image:title>SET 10 Picture 1: Three people in group discussion scene — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 10 Picture 1: Three people in group discussion scene (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p131).</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ssb.cogify.me/full-test</loc>
+    <lastmod>2026-11-06T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/og-image.png</image:loc>
+      <image:title>SSB TAT &amp; PPDT Picture Library (10 Sets • 120 Slides) — ssb.cogify.me</image:title>
+      <image:caption>Complete 10-set SSB Thematic Apperception Test (TAT) and Picture Perception &amp; Description Test (PPDT) image library with 30s observation and 4m story timers.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-1/01.webp</image:loc>
+      <image:title>SET 1 Picture 1: Young man buttoning shirt with another man in right foreground — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 1 Picture 1: Young man buttoning shirt with another man in right foreground (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p001).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-2/01.webp</image:loc>
+      <image:title>SET 2 Picture 1: Man gesturing while addressing group seated beneath large tree — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 2 Picture 1: Man gesturing while addressing group seated beneath large tree (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p012).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-3/01.webp</image:loc>
+      <image:title>SET 3 Picture 1: Doctor with stethoscope examining patient on bed assisted by young man — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 3 Picture 1: Doctor with stethoscope examining patient on bed assisted by young man (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p001).</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ssb.cogify.me/tat</loc>
+    <lastmod>2026-11-06T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/og-image.png</image:loc>
+      <image:title>SSB TAT &amp; PPDT Picture Library (10 Sets • 120 Slides) — ssb.cogify.me</image:title>
+      <image:caption>Complete 10-set SSB Thematic Apperception Test (TAT) and Picture Perception &amp; Description Test (PPDT) image library with 30s observation and 4m story timers.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-1/01.webp</image:loc>
+      <image:title>SET 1 Picture 1: Young man buttoning shirt with another man in right foreground — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 1 Picture 1: Young man buttoning shirt with another man in right foreground (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p001).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-2/01.webp</image:loc>
+      <image:title>SET 2 Picture 1: Man gesturing while addressing group seated beneath large tree — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 2 Picture 1: Man gesturing while addressing group seated beneath large tree (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p012).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-3/01.webp</image:loc>
+      <image:title>SET 3 Picture 1: Doctor with stethoscope examining patient on bed assisted by young man — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 3 Picture 1: Doctor with stethoscope examining patient on bed assisted by young man (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p001).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-4/01.webp</image:loc>
+      <image:title>SET 4 Picture 1: Man in dark foreground pointing toward small child and distant house across field — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 4 Picture 1: Man in dark foreground pointing toward small child and distant house across field (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p012).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-5/01.webp</image:loc>
+      <image:title>SET 5 Picture 1: Boy in foreground looking down street lined with houses toward walking figure — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 5 Picture 1: Boy in foreground looking down street lined with houses toward walking figure (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p002).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-6/01.webp</image:loc>
+      <image:title>SET 6 Picture 1: Woman standing beside wooden gate and tall pillar in mist — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 6 Picture 1: Woman standing beside wooden gate and tall pillar in mist (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p028).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-7/01.webp</image:loc>
+      <image:title>SET 7 Picture 1: Doctor with stethoscope examining patient on bed assisted by young man — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 7 Picture 1: Doctor with stethoscope examining patient on bed assisted by young man (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p054).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-8/01.webp</image:loc>
+      <image:title>SET 8 Picture 1: Three figures in indoor conversation — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 8 Picture 1: Three figures in indoor conversation (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p080).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-9/01.webp</image:loc>
+      <image:title>SET 9 Picture 1: Rope suspension bridge spanning steep mountain gorge — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 9 Picture 1: Rope suspension bridge spanning steep mountain gorge (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p105).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-10/01.webp</image:loc>
+      <image:title>SET 10 Picture 1: Three people in group discussion scene — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 10 Picture 1: Three people in group discussion scene (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p131).</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ssb.cogify.me/wat</loc>
+    <lastmod>2026-11-06T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/og-image.png</image:loc>
+      <image:title>SSB TAT &amp; PPDT Picture Library (10 Sets • 120 Slides) — ssb.cogify.me</image:title>
+      <image:caption>Complete 10-set SSB Thematic Apperception Test (TAT) and Picture Perception &amp; Description Test (PPDT) image library with 30s observation and 4m story timers.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ssb.cogify.me/srt</loc>
+    <lastmod>2026-11-06T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/og-image.png</image:loc>
+      <image:title>SSB TAT &amp; PPDT Picture Library (10 Sets • 120 Slides) — ssb.cogify.me</image:title>
+      <image:caption>Complete 10-set SSB Thematic Apperception Test (TAT) and Picture Perception &amp; Description Test (PPDT) image library with 30s observation and 4m story timers.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ssb.cogify.me/sdt</loc>
+    <lastmod>2026-11-06T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/og-image.png</image:loc>
+      <image:title>SSB TAT &amp; PPDT Picture Library (10 Sets • 120 Slides) — ssb.cogify.me</image:title>
+      <image:caption>Complete 10-set SSB Thematic Apperception Test (TAT) and Picture Perception &amp; Description Test (PPDT) image library with 30s observation and 4m story timers.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ssb.cogify.me/gto</loc>
+    <lastmod>2026-11-06T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/og-image.png</image:loc>
+      <image:title>SSB TAT &amp; PPDT Picture Library (10 Sets • 120 Slides) — ssb.cogify.me</image:title>
+      <image:caption>Complete 10-set SSB Thematic Apperception Test (TAT) and Picture Perception &amp; Description Test (PPDT) image library with 30s observation and 4m story timers.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ssb.cogify.me/interview</loc>
+    <lastmod>2026-11-06T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/og-image.png</image:loc>
+      <image:title>SSB TAT &amp; PPDT Picture Library (10 Sets • 120 Slides) — ssb.cogify.me</image:title>
+      <image:caption>Complete 10-set SSB Thematic Apperception Test (TAT) and Picture Perception &amp; Description Test (PPDT) image library with 30s observation and 4m story timers.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ssb.cogify.me/library</loc>
+    <lastmod>2026-11-06T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/og-image.webp</image:loc>
+      <image:title>SSB Stage-2 Psychology, GTO &amp; Interview Practice Studio — ssb.cogify.me</image:title>
+      <image:caption>Free Indian Armed Forces Services Selection Board (SSB/AFSB/NSB) Stage-1 PPDT &amp; Stage-2 TAT, WAT, SRT, SDT, GTO and Personal Interview Simulator by COGIFY.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/og-image.png</image:loc>
+      <image:title>SSB TAT &amp; PPDT Picture Library (10 Sets • 120 Slides) — ssb.cogify.me</image:title>
+      <image:caption>Complete 10-set SSB Thematic Apperception Test (TAT) and Picture Perception &amp; Description Test (PPDT) image library with 30s observation and 4m story timers.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-1/01.webp</image:loc>
+      <image:title>SET 1 Picture 1: Young man buttoning shirt with another man in right foreground — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 1 Picture 1: Young man buttoning shirt with another man in right foreground (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p001).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-3-p001.webp</image:loc>
+      <image:title>SET 1 Picture 1 (tat-3-p001): Young man buttoning shirt with another man in right foreground — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-3-p001) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 1 Slide 1: Young man buttoning shirt with another man in right foreground).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-1/02.webp</image:loc>
+      <image:title>SET 1 Picture 2: Cannon in desert landscape with footprints leading toward distant walking figure — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 1 Picture 2: Cannon in desert landscape with footprints leading toward distant walking figure (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p002).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-3-p002.webp</image:loc>
+      <image:title>SET 1 Picture 2 (tat-3-p002): Cannon in desert landscape with footprints leading toward distant walking figure — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-3-p002) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 1 Slide 2: Cannon in desert landscape with footprints leading toward distant walking figure).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-1/03.webp</image:loc>
+      <image:title>SET 1 Picture 3: Boy standing outside classroom door with hands behind back while students sit inside — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 1 Picture 3: Boy standing outside classroom door with hands behind back while students sit inside (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p003).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-3-p003.webp</image:loc>
+      <image:title>SET 1 Picture 3 (tat-3-p003): Boy standing outside classroom door with hands behind back while students sit inside — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-3-p003) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 1 Slide 3: Boy standing outside classroom door with hands behind back while students sit inside).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-1/04.webp</image:loc>
+      <image:title>SET 1 Picture 4: Group of young men gathered in front of wall noticeboard — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 1 Picture 4: Group of young men gathered in front of wall noticeboard (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p004).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-3-p004.webp</image:loc>
+      <image:title>SET 1 Picture 4 (tat-3-p004): Group of young men gathered in front of wall noticeboard — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-3-p004) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 1 Slide 4: Group of young men gathered in front of wall noticeboard).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-1/05.webp</image:loc>
+      <image:title>SET 1 Picture 5: Figure seen from behind on hillside path pointing ahead toward distant person — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 1 Picture 5: Figure seen from behind on hillside path pointing ahead toward distant person (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p005).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-3-p005.webp</image:loc>
+      <image:title>SET 1 Picture 5 (tat-3-p005): Figure seen from behind on hillside path pointing ahead toward distant person — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-3-p005) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 1 Slide 5: Figure seen from behind on hillside path pointing ahead toward distant person).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-1/06.webp</image:loc>
+      <image:title>SET 1 Picture 6: Passengers with luggage boarding train at railway platform — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 1 Picture 6: Passengers with luggage boarding train at railway platform (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p006).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-3-p006.webp</image:loc>
+      <image:title>SET 1 Picture 6 (tat-3-p006): Passengers with luggage boarding train at railway platform — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-3-p006) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 1 Slide 6: Passengers with luggage boarding train at railway platform).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-1/07.webp</image:loc>
+      <image:title>SET 1 Picture 7: Young man seated at desk with books and papers resting chin on hand — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 1 Picture 7: Young man seated at desk with books and papers resting chin on hand (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p007).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-3-p007.webp</image:loc>
+      <image:title>SET 1 Picture 7 (tat-3-p007): Young man seated at desk with books and papers resting chin on hand — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-3-p007) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 1 Slide 7: Young man seated at desk with books and papers resting chin on hand).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-1/08.webp</image:loc>
+      <image:title>SET 1 Picture 8: Group of men working with pickaxes and shovels on rocky road — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 1 Picture 8: Group of men working with pickaxes and shovels on rocky road (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p008).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-3-p008.webp</image:loc>
+      <image:title>SET 1 Picture 8 (tat-3-p008): Group of men working with pickaxes and shovels on rocky road — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-3-p008) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 1 Slide 8: Group of men working with pickaxes and shovels on rocky road).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-1/09.webp</image:loc>
+      <image:title>SET 1 Picture 9: Man with glasses seated at office desk speaking with two standing boys — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 1 Picture 9: Man with glasses seated at office desk speaking with two standing boys (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p009).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-3-p009.webp</image:loc>
+      <image:title>SET 1 Picture 9 (tat-3-p009): Man with glasses seated at office desk speaking with two standing boys — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-3-p009) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 1 Slide 9: Man with glasses seated at office desk speaking with two standing boys).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-1/10.webp</image:loc>
+      <image:title>SET 1 Picture 10: Boy scout saluting in wooded clearing with troop standing in background — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 1 Picture 10: Boy scout saluting in wooded clearing with troop standing in background (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p010).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-3-p010.webp</image:loc>
+      <image:title>SET 1 Picture 10 (tat-3-p010): Boy scout saluting in wooded clearing with troop standing in background — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-3-p010) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 1 Slide 10: Boy scout saluting in wooded clearing with troop standing in background).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-1/11.webp</image:loc>
+      <image:title>SET 1 Picture 11: Boy standing beside open cupboard in room with barred window — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 1 Picture 11: Boy standing beside open cupboard in room with barred window (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p011).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-3-p011.webp</image:loc>
+      <image:title>SET 1 Picture 11 (tat-3-p011): Boy standing beside open cupboard in room with barred window — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-3-p011) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 1 Slide 11: Boy standing beside open cupboard in room with barred window).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-1/12-blank.webp</image:loc>
+      <image:title>SET 1 Slide 12 (12th Blank Slide) — SSB TAT Self-Projected Story Writing | ssb.cogify.me</image:title>
+      <image:caption>Official 12th Blank Slide for SET 1 in the SSB Stage-2 Thematic Apperception Test (11 Pictures + 1 Blank Slide).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-2/01.webp</image:loc>
+      <image:title>SET 2 Picture 1: Man gesturing while addressing group seated beneath large tree — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 2 Picture 1: Man gesturing while addressing group seated beneath large tree (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p012).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-3-p012.webp</image:loc>
+      <image:title>SET 2 Picture 1 (tat-3-p012): Man gesturing while addressing group seated beneath large tree — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-3-p012) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 2 Slide 1: Man gesturing while addressing group seated beneath large tree).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-2/02.webp</image:loc>
+      <image:title>SET 2 Picture 2: Worker climbing and assembling steel bridge truss structure — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 2 Picture 2: Worker climbing and assembling steel bridge truss structure (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p013).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-3-p013.webp</image:loc>
+      <image:title>SET 2 Picture 2 (tat-3-p013): Worker climbing and assembling steel bridge truss structure — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-3-p013) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 2 Slide 2: Worker climbing and assembling steel bridge truss structure).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-2/03.webp</image:loc>
+      <image:title>SET 2 Picture 3: Older man holding younger man by shoulder in room while two women observe — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 2 Picture 3: Older man holding younger man by shoulder in room while two women observe (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p014).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-3-p014.webp</image:loc>
+      <image:title>SET 2 Picture 3 (tat-3-p014): Older man holding younger man by shoulder in room while two women observe — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-3-p014) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 2 Slide 3: Older man holding younger man by shoulder in room while two women observe).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-2/04.webp</image:loc>
+      <image:title>SET 2 Picture 4: Older man speaking with young couple and small child standing nearby — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 2 Picture 4: Older man speaking with young couple and small child standing nearby (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p015).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-3-p015.webp</image:loc>
+      <image:title>SET 2 Picture 4 (tat-3-p015): Older man speaking with young couple and small child standing nearby — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-3-p015) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 2 Slide 4: Older man speaking with young couple and small child standing nearby).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-2/05.webp</image:loc>
+      <image:title>SET 2 Picture 5: Man with glasses standing between seated elderly woman and boy walking toward door — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 2 Picture 5: Man with glasses standing between seated elderly woman and boy walking toward door (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p016).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-3-p016.webp</image:loc>
+      <image:title>SET 2 Picture 5 (tat-3-p016): Man with glasses standing between seated elderly woman and boy walking toward door — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-3-p016) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 2 Slide 5: Man with glasses standing between seated elderly woman and boy walking toward door).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-2/06.webp</image:loc>
+      <image:title>SET 2 Picture 6: Two boys perched on tree branch above rushing floodwater — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 2 Picture 6: Two boys perched on tree branch above rushing floodwater (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p017).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-3-p017.webp</image:loc>
+      <image:title>SET 2 Picture 6 (tat-3-p017): Two boys perched on tree branch above rushing floodwater — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-3-p017) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 2 Slide 6: Two boys perched on tree branch above rushing floodwater).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-2/07.webp</image:loc>
+      <image:title>SET 2 Picture 7: Person walking through heavy rain holding windblown umbrella — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 2 Picture 7: Person walking through heavy rain holding windblown umbrella (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p018).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-3-p018.webp</image:loc>
+      <image:title>SET 2 Picture 7 (tat-3-p018): Person walking through heavy rain holding windblown umbrella — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-3-p018) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 2 Slide 7: Person walking through heavy rain holding windblown umbrella).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-2/08.webp</image:loc>
+      <image:title>SET 2 Picture 8: Four horsemen riding across hilly landscape — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 2 Picture 8: Four horsemen riding across hilly landscape (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p019).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-3-p019.webp</image:loc>
+      <image:title>SET 2 Picture 8 (tat-3-p019): Four horsemen riding across hilly landscape — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-3-p019) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 2 Slide 8: Four horsemen riding across hilly landscape).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-2/09.webp</image:loc>
+      <image:title>SET 2 Picture 9: Boy seen from behind facing door while child peers through curtained window — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 2 Picture 9: Boy seen from behind facing door while child peers through curtained window (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p020).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-3-p020.webp</image:loc>
+      <image:title>SET 2 Picture 9 (tat-3-p020): Boy seen from behind facing door while child peers through curtained window — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-3-p020) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 2 Slide 9: Boy seen from behind facing door while child peers through curtained window).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-2/10.webp</image:loc>
+      <image:title>SET 2 Picture 10: Man carrying coiled rope on waterside rocks reaching toward swimmer — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 2 Picture 10: Man carrying coiled rope on waterside rocks reaching toward swimmer (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p021).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-3-p021.webp</image:loc>
+      <image:title>SET 2 Picture 10 (tat-3-p021): Man carrying coiled rope on waterside rocks reaching toward swimmer — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-3-p021) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 2 Slide 10: Man carrying coiled rope on waterside rocks reaching toward swimmer).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-2/11.webp</image:loc>
+      <image:title>SET 2 Picture 11: Armored vehicle and figures in ruined street — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 2 Picture 11: Armored vehicle and figures in ruined street (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-3-p022).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-3-p022.webp</image:loc>
+      <image:title>SET 2 Picture 11 (tat-3-p022): Armored vehicle and figures in ruined street — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-3-p022) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 2 Slide 11: Armored vehicle and figures in ruined street).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-2/12-blank.webp</image:loc>
+      <image:title>SET 2 Slide 12 (12th Blank Slide) — SSB TAT Self-Projected Story Writing | ssb.cogify.me</image:title>
+      <image:caption>Official 12th Blank Slide for SET 2 in the SSB Stage-2 Thematic Apperception Test (11 Pictures + 1 Blank Slide).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-3/01.webp</image:loc>
+      <image:title>SET 3 Picture 1: Doctor with stethoscope examining patient on bed assisted by young man — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 3 Picture 1: Doctor with stethoscope examining patient on bed assisted by young man (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p001).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p001.webp</image:loc>
+      <image:title>SET 3 Picture 1 (tat-4-p001): Doctor with stethoscope examining patient on bed assisted by young man — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-4-p001) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 3 Slide 1: Doctor with stethoscope examining patient on bed assisted by young man).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-3/02.webp</image:loc>
+      <image:title>SET 3 Picture 2: Five men seated on ground in discussion, one wearing turban — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 3 Picture 2: Five men seated on ground in discussion, one wearing turban (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p002).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p002.webp</image:loc>
+      <image:title>SET 3 Picture 2 (tat-4-p002): Five men seated on ground in discussion, one wearing turban — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-4-p002) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 3 Slide 2: Five men seated on ground in discussion, one wearing turban).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-3/03.webp</image:loc>
+      <image:title>SET 3 Picture 3: Person in river or lake with both arms raised above water — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 3 Picture 3: Person in river or lake with both arms raised above water (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p003).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p003.webp</image:loc>
+      <image:title>SET 3 Picture 3 (tat-4-p003): Person in river or lake with both arms raised above water — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-4-p003) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 3 Slide 3: Person in river or lake with both arms raised above water).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-3/04.webp</image:loc>
+      <image:title>SET 3 Picture 4: Older man seated in chair speaking with standing young man in checked shirt — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 3 Picture 4: Older man seated in chair speaking with standing young man in checked shirt (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p004).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p004.webp</image:loc>
+      <image:title>SET 3 Picture 4 (tat-4-p004): Older man seated in chair speaking with standing young man in checked shirt — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-4-p004) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 3 Slide 4: Older man seated in chair speaking with standing young man in checked shirt).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-3/05.webp</image:loc>
+      <image:title>SET 3 Picture 5: Silhouetted figure overlooking snow-covered mountain peaks — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 3 Picture 5: Silhouetted figure overlooking snow-covered mountain peaks (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p005).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p005.webp</image:loc>
+      <image:title>SET 3 Picture 5 (tat-4-p005): Silhouetted figure overlooking snow-covered mountain peaks — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-4-p005) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 3 Slide 5: Silhouetted figure overlooking snow-covered mountain peaks).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-3/06.webp</image:loc>
+      <image:title>SET 3 Picture 6: Mountaineering group in parkas crouched on snowfield — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 3 Picture 6: Mountaineering group in parkas crouched on snowfield (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p006).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p006.webp</image:loc>
+      <image:title>SET 3 Picture 6 (tat-4-p006): Mountaineering group in parkas crouched on snowfield — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-4-p006) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 3 Slide 6: Mountaineering group in parkas crouched on snowfield).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-3/07.webp</image:loc>
+      <image:title>SET 3 Picture 7: Rope suspension bridge spanning steep mountain gorge — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 3 Picture 7: Rope suspension bridge spanning steep mountain gorge (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p007).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p007.webp</image:loc>
+      <image:title>SET 3 Picture 7 (tat-4-p007): Rope suspension bridge spanning steep mountain gorge — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-4-p007) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 3 Slide 7: Rope suspension bridge spanning steep mountain gorge).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-3/08.webp</image:loc>
+      <image:title>SET 3 Picture 8: Woman in doorway extending arm toward man turning away near window — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 3 Picture 8: Woman in doorway extending arm toward man turning away near window (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p008).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p008.webp</image:loc>
+      <image:title>SET 3 Picture 8 (tat-4-p008): Woman in doorway extending arm toward man turning away near window — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-4-p008) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 3 Slide 8: Woman in doorway extending arm toward man turning away near window).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-3/09.webp</image:loc>
+      <image:title>SET 3 Picture 9: Two men grappling near staircase while third person lies on floor — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 3 Picture 9: Two men grappling near staircase while third person lies on floor (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p009).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p009.webp</image:loc>
+      <image:title>SET 3 Picture 9 (tat-4-p009): Two men grappling near staircase while third person lies on floor — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-4-p009) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 3 Slide 9: Two men grappling near staircase while third person lies on floor).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-3/10.webp</image:loc>
+      <image:title>SET 3 Picture 10: Soldiers with rifles positioned along snowy ridge — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 3 Picture 10: Soldiers with rifles positioned along snowy ridge (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p010).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p010.webp</image:loc>
+      <image:title>SET 3 Picture 10 (tat-4-p010): Soldiers with rifles positioned along snowy ridge — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-4-p010) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 3 Slide 10: Soldiers with rifles positioned along snowy ridge).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-3/11.webp</image:loc>
+      <image:title>SET 3 Picture 11: Turbaned farmer speaking with young man in cultivated field — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 3 Picture 11: Turbaned farmer speaking with young man in cultivated field (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p011).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p011.webp</image:loc>
+      <image:title>SET 3 Picture 11 (tat-4-p011): Turbaned farmer speaking with young man in cultivated field — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-4-p011) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 3 Slide 11: Turbaned farmer speaking with young man in cultivated field).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-3/12-blank.webp</image:loc>
+      <image:title>SET 3 Slide 12 (12th Blank Slide) — SSB TAT Self-Projected Story Writing | ssb.cogify.me</image:title>
+      <image:caption>Official 12th Blank Slide for SET 3 in the SSB Stage-2 Thematic Apperception Test (11 Pictures + 1 Blank Slide).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-4/01.webp</image:loc>
+      <image:title>SET 4 Picture 1: Man in dark foreground pointing toward small child and distant house across field — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 4 Picture 1: Man in dark foreground pointing toward small child and distant house across field (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p012).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p012.webp</image:loc>
+      <image:title>SET 4 Picture 1 (tat-4-p012): Man in dark foreground pointing toward small child and distant house across field — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-4-p012) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 4 Slide 1: Man in dark foreground pointing toward small child and distant house across field).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-4/02.webp</image:loc>
+      <image:title>SET 4 Picture 2: Group of boys running together across open ground toward buildings — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 4 Picture 2: Group of boys running together across open ground toward buildings (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p013).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p013.webp</image:loc>
+      <image:title>SET 4 Picture 2 (tat-4-p013): Group of boys running together across open ground toward buildings — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-4-p013) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 4 Slide 2: Group of boys running together across open ground toward buildings).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-4/03.webp</image:loc>
+      <image:title>SET 4 Picture 3: Three boys walking along curving path toward gated building among trees — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 4 Picture 3: Three boys walking along curving path toward gated building among trees (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p014).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p014.webp</image:loc>
+      <image:title>SET 4 Picture 3 (tat-4-p014): Three boys walking along curving path toward gated building among trees — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-4-p014) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 4 Slide 3: Three boys walking along curving path toward gated building among trees).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-4/04.webp</image:loc>
+      <image:title>SET 4 Picture 4: Woman standing beside wooden gate and tall pillar in mist — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 4 Picture 4: Woman standing beside wooden gate and tall pillar in mist (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p015).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p015.webp</image:loc>
+      <image:title>SET 4 Picture 4 (tat-4-p015): Woman standing beside wooden gate and tall pillar in mist — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-4-p015) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 4 Slide 4: Woman standing beside wooden gate and tall pillar in mist).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-4/05.webp</image:loc>
+      <image:title>SET 4 Picture 5: Group of young men standing in circle looking down at ground — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 4 Picture 5: Group of young men standing in circle looking down at ground (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p016).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p016.webp</image:loc>
+      <image:title>SET 4 Picture 5 (tat-4-p016): Group of young men standing in circle looking down at ground — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-4-p016) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 4 Slide 5: Group of young men standing in circle looking down at ground).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-4/06.webp</image:loc>
+      <image:title>SET 4 Picture 6: Young man walking down steps from arched doorway marked NO VACANCY — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 4 Picture 6: Young man walking down steps from arched doorway marked NO VACANCY (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p017).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p017.webp</image:loc>
+      <image:title>SET 4 Picture 6 (tat-4-p017): Young man walking down steps from arched doorway marked NO VACANCY — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-4-p017) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 4 Slide 6: Young man walking down steps from arched doorway marked NO VACANCY).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-4/07.webp</image:loc>
+      <image:title>SET 4 Picture 7: Young man and woman holding sports rackets conversing near pavilion — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 4 Picture 7: Young man and woman holding sports rackets conversing near pavilion (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p018).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p018.webp</image:loc>
+      <image:title>SET 4 Picture 7 (tat-4-p018): Young man and woman holding sports rackets conversing near pavilion — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-4-p018) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 4 Slide 7: Young man and woman holding sports rackets conversing near pavilion).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-4/08.webp</image:loc>
+      <image:title>SET 4 Picture 8: Athlete in dark singlet running on track — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 4 Picture 8: Athlete in dark singlet running on track (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p019).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p019.webp</image:loc>
+      <image:title>SET 4 Picture 8 (tat-4-p019): Athlete in dark singlet running on track — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-4-p019) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 4 Slide 8: Athlete in dark singlet running on track).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-4/09.webp</image:loc>
+      <image:title>SET 4 Picture 9: Man pulling canoe onto wooded riverbank — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 4 Picture 9: Man pulling canoe onto wooded riverbank (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p020).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p020.webp</image:loc>
+      <image:title>SET 4 Picture 9 (tat-4-p020): Man pulling canoe onto wooded riverbank — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-4-p020) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 4 Slide 9: Man pulling canoe onto wooded riverbank).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-4/10.webp</image:loc>
+      <image:title>SET 4 Picture 10: Young man placing hand on shoulder of seated friend looking downward — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 4 Picture 10: Young man placing hand on shoulder of seated friend looking downward (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p021).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p021.webp</image:loc>
+      <image:title>SET 4 Picture 10 (tat-4-p021): Young man placing hand on shoulder of seated friend looking downward — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-4-p021) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 4 Slide 10: Young man placing hand on shoulder of seated friend looking downward).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-4/11.webp</image:loc>
+      <image:title>SET 4 Picture 11: Crew members aboard sailboat in rough seas — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 4 Picture 11: Crew members aboard sailboat in rough seas (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-4-p022).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p022.webp</image:loc>
+      <image:title>SET 4 Picture 11 (tat-4-p022): Crew members aboard sailboat in rough seas — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-4-p022) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 4 Slide 11: Crew members aboard sailboat in rough seas).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-4/12-blank.webp</image:loc>
+      <image:title>SET 4 Slide 12 (12th Blank Slide) — SSB TAT Self-Projected Story Writing | ssb.cogify.me</image:title>
+      <image:caption>Official 12th Blank Slide for SET 4 in the SSB Stage-2 Thematic Apperception Test (11 Pictures + 1 Blank Slide).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-5/01.webp</image:loc>
+      <image:title>SET 5 Picture 1: Boy in foreground looking down street lined with houses toward walking figure — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 5 Picture 1: Boy in foreground looking down street lined with houses toward walking figure (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p002).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p002.webp</image:loc>
+      <image:title>SET 5 Picture 1 (tat-pdf-p002): Boy in foreground looking down street lined with houses toward walking figure — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p002) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 5 Slide 1: Boy in foreground looking down street lined with houses toward walking figure).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-5/02.webp</image:loc>
+      <image:title>SET 5 Picture 2: Crowd marching with banners while speakers gesture in foreground — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 5 Picture 2: Crowd marching with banners while speakers gesture in foreground (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p004).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p004.webp</image:loc>
+      <image:title>SET 5 Picture 2 (tat-pdf-p004): Crowd marching with banners while speakers gesture in foreground — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p004) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 5 Slide 2: Crowd marching with banners while speakers gesture in foreground).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-5/03.webp</image:loc>
+      <image:title>SET 5 Picture 3: Mountaineering group in parkas crouched on snowfield — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 5 Picture 3: Mountaineering group in parkas crouched on snowfield (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p006).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p006.webp</image:loc>
+      <image:title>SET 5 Picture 3 (tat-pdf-p006): Mountaineering group in parkas crouched on snowfield — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p006) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 5 Slide 3: Mountaineering group in parkas crouched on snowfield).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-5/04.webp</image:loc>
+      <image:title>SET 5 Picture 4: Athlete in dark singlet running on track — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 5 Picture 4: Athlete in dark singlet running on track (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p008).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p008.webp</image:loc>
+      <image:title>SET 5 Picture 4 (tat-pdf-p008): Athlete in dark singlet running on track — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p008) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 5 Slide 4: Athlete in dark singlet running on track).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-5/05.webp</image:loc>
+      <image:title>SET 5 Picture 5: Two people in rowboat navigating turbulent waves — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 5 Picture 5: Two people in rowboat navigating turbulent waves (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p010).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p010.webp</image:loc>
+      <image:title>SET 5 Picture 5 (tat-pdf-p010): Two people in rowboat navigating turbulent waves — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p010) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 5 Slide 5: Two people in rowboat navigating turbulent waves).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-5/06.webp</image:loc>
+      <image:title>SET 5 Picture 6: Five men seated on ground in discussion, one wearing turban — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 5 Picture 6: Five men seated on ground in discussion, one wearing turban (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p012).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p012.webp</image:loc>
+      <image:title>SET 5 Picture 6 (tat-pdf-p012): Five men seated on ground in discussion, one wearing turban — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p012) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 5 Slide 6: Five men seated on ground in discussion, one wearing turban).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-5/07.webp</image:loc>
+      <image:title>SET 5 Picture 7: Climber ascending rope ladder up steep snowy slope — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 5 Picture 7: Climber ascending rope ladder up steep snowy slope (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p014).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p014.webp</image:loc>
+      <image:title>SET 5 Picture 7 (tat-pdf-p014): Climber ascending rope ladder up steep snowy slope — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p014) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 5 Slide 7: Climber ascending rope ladder up steep snowy slope).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-5/08.webp</image:loc>
+      <image:title>SET 5 Picture 8: Young man seated on rocky hillside with dog beside him — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 5 Picture 8: Young man seated on rocky hillside with dog beside him (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p016).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p016.webp</image:loc>
+      <image:title>SET 5 Picture 8 (tat-pdf-p016): Young man seated on rocky hillside with dog beside him — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p016) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 5 Slide 8: Young man seated on rocky hillside with dog beside him).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-5/09.webp</image:loc>
+      <image:title>SET 5 Picture 9: Two men grappling near staircase while third person lies on floor — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 5 Picture 9: Two men grappling near staircase while third person lies on floor (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p018).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p018.webp</image:loc>
+      <image:title>SET 5 Picture 9 (tat-pdf-p018): Two men grappling near staircase while third person lies on floor — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p018) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 5 Slide 9: Two men grappling near staircase while third person lies on floor).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-5/10.webp</image:loc>
+      <image:title>SET 5 Picture 10: Street collision involving automobile and horse-drawn carriage — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 5 Picture 10: Street collision involving automobile and horse-drawn carriage (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p020).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p020.webp</image:loc>
+      <image:title>SET 5 Picture 10 (tat-pdf-p020): Street collision involving automobile and horse-drawn carriage — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p020) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 5 Slide 10: Street collision involving automobile and horse-drawn carriage).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-5/11.webp</image:loc>
+      <image:title>SET 5 Picture 11: Person in river or lake with both arms raised above water — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 5 Picture 11: Person in river or lake with both arms raised above water (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p022).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p022.webp</image:loc>
+      <image:title>SET 5 Picture 11 (tat-pdf-p022): Person in river or lake with both arms raised above water — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p022) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 5 Slide 11: Person in river or lake with both arms raised above water).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-5/12-blank.webp</image:loc>
+      <image:title>SET 5 Slide 12 (12th Blank Slide) — SSB TAT Self-Projected Story Writing | ssb.cogify.me</image:title>
+      <image:caption>Official 12th Blank Slide for SET 5 in the SSB Stage-2 Thematic Apperception Test (11 Pictures + 1 Blank Slide).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-6/01.webp</image:loc>
+      <image:title>SET 6 Picture 1: Woman standing beside wooden gate and tall pillar in mist — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 6 Picture 1: Woman standing beside wooden gate and tall pillar in mist (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p028).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p028.webp</image:loc>
+      <image:title>SET 6 Picture 1 (tat-pdf-p028): Woman standing beside wooden gate and tall pillar in mist — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p028) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 6 Slide 1: Woman standing beside wooden gate and tall pillar in mist).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-6/02.webp</image:loc>
+      <image:title>SET 6 Picture 2: Group of men working with pickaxes and shovels on rocky road — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 6 Picture 2: Group of men working with pickaxes and shovels on rocky road (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p030).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p030.webp</image:loc>
+      <image:title>SET 6 Picture 2 (tat-pdf-p030): Group of men working with pickaxes and shovels on rocky road — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p030) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 6 Slide 2: Group of men working with pickaxes and shovels on rocky road).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-6/03.webp</image:loc>
+      <image:title>SET 6 Picture 3: Cannon in desert landscape with footprints leading toward distant walking figure — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 6 Picture 3: Cannon in desert landscape with footprints leading toward distant walking figure (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p032).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p032.webp</image:loc>
+      <image:title>SET 6 Picture 3 (tat-pdf-p032): Cannon in desert landscape with footprints leading toward distant walking figure — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p032) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 6 Slide 3: Cannon in desert landscape with footprints leading toward distant walking figure).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-6/04.webp</image:loc>
+      <image:title>SET 6 Picture 4: Man with glasses seated at office desk speaking with two standing boys — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 6 Picture 4: Man with glasses seated at office desk speaking with two standing boys (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p034).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p034.webp</image:loc>
+      <image:title>SET 6 Picture 4 (tat-pdf-p034): Man with glasses seated at office desk speaking with two standing boys — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p034) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 6 Slide 4: Man with glasses seated at office desk speaking with two standing boys).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-6/05.webp</image:loc>
+      <image:title>SET 6 Picture 5: Young man buttoning shirt with another man in right foreground — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 6 Picture 5: Young man buttoning shirt with another man in right foreground (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p036).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p036.webp</image:loc>
+      <image:title>SET 6 Picture 5 (tat-pdf-p036): Young man buttoning shirt with another man in right foreground — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p036) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 6 Slide 5: Young man buttoning shirt with another man in right foreground).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-6/06.webp</image:loc>
+      <image:title>SET 6 Picture 6: Figure seen from behind on hillside path pointing ahead toward distant person — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 6 Picture 6: Figure seen from behind on hillside path pointing ahead toward distant person (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p038).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p038.webp</image:loc>
+      <image:title>SET 6 Picture 6 (tat-pdf-p038): Figure seen from behind on hillside path pointing ahead toward distant person — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p038) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 6 Slide 6: Figure seen from behind on hillside path pointing ahead toward distant person).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-6/07.webp</image:loc>
+      <image:title>SET 6 Picture 7: Boy scout saluting in wooded clearing with troop standing in background — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 6 Picture 7: Boy scout saluting in wooded clearing with troop standing in background (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p040).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p040.webp</image:loc>
+      <image:title>SET 6 Picture 7 (tat-pdf-p040): Boy scout saluting in wooded clearing with troop standing in background — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p040) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 6 Slide 7: Boy scout saluting in wooded clearing with troop standing in background).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-6/08.webp</image:loc>
+      <image:title>SET 6 Picture 8: Boy standing beside open cupboard in room with barred window — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 6 Picture 8: Boy standing beside open cupboard in room with barred window (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p042).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p042.webp</image:loc>
+      <image:title>SET 6 Picture 8 (tat-pdf-p042): Boy standing beside open cupboard in room with barred window — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p042) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 6 Slide 8: Boy standing beside open cupboard in room with barred window).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-6/09.webp</image:loc>
+      <image:title>SET 6 Picture 9: Man gesturing while addressing group seated beneath large tree — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 6 Picture 9: Man gesturing while addressing group seated beneath large tree (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p044).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p044.webp</image:loc>
+      <image:title>SET 6 Picture 9 (tat-pdf-p044): Man gesturing while addressing group seated beneath large tree — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p044) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 6 Slide 9: Man gesturing while addressing group seated beneath large tree).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-6/10.webp</image:loc>
+      <image:title>SET 6 Picture 10: Young man placing hand on shoulder of seated friend looking downward — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 6 Picture 10: Young man placing hand on shoulder of seated friend looking downward (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p046).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p046.webp</image:loc>
+      <image:title>SET 6 Picture 10 (tat-pdf-p046): Young man placing hand on shoulder of seated friend looking downward — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p046) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 6 Slide 10: Young man placing hand on shoulder of seated friend looking downward).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-6/11.webp</image:loc>
+      <image:title>SET 6 Picture 11: Worker climbing and assembling steel bridge truss structure — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 6 Picture 11: Worker climbing and assembling steel bridge truss structure (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p048).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p048.webp</image:loc>
+      <image:title>SET 6 Picture 11 (tat-pdf-p048): Worker climbing and assembling steel bridge truss structure — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p048) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 6 Slide 11: Worker climbing and assembling steel bridge truss structure).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-6/12-blank.webp</image:loc>
+      <image:title>SET 6 Slide 12 (12th Blank Slide) — SSB TAT Self-Projected Story Writing | ssb.cogify.me</image:title>
+      <image:caption>Official 12th Blank Slide for SET 6 in the SSB Stage-2 Thematic Apperception Test (11 Pictures + 1 Blank Slide).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-7/01.webp</image:loc>
+      <image:title>SET 7 Picture 1: Doctor with stethoscope examining patient on bed assisted by young man — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 7 Picture 1: Doctor with stethoscope examining patient on bed assisted by young man (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p054).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p054.webp</image:loc>
+      <image:title>SET 7 Picture 1 (tat-pdf-p054): Doctor with stethoscope examining patient on bed assisted by young man — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p054) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 7 Slide 1: Doctor with stethoscope examining patient on bed assisted by young man).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-7/02.webp</image:loc>
+      <image:title>SET 7 Picture 2: Five men seated on ground in discussion, one wearing turban — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 7 Picture 2: Five men seated on ground in discussion, one wearing turban (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p056).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p056.webp</image:loc>
+      <image:title>SET 7 Picture 2 (tat-pdf-p056): Five men seated on ground in discussion, one wearing turban — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p056) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 7 Slide 2: Five men seated on ground in discussion, one wearing turban).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-7/03.webp</image:loc>
+      <image:title>SET 7 Picture 3: Person in river or lake with both arms raised above water — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 7 Picture 3: Person in river or lake with both arms raised above water (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p058).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p058.webp</image:loc>
+      <image:title>SET 7 Picture 3 (tat-pdf-p058): Person in river or lake with both arms raised above water — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p058) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 7 Slide 3: Person in river or lake with both arms raised above water).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-7/04.webp</image:loc>
+      <image:title>SET 7 Picture 4: Older man seated in chair speaking with standing young man in checked shirt — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 7 Picture 4: Older man seated in chair speaking with standing young man in checked shirt (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p060).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p060.webp</image:loc>
+      <image:title>SET 7 Picture 4 (tat-pdf-p060): Older man seated in chair speaking with standing young man in checked shirt — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p060) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 7 Slide 4: Older man seated in chair speaking with standing young man in checked shirt).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-7/05.webp</image:loc>
+      <image:title>SET 7 Picture 5: Rope suspension bridge spanning steep mountain gorge — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 7 Picture 5: Rope suspension bridge spanning steep mountain gorge (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p062).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p062.webp</image:loc>
+      <image:title>SET 7 Picture 5 (tat-pdf-p062): Rope suspension bridge spanning steep mountain gorge — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p062) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 7 Slide 5: Rope suspension bridge spanning steep mountain gorge).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-7/06.webp</image:loc>
+      <image:title>SET 7 Picture 6: Silhouetted figure overlooking snow-covered mountain peaks — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 7 Picture 6: Silhouetted figure overlooking snow-covered mountain peaks (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p064).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p064.webp</image:loc>
+      <image:title>SET 7 Picture 6 (tat-pdf-p064): Silhouetted figure overlooking snow-covered mountain peaks — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p064) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 7 Slide 6: Silhouetted figure overlooking snow-covered mountain peaks).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-7/07.webp</image:loc>
+      <image:title>SET 7 Picture 7: Mountaineering group in parkas crouched on snowfield — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 7 Picture 7: Mountaineering group in parkas crouched on snowfield (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p066).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p066.webp</image:loc>
+      <image:title>SET 7 Picture 7 (tat-pdf-p066): Mountaineering group in parkas crouched on snowfield — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p066) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 7 Slide 7: Mountaineering group in parkas crouched on snowfield).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-7/08.webp</image:loc>
+      <image:title>SET 7 Picture 8: Woman in doorway extending arm toward man turning away near window — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 7 Picture 8: Woman in doorway extending arm toward man turning away near window (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p068).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p068.webp</image:loc>
+      <image:title>SET 7 Picture 8 (tat-pdf-p068): Woman in doorway extending arm toward man turning away near window — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p068) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 7 Slide 8: Woman in doorway extending arm toward man turning away near window).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-7/09.webp</image:loc>
+      <image:title>SET 7 Picture 9: Two men grappling near staircase while third person lies on floor — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 7 Picture 9: Two men grappling near staircase while third person lies on floor (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p070).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p070.webp</image:loc>
+      <image:title>SET 7 Picture 9 (tat-pdf-p070): Two men grappling near staircase while third person lies on floor — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p070) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 7 Slide 9: Two men grappling near staircase while third person lies on floor).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-7/10.webp</image:loc>
+      <image:title>SET 7 Picture 10: Soldiers with rifles positioned along snowy ridge — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 7 Picture 10: Soldiers with rifles positioned along snowy ridge (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p072).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p072.webp</image:loc>
+      <image:title>SET 7 Picture 10 (tat-pdf-p072): Soldiers with rifles positioned along snowy ridge — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p072) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 7 Slide 10: Soldiers with rifles positioned along snowy ridge).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-7/11.webp</image:loc>
+      <image:title>SET 7 Picture 11: Turbaned farmer speaking with young man in cultivated field — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 7 Picture 11: Turbaned farmer speaking with young man in cultivated field (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p074).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p074.webp</image:loc>
+      <image:title>SET 7 Picture 11 (tat-pdf-p074): Turbaned farmer speaking with young man in cultivated field — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p074) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 7 Slide 11: Turbaned farmer speaking with young man in cultivated field).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-7/12-blank.webp</image:loc>
+      <image:title>SET 7 Slide 12 (12th Blank Slide) — SSB TAT Self-Projected Story Writing | ssb.cogify.me</image:title>
+      <image:caption>Official 12th Blank Slide for SET 7 in the SSB Stage-2 Thematic Apperception Test (11 Pictures + 1 Blank Slide).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-8/01.webp</image:loc>
+      <image:title>SET 8 Picture 1: Three figures in indoor conversation — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 8 Picture 1: Three figures in indoor conversation (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p080).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p080.webp</image:loc>
+      <image:title>SET 8 Picture 1 (tat-pdf-p080): Three figures in indoor conversation — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p080) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 8 Slide 1: Three figures in indoor conversation).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-8/02.webp</image:loc>
+      <image:title>SET 8 Picture 2: Two figures seated on snow or ground — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 8 Picture 2: Two figures seated on snow or ground (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p082).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p082.webp</image:loc>
+      <image:title>SET 8 Picture 2 (tat-pdf-p082): Two figures seated on snow or ground — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p082) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 8 Slide 2: Two figures seated on snow or ground).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-8/03.webp</image:loc>
+      <image:title>SET 8 Picture 3: Lone figure standing on open shoreline — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 8 Picture 3: Lone figure standing on open shoreline (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p084).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p084.webp</image:loc>
+      <image:title>SET 8 Picture 3 (tat-pdf-p084): Lone figure standing on open shoreline — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p084) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 8 Slide 3: Lone figure standing on open shoreline).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-8/04.webp</image:loc>
+      <image:title>SET 8 Picture 4: Two people seated across a table indoors — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 8 Picture 4: Two people seated across a table indoors (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p086).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p086.webp</image:loc>
+      <image:title>SET 8 Picture 4 (tat-pdf-p086): Two people seated across a table indoors — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p086) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 8 Slide 4: Two people seated across a table indoors).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-8/05.webp</image:loc>
+      <image:title>SET 8 Picture 5: Figure looking through multi-paned window — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 8 Picture 5: Figure looking through multi-paned window (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p088).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p088.webp</image:loc>
+      <image:title>SET 8 Picture 5 (tat-pdf-p088): Figure looking through multi-paned window — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p088) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 8 Slide 5: Figure looking through multi-paned window).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-8/06.webp</image:loc>
+      <image:title>SET 8 Picture 6: Riders atop an elephant in tall grass — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 8 Picture 6: Riders atop an elephant in tall grass (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p090).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p090.webp</image:loc>
+      <image:title>SET 8 Picture 6 (tat-pdf-p090): Riders atop an elephant in tall grass — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p090) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 8 Slide 6: Riders atop an elephant in tall grass).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-8/07.webp</image:loc>
+      <image:title>SET 8 Picture 7: Bearded older man speaking with person holding paper — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 8 Picture 7: Bearded older man speaking with person holding paper (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p092).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p092.webp</image:loc>
+      <image:title>SET 8 Picture 7 (tat-pdf-p092): Bearded older man speaking with person holding paper — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p092) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 8 Slide 7: Bearded older man speaking with person holding paper).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-8/08.webp</image:loc>
+      <image:title>SET 8 Picture 8: Hunter with rifle watching elephants below — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 8 Picture 8: Hunter with rifle watching elephants below (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p094).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p094.webp</image:loc>
+      <image:title>SET 8 Picture 8 (tat-pdf-p094): Hunter with rifle watching elephants below — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p094) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 8 Slide 8: Hunter with rifle watching elephants below).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-8/09.webp</image:loc>
+      <image:title>SET 8 Picture 9: Man in glasses and tie standing between two women — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 8 Picture 9: Man in glasses and tie standing between two women (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p096).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p096.webp</image:loc>
+      <image:title>SET 8 Picture 9 (tat-pdf-p096): Man in glasses and tie standing between two women — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p096) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 8 Slide 9: Man in glasses and tie standing between two women).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-8/10.webp</image:loc>
+      <image:title>SET 8 Picture 10: Three people in group discussion scene — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 8 Picture 10: Three people in group discussion scene (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p098).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p098.webp</image:loc>
+      <image:title>SET 8 Picture 10 (tat-pdf-p098): Three people in group discussion scene — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p098) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 8 Slide 10: Three people in group discussion scene).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-8/11.webp</image:loc>
+      <image:title>SET 8 Picture 11: Man reading newspaper with child behind him — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 8 Picture 11: Man reading newspaper with child behind him (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p100).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p100.webp</image:loc>
+      <image:title>SET 8 Picture 11 (tat-pdf-p100): Man reading newspaper with child behind him — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p100) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 8 Slide 11: Man reading newspaper with child behind him).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-8/12-blank.webp</image:loc>
+      <image:title>SET 8 Slide 12 (12th Blank Slide) — SSB TAT Self-Projected Story Writing | ssb.cogify.me</image:title>
+      <image:caption>Official 12th Blank Slide for SET 8 in the SSB Stage-2 Thematic Apperception Test (11 Pictures + 1 Blank Slide).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-9/01.webp</image:loc>
+      <image:title>SET 9 Picture 1: Rope suspension bridge spanning steep mountain gorge — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 9 Picture 1: Rope suspension bridge spanning steep mountain gorge (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p105).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p105.webp</image:loc>
+      <image:title>SET 9 Picture 1 (tat-pdf-p105): Rope suspension bridge spanning steep mountain gorge — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p105) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 9 Slide 1: Rope suspension bridge spanning steep mountain gorge).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-9/02.webp</image:loc>
+      <image:title>SET 9 Picture 2: Older man holding younger man by shoulder in room while two women observe — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 9 Picture 2: Older man holding younger man by shoulder in room while two women observe (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p107).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p107.webp</image:loc>
+      <image:title>SET 9 Picture 2 (tat-pdf-p107): Older man holding younger man by shoulder in room while two women observe — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p107) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 9 Slide 2: Older man holding younger man by shoulder in room while two women observe).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-9/03.webp</image:loc>
+      <image:title>SET 9 Picture 3: Turbaned farmer speaking with young man in cultivated field — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 9 Picture 3: Turbaned farmer speaking with young man in cultivated field (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p109).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p109.webp</image:loc>
+      <image:title>SET 9 Picture 3 (tat-pdf-p109): Turbaned farmer speaking with young man in cultivated field — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p109) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 9 Slide 3: Turbaned farmer speaking with young man in cultivated field).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-9/04.webp</image:loc>
+      <image:title>SET 9 Picture 4: Older man speaking with young couple and small child standing nearby — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 9 Picture 4: Older man speaking with young couple and small child standing nearby (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p111).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p111.webp</image:loc>
+      <image:title>SET 9 Picture 4 (tat-pdf-p111): Older man speaking with young couple and small child standing nearby — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p111) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 9 Slide 4: Older man speaking with young couple and small child standing nearby).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-9/05.webp</image:loc>
+      <image:title>SET 9 Picture 5: Man with glasses standing between seated elderly woman and boy walking toward door — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 9 Picture 5: Man with glasses standing between seated elderly woman and boy walking toward door (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p113).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p113.webp</image:loc>
+      <image:title>SET 9 Picture 5 (tat-pdf-p113): Man with glasses standing between seated elderly woman and boy walking toward door — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p113) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 9 Slide 5: Man with glasses standing between seated elderly woman and boy walking toward door).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-9/06.webp</image:loc>
+      <image:title>SET 9 Picture 6: Two boys perched on tree branch above rushing floodwater — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 9 Picture 6: Two boys perched on tree branch above rushing floodwater (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p115).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p115.webp</image:loc>
+      <image:title>SET 9 Picture 6 (tat-pdf-p115): Two boys perched on tree branch above rushing floodwater — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p115) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 9 Slide 6: Two boys perched on tree branch above rushing floodwater).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-9/07.webp</image:loc>
+      <image:title>SET 9 Picture 7: Three boys walking along curving path toward gated building among trees — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 9 Picture 7: Three boys walking along curving path toward gated building among trees (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p117).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p117.webp</image:loc>
+      <image:title>SET 9 Picture 7 (tat-pdf-p117): Three boys walking along curving path toward gated building among trees — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p117) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 9 Slide 7: Three boys walking along curving path toward gated building among trees).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-9/08.webp</image:loc>
+      <image:title>SET 9 Picture 8: Person walking through heavy rain holding windblown umbrella — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 9 Picture 8: Person walking through heavy rain holding windblown umbrella (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p119).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p119.webp</image:loc>
+      <image:title>SET 9 Picture 8 (tat-pdf-p119): Person walking through heavy rain holding windblown umbrella — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p119) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 9 Slide 8: Person walking through heavy rain holding windblown umbrella).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-9/09.webp</image:loc>
+      <image:title>SET 9 Picture 9: Group of young men gathered in front of wall noticeboard — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 9 Picture 9: Group of young men gathered in front of wall noticeboard (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p121).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p121.webp</image:loc>
+      <image:title>SET 9 Picture 9 (tat-pdf-p121): Group of young men gathered in front of wall noticeboard — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p121) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 9 Slide 9: Group of young men gathered in front of wall noticeboard).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-9/10.webp</image:loc>
+      <image:title>SET 9 Picture 10: Figure seen from behind on hillside path pointing ahead toward distant person — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 9 Picture 10: Figure seen from behind on hillside path pointing ahead toward distant person (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p123).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p123.webp</image:loc>
+      <image:title>SET 9 Picture 10 (tat-pdf-p123): Figure seen from behind on hillside path pointing ahead toward distant person — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p123) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 9 Slide 10: Figure seen from behind on hillside path pointing ahead toward distant person).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-9/11.webp</image:loc>
+      <image:title>SET 9 Picture 11: Worker climbing and assembling steel bridge truss structure — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 9 Picture 11: Worker climbing and assembling steel bridge truss structure (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p125).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p125.webp</image:loc>
+      <image:title>SET 9 Picture 11 (tat-pdf-p125): Worker climbing and assembling steel bridge truss structure — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p125) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 9 Slide 11: Worker climbing and assembling steel bridge truss structure).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-9/12-blank.webp</image:loc>
+      <image:title>SET 9 Slide 12 (12th Blank Slide) — SSB TAT Self-Projected Story Writing | ssb.cogify.me</image:title>
+      <image:caption>Official 12th Blank Slide for SET 9 in the SSB Stage-2 Thematic Apperception Test (11 Pictures + 1 Blank Slide).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-10/01.webp</image:loc>
+      <image:title>SET 10 Picture 1: Three people in group discussion scene — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 10 Picture 1: Three people in group discussion scene (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p131).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p131.webp</image:loc>
+      <image:title>SET 10 Picture 1 (tat-pdf-p131): Three people in group discussion scene — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p131) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 10 Slide 1: Three people in group discussion scene).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-10/02.webp</image:loc>
+      <image:title>SET 10 Picture 2: Man reading newspaper with child behind him — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 10 Picture 2: Man reading newspaper with child behind him (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p133).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p133.webp</image:loc>
+      <image:title>SET 10 Picture 2 (tat-pdf-p133): Man reading newspaper with child behind him — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p133) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 10 Slide 2: Man reading newspaper with child behind him).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-10/03.webp</image:loc>
+      <image:title>SET 10 Picture 3: Figure standing in trench with smoke rising behind — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 10 Picture 3: Figure standing in trench with smoke rising behind (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p135).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p135.webp</image:loc>
+      <image:title>SET 10 Picture 3 (tat-pdf-p135): Figure standing in trench with smoke rising behind — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p135) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 10 Slide 3: Figure standing in trench with smoke rising behind).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-10/04.webp</image:loc>
+      <image:title>SET 10 Picture 4: People gathered around overturned or submerged vehicle — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 10 Picture 4: People gathered around overturned or submerged vehicle (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p137).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p137.webp</image:loc>
+      <image:title>SET 10 Picture 4 (tat-pdf-p137): People gathered around overturned or submerged vehicle — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p137) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 10 Slide 4: People gathered around overturned or submerged vehicle).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-10/05.webp</image:loc>
+      <image:title>SET 10 Picture 5: Indistinct scene with water and rocks — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 10 Picture 5: Indistinct scene with water and rocks (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p139).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p139.webp</image:loc>
+      <image:title>SET 10 Picture 5 (tat-pdf-p139): Indistinct scene with water and rocks — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p139) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 10 Slide 5: Indistinct scene with water and rocks).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-10/06.webp</image:loc>
+      <image:title>SET 10 Picture 6: Older bearded figure in dramatic lighting — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 10 Picture 6: Older bearded figure in dramatic lighting (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p141).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p141.webp</image:loc>
+      <image:title>SET 10 Picture 6 (tat-pdf-p141): Older bearded figure in dramatic lighting — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p141) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 10 Slide 6: Older bearded figure in dramatic lighting).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-10/07.webp</image:loc>
+      <image:title>SET 10 Picture 7: Figures on rugged terrain — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 10 Picture 7: Figures on rugged terrain (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p143).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p143.webp</image:loc>
+      <image:title>SET 10 Picture 7 (tat-pdf-p143): Figures on rugged terrain — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p143) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 10 Slide 7: Figures on rugged terrain).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-10/08.webp</image:loc>
+      <image:title>SET 10 Picture 8: Shadowy figures in indoor/outdoor scene — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 10 Picture 8: Shadowy figures in indoor/outdoor scene (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p145).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p145.webp</image:loc>
+      <image:title>SET 10 Picture 8 (tat-pdf-p145): Shadowy figures in indoor/outdoor scene — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p145) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 10 Slide 8: Shadowy figures in indoor/outdoor scene).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-10/09.webp</image:loc>
+      <image:title>SET 10 Picture 9: Two figures in pale coats facing each other — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 10 Picture 9: Two figures in pale coats facing each other (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p147).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p147.webp</image:loc>
+      <image:title>SET 10 Picture 9 (tat-pdf-p147): Two figures in pale coats facing each other — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p147) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 10 Slide 9: Two figures in pale coats facing each other).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-10/10.webp</image:loc>
+      <image:title>SET 10 Picture 10: Crowd seated in audience or courtroom — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 10 Picture 10: Crowd seated in audience or courtroom (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p149).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p149.webp</image:loc>
+      <image:title>SET 10 Picture 10 (tat-pdf-p149): Crowd seated in audience or courtroom — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p149) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 10 Slide 10: Crowd seated in audience or courtroom).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-10/11.webp</image:loc>
+      <image:title>SET 10 Picture 11: Man with mustache gesturing with right hand — SSB PPDT &amp; TAT Picture | ssb.cogify.me</image:title>
+      <image:caption>SSB TAT &amp; PPDT Picture — SET 10 Picture 11: Man with mustache gesturing with right hand (Stage-1 Screening PPDT &amp; Stage-2 Psychology TAT Stimulus tat-pdf-p151).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p151.webp</image:loc>
+      <image:title>SET 10 Picture 11 (tat-pdf-p151): Man with mustache gesturing with right hand — SSB TAT &amp; PPDT Stimulus</image:title>
+      <image:caption>High-contrast WebP stimulus scan (tat-pdf-p151) for Indian Armed Forces SSB Stage-1 PPDT and Stage-2 TAT (SET 10 Slide 11: Man with mustache gesturing with right hand).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-sets/SET-10/12-blank.webp</image:loc>
+      <image:title>SET 10 Slide 12 (12th Blank Slide) — SSB TAT Self-Projected Story Writing | ssb.cogify.me</image:title>
+      <image:caption>Official 12th Blank Slide for SET 10 in the SSB Stage-2 Thematic Apperception Test (11 Pictures + 1 Blank Slide).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p023.webp</image:loc>
+      <image:title>SSB PPDT &amp; TAT Archive Picture (tat-4-p023): Boy in foreground looking down street lined with houses toward walking figure | ssb.cogify.me</image:title>
+      <image:caption>SSB Stage-1 Screening PPDT &amp; Stage-2 TAT Stimulus (tat-4-p023): Boy in foreground looking down street lined with houses toward walking figure.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p024.webp</image:loc>
+      <image:title>SSB PPDT &amp; TAT Archive Picture (tat-4-p024): Crowd marching with banners while speakers gesture in foreground | ssb.cogify.me</image:title>
+      <image:caption>SSB Stage-1 Screening PPDT &amp; Stage-2 TAT Stimulus (tat-4-p024): Crowd marching with banners while speakers gesture in foreground.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p025.webp</image:loc>
+      <image:title>SSB PPDT &amp; TAT Archive Picture (tat-4-p025): Two people in rowboat navigating turbulent waves | ssb.cogify.me</image:title>
+      <image:caption>SSB Stage-1 Screening PPDT &amp; Stage-2 TAT Stimulus (tat-4-p025): Two people in rowboat navigating turbulent waves.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p026.webp</image:loc>
+      <image:title>SSB PPDT &amp; TAT Archive Picture (tat-4-p026): Climber ascending rope ladder up steep snowy slope | ssb.cogify.me</image:title>
+      <image:caption>SSB Stage-1 Screening PPDT &amp; Stage-2 TAT Stimulus (tat-4-p026): Climber ascending rope ladder up steep snowy slope.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p027.webp</image:loc>
+      <image:title>SSB PPDT &amp; TAT Archive Picture (tat-4-p027): Young man seated on rocky hillside with dog beside him | ssb.cogify.me</image:title>
+      <image:caption>SSB Stage-1 Screening PPDT &amp; Stage-2 TAT Stimulus (tat-4-p027): Young man seated on rocky hillside with dog beside him.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-4-p028.webp</image:loc>
+      <image:title>SSB PPDT &amp; TAT Archive Picture (tat-4-p028): Street collision involving automobile and horse-drawn carriage | ssb.cogify.me</image:title>
+      <image:caption>SSB Stage-1 Screening PPDT &amp; Stage-2 TAT Stimulus (tat-4-p028): Street collision involving automobile and horse-drawn carriage.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p102.webp</image:loc>
+      <image:title>SSB PPDT &amp; TAT Archive Picture (tat-pdf-p102): Figure standing in trench with smoke rising behind | ssb.cogify.me</image:title>
+      <image:caption>SSB Stage-1 Screening PPDT &amp; Stage-2 TAT Stimulus (tat-pdf-p102): Figure standing in trench with smoke rising behind.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/tat-assets/tat-pdf-p153.webp</image:loc>
+      <image:title>SSB PPDT &amp; TAT Archive Picture (tat-pdf-p153): Three figures standing in dimly lit setting | ssb.cogify.me</image:title>
+      <image:caption>SSB Stage-1 Screening PPDT &amp; Stage-2 TAT Stimulus (tat-pdf-p153): Three figures standing in dimly lit setting.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ssb.cogify.me/about</loc>
+    <lastmod>2026-11-06T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/og-image.png</image:loc>
+      <image:title>SSB TAT &amp; PPDT Picture Library (10 Sets • 120 Slides) — ssb.cogify.me</image:title>
+      <image:caption>Complete 10-set SSB Thematic Apperception Test (TAT) and Picture Perception &amp; Description Test (PPDT) image library with 30s observation and 4m story timers.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ssb.cogify.me/brand/logo_white.png</image:loc>
+      <image:title>Shubham Sharma &amp; COGIFY Defence Psychology Research Team</image:title>
+      <image:caption>COGIFY Defence Assessment Wing emblem on ssb.cogify.me.</image:caption>
+    </image:image>
+  </url>
 </urlset>

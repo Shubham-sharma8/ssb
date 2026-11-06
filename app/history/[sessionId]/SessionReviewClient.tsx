@@ -19,7 +19,14 @@ import {
   getStoriesForSession,
   saveStoryAndProgress,
 } from "@/lib/storage/db";
-import { getSlidesForSet, type ResolvedStimulus } from "@/lib/tat/catalog";
+import {
+  getSlidesForSet,
+  getStimulusCleanDescription,
+  getStimulusImageSrc,
+  getStimulusSeoAlt,
+  getStimulusSeoTitle,
+  type ResolvedStimulus,
+} from "@/lib/tat/catalog";
 import {
   countCharacters,
   countWords,
@@ -408,14 +415,13 @@ export default function SessionReviewClient() {
                     </p>
                   </div>
                 ) : activeStimulus?.assetPath ? (
+                  // eslint-disable-next-line @next/next/no-img-element
                   <img
-                    src={
-                      activeStimulus.setFolderAssetPath ??
-                      activeStimulus.assetPath
-                    }
-                    alt={`SSB TAT Canonical Picture ${activeStimulus.canonicalNumber} Review`}
-                    width={640}
-                    height={480}
+                    src={getStimulusImageSrc(activeStimulus)}
+                    alt={getStimulusSeoAlt(activeStimulus, session.setTitle)}
+                    title={getStimulusSeoTitle(activeStimulus, session.setTitle)}
+                    width={activeStimulus.width || 640}
+                    height={activeStimulus.height || 480}
                     decoding="async"
                     loading="lazy"
                     className="max-h-[300px] sm:max-h-[360px] w-auto rounded object-contain"
@@ -426,6 +432,15 @@ export default function SessionReviewClient() {
                   </div>
                 )}
               </div>
+
+              {activeStimulus && (
+                <div className="border-t border-zinc-200 px-4 py-2.5 text-xs text-zinc-600 dark:border-zinc-800 dark:text-zinc-400">
+                  <span className="font-semibold text-zinc-900 dark:text-zinc-200">
+                    Scene Description:
+                  </span>{" "}
+                  {getStimulusCleanDescription(activeStimulus)}
+                </div>
+              )}
 
               <div className="grid grid-cols-3 divide-x divide-zinc-200 border-t border-zinc-200 bg-zinc-50 text-center text-xs dark:divide-zinc-800 dark:border-zinc-800 dark:bg-zinc-950">
                 <div className="p-2.5">

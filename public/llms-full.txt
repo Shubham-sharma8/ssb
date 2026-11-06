@@ -34,6 +34,12 @@ SSB Prep (`https://ssb.cogify.me`) is a free, zero-telemetry web studio replicat
 10. **All-India SSB/AFSB/NSB Selection Centres Directory** — https://ssb.cogify.me/centres
    - Complete directory of Army (Prayagraj, Bhopal, Bangalore, Kapurthala), Navy (Visakhapatnam, Coimbatore, Kolkata, Bhopal), and Air Force (Dehradun, Mysuru, Gandhinagar, Varanasi, Guwahati) boards.
 
+## SSB TAT & PPDT Image Sets (SET 1 – SET 10 • 120 Slides)
+All 110 ambiguity-calibrated black-and-white stimulus pictures and 10 blank slides are publicly indexed in Google Images and available at `https://ssb.cogify.me/library` and in the XML Image Sitemap (`https://ssb.cogify.me/sitemap.xml`):
+- **SET 1** (`https://ssb.cogify.me/tat-sets/SET-1/01.webp` .. `11.webp`): Young man buttoning shirt, man in armchair by window, family by fireplace, woman with violin, couple in embrace, boy on floor by couch, older woman with young man, rural farming family, two men in conversation, man in doorway, boy outside classroom door.
+- **SET 2** (`https://ssb.cogify.me/tat-sets/SET-2/01.webp` .. `11.webp`): Elderly man with young man, woman with book by tree, man looking out window, boy with violin on desk, woman opening door, man climbing rope, two women on staircase, group around table, man on hospital bed, silhouette on bridge, mountain expedition scene.
+- **SET 3 – SET 10** (`https://ssb.cogify.me/tat-sets/SET-3/01.webp` .. `https://ssb.cogify.me/tat-sets/SET-10/11.webp`): 88 additional DIPR-calibrated PPDT and TAT scenes covering rescue operations, rural development, academic/laboratory challenges, sports leadership, industrial safety, and tactical decision-making.
+
 ## Ecosystem & Parent Studio Links
 - Parent Engineering Hub: https://cogify.me
 - SSB Product Architecture & Specs: https://cogify.me/ssb

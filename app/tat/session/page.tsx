@@ -42,7 +42,12 @@ import {
   loadUserPreferences,
   saveUserPreferences,
 } from "@/lib/storage/preferences";
-import { getStimulusById } from "@/lib/tat/catalog";
+import {
+  getStimulusById,
+  getStimulusImageSrc,
+  getStimulusSeoAlt,
+  getStimulusSeoTitle,
+} from "@/lib/tat/catalog";
 import { systemClock } from "@/lib/session/clock";
 import {
   TatSessionStateMachine,
@@ -1033,14 +1038,16 @@ function TatSessionRunnerContent() {
             className="w-full max-w-5xl flex-1 flex flex-col items-center justify-center gap-3"
           >
             <div className="relative w-full flex-1 min-h-[240px] sm:min-h-[340px] max-h-[calc(100dvh-7.5rem)] sm:max-h-[80vh] flex items-center justify-center rounded-md bg-black border border-zinc-800/80 p-2 sm:p-4">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={
-                  currentStimulus.setFolderAssetPath ??
-                  currentStimulus.assetPath
-                }
-                alt={`SSB TAT Stimulus Picture ${canonicalNumber} Projection`}
-                width={800}
-                height={600}
+                src={getStimulusImageSrc(currentStimulus)}
+                alt={getStimulusSeoAlt(currentStimulus, sessionRecord.setTitle)}
+                title={getStimulusSeoTitle(
+                  currentStimulus,
+                  sessionRecord.setTitle
+                )}
+                width={currentStimulus.width || 800}
+                height={currentStimulus.height || 600}
                 decoding="async"
                 data-testid="projected-stimulus-image"
                 onContextMenu={preventStimulusExtraction}

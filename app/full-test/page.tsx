@@ -19,6 +19,9 @@ import {
   getPracticeSetById,
   getPracticeSets,
   getSlidesForSet,
+  getStimulusImageSrc,
+  getStimulusSeoAlt,
+  getStimulusSeoTitle,
   type ResolvedStimulus,
 } from "@/lib/tat/catalog";
 import {
@@ -604,10 +607,11 @@ export default function FullPsychTestPage() {
                 <div className="w-full rounded-lg border border-zinc-800 bg-black p-2 sm:p-4 flex items-center justify-center">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src={activeSlide.setFolderAssetPath || activeSlide.assetPath}
-                    alt={`SSB Full Battery TAT Picture ${tatIndex + 1} Stimulus`}
-                    width={800}
-                    height={600}
+                    src={getStimulusImageSrc(activeSlide)}
+                    alt={getStimulusSeoAlt(activeSlide)}
+                    title={getStimulusSeoTitle(activeSlide)}
+                    width={activeSlide.width || 800}
+                    height={activeSlide.height || 600}
                     decoding="async"
                     onContextMenu={preventStimulusExtraction}
                     onDragStart={preventStimulusExtraction}

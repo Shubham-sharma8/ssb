@@ -269,6 +269,24 @@ const worker = {
       });
     }
 
+    if (
+      contentType.startsWith("image/") ||
+      url.pathname.startsWith("/tat-sets/") ||
+      url.pathname.startsWith("/tat-assets/") ||
+      url.pathname.startsWith("/brand/")
+    ) {
+      const headers = new Headers(response.headers);
+      headers.set("X-Robots-Tag", "index, follow, max-image-preview:large");
+      headers.set("Cache-Control", "public, max-age=31536000, immutable");
+      headers.set("Cross-Origin-Resource-Policy", "cross-origin");
+      headers.set("Access-Control-Allow-Origin", "*");
+      return new Response(response.body, {
+        status: response.status,
+        statusText: response.statusText,
+        headers,
+      });
+    }
+
     return response;
   },
 };

@@ -18,9 +18,21 @@
 - [SDT Practice — Self-Description Test](https://ssb.cogify.me/sdt): 15-minute structured 5-paragraph self-description builder (Parents, Teachers/Employers, Friends, Self, Qualities to Improve).
 - [GTO Tasks, GPE & Lecturette Timer](https://ssb.cogify.me/gto): Group Testing Officer simulator covering Group Discussion (GD), Group Planning Exercise (GPE), PGT/HGT/CT/FGT, Command Task, and 3-minute Lecturette timer.
 - [Personal Interview & PIQ Simulator](https://ssb.cogify.me/interview): Interactive Personal Information Questionnaire (PIQ) builder and Interviewing Officer (IO) rapid-fire CIQ drills.
-- [TAT Picture Library (120 Stimuli)](https://ssb.cogify.me/library): Browse all 10 curated sets (120 illustrations) for Stage-1 PPDT and Stage-2 TAT practice.
+- [TAT & PPDT Picture Library (120 Stimuli across SET 1 – SET 10)](https://ssb.cogify.me/library): Browse all 10 curated sets (110 black-and-white ambiguity illustrations + 10 blank slides) with scene descriptions for Stage-1 Screening PPDT (Picture Perception & Description Test) and Stage-2 Psychology TAT practice.
 - [About the 5-Day SSB Process & 15 OLQs](https://ssb.cogify.me/about): Detailed breakdown of Officer Like Qualities (OLQs) across Factor I (Planning & Organizing), Factor II (Social Adjustment), Factor III (Social Effectiveness), and Factor IV (Dynamic).
 - [16-Page Printable SSB Psychology Answer Booklet PDF](https://ssb.cogify.me/Phys-Test-Booklet.pdf): Authentic A4 printable SSB psychology answer dossier for offline handwriting speed practice.
 - [Parent Studio Contact & Feedback](https://cogify.me/contact)
 - [Parent Studio Privacy Policy](https://cogify.me/privacy)
 - [Parent Studio Terms of Service](https://cogify.me/terms)
+
+## SSB TAT & PPDT Image Sets (Direct WebP Image Index)
+- **SET 1 (11 Pictures + Blank)**: `https://ssb.cogify.me/tat-sets/SET-1/01.webp` .. `11.webp` & `12-blank.webp`
+- **SET 2 (11 Pictures + Blank)**: `https://ssb.cogify.me/tat-sets/SET-2/01.webp` .. `11.webp` & `12-blank.webp`
+- **SET 3 (11 Pictures + Blank)**: `https://ssb.cogify.me/tat-sets/SET-3/01.webp` .. `11.webp` & `12-blank.webp`
+- **SET 4 (11 Pictures + Blank)**: `https://ssb.cogify.me/tat-sets/SET-4/01.webp` .. `11.webp` & `12-blank.webp`
+- **SET 5 (11 Pictures + Blank)**: `https://ssb.cogify.me/tat-sets/SET-5/01.webp` .. `11.webp` & `12-blank.webp`
+- **SET 6 (11 Pictures + Blank)**: `https://ssb.cogify.me/tat-sets/SET-6/01.webp` .. `11.webp` & `12-blank.webp`
+- **SET 7 (11 Pictures + Blank)**: `https://ssb.cogify.me/tat-sets/SET-7/01.webp` .. `11.webp` & `12-blank.webp`
+- **SET 8 (11 Pictures + Blank)**: `https://ssb.cogify.me/tat-sets/SET-8/01.webp` .. `11.webp` & `12-blank.webp`
+- **SET 9 (11 Pictures + Blank)**: `https://ssb.cogify.me/tat-sets/SET-9/01.webp` .. `11.webp` & `12-blank.webp`
+- **SET 10 (11 Pictures + Blank)**: `https://ssb.cogify.me/tat-sets/SET-10/01.webp` .. `11.webp` & `12-blank.webp`

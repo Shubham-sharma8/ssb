@@ -46,14 +46,22 @@
   Cache-Control: public, max-age=3600, stale-while-revalidate=86400
 
 /tat-sets/*
-  X-Robots-Tag: noindex, noimageindex, noarchive
+  X-Robots-Tag: index, follow, max-image-preview:large
   Cache-Control: public, max-age=31536000, immutable
-  Cross-Origin-Resource-Policy: same-origin
+  Cross-Origin-Resource-Policy: cross-origin
+  Access-Control-Allow-Origin: *
 
 /tat-assets/*
-  X-Robots-Tag: noindex, noimageindex, noarchive
+  X-Robots-Tag: index, follow, max-image-preview:large
   Cache-Control: public, max-age=31536000, immutable
-  Cross-Origin-Resource-Policy: same-origin
+  Cross-Origin-Resource-Policy: cross-origin
+  Access-Control-Allow-Origin: *
+
+/brand/*
+  X-Robots-Tag: index, follow, max-image-preview:large
+  Cache-Control: public, max-age=31536000, immutable
+  Cross-Origin-Resource-Policy: cross-origin
+  Access-Control-Allow-Origin: *
 
 /Phys-Test-Booklet.pdf
   X-Robots-Tag: noindex, noarchive

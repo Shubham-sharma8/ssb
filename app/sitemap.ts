@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://ssb.cogify.me";
-  const lastModified = new Date("2026-10-30T00:00:00.000Z");
+  const lastModified = new Date("2026-11-06T00:00:00.000Z");
 
   return [
     {
@@ -57,7 +57,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/library`,
       lastModified,
       changeFrequency: "weekly",
-      priority: 0.85,
+      priority: 0.9,
     },
     {
       url: `${baseUrl}/about`,

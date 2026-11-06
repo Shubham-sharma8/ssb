@@ -349,3 +349,110 @@ export function buildSessionSequence(
   };
 }
 
+/**
+ * Returns the canonical public image path for a TAT / PPDT stimulus, preferring
+ * the structured `/tat-sets/SET-N/XX.webp` path when assigned to a practice set.
+ */
+export function getStimulusImageSrc(
+  stim: StimulusRecord | ResolvedStimulus
+): string {
+  return stim.setFolderAssetPath || stim.assetPath;
+}
+
+/**
+ * Strips internal audit prefixes/suffixes (such as `Duplicate low-quality scan of ...`
+ * or ` — duplicate of ...`) from a stimulus scene description so captions, alt text,
+ * and structured data remain clean and user-friendly.
+ */
+export function getStimulusCleanDescription(
+  stim: StimulusRecord | ResolvedStimulus
+): string {
+  const raw = (stim.description ?? "").trim();
+  if (!raw) {
+    return "Black-and-white ambiguity-calibrated scene for SSB PPDT and TAT story writing practice";
+  }
+  const cleaned = raw
+    .replace(/\s*[—-]\s*duplicate of\s+[a-z0-9-]+/i, "")
+    .replace(
+      /^(?:duplicate\s+)?(?:very\s+dark\s+|dark\s+textured\s+|dark\s+|faint\s+|high-contrast\s+|low-quality\s+)?(?:sketch\s+|halftone\s+|photographic\s+|photocopy\s+)?scan\s+of\s+/i,
+      ""
+    )
+    .replace(
+      /\s+with\s+overlaid\s+worksheet\s+text(?:\s*\([^)]*\))?/i,
+      " in group discussion scene"
+    )
+    .trim();
+
+  if (!cleaned) {
+    return "Black-and-white ambiguity-calibrated scene for SSB PPDT and TAT story writing practice";
+  }
+  return cleaned.charAt(0).toUpperCase() + cleaned.slice(1);
+}
+
+/**
+ * Builds a rich, descriptive, keyword-optimized `alt` attribute for any TAT / PPDT stimulus slide.
+ */
+export function getStimulusSeoAlt(
+  stim: StimulusRecord | ResolvedStimulus,
+  setTitleOverride?: string
+): string {
+  const setTitle =
+    setTitleOverride || stim.assignedSetTitle || stim.sectionLabel || "SSB Set";
+  const num =
+    "canonicalNumber" in stim && stim.canonicalNumber
+      ? stim.canonicalNumber
+      : stim.setSequenceNumber || stim.sectionSequence || stim.sourceSequence;
+  const cleanDesc = getStimulusCleanDescription(stim);
+
+  if (stim.isBlankSlide) {
+    return `SSB TAT ${setTitle} Slide ${num} (12th Blank Slide) — Self-Projected Story Writing Stimulus for Indian Armed Forces Stage-2 SSB Psychology Test`;
+  }
+
+  return `SSB TAT & PPDT Picture — ${setTitle} Picture ${num}: ${cleanDesc} (Stage-1 Screening PPDT & Stage-2 TAT Practice Image ${stim.stimulusId})`;
+}
+
+/**
+ * Builds a concise, human- and crawler-friendly `title` attribute for any TAT / PPDT stimulus image.
+ */
+export function getStimulusSeoTitle(
+  stim: StimulusRecord | ResolvedStimulus,
+  setTitleOverride?: string
+): string {
+  const setTitle =
+    setTitleOverride || stim.assignedSetTitle || stim.sectionLabel || "SSB Set";
+  const num =
+    "canonicalNumber" in stim && stim.canonicalNumber
+      ? stim.canonicalNumber
+      : stim.setSequenceNumber || stim.sectionSequence || stim.sourceSequence;
+  const cleanDesc = getStimulusCleanDescription(stim);
+
+  if (stim.isBlankSlide) {
+    return `${setTitle} Slide ${num} (12th Blank Slide) — SSB TAT Story Writing | ssb.cogify.me`;
+  }
+
+  return `${setTitle} Picture ${num}: ${cleanDesc} — SSB PPDT & TAT Picture | ssb.cogify.me`;
+}
+
+/**
+ * Builds a descriptive caption for `<figcaption>`, Image Sitemap `<image:caption>`, and Schema.org `ImageObject`.
+ */
+export function getStimulusSeoCaption(
+  stim: StimulusRecord | ResolvedStimulus,
+  setTitleOverride?: string
+): string {
+  const setTitle =
+    setTitleOverride || stim.assignedSetTitle || stim.sectionLabel || "SSB Set";
+  const num =
+    "canonicalNumber" in stim && stim.canonicalNumber
+      ? stim.canonicalNumber
+      : stim.setSequenceNumber || stim.sectionSequence || stim.sourceSequence;
+  const cleanDesc = getStimulusCleanDescription(stim);
+
+  if (stim.isBlankSlide) {
+    return `${setTitle} • Slide ${String(num).padStart(2, "0")} (12th Blank Slide): Project your own protagonist and action-oriented story during the 4-minute SSB Stage-2 Thematic Apperception Test (TAT) writing window.`;
+  }
+
+  return `${setTitle} • Picture ${String(num).padStart(2, "0")}: ${cleanDesc}. Calibrated black-and-white ambiguity illustration for Indian Army, Navy & Air Force SSB Stage-1 PPDT (Picture Perception & Description Test) and Stage-2 TAT (30s observation + 4m story writing).`;
+}
+
+

@@ -162,9 +162,12 @@ export default function AboutSsbPage() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/brand/logo_white.png"
-              alt="Shubham Sharma — COGIFY Systems Architect"
+              alt="Shubham Sharma — Founder & Systems Architect at COGIFY Defence Psychology Research Team"
+              title="Shubham Sharma & COGIFY Defence Psychology Research Team"
               width={40}
               height={40}
+              decoding="async"
+              loading="lazy"
               className="w-full h-full object-contain"
             />
           </div>

@@ -1,6 +1,13 @@
 import React from "react";
 import Link from "next/link";
-import { getPracticeSets } from "@/lib/tat/catalog";
+import {
+  getPracticeSets,
+  getStimuliForSet,
+  getStimulusCleanDescription,
+  getStimulusImageSrc,
+  getStimulusSeoAlt,
+  getStimulusSeoTitle,
+} from "@/lib/tat/catalog";
 import {
   getWatSets,
   getWatTotalWordsCount,
@@ -673,64 +680,88 @@ export default function DashboardPage() {
         </div>
       </section>
 
-      {/* Section 4: Direct Launch for TAT Sets (SET 1 – SET 10) */}
+      {/* Section 4: Direct Launch for TAT & PPDT Sets (SET 1 – SET 10) */}
       <section className="space-y-5">
         <div className="flex flex-wrap items-end justify-between gap-3">
           <div>
             <h2 className="text-xl font-bold text-zinc-900 dark:text-white">
-              TAT Sets (SET 1 – SET 10 • All 118 Real Pictures Approved)
+              SSB TAT &amp; PPDT Picture Sets (SET 1 – SET 10 • All 118 Real Pictures Approved)
             </h2>
             <p className="text-sm text-zinc-600 dark:text-zinc-400">
-              11 chronological pictures + 12th Blank Slide per set. Click any
-              set to start immediately in Authentic SSB Mode.
+              11 chronological ambiguity pictures + 12th Blank Slide per set for Stage-1 Screening PPDT and Stage-2 TAT. Click any set to start immediately in Authentic SSB Mode.
             </p>
           </div>
           <Link
             href="/library"
             className="text-xs sm:text-sm font-semibold text-indigo-600 hover:underline dark:text-indigo-400"
           >
-            Preview Set Slides →
+            Preview All 120 PPDT &amp; TAT Slides →
           </Link>
         </div>
 
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-5">
-          {tatSets.map((set) => (
-            <div
-              key={set.id}
-              data-testid={`home-set-card-${set.id}`}
-              className="flex flex-col justify-between rounded-2xl border border-zinc-200/90 bg-white p-4 transition-all hover:border-indigo-500/40 hover:shadow-md dark:border-white/[0.08] dark:bg-[#0b0f17]"
-            >
-              <div className="space-y-1.5">
-                <div className="flex items-center justify-between gap-2">
-                  <span className="font-mono text-sm font-bold text-zinc-900 dark:text-white">
-                    {set.title}
-                  </span>
-                  <span className="rounded-md bg-emerald-500/10 border border-emerald-500/20 px-1.5 py-0.5 font-mono text-[10px] font-semibold text-emerald-700 dark:text-emerald-300">
-                    11 + 1 Blank
-                  </span>
+          {tatSets.map((set) => {
+            const leadStim = getStimuliForSet(set.id)[0];
+            return (
+              <figure
+                key={set.id}
+                data-testid={`home-set-card-${set.id}`}
+                className="flex flex-col justify-between rounded-2xl border border-zinc-200/90 bg-white p-4 transition-all hover:border-indigo-500/40 hover:shadow-md dark:border-white/[0.08] dark:bg-[#0b0f17]"
+              >
+                <div className="space-y-2">
+                  <div className="flex items-center justify-between gap-2">
+                    <span className="font-mono text-sm font-bold text-zinc-900 dark:text-white">
+                      {set.title}
+                    </span>
+                    <span className="rounded-md bg-emerald-500/10 border border-emerald-500/20 px-1.5 py-0.5 font-mono text-[10px] font-semibold text-emerald-700 dark:text-emerald-300">
+                      11 + 1 Blank
+                    </span>
+                  </div>
+                  {leadStim && (
+                    <div className="flex h-28 items-center justify-center overflow-hidden rounded-xl border border-zinc-200/80 bg-zinc-950 p-1.5 dark:border-zinc-800">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={getStimulusImageSrc(leadStim)}
+                        alt={getStimulusSeoAlt(leadStim, set.title)}
+                        title={getStimulusSeoTitle(leadStim, set.title)}
+                        width={leadStim.width || 320}
+                        height={leadStim.height || 240}
+                        loading="lazy"
+                        decoding="async"
+                        className="max-h-24 w-auto object-contain"
+                      />
+                    </div>
+                  )}
+                  <figcaption className="text-[11px] leading-snug text-zinc-500 dark:text-zinc-400">
+                    <span className="font-medium text-zinc-700 dark:text-zinc-300">
+                      {set.sourceFilename} • {set.sectionLabel ?? "12 Slides"}
+                    </span>
+                    {leadStim && (
+                      <span className="mt-0.5 block line-clamp-2 text-[10px] text-zinc-500 dark:text-zinc-400">
+                        Pic 1: {getStimulusCleanDescription(leadStim)}
+                      </span>
+                    )}
+                  </figcaption>
                 </div>
-                <p className="text-[11px] text-zinc-500 dark:text-zinc-400">
-                  {set.sourceFilename} • {set.sectionLabel ?? "12 Slides"}
-                </p>
-              </div>
 
-              <div className="mt-4 pt-3 border-t border-zinc-100 dark:border-white/[0.06] flex items-center justify-between gap-2">
-                <Link
-                  href={`/tat?setId=${set.id}`}
-                  className="text-[11px] font-medium text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-200"
-                >
-                  Options
-                </Link>
-                <Link
-                  href={`/tat?setId=${set.id}&mode=realistic`}
-                  data-testid={`quick-start-${set.id}`}
-                  className="rounded-lg bg-indigo-600 px-2.5 py-1 text-[11px] font-semibold text-white hover:bg-indigo-500 transition-colors"
-                >
-                  Start {set.title} →
-                </Link>
-              </div>
-            </div>
-          ))}
+                <div className="mt-4 pt-3 border-t border-zinc-100 dark:border-white/[0.06] flex items-center justify-between gap-2">
+                  <Link
+                    href={`/tat?setId=${set.id}`}
+                    className="text-[11px] font-medium text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-200"
+                  >
+                    Options
+                  </Link>
+                  <Link
+                    href={`/tat?setId=${set.id}&mode=realistic`}
+                    data-testid={`quick-start-${set.id}`}
+                    className="rounded-lg bg-indigo-600 px-2.5 py-1 text-[11px] font-semibold text-white hover:bg-indigo-500 transition-colors"
+                  >
+                    Start {set.title} →
+                  </Link>
+                </div>
+              </figure>
+            );
+          })}
         </div>
       </section>
 
