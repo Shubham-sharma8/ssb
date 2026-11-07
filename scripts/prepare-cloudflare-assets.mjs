@@ -190,7 +190,7 @@ function buildRichImageSitemapXml() {
 
   const pages = [
     {
-      loc: baseUrl,
+      loc: `${baseUrl}/`,
       changefreq: "daily",
       priority: "1.0",
       images: [
